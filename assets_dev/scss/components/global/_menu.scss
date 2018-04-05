@@ -1,50 +1,41 @@
-.site-menu {
-	.menu {
-		@include flex(flex);
-	}
+.site-menu__inner {
+	@include flex(flex);
+}
 
-	.menu-item {
-		list-style: none;
-		// Type
-		font-weight: map-get(map-get($fonts, 2), medium);
-	}
+.site-menu__item {
+	list-style: none;
+	// Type
+	font-weight: map-get(map-get($fonts, 2), medium);
 }
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
-	.site-menu {
-		.menu-item {
-			@include rem(22px);
-			margin-left: 95px;
-		}
+	.site-menu__item {
+		@include rem(22px);
+		margin-left: 95px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-menu {
-		.menu-item {
-			@include rem(20px);
-			margin-left: 55px;
-		}
+	.site-menu__item {
+		@include rem(20px);
+		margin-left: 55px;
 	}
 }
 
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-menu {
-		.menu {
-			@include flex_justify(flex-end);
-		}
+	.site-menu__inner {
+		@include flex_justify(flex-end);
+	}
 
-		.menu-item,
-		a {
-			// Type
-			color: $ui-color-2-1;
-		}
+	.site-menu__item {
+		// Type
+		color: $ui-color-2-1;
+	}
 
-		.current-menu-item a {
-			// Type
-			color: $ui-color-1;
-		}
+	.site-menu__item.active a {
+		// Type
+		color: $ui-color-1;
 	}
 }
 
@@ -57,40 +48,35 @@
 		top: calc(100% + 2px);
 		left: 0;
 		background: $ui-color-2;
+	}
 
-		.menu {
-			@include flex_direction(column);
-			@include flex_justify(center);
-		}
+	.site-menu__inner {
+		@include flex_direction(column);
+		@include flex_justify(center);
+	}
 
-		.menu-item,
-		a {
-			// Type
-			color: white(0.5);
-		}
+	.site-menu__item {
+		// Type
+		text-align: center;
+		color: white(0.5);
+	}
 
-		.menu-item {
-			// Type
-			text-align: center;
-		}
-
-		.current-menu-item a {
-			// Type
-			color: #fff;
-		}
+	.site-menu__item.active a {
+		// Type
+		color: #fff;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.site-menu {
 		padding: 50px;
+	}
 
-		.menu-item {
-			@include rem(24px);
+	.site-menu__item {
+		@include rem(24px);
 
-			&:not(:last-child) {
-				margin-bottom: 30px;
-			}
+		&:not(:last-child) {
+			margin-bottom: 30px;
 		}
 	}
 }
@@ -98,13 +84,13 @@
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
 	.site-menu {
 		padding: 40px;
+	}
 
-		.menu-item {
-			@include rem(20px);
+	.site-menu__item {
+		@include rem(20px);
 
-			&:not(:last-child) {
-				margin-bottom: 20px;
-			}
+		&:not(:last-child) {
+			margin-bottom: 20px;
 		}
 	}
 }
