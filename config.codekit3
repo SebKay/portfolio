@@ -23,6 +23,13 @@
 		"oAP": "\/_data\/menu.yml",
 		"oF": 0
 		},
+	"\/_includes\/banner.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/banner.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -44,18 +51,11 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
-	"\/_site\/Gemfile": {
+	"\/_layouts\/home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/Gemfile",
-		"oF": 0
-		},
-	"\/_site\/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/Gemfile.lock",
+		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -63,6 +63,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
+		"oF": 0
+		},
+	"\/_site\/text-template\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/text-template\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/index.html": {
@@ -1236,6 +1243,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/text-template\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/text-template\/index.html",
 		"oF": 0
 		},
 	"\/work.html": {
