@@ -60,6 +60,18 @@ $(document).ready(function() {
 
 
 	/*--------------------------------------------
+	---- Toggle Accordion
+	--------------------------------------------*/
+	$('.js-accordion-heading').on('click', function(e) {
+		e.preventDefault();
+
+		$(this).toggleClass('active');
+		$(this).next('.accordion__content').slideToggle(transition_speed);
+	});
+
+
+
+	/*--------------------------------------------
 	---- Toggle Modal
 	--------------------------------------------*/
 	//---- Inject overlay and close button

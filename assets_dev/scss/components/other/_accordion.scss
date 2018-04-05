@@ -1,0 +1,56 @@
+.accordion__item {
+	& + & {
+		margin-top: 2px;
+	}
+}
+
+.accordion__heading {
+	@include rem(22px);
+	@include flex(flex);
+	@include flex_align_items(center);
+	min-height: 100px;
+	padding: 30px;
+	position: relative;
+	cursor: pointer;
+	background: $ui-color-2-2;
+	// Type
+	color: $ui-color-2-6;
+}
+
+.accordion__opener {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	background: #fff;
+
+	&:before,
+	&:after {
+		position: absolute;
+		content: '';
+		background: $ui-color-1;
+	}
+
+	&:before {
+		width: 4px;
+		height: 20px;
+		top: 10px;
+		left: 18px;
+	}
+
+	&:after {
+		width: 20px;
+		height: 4px;
+		top: 18px;
+		left: 10px;
+	}
+}
+
+.accordion__content {
+	padding: 0 30px 30px;
+	display: none;
+	background: $ui-color-2-2;
+	@extend .post-styles;
+}
+

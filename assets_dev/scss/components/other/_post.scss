@@ -29,7 +29,7 @@
 	* + blockquote,
 	blockquote + *,
 	* + .grid,
-	.grid + *:not(.spacing-large-top),
+	.grid + *,
 	* + .btn,
 	.btn + * {
 		margin-top: 50px;
