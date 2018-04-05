@@ -1,4 +1,4 @@
-body { font-family: map-get(map-get($fonts, 1), family); font-size: $text-size-base; color: $text-color; }
+body { font-family: map-get(map-get($fonts, 1), family); font-weight: map-get(map-get($fonts, 2), light); font-size: $text-size-base; color: $text-color; }
 
 h1, h1 a,
 h2, h2 a,

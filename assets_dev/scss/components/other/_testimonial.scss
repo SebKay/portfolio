@@ -1,0 +1,45 @@
+.testimonial {
+	background: $ui-color-1 image-url('bg-pattern.gif') 0 0 / 400px;
+}
+
+.testimonial__inner {
+	@extend .section;
+	@extend .section--tiny;
+	@extend .spacing-large;
+
+	blockquote {
+		// Type
+		text-align: center;
+
+		p {
+			@include rem(30px);
+			// Type
+			font-weight: map-get(map-get($fonts, 2), light);
+			font-style: italic;
+			line-height: 30px * 1.2;
+			color: #fff;
+
+			&:before { content: open-quote; }
+			&:after { content: close-quote; }
+		}
+
+		cite {
+			@include flex_center();
+			margin-top: 60px;
+			// Type
+			font-style: normal;
+
+			img {
+				width: 55px;
+				margin-right: 20px;
+				border-radius: 1000px;
+			}
+
+			span {
+				@include rem(20px);
+				// Type
+				color: white(0.5);
+			}
+		}
+	}
+}

@@ -30,6 +30,13 @@
 		"oAP": "\/_data\/menu.yml",
 		"oF": 0
 		},
+	"\/_data\/testimonials.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_data\/testimonials.yml",
+		"oF": 0
+		},
 	"\/_includes\/banner.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -79,6 +86,14 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/img\/bg-pattern.gif": {
+		"ft": 4194304,
+		"iS": 3562,
+		"oA": 1,
+		"oAP": "\/assets\/img\/bg-pattern.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -88,6 +103,26 @@
 		"opt": 0,
 		"plM": 25232891903,
 		"prP": 0
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+		"ft": 16384,
+		"iS": 7917,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/_site\/Gemfile": {
 		"cB": 0,
@@ -141,6 +176,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/bg-pattern.gif": {
+		"ft": 4194304,
+		"iS": 3562,
+		"oA": 1,
+		"oAP": "\/assets\/img\/bg-pattern.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -150,6 +193,16 @@
 		"opt": 0,
 		"plM": 25232891903,
 		"prP": 0
+		},
+	"\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+		"ft": 16384,
+		"iS": 7917,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/assets\/js\/app.min.js": {
 		"ft": 64,
@@ -1194,6 +1247,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_social.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets_dev\/scss\/components\/other\/_testimonial.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_testimonial.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
