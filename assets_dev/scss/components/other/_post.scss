@@ -31,7 +31,9 @@
 	* + .grid,
 	.grid + *,
 	* + .btn,
-	.btn + * {
+	.btn + *,
+	* + .icon-list,
+	.icon-list + * {
 		margin-top: 50px;
 	}
 

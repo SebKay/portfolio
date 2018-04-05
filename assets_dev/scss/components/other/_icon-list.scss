@@ -1,0 +1,35 @@
+.icon-list__item.icon-list__item {
+	margin: 0;
+
+	&:not(:last-child) {
+		margin-bottom: 15px;
+	}
+}
+
+.icon-list__item {
+	@include rem(16px);
+	list-style: none;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 0 2px;
+	// Type
+	font-weight: map-get(map-get($fonts, 2), semibold);
+	text-transform: uppercase;
+	color: $ui-color-2-7;
+}
+
+[class*="icon-list__item--"] {
+	padding-left: 30px;
+}
+
+.icon-list__item--pencil {
+	background-image: image-url('pencil.svg');
+}
+
+.icon-list__item--design {
+	background-image: image-url('design.svg');
+}
+
+.icon-list__item--code {
+	background-image: image-url('code.svg');
+}

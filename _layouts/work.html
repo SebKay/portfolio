@@ -1,5 +1,75 @@
 {% include header.html %}
 
-work
+<section class="section section--large spacing-large">
+	{% for project in site.data.projects %}
+		{% assign grid_class = false; %}
+		{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+		{% if cycle_type == 'even' %}
+			{% assign grid_class = 'grid--reverse' %}
+		{% endif %}
+		<div class="grid grid--spaced {{ grid_class }}">
+			<div class="grid__col grid__col--7">
+				<div class="previews">
+					<div class="preview preview--desktop">
+						<div class="preview__bar">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="preview__window">
+							<img src="https://placehold.it/780x500">
+						</div>
+					</div>
+
+					<div class="preview preview--mobile">
+						<div class="preview__bar">
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+						<div class="preview__window">
+							<img src="https://placehold.it/245x385">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="grid__col grid__col--5">
+				<h2 class="h4">
+					<a href="{{ project.url }}">
+						{{ project.title }}
+					</a>
+				</h2>
+				<br>
+				<div class="post-styles">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.
+					</p>
+				</div>
+				<br><br>
+				<ul class="icon-list">
+					<li class="icon-list__item icon-list__item--pencil">
+						Logo Design
+					</li>
+					<li class="icon-list__item icon-list__item--design">
+						Web Design
+					</li>
+					<li class="icon-list__item icon-list__item--code">
+						Web Development
+					</li>
+				</ul>
+				<br><br>
+				<a class="btn" href="#">
+					View Case Study
+				</a>
+			</div>
+		</div>
+
+		{% if forloop.last != true %}
+			<div class="spacer-bottom spacing-medium-bottom"></div>
+			<div class="spacing-medium-bottom"></div>
+		{% endif %}
+	{% endfor %}
+</section>
 
 {% include footer.html %}

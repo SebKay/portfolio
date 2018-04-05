@@ -3,16 +3,30 @@
 	@include flex_wrap(wrap);
 }
 
+.grid--reverse {
+	@include flex_direction(row-reverse);
+}
+
 @for $i from 1 through $grid-columns {
 	.grid__col--#{$i} {
 		width: (100% / $grid-columns * $i);
 	}
 
-	.grid--spaced {
+	.grid--spaced:not(.grid--reverse) {
 		.grid__col--#{$i} {
 			@include calc_grid_col($i);
 
 			&:not(:last-of-type) {
+				margin-right: $grid-spacing;
+			}
+		}
+	}
+
+	.grid--spaced.grid--reverse {
+		.grid__col--#{$i} {
+			@include calc_grid_col($i);
+
+			&:not(:first-of-type) {
 				margin-right: $grid-spacing;
 			}
 		}

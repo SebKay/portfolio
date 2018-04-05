@@ -19,23 +19,30 @@
 	"\/_data\/faq.yml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/_data\/faq.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/_data\/menu.yml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/_data\/menu.yml",
+		"oF": 1
+		},
+	"\/_data\/projects.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_data\/projects.yml",
 		"oF": 0
 		},
 	"\/_data\/testimonials.yml": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/_data\/testimonials.yml",
-		"oF": 0
+		"oF": 1
 		},
 	"\/_includes\/banner.html": {
 		"cB": 0,
@@ -93,37 +100,17 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/style.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3562,
+		"iS": 3554,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/_site\/assets\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+	"\/_site\/assets\/img\/chris-fenwick.jpg": {
 		"ft": 16384,
-		"iS": 7917,
+		"iS": 2152,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick.jpg",
 		"oF": 0,
@@ -131,12 +118,80 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/design.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/map-marker.png": {
+		"ft": 32768,
+		"iS": 1881,
+		"oA": 1,
+		"oAP": "\/assets\/img\/map-marker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/map-marker.png.bak": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/img\/map-marker.png.bak",
+		"oF": 0
+		},
+	"\/_site\/assets\/img\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/_site\/assets\/js\/app.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/app.min.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/app.min.min.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -195,25 +250,15 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3562,
+		"iS": 3554,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/logo.svg",
-		"oF": 1,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+	"\/assets\/img\/chris-fenwick.jpg": {
 		"ft": 16384,
-		"iS": 7917,
+		"iS": 2152,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick.jpg",
 		"oF": 0,
@@ -221,12 +266,80 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/assets\/img\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/design.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/map-marker.png": {
+		"ft": 32768,
+		"iS": 1881,
+		"oA": 1,
+		"oAP": "\/assets\/img\/map-marker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/map-marker.png.bak": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/map-marker.png.bak",
+		"oF": 0
+		},
+	"\/assets\/img\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/assets\/js\/app.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/app.min.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/app.min.min.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -805,16 +918,64 @@
 		"oAP": "\/assets_dev\/.sass-cache\/f8493032ba55681531a5ee9b5f31c4442f298320\/_transitions.scssc",
 		"oF": 0
 		},
+	"\/assets_dev\/img\/bg-pattern.gif": {
+		"ft": 4194304,
+		"iS": 3562,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-pattern.gif",
+		"oF": 1,
+		"opt": 1
+		},
+	"\/assets_dev\/img\/icons\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets_dev\/img\/icons\/design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/design.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/assets_dev\/img\/icons\/map-marker.png": {
 		"ft": 32768,
 		"iS": 1881,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/img\/map-marker.png",
-		"oF": 0,
+		"oF": 1,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 2,
 		"q": 50
+		},
+	"\/assets_dev\/img\/icons\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets_dev\/img\/testimonials\/chris-fenwick.jpg": {
+		"ft": 16384,
+		"iS": 7917,
+		"oA": 0,
+		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 1,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 70
 		},
 	"\/assets_dev\/js\/app.js": {
 		"ft": 64,
@@ -1229,6 +1390,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets_dev\/scss\/components\/other\/_icon-list.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_icon-list.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets_dev\/scss\/components\/other\/_modal.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1251,6 +1425,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_post.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets_dev\/scss\/components\/other\/_previews.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_previews.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1417,7 +1604,7 @@
 	"displayValue": "Portfolio (Seb Kay)",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 544631613
+	"lastBuiltDate": 544649087
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
