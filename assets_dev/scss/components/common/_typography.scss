@@ -42,23 +42,23 @@ address { font-style: normal; }
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
-	h1 { @include rem(68px); }
-	h2 { @include rem(58px); }
-	h3 { @include rem(48px); }
-	h4 { @include rem(38px); }
-	h5 { @include rem(26px); }
-	h6 { @include rem(20px); }
+	h1, .h1 { @include rem(68px); }
+	h2, .h2 { @include rem(58px); }
+	h3, .h3 { @include rem(48px); }
+	h4, .h4 { @include rem(38px); }
+	h5, .h5 { @include rem(26px); }
+	h6, .h6 { @include rem(20px); }
 
 	.txt-large { @include rem(28px); }
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-1)) {
-	h1 { @include rem(68px); }
-	h2 { @include rem(58px); }
-	h3 { @include rem(48px); }
-	h4 { @include rem(38px); }
-	h5 { @include rem(26px); }
-	h6 { @include rem(20px); }
+	h1, .h1 { @include rem(68px); }
+	h2, .h2 { @include rem(58px); }
+	h3, .h3 { @include rem(48px); }
+	h4, .h4 { @include rem(38px); }
+	h5, .h5 { @include rem(26px); }
+	h6, .h6 { @include rem(20px); }
 
 	.txt-large { @include rem(28px); }
 }
