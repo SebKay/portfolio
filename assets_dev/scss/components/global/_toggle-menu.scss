@@ -1,27 +1,33 @@
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.toggle-menu {
-		display: none;
-	}
-}
-
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.toggle-menu {
+		width: 30px;
+		height: 20px;
 		display: block;
 		position: relative;
 	}
 
 	.toggle-menu__line {
 		@include transition(all ease $transition-speed);
+		width: 30px;
 		height: 3px;
 		position: absolute;
 		left: 0;
 		border-radius: 10px;
-		background: $ui-color-2;
+		background: #fff;
+
+		&:nth-child(1) { top: 0px; }
+		&:nth-child(2) { top: 9px; }
+		&:nth-child(3) { top: 18px; }
 	}
 
 	.toggle-menu.active {
 		.toggle-menu__line {
+			&:nth-child(1),
+			&:nth-child(3) {
+				top: 9px;
+			}
+
 			&:nth-child(1) {
 				@include transform(rotate(-45deg));
 			}
@@ -32,54 +38,6 @@
 
 			&:nth-child(3) {
 				@include transform(rotate(45deg));
-			}
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.toggle-menu {
-		width: 40px;
-		height: 30px;
-	}
-
-	.toggle-menu__line {
-		width: 40px;
-
-		&:nth-child(1) { top: 0px; }
-		&:nth-child(2) { top: 14px; }
-		&:nth-child(3) { top: 27px; }
-	}
-
-	.toggle-menu.active {
-		.toggle-menu__line {
-			&:nth-child(1),
-			&:nth-child(3) {
-				top: 14px;
-			}
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	.toggle-menu {
-		width: 30px;
-		height: 25px;
-	}
-
-	.toggle-menu__line {
-		width: 30px;
-
-		&:nth-child(1) { top: 0px; }
-		&:nth-child(2) { top: 11px; }
-		&:nth-child(3) { top: 22px; }
-	}
-
-	.toggle-menu.active {
-		.toggle-menu__line {
-			&:nth-child(1),
-			&:nth-child(3) {
-				top: 9px;
 			}
 		}
 	}

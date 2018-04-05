@@ -12,13 +12,16 @@ $fonts: (
 		medium   : 500,
 		semibold : 600
 	),
+	3 : (
+		family   : ('Kalam', cursive)
+	)
 );
 
 $text-size-base : 16px; // Important: Don't change this
 
 //---- Colors
 $ui-color-1: #478ac8; // Blue
-$ui-color-2: #262626; // Black / Grey
+$ui-color-2: #1b1b1b; // Black / Grey
 $ui-color-2-1: #b9b9b9;
 $ui-color-2-2: #f6f6f6;
 

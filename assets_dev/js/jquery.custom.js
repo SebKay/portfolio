@@ -48,12 +48,12 @@ $(document).ready(function() {
 		e.preventDefault();
 
 		$(this).toggleClass('active');
-		$('.site-menu').fadeToggle(transition_speed);
+		$('.site-header__section--menu').slideToggle(transition_speed);
 	});
 
 	$(window).on('resize', function() {
 		if($(this).width() > 768) {
-			$('.site-menu').css('display', '');
+			$('.site-header__section--menu').css('display', '');
 		}
 	});
 

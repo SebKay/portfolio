@@ -11,14 +11,14 @@
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
 	.site-menu__item {
-		@include rem(22px);
-		margin-left: 95px;
+		@include rem(20px);
+		margin-left: 85px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-menu__item {
-		@include rem(20px);
+		@include rem(18px);
 		margin-left: 55px;
 	}
 }
@@ -33,7 +33,7 @@
 		color: $ui-color-2-1;
 	}
 
-	.site-menu__item.active a {
+	.site-menu__item.active {
 		// Type
 		color: $ui-color-1;
 	}
@@ -42,11 +42,6 @@
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.site-menu {
 		width: 100%;
-		padding: 50px;
-		display: none;
-		position: absolute;
-		top: calc(100% + 2px);
-		left: 0;
 		background: $ui-color-2;
 	}
 
@@ -61,7 +56,7 @@
 		color: white(0.5);
 	}
 
-	.site-menu__item.active a {
+	.site-menu__item.active {
 		// Type
 		color: #fff;
 	}
@@ -69,7 +64,7 @@
 
 @media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.site-menu {
-		padding: 50px;
+		padding: 0 50px 50px;
 	}
 
 	.site-menu__item {
@@ -83,7 +78,7 @@
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
 	.site-menu {
-		padding: 40px;
+		padding: 0 40px 40px;
 	}
 
 	.site-menu__item {
