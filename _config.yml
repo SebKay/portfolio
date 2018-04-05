@@ -1,0 +1,13 @@
+# Dependencies
+markdown:         rdiscount
+highlighter:         true
+
+# Permalinks
+permalink:        pretty
+
+# Server
+baseurl:          /
+encoding:         UTF-8
+
+# Globals
+title: Seb Kay
