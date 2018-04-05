@@ -44,6 +44,30 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -67,6 +91,16 @@
 		"oAP": "\/assets\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/logo.svg",
+		"oF": 1,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/assets\/js\/app.min.js": {
 		"ft": 64,
@@ -652,156 +686,16 @@
 		"oAP": "\/assets_dev\/.sass-cache\/f8493032ba55681531a5ee9b5f31c4442f298320\/_transitions.scssc",
 		"oF": 0
 		},
-	"\/assets_dev\/img\/icons\/check.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/check.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/cross.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/cross.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/linkedin.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
 	"\/assets_dev\/img\/icons\/map-marker.png": {
 		"ft": 32768,
 		"iS": 1881,
 		"oA": 1,
-		"oAP": "\/assets_dev\/img\/icons\/map-marker.png",
+		"oAP": "\/assets\/img\/map-marker.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
-		},
-	"\/assets_dev\/img\/icons\/minus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/minus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/plus.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/plus.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/spinner.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/spinner.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/triangle-down.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/triangle-down.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/triangle-left.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/triangle-left.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/triangle-right.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/triangle-right.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/triangle-up.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/triangle-up.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/icons\/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/icons\/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets_dev\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets_dev\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
 		},
 	"\/assets_dev\/js\/app.js": {
 		"ft": 64,
@@ -978,71 +872,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_transitions.min.css",
-		"oF": 0,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets_dev\/scss\/admin\/admin-editor.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/admin-editor.min.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets_dev\/scss\/admin\/admin-login.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/admin-login.min.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets_dev\/scss\/admin\/admin-toolbar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/admin-toolbar.min.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets_dev\/scss\/admin\/admin.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/admin.min.css",
-		"oF": 2,
-		"oS": 3,
-		"uL": 1
-		},
-	"\/assets_dev\/scss\/attachment.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/assets\/css\/attachment.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1436,7 +1265,7 @@
 	"displayValue": "Portfolio (Seb Kay)",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
-	"lastBuiltDate": 541455968
+	"lastBuiltDate": 544631613
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3211,10 +3040,10 @@
 	"languageDefaultsGIF": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.gif",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "assets\/img\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 1
 		},
 	"languageDefaultsHAML": {
 		"autoOutputAction": 0,
@@ -3235,10 +3064,10 @@
 	"languageDefaultsJPG": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.jpg",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "assets\/img\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"quality": 70
 		},
 	"languageDefaultsJS": {
@@ -3323,10 +3152,10 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "assets\/img\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"optimizerType": 2,
 		"quality": 50
 		},
@@ -3391,7 +3220,7 @@
 		"autoOutputPathRelativePath": "assets\/img\/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"pluginMask": 25232891903
 		},
 	"languageDefaultsTS": {
