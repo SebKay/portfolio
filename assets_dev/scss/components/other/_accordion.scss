@@ -33,6 +33,7 @@
 	}
 
 	&:before {
+		@include transition(opacity ease $transition-speed);
 		width: 4px;
 		height: 20px;
 		top: 10px;
@@ -45,6 +46,10 @@
 		top: 18px;
 		left: 10px;
 	}
+}
+
+.accordion__heading.active .accordion__opener:before {
+	opacity: 0;
 }
 
 .accordion__content {
