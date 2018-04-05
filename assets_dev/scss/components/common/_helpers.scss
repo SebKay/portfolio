@@ -17,6 +17,11 @@
 	background: #fff;
 }
 
+//---- Spacer
+.spacer-top {
+	border-top: 2px solid $ui-color-2-4;
+}
+
 //---- Other
 body.lock-scroll {
 	overflow: hidden;
