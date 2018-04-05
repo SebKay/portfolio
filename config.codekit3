@@ -58,6 +58,47 @@
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
+	"\/_site\/about\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/about\/index.html",
+		"oF": 0
+		},
+	"\/_site\/assets\/img\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_site\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -77,6 +118,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
+		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/assets\/css\/style.min.css": {
@@ -1245,11 +1293,11 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/text-template\/index.html": {
+	"\/text-template.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/text-template\/index.html",
+		"oAP": "\/text-template.html",
 		"oF": 0
 		},
 	"\/work.html": {

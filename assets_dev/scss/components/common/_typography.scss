@@ -12,7 +12,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-family: map-get(map-get($fonts, 2), family); font-weight: map-get(map-get($fonts, 2), semibold); }
+h6 { font-family: map-get(map-get($fonts, 2), family); font-weight: map-get(map-get($fonts, 2), medium); }
 
 p,
 li,
