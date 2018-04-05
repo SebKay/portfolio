@@ -1,0 +1,70 @@
+.btn {
+	@include rem(20px);
+	padding: 18px 26px;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	background: $ui-color-1;
+	// Type
+	font-family: map-get(map-get($fonts, 1), family);
+	font-weight: map-get(map-get($fonts, 1), semibold);
+	text-align: center;
+	color: #fff;
+}
+
+//---- With Loading Icon
+.btn--has-loader {
+	padding-right: 26px + 20px; // Add the padding and icon width
+	position: relative;
+}
+
+.btn__loader {
+	@include transform(translateY(-50%));
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 50%;
+	right: 13px;
+
+	svg circle {
+		stroke: #fff;
+	}
+}
+
+//---- Sizes
+// Small
+.btn--small {
+	@include rem(12px);
+	padding: 12px 16px;
+}
+
+.btn--small.btn--has-loader {
+	padding-right: 16px + 15px; // Add the padding and icon width
+
+	.btn__loader {
+		width: 15px;
+		height: 15px;
+		right: 8px;
+	}
+}
+
+// Large
+.btn--large {
+	@include rem(20px);
+	padding: 24px 36px;
+}
+
+.btn--large.btn--has-loader {
+	padding-right: 36px + 25px; // Add the padding and icon width
+
+	.btn__loader {
+		width: 25px;
+		height: 25px;
+		right: 18px;
+	}
+}
+
+// Full
+.btn--full {
+	width: 100%;
+}

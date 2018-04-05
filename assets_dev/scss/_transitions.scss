@@ -1,0 +1,10 @@
+.no-touch {
+	.jcf-checkbox span,
+	.jcf-radio span {
+		@include transition(opacity ease $transition-speed);
+	}
+
+	.jcf-select-opener .jcf-icon {
+		@include transition(transform ease $transition-speed);
+	}
+}

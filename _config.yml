@@ -11,3 +11,8 @@ encoding:         UTF-8
 
 # Globals
 title: Seb Kay
+
+# Exclude
+exclude:
+- config.codekit3
+- assets_dev

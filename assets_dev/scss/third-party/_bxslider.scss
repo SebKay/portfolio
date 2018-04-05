@@ -1,0 +1,50 @@
+.bxslider {
+	position: relative;
+
+	li {
+		margin: 0;
+		list-style: none;
+	}
+
+	img {
+		width: 100%;
+		display: block;
+		-webkit-user-select: none;
+		   -moz-user-select: none;
+		    -ms-user-select: none;
+		        user-select: none;
+		-webkit-user-drag: none;
+		        user-drag: none;
+	}
+}
+
+.bxslider--loading {
+	height: 0;
+	overflow: hidden;
+}
+
+.bx-wrapper {
+	position: relative;
+	*zoom: 1;
+}
+
+.bx-viewport {
+	@include transform(translateZ(0));
+	left: 0;
+}
+
+.bx-caption {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: black(0.75);
+
+	p {
+		@include rem(14px);
+		padding: 15px 20px;
+		display: block;
+		// Type
+		color: #fff;
+	}
+}

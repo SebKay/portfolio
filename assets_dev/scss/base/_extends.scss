@@ -1,0 +1,24 @@
+//---- Clearfix
+%clearfix:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+//---- Remove Text
+%remove-text {
+	overflow: hidden;
+	text-indent: -99999px;
+}
+
+//---- Forms
+%form-field-base {
+	@include rem(16px);
+	width: 100%;
+	height: $form-field-height;
+	display: block;
+	background: #ddd;
+	// Type
+	font-family: map-get(map-get($fonts, 1), family);
+	line-height: normal;
+}

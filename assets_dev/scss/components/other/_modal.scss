@@ -1,0 +1,80 @@
+.modal {
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: map-get($z-index, 1);
+}
+
+.modal__overlay {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: black(0.75);
+}
+
+.modal__outer {
+	max-width: map-get($sections-desktop, medium);
+	max-height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	overflow-y: auto;
+}
+
+.modal__inner {
+	padding: 50px;
+	position: relative;
+	background: #fff;
+}
+
+.modal__close {
+	@include flex(flex);
+	@include flex_align_items(center);
+	@include flex_justify(center);
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #eee;
+
+	svg {
+		width: 20px;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.modal__outer {
+		@include transform(translateY(-50%));
+		@include transition(top ease $transition-speed);
+		width: $sections-percent;
+		padding-top: $outer-spacing;
+		padding-bottom: $outer-spacing;
+		top: calc(50% - 50px);
+	}
+
+	.modal.active {
+		.modal__outer {
+			top: 50%;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.modal__outer,
+	.modal__inner {
+		height: 100%;
+	}
+
+	.modal__outer {
+		width: 100%;
+		top: 0;
+	}
+}

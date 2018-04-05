@@ -1,0 +1,25 @@
+.social {
+	@include flex(flex);
+	@include flex_align_items(center);
+}
+
+.social__item {
+	margin: 0;
+	list-style: none;
+
+	& + & {
+		margin-left: 20px;
+	}
+}
+
+.social__item--facebook  { width: 10px; }
+.social__item--twitter   { width: 23px; }
+.social__item--instagram { width: 20px; }
+.social__item--linkedin  { width: 19px; }
+
+//---- Light
+.social--light {
+	.social__item svg {
+		fill: #fff;
+	}
+}

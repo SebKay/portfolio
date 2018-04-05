@@ -1,0 +1,10 @@
+.no-touch {
+	.jcf-checkbox,
+	.jcf-checkbox input,
+	.jcf-radio,
+	.jcf-radio input {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

@@ -1,0 +1,47 @@
+@include form_inputs {
+	@extend %form-field-base;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	&::-moz-placeholder {
+		opacity: 1;
+		// Type
+		font-style: normal;
+		color: #888;
+	}
+
+	&::-webkit-input-placeholder {
+		// Type
+		font-style: normal;
+		color: #888;
+	}
+}
+
+input[type="submit"],
+button {
+	@extend .btn;
+}
+
+input,
+textarea,
+button {
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+textarea {
+	min-height: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	resize: vertical;
+	// Type
+	line-height: 150%;
+}
+
+label {
+	display: block;
+}

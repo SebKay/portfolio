@@ -1,0 +1,24 @@
+.site-header__inner {
+	@extend .section;
+	@extend .section--large;
+	@include flex(flex);
+	position: relative;
+	border-bottom: 2px solid $ui-color-1;
+	background: #fff;
+}
+
+.site-header__section--logo {
+	@include flex_shrink(0);
+}
+
+.site-header__section--menu {
+	@include flex_grow(1);
+	@include flex_basis(0);
+	@include flex_align_self(center);
+
+	.toggle-menu {
+		margin-left: auto;
+	}
+}
+
+

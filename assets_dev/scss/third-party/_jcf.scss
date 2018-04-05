@@ -1,0 +1,334 @@
+//---- Icons
+.jcf-icon {
+	display: block;
+}
+
+//---- Select
+.jcf-select {
+	display: block;
+	position: relative;
+	z-index: 10;
+}
+
+.jcf-select.jcf-drop-active {
+	z-index: 100;
+}
+
+.jcf-select-text {
+	@extend %form-field-base;
+	@include flex(flex);
+	@include flex_align_items(center);
+	padding-left: 15px;
+	padding-right: 15px + $form-field-height; // Offset the dropdown arrow
+	position: relative;
+	z-index: 810;
+}
+
+.jcf-select-opener {
+	@include flex_center();
+	width: $form-field-height;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 820;
+	background: #ccc;
+
+	.jcf-icon {
+		width: 20px;
+	}
+}
+
+// Dropdown
+.jcf-select-drop {
+	width: 100%;
+	padding-top: $form-field-height;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-shadow: 0 5px 10px black(0.15);
+	background: #ddd;
+}
+
+.jcf-list-content {
+	max-height: 248px;
+	overflow: auto;
+	display: block;
+
+	li {
+		list-style: none;
+	}
+}
+
+.jcf-option,
+.jcf-optgroup-caption {
+	@extend %form-field-base;
+	@include flex(flex);
+	@include flex_align_items(center);
+	padding-left: 15px;
+	padding-right: 15px;
+	border-top: 1px solid #ccc;
+}
+
+.jcf-select,
+.jcf-option {
+	cursor: pointer;
+}
+
+.jcf-optgroup-caption {
+	cursor: default;
+	// Type
+	font-weight: bold;
+}
+
+// Active
+.jcf-drop-active {
+	.jcf-select-opener .jcf-icon {
+		@include transform(rotate(180deg));
+	}
+}
+
+// Flipped
+.jcf-drop-flipped {
+	.jcf-select-drop {
+		padding-top: 0;
+		padding-bottom: $form-field-height;
+		top: auto;
+		bottom: 0;
+	}
+}
+
+//---- Number
+.jcf-number {
+	display: block;
+	position: relative;
+
+	input {
+		padding-left: $form-field-height; // Account for minus button
+		padding-right: $form-field-height; // Account for plus button
+		// Type
+		text-align: center;
+
+		&::-webkit-inner-spin-button,
+		&::-webkit-outer-spin-button {
+			margin: 0;
+			-webkit-appearance: none;
+		}
+	}
+}
+
+.jcf-btn-inc,
+.jcf-btn-dec {
+	@include flex_center();
+	width: $form-field-height;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	background: #ccc;
+
+	.jcf-icon {
+		width: 18px;
+	}
+}
+
+.jcf-btn-inc.jcf-disabled ,
+.jcf-btn-dec.jcf-disabled {
+	cursor: default;
+
+	.jcf-icon {
+		opacity: 0.35;
+	}
+}
+
+.jcf-btn-dec {
+	left: 0;
+}
+
+.jcf-btn-inc {
+	right: 0;
+}
+
+//---- Radio / Checkbox
+.jcf-checkbox,
+.jcf-radio {
+	@extend %form-field-base;
+	width: 30px;
+	height: 30px;
+	position: relative;
+
+	span {
+		@include transform(translate(-50%, -50%));
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		opacity: 0;
+	}
+}
+
+.jcf-checkbox {
+	span {
+		width: 16px;
+	}
+
+	svg * {
+		fill: $ui-color-1;
+	}
+}
+
+.jcf-radio {
+	&,
+	span {
+		border-radius: 1000px;
+	}
+
+	span {
+		width: 10px;
+		height: 10px;
+		background: $ui-color-1;
+	}
+}
+
+.jcf-checkbox.jcf-checked,
+.jcf-radio.jcf-checked {
+	span {
+		opacity: 1;
+	}
+}
+
+//---- File Input
+.jcf-file {
+	@extend %form-field-base;
+	@include flex(flex);
+	position: relative;
+
+	input {
+		width: 100%;
+		height: 100%;
+		cursor: pointer;
+	}
+}
+
+.jcf-fake-input,
+.jcf-upload-button {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.jcf-fake-input {
+	@include flex(flex);
+	@include flex_align_items(center);
+	width: 100%;
+}
+
+.jcf-upload-button {
+	@include flex_shrink(0);
+	@include flex_center();
+	margin-left: auto;
+	background: #ccc;
+}
+
+//---- Range
+.jcf-range {
+	width: 100%;
+	min-width: 200px;
+	display: inline-block;
+}
+
+.jcf-range-track {
+	height: 5px;
+	margin: 0 20px 0 0;
+	display: block;
+	position: relative;
+}
+
+.jcf-range-wrapper {
+	margin: 5px 0;
+	display: block;
+	position: relative;
+	border-radius: 5px;
+	background: #ddd;
+}
+
+.jcf-range-display-wrapper {
+	min-width: 10px;
+	min-height: 10px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+}
+
+// Handle
+.jcf-range-handle {
+	width: 19px;
+	height: 19px;
+	margin: -7px 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	border-radius: 19px;
+	background: $ui-color-1;
+}
+
+.jcf-range-mark {
+	width: 1px;
+	height: 3px;
+	margin: 0 0 0 9px;
+	position: absolute;
+	top: -9px;
+	overflow: hidden;
+	background: $ui-color-1;
+}
+
+.jcf-active-handle {
+	z-index: 2;
+}
+
+// Vertical
+.jcf-vertical {
+	width: auto;
+	min-width: 0;
+}
+
+.jcf-vertical .jcf-range-wrapper {
+	width: 5px;
+	height: auto;
+	margin: 0;
+	padding: 20px 0 0;
+}
+
+.jcf-vertical .jcf-range-track {
+	width: 10px;
+	height: 180px;
+}
+
+.jcf-vertical .jcf-range-handle {
+	top: auto;
+	left: -7px;
+}
+
+.jcf-vertical .jcf-range-display-wrapper {
+	top: 10px;
+	right: auto;
+	left: auto;
+	bottom: 10px;
+}
+
+.jcf-vertical .jcf-range-display.jcf-range-min {
+	margin: 0 0 -10px;
+	padding: 0 0 10px;
+}
+
+.jcf-vertical .jcf-range-display.jcf-range-max {
+	margin: -10px 0 0;
+	padding: 10px 0 0;
+}
+
+.jcf-vertical .jcf-range-mark {
+	width: 3px;
+	height: 1px;
+	margin: 0 0 9px;
+	top: auto;
+	left: 12px;
+}

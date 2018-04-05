@@ -1,0 +1,157 @@
+.post-styles {
+	* + p,
+	p + * {
+		margin-top: 30px;
+	}
+
+	h1 + *,
+	h2 + *,
+	h3 + *,
+	h4 + *,
+	h5 + *,
+	h6 + * {
+		margin-top: 10px;
+	}
+
+	ul li,
+	ol li {
+		margin: 5px 0 5px 25px;
+	}
+
+	* + h1,
+	* + h2,
+	* + h3,
+	* + h4,
+	* + h5,
+	* + h6,
+	* + .table-wrap,
+	.table-wrap + *,
+	* + blockquote,
+	blockquote + *,
+	* + .grid,
+	.grid + *,
+	* + .btn,
+	.btn + * {
+		margin-top: 50px;
+	}
+
+	p,
+	li,
+	td {
+		// Type
+		line-height: 140%;
+	}
+
+	a:not([class*="btn"]) {
+		border-bottom: 1px solid $ui-color-1;
+		// Type
+		font-weight: map-get(map-get($fonts, 1), bold);
+	}
+
+	blockquote {
+		@extend .section;
+		@extend .section--tiny;
+		@extend .section--full;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		position: relative;
+		// Type
+		text-align: center;
+
+		&:before,
+		&:after {
+			@include transform(translateX(-50%));
+			width: 130px;
+			height: 10px;
+			position: absolute;
+			left: 50%;
+			content: '';
+			background: $ui-color-2-2;
+		}
+
+		&:before {
+			top: 0;
+		}
+
+		&:after {
+			bottom: 0;
+		}
+
+		p {
+			@include rem(28px);
+			// Type
+			font-weight: map-get(map-get($fonts, 2), light);
+			font-style: italic;
+			line-height: 30px * 1.2;
+
+			&:before { content: open-quote; }
+			&:after { content: close-quote; }
+		}
+
+		cite {
+			// Type
+			font-style: normal;
+		}
+	}
+
+	.jcf-select {
+		li {
+			margin: 0;
+		}
+	}
+
+	.alignleft,
+	.alignright {
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.alignleft {
+		margin-right: 30px;
+		float: left;
+	}
+
+	.alignright {
+		margin-left: 30px;
+		float: right;
+	}
+
+	.aligncenter {
+		margin-left: auto;
+		margin-right: auto;
+		display: block
+	}
+
+	.wp-caption {
+		display: inline-block;
+	}
+
+	.wp-caption-text {
+		margin-top: 10px;
+		// Type
+		text-align: center;
+	}
+
+	.table-wrap {
+		width: 100%;
+		overflow: auto;
+
+		table {
+			min-width: 600px;
+		}
+	}
+}
+
+//---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.post-styles {
+		.grid__col {
+			width: 100%;
+			margin-right: 0 !important;
+		}
+
+		.grid__col + .grid__col {
+			margin-top: 30px;
+		}
+	}
+}

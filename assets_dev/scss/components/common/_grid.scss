@@ -1,0 +1,33 @@
+.grid {
+	@include flex(flex);
+	@include flex_wrap(wrap);
+}
+
+@for $i from 1 through $grid-columns {
+	.grid__col--#{$i} {
+		width: (100% / $grid-columns * $i);
+	}
+
+	.grid--spaced {
+		.grid__col--#{$i} {
+			@include calc_grid_col($i);
+
+			&:not(:last-of-type) {
+				margin-right: $grid-spacing;
+			}
+		}
+	}
+}
+
+//---- Spaced
+@for $i from 1 through 6 {
+	@if $i != 5 {
+		.grid--spaced-#{$i} {
+			.grid__col {
+				&:nth-of-type(#{($grid-columns / $i)}n) {
+					margin-right: 0;
+				}
+			}
+		}
+	}
+}

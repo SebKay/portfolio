@@ -1,0 +1,47 @@
+.site-logo {
+	@include flex_center();
+	background: $ui-color-1;
+	// Type
+	text-align: center;
+}
+
+.site-logo__txt {
+	// Type
+	font-weight: map-get(map-get($fonts, 2), semibold);
+	color: #fff;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.site-logo {
+		width: 140px;
+		height: 140px;
+	}
+
+	.site-logo__txt {
+		@include rem(32px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.site-logo {
+		width: 120px;
+		height: 120px;
+	}
+
+	.site-logo__txt {
+		@include rem(26px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.site-logo {
+		width: 95px;
+		height: 95px;
+	}
+
+	.site-logo__txt {
+		@include rem(22px);
+	}
+}
+
