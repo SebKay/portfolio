@@ -48,18 +48,14 @@
 				</div>
 				<br><br>
 				<ul class="icon-list">
-					<li class="icon-list__item icon-list__item--pencil">
-						Logo Design
-					</li>
-					<li class="icon-list__item icon-list__item--design">
-						Web Design
-					</li>
-					<li class="icon-list__item icon-list__item--code">
-						Web Development
-					</li>
+					{% for usp in project.usps %}
+						<li class="icon-list__item icon-list__item--{{ usp.icon }}">
+							{{ usp.title }}
+						</li>
+					{% endfor %}
 				</ul>
 				<br><br>
-				<a class="btn" href="#">
+				<a class="btn" href="{{ project.url }}">
 					View Case Study
 				</a>
 			</div>

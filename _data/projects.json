@@ -1,0 +1,38 @@
+[{
+  "title":"47 Farms",
+  "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.",
+  "preview_img_desktop_url": "/assets/img/projects/47-farms/desktop.jpg",
+  "preview_img_mobile_url": "/assets/img/projects/47-farms/mobile.jpg",
+  "usps" : [{
+	  "title":"Logo Design",
+	  "icon":"pencil"
+	},
+	{
+	  "title":"Web Design",
+	  "icon":"design"
+	},
+	{
+	  "title":"Web Development",
+	  "icon":"code"
+	}],
+  "url":"/work/47-farms/"
+},
+{
+  "title":"Inspirational Pixels",
+  "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.",
+  "preview_img_desktop_url": "/assets/img/projects/inspirational-pixels/desktop.jpg",
+  "preview_img_mobile_url": "/assets/img/projects/inspirational-pixels/mobile.jpg",
+  "usps" : [{
+	  "title":"Logo Design",
+	  "icon":"pencil"
+	},
+	{
+	  "title":"Web Design",
+	  "icon":"design"
+	},
+	{
+	  "title":"WordPress Development",
+	  "icon":"code"
+	}],
+  "url":"/work/inspirational-pixels/"
+}]
