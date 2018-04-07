@@ -17,7 +17,8 @@
 	width: 100%;
 	height: $form-field-height;
 	display: block;
-	background: #ddd;
+	border: 2px solid $ui-color-2-11;
+	background: $ui-color-2-10;
 	// Type
 	font-family: map-get(map-get($fonts, 1), family);
 	line-height: normal;

@@ -45,3 +45,41 @@ textarea {
 label {
 	display: block;
 }
+
+//---- Stylised
+.form {
+	@include flex(flex);
+	@include flex_wrap(wrap);
+}
+
+.form__item:not(.form__field--full) {
+	@include calc_grid_col(6);
+
+	&:nth-child(2n) {
+		margin-left: auto;
+	}
+
+	&:nth-child(1n+3) {
+		margin-top: 40px;
+	}
+}
+
+.form__item--full.form__item--full {
+	width: 100%;
+}
+
+.form__label {
+	margin-bottom: 10px;
+	display: block;
+	// Type
+	font-weight: map-get(map-get($fonts, 2), semibold);
+	text-transform: uppercase;
+	color: $ui-color-2;
+}
+
+.form__action {
+	width: 100%;
+	margin-top: 40px;
+	// Type
+	text-align: center;
+}

@@ -32,10 +32,13 @@
 	top: 0;
 	right: 0;
 	z-index: 820;
-	background: #ccc;
 
 	.jcf-icon {
-		width: 20px;
+		width: 16px;
+
+		svg * {
+			fill: $ui-color-2;
+		}
 	}
 }
 
@@ -54,9 +57,18 @@
 	max-height: 248px;
 	overflow: auto;
 	display: block;
+	border: 2px solid $ui-color-2-11;
+	border-top: none;
 
 	li {
 		list-style: none;
+	}
+
+	li:last-child {
+		.jcf-option,
+		.jcf-optgroup-caption {
+			border-bottom: none;
+		}
 	}
 }
 
@@ -67,7 +79,8 @@
 	@include flex_align_items(center);
 	padding-left: 15px;
 	padding-right: 15px;
-	border-top: 1px solid #ccc;
+	border: none;
+	border-bottom: 2px solid $ui-color-2-11;
 }
 
 .jcf-select,
