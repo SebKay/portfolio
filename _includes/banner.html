@@ -1,17 +1,25 @@
 {% if page.banner_title or page.banner_subtitle %}
 	<section class="site-banner">
 		<div class="site-banner__inner">
-			{% if page.banner_title %}
-				<h1 class="site-banner__title">
-					{{ page.banner_title }}
-				</h1>
-			{% endif %}
+			<div class="site-banner__content">
+				{% if page.banner_title %}
+					<h1 class="site-banner__title">
+						{{ page.banner_title }}
+					</h1>
+				{% endif %}
 
-			{% if page.banner_subtitle %}
-				<h2 class="site-banner__subtitle">
-					{{ page.banner_subtitle }}
-				</h2>
-			{% endif %}
+				{% if page.banner_subtitle %}
+					<h2 class="site-banner__subtitle">
+						{{ page.banner_subtitle }}
+					</h2>
+				{% endif %}
+
+				{% if page.banner_txt %}
+					<p class="site-banner__txt">
+						{{ page.banner_txt }}
+					</p>
+				{% endif %}
+			</div>
 		</div>
 	</section>
 {% endif %}

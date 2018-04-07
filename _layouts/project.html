@@ -1,0 +1,52 @@
+{% include header.html %}
+
+{% assign project = false %}
+
+{% for project_data in site.data.projects %}
+	{% if project_data.title == page.title %}
+		{% assign project = project_data %}
+	{% endif %}
+{% endfor %}
+
+<section class="section section--small spacing-large">
+	<div class="previews previews--grid spacing-medium-bottom">
+		<div class="preview">
+			<div class="preview__bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="preview__window">
+				<img src="{{ project.preview_img_desktop_full_url }}">
+			</div>
+		</div>
+
+		<div class="preview preview--tablet">
+			<div class="preview__bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="preview__window">
+				<img src="{{ project.preview_img_tablet_url }}">
+			</div>
+		</div>
+
+		<div class="preview preview--mobile">
+			<div class="preview__bar">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="preview__window">
+				<img src="{{ project.preview_img_mobile_url }}">
+			</div>
+		</div>
+	</div>
+
+	<div class="post-styles spacing-medium-top spacer-top">
+		{{ page.content | markdownify }}
+	</div>
+</section>
+
+{% include footer.html %}

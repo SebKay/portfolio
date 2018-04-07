@@ -41,9 +41,6 @@
 
 .preview--mobile {
 	max-width: 255px;
-	position: absolute;
-	bottom: -40px;
-	right: 0;
 
 	.preview__bar {
 		background: $ui-color-2-9;
@@ -51,5 +48,32 @@
 
 	.preview__window {
 		border-color: $ui-color-2-9;
+	}
+}
+
+.previews--float {
+	.preview--mobile {
+		position: absolute;
+		bottom: -40px;
+		right: 0;
+	}
+}
+
+.previews--grid {
+	@include flex(flex);
+	@include flex_wrap(wrap);
+
+	.preview--tablet,
+	.preview--mobile {
+		margin-top: 60px;
+	}
+
+	.preview--tablet {
+		width: 65%;
+	}
+
+	.preview--mobile {
+		width: 28.33%;
+		margin-left: auto;
 	}
 }

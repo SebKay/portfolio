@@ -87,6 +87,13 @@
 		"oAP": "\/_layouts\/home.html",
 		"oF": 0
 		},
+	"\/_layouts\/project.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/project.html",
+		"oF": 0
+		},
 	"\/_layouts\/work.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -100,16 +107,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
-		},
-	"\/_site\/assets\/css\/style.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
@@ -160,6 +157,16 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
+		"ft": 16384,
+		"iS": 3005,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
@@ -175,6 +182,16 @@
 		"iS": 764,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 1785,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -246,6 +263,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/text-template\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/47-farms\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/47-farms\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/index.html": {
@@ -895,6 +919,16 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
+		"ft": 16384,
+		"iS": 3005,
+		"oA": 1,
+		"oAP": "\/assets\/img\/projects\/47-farms\/desktop-full.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
@@ -910,6 +944,16 @@
 		"iS": 764,
 		"oA": 1,
 		"oAP": "\/assets\/img\/projects\/47-farms\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/47-farms\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 1785,
+		"oA": 1,
+		"oAP": "\/assets\/img\/projects\/47-farms\/tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1565,11 +1609,18 @@
 		"oAP": "\/text-template.html",
 		"oF": 0
 		},
-	"\/work.html": {
+	"\/work\/47-farms.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/work.html",
+		"oAP": "\/work\/47-farms.html",
+		"oF": 0
+		},
+	"\/work\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work\/index.html",
 		"oF": 0
 		}
 	},
