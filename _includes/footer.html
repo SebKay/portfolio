@@ -3,7 +3,7 @@
 					<blockquote>
 						<p>{{ site.data.testimonials.[0].quote }}</p>
 						<cite>
-							<img src="{{ site.data.testimonials.[0].img_url }}">
+							<img src="{{ site.data.testimonials.[0].img_1x_url }}" srcset="{{ site.data.testimonials.[0].img_1x_url }} 1x, {{ site.data.testimonials.[0].img_2x_url }} 2x">
 							<span>
 								{{ site.data.testimonials.[0].by }}
 							</span>

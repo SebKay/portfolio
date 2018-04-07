@@ -108,9 +108,19 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3562,
+		"iS": 3002,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -159,7 +169,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
-		"iS": 3005,
+		"iS": 2489,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg",
 		"oF": 0,
@@ -169,7 +179,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 2295,
+		"iS": 1873,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/desktop.jpg",
 		"oF": 0,
@@ -179,7 +189,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
-		"iS": 764,
+		"iS": 663,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg",
 		"oF": 0,
@@ -189,7 +199,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg": {
 		"ft": 16384,
-		"iS": 1785,
+		"iS": 1492,
 		"oA": 1,
 		"oAP": "\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg",
 		"oF": 0,
@@ -217,11 +227,11 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 7917,
+		"iS": 2787,
 		"oA": 1,
-		"oAP": "\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg",
+		"oAP": "\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -979,11 +989,21 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
+		"ft": 16384,
+		"iS": 2502,
+		"oA": 1,
+		"oAP": "\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
 		"iS": 7917,
 		"oA": 1,
-		"oAP": "\/assets\/img\/testimonials\/chris-fenwick.jpg",
+		"oAP": "\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
