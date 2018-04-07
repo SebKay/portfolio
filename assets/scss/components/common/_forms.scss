@@ -47,7 +47,7 @@ label {
 }
 
 //---- Stylised
-.form {
+.form__inner {
 	@include flex(flex);
 	@include flex_wrap(wrap);
 }
