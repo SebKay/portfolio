@@ -73,6 +73,13 @@
 		"oAP": "\/_layouts\/about.html",
 		"oF": 0
 		},
+	"\/_layouts\/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/blog.html",
+		"oF": 0
+		},
 	"\/_layouts\/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -253,6 +260,13 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/_site\/blog\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/index.html",
+		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
 		"cB": 0,
@@ -1446,6 +1460,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/components\/other\/_blog-preview.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_blog-preview.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/components\/other\/_icon-list.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1614,6 +1641,13 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
 		},
 	"\/contact.html": {
 		"cB": 0,
