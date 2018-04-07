@@ -1,5 +1,9 @@
 - title: 47 Farms
-  content: some text
+  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.
+  preview_img_desktop_url: /assets/img/projects/47-farms/desktop.jpg
+  preview_img_mobile_url: /assets/img/projects/47-farms/mobile.jpg
 
-- title: 47 Farms
-  content: some text
+- title: Inspirational Pixels
+  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.
+  preview_img_desktop_url: /assets/img/projects/inspirational-pixels/desktop.jpg
+  preview_img_mobile_url: /assets/img/projects/inspirational-pixels/mobile.jpg

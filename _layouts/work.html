@@ -2,7 +2,7 @@
 
 <section class="section section--large spacing-large">
 	{% for project in site.data.projects %}
-		{% assign grid_class = false; %}
+		{% assign grid_class = false %}
 		{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
 
 		{% if cycle_type == 'even' %}
@@ -18,7 +18,7 @@
 							<span></span>
 						</div>
 						<div class="preview__window">
-							<img src="https://placehold.it/780x500">
+							<img src="{{ project.preview_img_desktop_url }}">
 						</div>
 					</div>
 
@@ -29,7 +29,7 @@
 							<span></span>
 						</div>
 						<div class="preview__window">
-							<img src="https://placehold.it/245x385">
+							<img src="{{ project.preview_img_mobile_url }}">
 						</div>
 					</div>
 				</div>
@@ -43,7 +43,7 @@
 				<br>
 				<div class="post-styles">
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem. Nullam quis felis a diam aliquam egestas. Aenean efficitur semper tellus, et condimentum sem suscipit at. Etiam eu consectetur odio. Vivamus nec fermentum est.
+						{{ project.excerpt }}
 					</p>
 				</div>
 				<br><br>

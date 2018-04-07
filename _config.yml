@@ -15,4 +15,9 @@ title: Seb Kay
 # Exclude
 exclude:
 - config.codekit3
-- assets_dev
+- assets/scss/
+- assets/js/plugins/
+- assets/js/app.js
+- assets/js/jquery.custom.js
+- assets/js/jquery.js
+- assets/js/svg.js
