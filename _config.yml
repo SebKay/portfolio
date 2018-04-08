@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         rdiscount
 highlighter:         true
+plugins: [jekyll-paginate]
 
 # Permalinks
 permalink:        pretty
@@ -11,7 +12,8 @@ encoding:         UTF-8
 
 # Globals
 title: Seb Kay
-paginate: 5
+paginate: 1
+paginate_path: "/blog/page:num/"
 
 # Exclude
 exclude:

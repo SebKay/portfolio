@@ -1,50 +1,65 @@
 {% include header.html %}
 
 <section class="section section--medium spacing-large">
-
-		{% for post in site.posts %}
-			<div class="blog-preview">
-				<figure class="blog-preview__thumb">
+	{% for post in paginator.posts %}
+		<div class="blog-preview">
+			<figure class="blog-preview__thumb">
+				<a href="{{ post.url }}">
+					<img src="{{ post.thumb_url }}">
+				</a>
+			</figure>
+			<div class="blog-preview__content">
+				<h2 class="blog-preview__title">
 					<a href="{{ post.url }}">
-						<img src="{{ post.thumb_url }}">
+						{{ post.title }}
 					</a>
-				</figure>
-				<div class="blog-preview__content">
-					<h2 class="blog-preview__title">
-						<a href="{{ post.url }}">
-							{{ post.title }}
-						</a>
-					</h2>
-					<p class="blog-preview__meta">
-						{% for category in post.categories %}
-							<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category }}</a>
-						{% endfor %}
+				</h2>
+				<p class="blog-preview__meta">
+					{% for category in post.categories %}
+						<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category }}</a>
+					{% endfor %}
 
-						<span class="blog-preview__meta-sep">/</span>
+					<span class="blog-preview__meta-sep">/</span>
 
-						{% assign d = post.date | date: "%-d"  %}
-						{% case d %}
-							{% when '1' or '21' or '31' %}{{ d }}st
-							{% when '2' or '22' %}{{ d }}nd
-							{% when '3' or '23' %}{{ d }}rd
-							{% else %}{{ d }}th
-						{% endcase %}
-						{{ post.date | date: "%B" }},
-						{{ post.date | date: "%Y" }}
+					{% assign d = post.date | date: "%-d"  %}
+					{% case d %}
+						{% when '1' or '21' or '31' %}{{ d }}st
+						{% when '2' or '22' %}{{ d }}nd
+						{% when '3' or '23' %}{{ d }}rd
+						{% else %}{{ d }}th
+					{% endcase %}
+					{{ post.date | date: "%B" }},
+					{{ post.date | date: "%Y" }}
+				</p>
+				{% if post.excerpt != '' %}
+					<p>
+						{{ post.excerpt }}
 					</p>
-					{% if post.excerpt != '' %}
-						<p>
-							{{ post.excerpt }}
-						</p>
-					{% endif %}
-				</div>
+				{% endif %}
 			</div>
+		</div>
 
-			{% if forloop.last != true %}
-				<div class="spacing-medium-bottom"></div>
+		{% if forloop.last != true %}
+			<div class="spacing-medium-bottom"></div>
+		{% endif %}
+	{% endfor %}
+
+	{% if paginator.previous_page or paginator.next_page %}
+		<div class="spacing-medium-top"></div>
+		<nav class="pagination">
+			{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="pagination__item pagination__item--prev">Previous</a>
+			{% else %}
+				<span class="pagination__item pagination__item--prev pagination__item--disabled">Previous</span>
 			{% endif %}
-		{% endfor %}
 
+			{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="pagination__item pagination__item--prev">Next</a>
+			{% else %}
+				<span class="pagination__item pagination__item--next pagination__item--disabled">Next</span>
+			{% endif %}
+		</nav>
+	{% endif %}
 </section>
 
 {% include footer.html %}

@@ -66,13 +66,6 @@
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
-	"\/_includes\/pagination.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/pagination.html",
-		"oF": 0
-		},
 	"\/_layouts\/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -178,16 +171,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
-		},
-	"\/_site\/assets\/css\/style.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
@@ -355,6 +338,13 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
+	"\/_site\/blog\/page2\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/page2\/index.html",
+		"oF": 0
+		},
 	"\/_site\/categories\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -397,18 +387,18 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
-	"\/_site\/productivity\/procrastination-as-a-freelancer\/index.html": {
+	"\/_site\/productivity\/2015\/09\/07\/procrastination-as-a-freelancer\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/productivity\/procrastination-as-a-freelancer\/index.html",
+		"oAP": "\/_site\/productivity\/2015\/09\/07\/procrastination-as-a-freelancer\/index.html",
 		"oF": 0
 		},
-	"\/_site\/seo\/seo-basics-for-small-business\/index.html": {
+	"\/_site\/seo\/2015\/09\/23\/seo-basics-for-small-business\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/seo\/seo-basics-for-small-business\/index.html",
+		"oAP": "\/_site\/seo\/2015\/09\/23\/seo-basics-for-small-business\/index.html",
 		"oF": 0
 		},
 	"\/_site\/text-template\/index.html": {
@@ -1634,6 +1624,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/components\/other\/_pagination.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_pagination.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/components\/other\/_post.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1777,11 +1780,11 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/blog.html": {
+	"\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/blog.html",
+		"oAP": "\/blog\/index.html",
 		"oF": 0
 		},
 	"\/categories.html": {
