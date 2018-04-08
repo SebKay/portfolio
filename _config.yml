@@ -11,6 +11,7 @@ encoding:         UTF-8
 
 # Globals
 title: Seb Kay
+paginate: 5
 
 # Exclude
 exclude:
