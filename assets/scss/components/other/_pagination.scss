@@ -3,13 +3,17 @@
 }
 
 .pagination__item {
-	@extend %remove-text;
-	width: 50px;
-	height: 50px;
-	display: block;
-	background: $ui-color-2-12;
+	@extend .btn;
+	min-width: 133px;
 
 	&:not(:last-child) {
-		margin-right: 10px;
+		margin-right: 20px;
 	}
 }
+
+.pagination__item--disabled {
+	opacity: 0.5;
+	cursor: default;
+	background: #ccc;
+}
+
