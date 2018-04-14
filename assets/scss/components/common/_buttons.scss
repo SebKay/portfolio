@@ -6,8 +6,9 @@
 	border: none;
 	background: $ui-color-1;
 	// Type
-	font-family: map-get(map-get($fonts, 1), family);
-	font-weight: map-get(map-get($fonts, 1), semibold);
+	font-family: map-get(map-get($fonts, 2), family);
+	font-weight: map-get(map-get($fonts, 2), semibold);
+	letter-spacing: 0.5px;
 	text-align: center;
 	color: #fff;
 }

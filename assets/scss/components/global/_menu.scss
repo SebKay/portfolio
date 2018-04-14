@@ -5,7 +5,7 @@
 .site-menu__item {
 	list-style: none;
 	// Type
-	font-weight: map-get(map-get($fonts, 2), medium);
+	font-weight: map-get(map-get($fonts, 1), medium);
 }
 
 //---- Responsive ----//

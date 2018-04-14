@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -165,22 +172,19 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_site\/404\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/404\/index.html",
+		"oF": 0
+		},
 	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
-		},
-	"\/_site\/assets\/css\/style.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
 		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,

@@ -16,6 +16,7 @@
 .site-banner__subtitle {
 	@extend .h3;
 	// Type
+	font-weight: map-get(map-get($fonts, 2), medium);
 	color: $ui-color-2-3;
 
 	* + & {

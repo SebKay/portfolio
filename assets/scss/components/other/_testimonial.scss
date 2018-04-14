@@ -16,7 +16,7 @@
 		p {
 			@include rem(30px);
 			// Type
-			font-weight: map-get(map-get($fonts, 2), light);
+			font-weight: map-get(map-get($fonts, 1), light);
 			font-style: italic;
 			line-height: 30px * 1.2;
 			color: #fff;
