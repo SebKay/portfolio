@@ -7,7 +7,7 @@
 		"uuidString": "3B6C4ACD-9D47-45D9-BA40-5F2F56D9CF7C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/_config.yml": {
 		"cB": 0,
@@ -172,6 +172,16 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
 		"iS": 3002,
@@ -183,6 +193,7 @@
 	"\/_site\/assets\/img\/blog\/2015\/09\/procrastination-tips.jpg": {
 		"ft": 16384,
 		"iS": 71187,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/procrastination-tips.jpg",
 		"oF": 0,
@@ -193,6 +204,7 @@
 	"\/_site\/assets\/img\/blog\/2015\/09\/seo-for-small-business.jpg": {
 		"ft": 16384,
 		"iS": 53174,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/seo-for-small-business.jpg",
 		"oF": 0,
@@ -205,6 +217,16 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/caret-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/caret-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/caret-right.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 25232891903,
@@ -254,6 +276,7 @@
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
 		"iS": 2489,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
 		"oF": 0,
@@ -264,6 +287,7 @@
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 1873,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
 		"oF": 0,
@@ -274,6 +298,7 @@
 	"\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 663,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
 		"oF": 0,
@@ -284,6 +309,7 @@
 	"\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg": {
 		"ft": 16384,
 		"iS": 1492,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
 		"oF": 0,
@@ -294,6 +320,7 @@
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
 		"oF": 0,
@@ -304,6 +331,7 @@
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 764,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
 		"oF": 0,
@@ -314,6 +342,7 @@
 	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
 		"iS": 939,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
 		"oF": 0,
@@ -324,6 +353,7 @@
 	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
 		"iS": 2787,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
 		"oF": 0,
@@ -1034,6 +1064,7 @@
 	"\/assets\/img\/blog\/2015\/09\/procrastination-tips.jpg": {
 		"ft": 16384,
 		"iS": 71187,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/procrastination-tips.jpg",
 		"oF": 0,
@@ -1044,6 +1075,7 @@
 	"\/assets\/img\/blog\/2015\/09\/seo-for-small-business.jpg": {
 		"ft": 16384,
 		"iS": 53174,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/seo-for-small-business.jpg",
 		"oF": 0,
@@ -1115,6 +1147,7 @@
 	"\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
 		"iS": 2489,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
 		"oF": 0,
@@ -1125,6 +1158,7 @@
 	"\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 1873,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
 		"oF": 0,
@@ -1135,6 +1169,7 @@
 	"\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 663,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
 		"oF": 0,
@@ -1145,6 +1180,7 @@
 	"\/assets\/img\/projects\/47-farms\/tablet.jpg": {
 		"ft": 16384,
 		"iS": 1492,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
 		"oF": 0,
@@ -1155,6 +1191,7 @@
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
 		"oF": 0,
@@ -1165,6 +1202,7 @@
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 764,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
 		"oF": 0,
@@ -1175,6 +1213,7 @@
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
 		"iS": 939,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
 		"oF": 0,
@@ -1185,6 +1224,7 @@
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
 		"iS": 2787,
+		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
 		"oF": 0,
@@ -1318,6 +1358,16 @@
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/jcf.select.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/assets\/js\/plugins\/jquery.validate.additional-methods.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.validate.additional-methods.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -1890,6 +1940,7 @@
 	"displayValue": "Portfolio (Seb Kay)",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_brown",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 544649087
 	},
 "projectSettings": {
@@ -3693,6 +3744,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
+		"outputFormat": 0,
 		"quality": 70
 		},
 	"languageDefaultsJS": {
