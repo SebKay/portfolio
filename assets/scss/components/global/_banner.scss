@@ -33,3 +33,17 @@
 		margin-top: 20px;
 	}
 }
+
+* + .site-banner__actions {
+	margin-top: 40px;
+}
+
+.site-banner__actions {
+	@include flex(inline-flex);
+
+	.btn {
+		&:not(:last-child) {
+			margin-right: 20px;
+		}
+	}
+}

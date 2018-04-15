@@ -1,5 +1,148 @@
 {% include header.html %}
 
-home
+<section class="site-banner">
+	<div class="site-banner__inner">
+		<figure class="site-banner__img">
+			<img src="https://placehold.it/510x510">
+		</figure>
+		<div class="site-banner__content">
+			<h1 class="site-banner__title">
+				Hi, I'm Seb Kay
+			</h1>
+
+			<h2 class="site-banner__subtitle">
+				I Design &amp; Build Websites
+			</h2>
+
+			<p class="site-banner__txt">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean facilisis feugiat commodo. Donec sed libero eu nisl posuere dignissim. In eget magna in lorem consectetur hendrerit. Fusce ac turpis at ante ullamcorper scelerisque.
+				<br><br>
+				Donec non molestie leo. Praesent consectetur nisl et leo interdum accumsan. Aenean est mauris, vestibulum id viverra id, fermentum sit amet ante. Aliquam vitae ullamcorper lorem, a rhoncus erat.
+			</p>
+
+			<div class="site-banner__actions">
+				<a class="btn" href="#">
+					View My Work
+				</a>
+				<a class="btn btn--ghost" href="#">
+					Contact Me
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="testimonial">
+	<div class="testimonial__inner">
+		<blockquote>
+			<p>{{ site.data.testimonials.[0].quote }}</p>
+			<cite>
+				<img src="{{ site.data.testimonials.[0].img_1x_url }}" srcset="{{ site.data.testimonials.[0].img_1x_url }} 1x, {{ site.data.testimonials.[0].img_2x_url }} 2x">
+				<span>
+					{{ site.data.testimonials.[0].by }}
+				</span>
+			</cite>
+		</blockquote>
+	</div>
+</section>
+
+<section class="section section--large spacing-large">
+	<div class="txt-center spacing-medium-bottom">
+		<h2 class="h3">
+			Featured Work
+		</h2>
+	</div>
+
+	<div class="grid grid--spaced">
+		<div class="grid__col grid__col--7">
+			<div class="previews previews--float">
+				<div class="preview preview--desktop">
+					<div class="preview__bar">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="preview__window">
+						<img src="{{ site.data.projects.[0].preview_img_desktop_url }}">
+					</div>
+				</div>
+
+				<div class="preview preview--mobile">
+					<div class="preview__bar">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="preview__window">
+						<img src="{{ site.data.projects.[0].preview_img_mobile_url }}">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="grid__col grid__col--5">
+			<h2 class="h4">
+				<a href="{{ site.data.projects.[0].url }}">
+					{{ site.data.projects.[0].title }}
+				</a>
+			</h2>
+			<br>
+			<div class="post-styles">
+				<p>
+					{{ site.data.projects.[0].excerpt }}
+				</p>
+			</div>
+			<br><br>
+			<ul class="icon-list">
+				{% for usp in site.data.projects.[0].usps %}
+					<li class="icon-list__item icon-list__item--{{ usp.icon }}">
+						{{ usp.title }}
+					</li>
+				{% endfor %}
+			</ul>
+			<br><br>
+			<a class="btn" href="{{ site.data.projects.[0].url }}">
+				View Case Study
+			</a>
+		</div>
+	</div>
+</section>
+
+<section class="bg-grey">
+	<div class="section section--large spacing-large">
+		<div class="txt-center spacing-medium-bottom">
+			<h2 class="h3">
+				My Services
+			</h2>
+		</div>
+
+		<div class="grid grid--spaced">
+			{% for service in site.data.services %}
+				<div class="grid__col grid__col--4 txt-center">
+					<span class="icon {{ service.icon_class }}"></span>
+					<br><br><br>
+					<h3 class="h4">
+						{{ service.title }}
+					</h3>
+					<br>
+					<p class="txt-large">
+						{{ service.tagline }}
+					</p>
+					<br>
+					<div class="post-styles">
+						<p>
+							{{ service.excerpt }}
+						</p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+
+		<div class="txt-center spacing-small-top">
+			<a class="btn" href="/services">
+				View All Services
+			</a>
+		</div>
+	</div>
+</section>
 
 {% include footer.html %}

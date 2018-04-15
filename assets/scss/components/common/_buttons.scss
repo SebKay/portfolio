@@ -1,9 +1,9 @@
 .btn {
 	@include rem(20px);
-	padding: 18px 26px;
+	padding: 18px 30px;
 	display: inline-block;
 	cursor: pointer;
-	border: none;
+	border: 3px solid $ui-color-1;
 	background: $ui-color-1;
 	// Type
 	font-family: map-get(map-get($fonts, 2), family);
@@ -68,4 +68,11 @@
 // Full
 .btn--full {
 	width: 100%;
+}
+
+//---- Ghost
+.btn--ghost {
+	background: #fff;
+	// Type
+	color: $ui-color-1;
 }

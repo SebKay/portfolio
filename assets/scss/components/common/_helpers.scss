@@ -26,6 +26,36 @@
 	border-bottom: 2px solid $ui-color-2-4;
 }
 
+//---- Background
+.bg-grey {
+	background-color: $ui-color-2-2;
+}
+
+//---- Icons
+.icon {
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	background-color: $ui-color-1;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.icon--design {
+	background-image: image-url('icons/design-white.svg');
+	background-size: 48px;
+}
+
+.icon--code {
+	background-image: image-url('icons/code-white.svg');
+	background-size: 53px;
+}
+
+.icon--basket {
+	background-image: image-url('icons/basket-white.svg');
+	background-size: 48px;
+}
+
 //---- Other
 body.lock-scroll {
 	overflow: hidden;

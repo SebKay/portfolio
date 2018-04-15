@@ -1,0 +1,14 @@
+- title: Web Design
+  tagline: Modern and User Focused
+  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem.
+  icon_class: icon--design
+
+- title: Web Development
+  tagline: Responsive and Mobile Friendly
+  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem.
+  icon_class: icon--code
+
+- title: eCommerce
+  tagline: Shopify and WooCommerce
+  excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec dolor nunc. Duis nisi lacus, laoreet vel arcu et, iaculis sollicitudin lorem.
+  icon_class: icon--basket

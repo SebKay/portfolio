@@ -1,0 +1,21 @@
+.page-home {
+	.site-banner__inner {
+		@include flex(flex);
+		border-bottom: none;
+	}
+
+	.site-banner__img {
+		@include flex_shrink(0);
+		margin-right: 80px;
+
+		img {
+			@extend .img-full;
+		}
+	}
+
+	.site-banner__content {
+		max-width: none;
+		// Type
+		text-align: left;
+	}
+}
