@@ -30,9 +30,16 @@ td {
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1) ) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	th,
 	td {
 		@include rem(18px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1) ) {
+	th,
+	td {
+		@include rem(16px);
 	}
 }

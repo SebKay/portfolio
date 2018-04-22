@@ -141,9 +141,27 @@ body.lock-scroll {
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	//---- Spacing
 	@each $spacing-name, $amount in $spacing-tb1 {
+		.spacing-#{$spacing-name} {
+			padding-top: $amount;
+			padding-bottom: $amount;
+		}
+
+		.spacing-#{$spacing-name}-top {
+			padding-top: $amount;
+		}
+
+		.spacing-#{$spacing-name}-bottom {
+			padding-bottom: $amount;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	//---- Spacing
+	@each $spacing-name, $amount in $spacing-mobile {
 		.spacing-#{$spacing-name} {
 			padding-top: $amount;
 			padding-bottom: $amount;

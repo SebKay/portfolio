@@ -59,7 +59,7 @@ address { font-style: normal; }
 	address { @include rem(20px); }
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	h1, .h1 { @include rem(56px); }
 	h2, .h2 { @include rem(42px); }
 	h3, .h3 { @include rem(30px); }
@@ -73,4 +73,20 @@ address { font-style: normal; }
 	p,
 	li,
 	address { @include rem(18px); }
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	h1, .h1 { @include rem(42px); }
+	h2, .h2 { @include rem(30px); }
+	h3, .h3 { @include rem(24px); }
+	h4, .h4 { @include rem(20px); }
+	h5, .h5 { @include rem(18px); }
+	h6, .h6 { @include rem(16px); }
+
+	.txt-large  { @include rem(20px); }
+	.txt-medium { @include rem(18px); }
+
+	p,
+	li,
+	address { @include rem(16px); }
 }

@@ -87,6 +87,14 @@ $spacing-tb1: (
 	large  : 80px
 );
 
+$spacing-mobile: (
+	mini   : 20px,
+	tiny   : 20px,
+	small  : 30px,
+	medium : 45px,
+	large  : 55px
+);
+
 $sections-percent: 92%;
 $outer-spacing   : (100 - $sections-percent) / 2;
 $grid-spacing    : 4.5%;
