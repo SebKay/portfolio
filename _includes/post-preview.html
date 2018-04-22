@@ -1,0 +1,40 @@
+<article class="blog-preview">
+	<figure class="blog-preview__thumb">
+		<a href="{{ post.url }}">
+			<img src="{{ post.thumb_url }}">
+		</a>
+	</figure>
+	<div class="blog-preview__content">
+		<h2 class="blog-preview__title">
+			<a href="{{ post.url }}">
+				{{ post.title }}
+			</a>
+		</h2>
+		<p class="blog-preview__meta">
+			{% for category in post.categories %}
+				<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category }}</a>
+			{% endfor %}
+
+			<span class="blog-preview__meta-sep">/</span>
+
+			{% assign d = post.date | date: "%-d"  %}
+			{% case d %}
+				{% when '1' or '21' or '31' %}{{ d }}st
+				{% when '2' or '22' %}{{ d }}nd
+				{% when '3' or '23' %}{{ d }}rd
+				{% else %}{{ d }}th
+			{% endcase %}
+			{{ post.date | date: "%B" }},
+			{{ post.date | date: "%Y" }}
+		</p>
+		{% if post.excerpt != '' %}
+			<p>
+				{{ post.excerpt }}
+			</p>
+		{% endif %}
+	</div>
+</article>
+
+{% if forloop.last != true %}
+	<div class="spacing-medium-bottom"></div>
+{% endif %}

@@ -1,0 +1,20 @@
+{% if paginator.previous_page or paginator.next_page %}
+	<div class="spacing-medium-top"></div>
+	<nav class="pagination">
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path }}" class="pagination__item pagination__item--prev">Previous</a>
+		{% else %}
+			<span class="pagination__item pagination__item--prev pagination__item--disabled">Previous</span>
+		{% endif %}
+
+		{% for test in paginator.total_pages %}
+			{{ test }}
+		{% endfor %}
+
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="pagination__item pagination__item--next">Next</a>
+		{% else %}
+			<span class="pagination__item pagination__item--next pagination__item--disabled">Next</span>
+		{% endif %}
+	</nav>
+{% endif %}
