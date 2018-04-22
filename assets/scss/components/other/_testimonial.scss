@@ -14,11 +14,11 @@
 		text-align: center;
 
 		p {
-			@include rem(30px);
+			@include rem(34px);
 			// Type
 			font-weight: map-get(map-get($fonts, 1), light);
 			font-style: italic;
-			line-height: 30px * 1.2;
+			line-height: 34px * 1.2;
 			color: #fff;
 
 			&:before { content: open-quote; }
@@ -38,7 +38,7 @@
 			}
 
 			span {
-				@include rem(20px);
+				@include rem(22px);
 				// Type
 				color: white(0.5);
 			}

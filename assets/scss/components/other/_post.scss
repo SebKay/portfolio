@@ -10,10 +10,6 @@
 	p + p {
 		margin-top: 30px;
 	}
-
-	.txt-large {
-		@include rem(24px);
-	}
 }
 
 .post-styles {
@@ -53,6 +49,11 @@
 	* + .icon-list,
 	.icon-list + * {
 		margin-top: 50px;
+	}
+
+	hr {
+		margin-top: 80px;
+		margin-bottom: 80px;
 	}
 
 	p,

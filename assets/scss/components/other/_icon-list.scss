@@ -2,18 +2,18 @@
 	margin: 0;
 
 	&:not(:last-child) {
-		margin-bottom: 15px;
+		margin-bottom: 18px;
 	}
 }
 
 .icon-list__item {
-	@include rem(16px);
+	@include rem(18px);
 	@include flex(flex);
 	@include flex_align_items(center);
-	min-height: 20px;
+	min-height: 22px;
 	list-style: none;
 	background-repeat: no-repeat;
-	background-size: 20px;
+	background-size: 22px;
 	background-position: 0 50%;
 	// Type
 	font-weight: map-get(map-get($fonts, 2), semibold);
