@@ -50,7 +50,8 @@
 	'components/other/previews',
 	'components/other/blog-preview',
 	'components/other/pagination',
-	'components/other/social';
+	'components/other/social',
+	'components/other/share';
 
 //---- Interactions
 @import
@@ -83,7 +84,7 @@ body {
 
 hr {
 	height: 1px;
-	margin: 40px 0;
+	margin: 100px 0;
 	display: block;
 	clear: both;
 	background: #ccc;

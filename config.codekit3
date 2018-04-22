@@ -223,6 +223,26 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/_site\/assets\/img\/icons\/basket-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -293,6 +313,26 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/_site\/assets\/img\/icons\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/_site\/assets\/img\/icons\/map-marker.png": {
 		"ft": 32768,
 		"iS": 1881,
@@ -309,6 +349,16 @@
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 25232891903,
@@ -401,6 +451,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
+		},
+	"\/_site\/assets\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/_site\/assets\/js\/app.min.js": {
 		"ft": 64,
@@ -1096,7 +1156,7 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3554,
+		"iS": 3562,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -1123,6 +1183,26 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
+		},
+	"\/assets\/img\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/assets\/img\/icons\/basket-white.svg": {
 		"ft": 2097152,
@@ -1194,6 +1274,26 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/assets\/img\/icons\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/assets\/img\/icons\/map-marker.png": {
 		"ft": 32768,
 		"iS": 1881,
@@ -1215,9 +1315,19 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/assets\/img\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
-		"iS": 2489,
+		"iS": 3005,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
@@ -1228,7 +1338,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 1873,
+		"iS": 2295,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -1239,7 +1349,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
-		"iS": 663,
+		"iS": 764,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
@@ -1250,7 +1360,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/tablet.jpg": {
 		"ft": 16384,
-		"iS": 1492,
+		"iS": 1785,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
@@ -1283,7 +1393,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
-		"iS": 939,
+		"iS": 2502,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
@@ -1294,7 +1404,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 2787,
+		"iS": 7917,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
@@ -1302,6 +1412,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
+		},
+	"\/assets\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -1810,6 +1930,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_previews.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/scss\/components\/other\/_share.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_share.min.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

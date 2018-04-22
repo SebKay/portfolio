@@ -1,0 +1,61 @@
+.share {
+	@include flex(flex);
+	@include flex_align_items(center);
+}
+
+.share__item {
+	margin: 0;
+	list-style: none;
+
+	a {
+		display: block;
+		@include flex_center();
+
+		svg {
+			* {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+.share__item--twitter a  { background: map-get($social, twitter); }
+.share__item--facebook a { background: map-get($social, facebook); }
+.share__item--google a   { background: map-get($social, google); }
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-2) + 1) {
+	.share__item {
+		a {
+			width: 80px;
+			height: 80px;
+
+			svg {
+				width: 26px;
+				height: 26px;
+			}
+		}
+	}
+
+	.share__item:not(:last-child) {
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-2)) {
+	.share__item {
+		a {
+			width: 45px;
+			height: 45px;
+
+			svg {
+				width: 18px;
+				height: 18px;
+			}
+		}
+	}
+
+	.share__item:not(:last-child) {
+		margin-right: 10px;
+	}
+}
