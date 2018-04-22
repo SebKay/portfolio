@@ -123,24 +123,6 @@ $(document).ready(function() {
 
 
 	/*--------------------------------------------
-	---- bxSlider
-	--------------------------------------------*/
-	$(window).on('load', function() {
-		$('.js-slider-name').bxSlider({
-			mode          : 'fade',
-			nextText      : 'Next &rarr;',
-			prevText      : '&larr; Previous',
-			adaptiveHeight: true,
-			touchEnabled  : true,
-			onSliderLoad  : function() {
-				$('.bxslider--loading').removeClass('bxslider--loading');
-			}
-		});
-	});
-
-
-
-	/*--------------------------------------------
 	---- FitVids
 	--------------------------------------------*/
 	$('iframe').wrap('<div class="fitvids-container"></div>');
@@ -161,8 +143,6 @@ $(document).ready(function() {
 			'data-jcf',
 			'{"orientation": "vertical"}'
 		);
-
-		$('.woocommerce-checkout select, .woocommerce-edit-address select').addClass('jcf-ignore');
 
 		jcf.replaceAll();
 
@@ -264,7 +244,4 @@ $(document).ready(function() {
 	$(window).on('load', function() {
 		$('.post-styles table').wrap('<div class="table-wrap"></div>');
 	});
-
-	//---- Remove WooCommerce clearing divs
-	$('.woocommerce-checkout .clear').remove();
 });

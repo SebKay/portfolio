@@ -26,16 +26,6 @@ address { font-style: normal; }
 
 .txt-highlight { color: $ui-color-1; }
 
-.wf-loading {
-	h1, h2, h3, h4, h5, h6,
-	p, li, a,
-	address,
-	cite,
-	tr {
-		visibility: hidden;
-	}
-}
-
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
 	h1, .h1 { @include rem(72px); }
