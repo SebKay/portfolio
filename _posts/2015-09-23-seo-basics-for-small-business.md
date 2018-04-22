@@ -1,10 +1,11 @@
 ---
-layout: post
-title: SEO Basics for Small Business Websites
-excerpt: Getting SEO right is about more than just some well optimised title tags and publishing a blog post once a month. Climbing the search ladder takes time, effort and a lot of patience.
-thumb_url: /assets/img/blog/2015/09/seo-for-small-business.jpg
-date: '2015-09-23 06:00:00'
-categories: seo
+layout     : post
+parent     : blog
+title      : SEO Basics for Small Business Websites
+excerpt    : Getting SEO right is about more than just some well optimised title tags and publishing a blog post once a month. Climbing the search ladder takes time, effort and a lot of patience.
+thumb_url  : /assets/img/blog/2015/09/seo-for-small-business.jpg
+date       : '2015-09-23 06:00:00'
+categories : seo
 ---
 
 Just remember, good SEO takes time to learn. If you don't fully understand a certain technique or area of SEO, please take your time to learn about it. If you don't understand, it's more than likely you'll implement something wrong and it'll, at the very least, not work. The worst case scenario is it'll have the opposite effect and make things worse.

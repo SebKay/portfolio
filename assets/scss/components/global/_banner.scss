@@ -25,7 +25,7 @@
 }
 
 .site-banner__txt {
-	@include rem(24px);
+	@extend .txt-medium;
 	// Type
 	line-height: 24px * 1.25;
 

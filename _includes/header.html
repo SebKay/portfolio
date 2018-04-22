@@ -41,9 +41,10 @@
 						<div class="site-menu">
 							<nav class="site-menu__inner">
 								{% for menu-item in site.data.menu %}
-									{% assign current-menu-item = false; %}
+									{% assign current-menu-item = false %}
+									{% assign menu-item-slug = menu-item.url | remove: '/' %}
 
-									{% if page.url == menu-item.url %}
+									{% if page.url == menu-item.url or page.parent == menu-item-slug %}
 										{% assign current-menu-item = 'active' %}
 									{% endif %}
 									<a class="site-menu__item {{ current-menu-item }}" href="{{ menu-item.url }}">

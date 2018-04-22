@@ -94,6 +94,13 @@
 		"oAP": "\/_includes\/post-preview.html",
 		"oF": 0
 		},
+	"\/_includes\/project-preview.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/project-preview.html",
+		"oF": 0
+		},
 	"\/_layouts\/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -148,6 +155,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/project.html",
+		"oF": 0
+		},
+	"\/_layouts\/services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/services.html",
 		"oF": 0
 		},
 	"\/_layouts\/work.html": {
@@ -561,6 +575,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/seo\/2015\/09\/23\/seo-basics-for-small-business\/index.html",
+		"oF": 0
+		},
+	"\/_site\/services\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/services\/index.html",
 		"oF": 0
 		},
 	"\/_site\/text-template\/index.html": {
@@ -1955,6 +1976,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/scss\/components\/other\/_service.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_service.min.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/scss\/components\/other\/_share.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2152,6 +2186,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services.html",
 		"oF": 0
 		},
 	"\/text-template.html": {

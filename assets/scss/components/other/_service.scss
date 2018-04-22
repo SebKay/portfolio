@@ -1,0 +1,26 @@
+.service {
+	@include flex(flex);
+}
+
+.service__left {
+	@include flex_shrink(0);
+}
+
+.service__right {
+	width: 100%;
+}
+
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.service__right {
+		padding-left: 100px;
+	}
+}
+
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.service__right {
+		padding-left: 80px;
+	}
+}

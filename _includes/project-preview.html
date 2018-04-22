@@ -1,0 +1,62 @@
+{% assign grid_class = false %}
+{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+{% if cycle_type == 'even' %}
+	{% assign grid_class = 'grid--reverse' %}
+{% endif %}
+<div class="grid grid--spaced {{ grid_class }}">
+	<div class="grid__col grid__col--7">
+		<div class="previews previews--float">
+			<div class="preview preview--desktop">
+				<div class="preview__bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="preview__window">
+					<a href="{{ project.url }}">
+						<img src="{{ project.preview_img_desktop_preview_url }}">
+					</a>
+				</div>
+			</div>
+
+			<div class="preview preview--mobile">
+				<div class="preview__bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="preview__window">
+					<a href="{{ project.url }}">
+						<img src="{{ project.preview_img_mobile_preview_url }}">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="grid__col grid__col--5">
+		<h2 class="h4">
+			<a href="{{ project.url }}">
+				{{ project.title }}
+			</a>
+		</h2>
+		<br>
+		<div class="post-styles">
+			<p>
+				{{ project.excerpt }}
+			</p>
+		</div>
+		<br><br>
+		<ul class="icon-list">
+			{% for usp in project.usps %}
+				<li class="icon-list__item icon-list__item--{{ usp.icon }}">
+					{{ usp.title }}
+				</li>
+			{% endfor %}
+		</ul>
+		<br><br>
+		<a class="btn" href="{{ project.url }}">
+			View Case Study
+		</a>
+	</div>
+</div>

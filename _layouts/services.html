@@ -1,0 +1,38 @@
+{% include header.html %}
+
+<section class="section section--small spacing-large">
+	{% for service in site.data.services %}
+		<div class="service">
+			<div class="service__left">
+				<span class="icon icon--large {{ service.icon_class }}"></span>
+			</div>
+
+			<div class="service__right">
+				<h2 class="">
+					{{ service.title }}
+				</h2>
+				<br>
+				<p class="txt-large">
+					{{ service.tagline }}
+				</p>
+				<br>
+				<div class="post-styles">
+					<p>
+						{{ service.content }}
+					</p>
+				</div>
+				<br><br>
+				<a class="btn" href="{{ service.url }}">
+					Get a Quote
+				</a>
+			</div>
+		</div>
+
+		{% if forloop.last != true %}
+			<div class="spacer-bottom spacing-medium-bottom"></div>
+			<div class="spacing-medium-bottom"></div>
+		{% endif %}
+	{% endfor %}
+</section>
+
+{% include footer.html %}

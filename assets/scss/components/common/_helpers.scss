@@ -56,6 +56,23 @@
 	background-size: 48px;
 }
 
+.icon--large {
+	width: 365px;
+	height: 365px;
+
+	&.icon--design {
+		background-size: 108px;
+	}
+
+	&.icon--code {
+		background-size: 123px;
+	}
+
+	&.icon--basket {
+		background-size: 108px;
+	}
+}
+
 //---- Other
 body.lock-scroll {
 	overflow: hidden;

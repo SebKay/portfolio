@@ -55,10 +55,10 @@ $sections-desktop: (
 );
 
 $sections-laptop: (
-	tiny   : 900px,
-	small  : 1100px,
-	medium : 1310px,
-	large  : 1600px,
+	tiny   : 800px,
+	small  : 960px,
+	medium : 1100px,
+	large  : 1310px,
 	max    : 2000px
 );
 
@@ -76,7 +76,7 @@ $spacing-laptop: (
 	tiny   : 45px,
 	small  : 60px,
 	medium : 100px,
-	large  : 150px
+	large  : 100px
 );
 
 $sections-percent: 92%;
