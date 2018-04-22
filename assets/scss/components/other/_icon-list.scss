@@ -7,7 +7,6 @@
 }
 
 .icon-list__item {
-	@include rem(18px);
 	@include flex(flex);
 	@include flex_align_items(center);
 	min-height: 22px;
@@ -35,4 +34,17 @@
 
 .icon-list__item--code {
 	background-image: image-url('icons/code.svg');
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.icon-list__item {
+		@include rem(18px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.icon-list__item {
+		@include rem(16px);
+	}
 }

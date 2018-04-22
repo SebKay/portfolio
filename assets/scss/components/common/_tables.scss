@@ -9,7 +9,6 @@ table {
 
 th,
 td {
-	@include rem(20px);
 	padding: 20px 15px;
 }
 
@@ -21,4 +20,19 @@ th {
 
 td {
 	border-bottom: 2px solid $ui-color-2-2;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	th,
+	td {
+		@include rem(20px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1) ) {
+	th,
+	td {
+		@include rem(18px);
+	}
 }
