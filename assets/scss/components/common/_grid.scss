@@ -3,10 +3,6 @@
 	@include flex_wrap(wrap);
 }
 
-.grid--reverse {
-	@include flex_direction(row-reverse);
-}
-
 @for $i from 1 through $grid-columns {
 	.grid__col--#{$i} {
 		width: (100% / $grid-columns * $i);
@@ -47,6 +43,12 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.grid--reverse {
+		@include flex_direction(row-reverse);
+	}
+}
+
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.grid--tb2--1 {
 		.grid__col.grid__col {

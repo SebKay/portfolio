@@ -9,10 +9,8 @@
 .icon-list__item {
 	@include flex(flex);
 	@include flex_align_items(center);
-	min-height: 22px;
 	list-style: none;
 	background-repeat: no-repeat;
-	background-size: 22px;
 	background-position: 0 50%;
 	// Type
 	font-weight: map-get(map-get($fonts, 2), semibold);
@@ -43,8 +41,23 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.icon-list__item {
 		@include rem(16px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.icon-list__item {
+		min-height: 22px;
+		background-size: 22px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.icon-list__item {
+		@include rem(14px);
+		min-height: 18px;
+		background-size: 18px;
 	}
 }
