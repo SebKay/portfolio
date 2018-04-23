@@ -45,3 +45,17 @@
 		}
 	}
 }
+
+//---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.grid--tb2--1 {
+		.grid__col.grid__col {
+			width: 100%;
+			margin-right: 0;
+		}
+
+		.grid__col + .grid__col {
+			margin-top: 30px;
+		}
+	}
+}
