@@ -5,9 +5,6 @@
 	}
 
 	.site-banner__img {
-		@include flex_shrink(0);
-		margin-right: 80px;
-
 		img {
 			@extend .img-full;
 		}
@@ -17,5 +14,46 @@
 		max-width: none;
 		// Type
 		text-align: left;
+	}
+}
+
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.page-home {
+		.site-banner__img {
+			@include flex_shrink(0);
+			margin-right: 80px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.page-home {
+		.site-banner__img {
+			width: 33.33%;
+			margin-right: 60px;
+		}
+
+		.site-banner__content {
+			width: 66.66%;
+		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.page-home {
+		.site-banner__inner {
+			@include flex_direction(column);
+		}
+
+		.site-banner__img {
+			@include flex_order(2);
+			margin-top: 30px;
+		}
 	}
 }

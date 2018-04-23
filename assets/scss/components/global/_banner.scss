@@ -18,32 +18,80 @@
 	// Type
 	font-weight: map-get(map-get($fonts, 2), medium);
 	color: $ui-color-2-3;
-
-	* + & {
-		margin-top: 30px;
-	}
 }
 
 .site-banner__txt {
 	@extend .txt-medium;
 	// Type
 	line-height: 24px * 1.25;
-
-	* + & {
-		margin-top: 20px;
-	}
-}
-
-* + .site-banner__actions {
-	margin-top: 40px;
 }
 
 .site-banner__actions {
 	@include flex(inline-flex);
+}
 
-	.btn {
-		&:not(:last-child) {
-			margin-right: 20px;
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.site-banner__subtitle {
+		* + & {
+			margin-top: 30px;
+		}
+	}
+
+	.site-banner__txt {
+		* + & {
+			margin-top: 20px;
+		}
+	}
+
+	* + .site-banner__actions {
+		margin-top: 40px;
+	}
+
+	.site-banner__actions {
+		.btn {
+			&:not(:last-child) {
+				margin-right: 20px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.site-banner__subtitle {
+		* + & {
+			margin-top: 20px;
+		}
+	}
+
+	.site-banner__txt {
+		* + & {
+			margin-top: 10px;
+		}
+	}
+
+	* + .site-banner__actions {
+		margin-top: 30px;
+	}
+
+	.site-banner__actions {
+		@include flex_direction(column);
+		width: 100%;
+
+		.btn {
+			width: 100%;
+
+			&:last-child {
+				margin-top: 10px;
+			}
 		}
 	}
 }
