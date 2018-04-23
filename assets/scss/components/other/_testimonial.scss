@@ -30,7 +30,6 @@
 
 			img {
 				width: 55px;
-				margin-right: 20px;
 				border-radius: 1000px;
 			}
 
@@ -63,7 +62,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-1) + 1) {
 	.testimonial__inner {
 		blockquote {
 			p {
@@ -77,6 +76,65 @@
 
 				span {
 					@include rem(20px);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.testimonial__inner {
+		max-width: 620px;
+
+		blockquote {
+			p {
+				@include rem(22px);
+				// Type
+				line-height: 22px * 1.3;
+			}
+
+			cite {
+				margin-top: 30px;
+
+				span {
+					@include rem(18px);
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.testimonial {
+		blockquote {
+			cite {
+				img {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.testimonial__inner {
+		blockquote {
+			p {
+				@include rem(20px);
+				// Type
+				line-height: 20px * 1.3;
+			}
+
+			cite {
+				@include flex_direction(column);
+				margin-top: 30px;
+
+				img {
+					margin-bottom: 15px;
+				}
+
+				span {
+					@include rem(16px);
 				}
 			}
 		}
