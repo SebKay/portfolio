@@ -8,8 +8,6 @@
 	@include rem(22px);
 	@include flex(flex);
 	@include flex_align_items(center);
-	min-height: 100px;
-	padding: 30px;
 	position: relative;
 	cursor: pointer;
 	background: $ui-color-2-2;
@@ -18,11 +16,7 @@
 }
 
 .accordion__opener {
-	width: 40px;
-	height: 40px;
 	position: absolute;
-	top: 30px;
-	right: 30px;
 	background: #fff;
 
 	&:before,
@@ -34,17 +28,6 @@
 
 	&:before {
 		@include transition(opacity ease $transition-speed);
-		width: 4px;
-		height: 20px;
-		top: 10px;
-		left: 18px;
-	}
-
-	&:after {
-		width: 20px;
-		height: 4px;
-		top: 18px;
-		left: 10px;
 	}
 }
 
@@ -53,9 +36,74 @@
 }
 
 .accordion__content {
-	padding: 0 30px 30px;
 	display: none;
 	background: $ui-color-2-2;
 	@extend .post-styles;
 }
 
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.accordion__heading {
+		@include rem(22px);
+		min-height: 100px;
+		padding: 30px;
+	}
+
+	.accordion__opener {
+		width: 40px;
+		height: 40px;
+		top: 30px;
+		right: 30px;
+
+		&:before {
+			width: 4px;
+			height: 20px;
+			top: 10px;
+			left: 18px;
+		}
+
+		&:after {
+			width: 20px;
+			height: 4px;
+			top: 18px;
+			left: 10px;
+		}
+	}
+
+	.accordion__content {
+		padding: 0 30px 30px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.accordion__heading {
+		@include rem(18px);
+		min-height: 70px;
+		padding: 20px 70px 20px 20px;
+	}
+
+	.accordion__opener {
+		width: 30px;
+		height: 30px;
+		top: 20px;
+		right: 20px;
+
+		&:before {
+			width: 4px;
+			height: 16px;
+			top: 7px;
+			left: 13px;
+		}
+
+		&:after {
+			width: 16px;
+			height: 4px;
+			top: 13px;
+			left: 7px;
+		}
+	}
+
+	.accordion__content {
+		padding: 0 20px 20px;
+	}
+}

@@ -283,13 +283,15 @@
 			}
 		}
 
-		.grid__col {
-			width: 100%;
-			margin-right: 0 !important;
-		}
+		.grid {
+			.grid__col {
+				width: 100%;
+				margin-right: 0 !important;
+			}
 
-		.grid__col + .grid__col {
-			margin-top: 30px;
+			.grid__col + .grid__col {
+				margin-top: 30px;
+			}
 		}
 	}
 }
