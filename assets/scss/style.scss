@@ -80,7 +80,6 @@ body {
 
 hr {
 	height: 1px;
-	margin: 100px 0;
 	display: block;
 	clear: both;
 	background: #ccc;
@@ -102,4 +101,23 @@ svg {
 	height: auto;
 	display: block;
 	overflow: visible;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	hr {
+		margin: 100px 0;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	hr {
+		margin: 75px 0;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	hr {
+		margin: 40px 0;
+	}
 }

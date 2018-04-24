@@ -6,10 +6,6 @@
 		// Type
 		line-height: 22px * 1.5;
 	}
-
-	p + p {
-		margin-top: 30px;
-	}
 }
 
 .post-styles {
@@ -230,7 +226,21 @@
 	}
 }
 
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.post-intro {
+		p + p {
+			margin-top: 30px;
+		}
+	}
+}
+
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.post-intro {
+		p + p {
+			margin-top: 20px;
+		}
+	}
+
 	.post-styles {
 		* + p,
 		p + * {
