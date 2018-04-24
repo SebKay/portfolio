@@ -10,7 +10,6 @@
 	width: 100%;
 }
 
-
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
 	.service__right {
@@ -19,8 +18,20 @@
 }
 
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.service__right {
 		padding-left: 80px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.service {
+		@include flex_direction(column);
+		// Type
+		text-align: center;
+	}
+
+	.service__left {
+		padding-bottom: 25px;
 	}
 }

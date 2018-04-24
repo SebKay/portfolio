@@ -44,6 +44,14 @@
 	}
 }
 
+.previews--float {
+	.preview--mobile {
+		position: absolute;
+		bottom: -40px;
+		right: 0;
+	}
+}
+
 .previews--grid {
 	@include flex(flex);
 	@include flex_wrap(wrap);

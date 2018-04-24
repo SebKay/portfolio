@@ -51,23 +51,6 @@
 	background-image: image-url('icons/basket-white.svg');
 }
 
-.icon--large.icon--large {
-	width: 365px;
-	height: 365px;
-
-	&.icon--design {
-		background-size: 108px;
-	}
-
-	&.icon--code {
-		background-size: 123px;
-	}
-
-	&.icon--basket {
-		background-size: 108px;
-	}
-}
-
 //---- Other
 body.lock-scroll {
 	overflow: hidden;
@@ -136,6 +119,25 @@ body.lock-scroll {
 	}
 }
 
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.icon--large.icon--large {
+		width: 365px;
+		height: 365px;
+
+		&.icon--design {
+			background-size: 108px;
+		}
+
+		&.icon--code {
+			background-size: 123px;
+		}
+
+		&.icon--basket {
+			background-size: 108px;
+		}
+	}
+}
+
 @media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	//---- Spacing
 	@each $spacing-name, $amount in $spacing-tb1 {
@@ -150,6 +152,24 @@ body.lock-scroll {
 
 		.spacing-#{$spacing-name}-bottom {
 			padding-bottom: $amount;
+		}
+	}
+
+	//---- Icons
+	.icon--large.icon--large {
+		width: 260px;
+		height: 260px;
+
+		&.icon--design {
+			background-size: 88px;
+		}
+
+		&.icon--code {
+			background-size: 103px;
+		}
+
+		&.icon--basket {
+			background-size: 88px;
 		}
 	}
 }
