@@ -1,25 +1,25 @@
 {% include header.html %}
 
 <section class="section section--small spacing-large">
-	<form class="form form--contact" name="contact" method="POST" netlify>
+	<form class="form form--contact js-form-validate" name="contact" method="POST" action="/contact/success" netlify>
 		<div class="form__inner">
 			<div class="form__item">
 				<label class="form__label">
-					Name
+					Name <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="text" name="name">
+				<input class="form__field" type="text" name="name" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
-					Email
+					Email <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="email" name="email">
+				<input class="form__field" type="email" name="email" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
-					Subject
+					Subject <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="text" name="subject">
+				<input class="form__field" type="text" name="subject" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
@@ -27,17 +27,17 @@
 				</label>
 				<select class="form__item">
 					<option>£500 - £1,500</option>
-					<option>1,500 - £3,000</option>
-					<option>3,000 - £5,000</option>
-					<option>5,000 - £10,000</option>
+					<option>£1,500 - £3,000</option>
+					<option>£3,000 - £5,000</option>
+					<option>£5,000 - £10,000</option>
 					<option>£10,000+</option>
 				</select>
 			</div>
 			<div class="form__item form__item--full">
 				<label class="form__label">
-					How Can I Help?
+					How Can I Help? <span class="form__req">*</span>
 				</label>
-				<textarea class="form__field" name="message"></textarea>
+				<textarea class="form__field" name="message" required></textarea>
 			</div>
 			<div class="form__action">
 				<button>

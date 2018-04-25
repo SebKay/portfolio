@@ -1,4 +1,4 @@
-			{% if page.layout != 'post' and page.layout != 'category' %}
+			{% if page.layout != 'post' and page.layout != 'category' and  page.title != 'Contact' and page.title != 'Success' %}
 				<section class="testimonial">
 					<div class="testimonial__inner">
 						<blockquote>
@@ -14,17 +14,19 @@
 				</section>
 			{% endif %}
 
-			<section class="section section--large spacing-large txt-center spacer-top">
-				<h2>
-					Let's Work Together
-				</h2>
+			{% if page.title != 'Contact' and page.title != 'Success' %}
+				<section class="section section--large spacing-large txt-center spacer-top">
+					<h2>
+						Let's Work Together
+					</h2>
 
-				<br><br>
+					<br><br>
 
-				<a class="btn" href="/work/">
-					View My Work
-				</a>
-			</section>
+					<a class="btn" href="/work/">
+						View My Work
+					</a>
+				</section>
+			{% endif %}
 
 			<footer class="site-footer">
 				<div class="site-footer__section site-footer__section--txt">

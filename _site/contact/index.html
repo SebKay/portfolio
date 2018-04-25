@@ -110,25 +110,25 @@
 
 
 <section class="section section--small spacing-large">
-	<form class="form form--contact" name="contact" method="POST" netlify>
+	<form class="form form--contact js-form-validate" name="contact" method="POST" action="/contact/success" netlify>
 		<div class="form__inner">
 			<div class="form__item">
 				<label class="form__label">
-					Name
+					Name <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="text" name="name">
+				<input class="form__field" type="text" name="name" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
-					Email
+					Email <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="email" name="email">
+				<input class="form__field" type="email" name="email" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
-					Subject
+					Subject <span class="form__req">*</span>
 				</label>
-				<input class="form__field" type="text" name="subject">
+				<input class="form__field" type="text" name="subject" required>
 			</div>
 			<div class="form__item">
 				<label class="form__label">
@@ -136,17 +136,17 @@
 				</label>
 				<select class="form__item">
 					<option>£500 - £1,500</option>
-					<option>1,500 - £3,000</option>
-					<option>3,000 - £5,000</option>
-					<option>5,000 - £10,000</option>
+					<option>£1,500 - £3,000</option>
+					<option>£3,000 - £5,000</option>
+					<option>£5,000 - £10,000</option>
 					<option>£10,000+</option>
 				</select>
 			</div>
 			<div class="form__item form__item--full">
 				<label class="form__label">
-					How Can I Help?
+					How Can I Help? <span class="form__req">*</span>
 				</label>
-				<textarea class="form__field" name="message"></textarea>
+				<textarea class="form__field" name="message" required></textarea>
 			</div>
 			<div class="form__action">
 				<button>
@@ -158,32 +158,8 @@
 </section>
 
 			
-				<section class="testimonial">
-					<div class="testimonial__inner">
-						<blockquote>
-							<p>Phasellus eu lacinia ligula. In sodales gravida pulvinar. In semper euismod erat, vitae aliquam leo dignissim id. Fusce id maximus augue. Quisque tempor molestie erat. Ut dapibus ante ex, in mattis mauris molestie nec. Ut in urna erat.</p>
-							<cite>
-								<img src="/assets/img/testimonials/chris-fenwick-@1x.jpg" srcset="/assets/img/testimonials/chris-fenwick-@1x.jpg 1x, /assets/img/testimonials/chris-fenwick-@2x.jpg 2x">
-								<span>
-									Chris Fenwick - Owner of Fenwick Studio
-								</span>
-							</cite>
-						</blockquote>
-					</div>
-				</section>
+
 			
-
-			<section class="section section--large spacing-large txt-center spacer-top">
-				<h2>
-					Let's Work Together
-				</h2>
-
-				<br><br>
-
-				<a class="btn" href="/work/">
-					View My Work
-				</a>
-			</section>
 
 			<footer class="site-footer">
 				<div class="site-footer__section site-footer__section--txt">
