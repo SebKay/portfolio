@@ -1,5 +1,6 @@
 ---
 layout     : post
+comments   : true
 parent     : blog
 title      : SEO Basics for Small Business Websites
 excerpt    : Getting SEO right is about more than just some well optimised title tags and publishing a blog post once a month. Climbing the search ladder takes time, effort and a lot of patience.

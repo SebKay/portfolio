@@ -1,5 +1,6 @@
 ---
 layout     : post
+comments   : true
 parent     : blog
 title      : Beating Procrastination as a Freelancer
 excerpt    : There are a few things that get in the way of successfully freelancing, but the biggest one is procrastination.
