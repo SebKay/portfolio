@@ -52,18 +52,6 @@ label {
 	@include flex_wrap(wrap);
 }
 
-.form__item:not(.form__field--full) {
-	@include calc_grid_col(6);
-
-	&:nth-child(2n) {
-		margin-left: auto;
-	}
-
-	&:nth-child(1n+3) {
-		margin-top: 40px;
-	}
-}
-
 .form__item--full.form__item--full {
 	width: 100%;
 }
@@ -82,4 +70,39 @@ label {
 	margin-top: 40px;
 	// Type
 	text-align: center;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.form__label {
+		@include rem(16px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.form__item:not(.form__field--full) {
+		@include calc_grid_col(6);
+
+		&:nth-child(2n) {
+			margin-left: auto;
+		}
+
+		&:nth-child(1n+3) {
+			margin-top: 40px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.form__label {
+		@include rem(14px);
+	}
+
+	.form__item:not(.form__field--full) {
+		width: 100%;
+
+		&:nth-child(1n+2) {
+			margin-top: 20px;
+		}
+	}
 }
