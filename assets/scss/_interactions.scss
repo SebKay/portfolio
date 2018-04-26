@@ -1,4 +1,23 @@
 .no-touch {
+	@include form_inputs {
+		&:hover,
+		&:focus {
+			border-color: $ui-color-2-7;
+			background: #fff;
+		}
+	}
+
+	.jcf-select:not(.jcf-drop-active):hover .jcf-select-text {
+		border-color: $ui-color-2-7;
+		background: #fff;
+	}
+
+	.jcf-option:hover {
+		background: $ui-color-2-12;
+		// Type
+		color: $ui-color-2;
+	}
+
 	.jcf-checkbox,
 	.jcf-checkbox input,
 	.jcf-radio,
@@ -6,5 +25,41 @@
 		&:hover {
 			cursor: pointer;
 		}
+	}
+
+	.site-logo .site-logo__txt:hover,
+	.project-title:hover,
+	.blog-preview__thumb a:hover,
+	.blog-preview__title a:hover,
+	.blog-preview__meta a:hover,
+	.share__item:hover {
+		opacity: 0.6;
+	}
+
+	.site-menu__item:hover {
+		// Type
+		color: $ui-color-1;
+	}
+
+	.btn:not(.btn--ghost):not(.pagination__item--disabled):hover {
+		border-color: $ui-color-2;
+		background: $ui-color-2;
+	}
+
+	.btn--ghost:hover {
+		border-color: $ui-color-2;
+		// Type
+		color: $ui-color-2;
+	}
+
+	.site-footer-menu__item:hover {
+		// Type
+		color: $ui-color-2;
+	}
+
+	.post-styles a:not([class*="btn"]):hover {
+		border-color: $ui-color-2;
+		// Type
+		color: $ui-color-2;
 	}
 }

@@ -1,4 +1,8 @@
 .blog-preview__thumb {
+	a {
+		display: block;
+	}
+
 	img {
 		@extend .img-full;
 	}

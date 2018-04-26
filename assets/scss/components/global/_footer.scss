@@ -30,6 +30,11 @@
 	}
 }
 
+.site-footer-menu__item.active {
+	// Type
+	color: $ui-color-2;
+}
+
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
 	.site-footer__section--txt p,

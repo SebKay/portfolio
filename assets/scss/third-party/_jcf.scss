@@ -94,6 +94,12 @@
 	font-weight: bold;
 }
 
+.jcf-option.jcf-selected {
+	background: $ui-color-2-12;
+	// Type
+	color: $ui-color-2;
+}
+
 // Active
 .jcf-drop-active {
 	.jcf-select-opener .jcf-icon {

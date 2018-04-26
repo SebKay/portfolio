@@ -41,7 +41,7 @@
 						<div class="site-menu">
 							<nav class="site-menu__inner">
 								{% for menu-item in site.data.menu %}
-									{% assign current-menu-item = false %}
+									{% assign current-menu-item = null %}
 									{% assign menu-item-slug = menu-item.url | remove: '/' %}
 
 									{% if page.url == menu-item.url or page.parent == menu-item-slug %}
