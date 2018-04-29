@@ -1,10 +1,13 @@
+# Settings
+encoding: UTF-8
+
 # Dependencies
 markdown:         rdiscount
 highlighter:         true
 plugins: [jekyll-paginate]
 
 # Permalinks
-permalink:        pretty
+permalink:        none
 
 # Server
 baseurl:          /

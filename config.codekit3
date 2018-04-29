@@ -214,19 +214,308 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_site\/404\/index.html": {
+	"\/_site\/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/404\/index.html",
+		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/about\/index.html": {
+	"\/_site\/about.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
+		"oAP": "\/_site\/about.html",
 		"oF": 0
+		},
+	"\/_site\/assets\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/img\/bg-pattern.gif": {
+		"ft": 4194304,
+		"iS": 3002,
+		"oA": 1,
+		"oAP": "\/assets\/img\/bg-pattern.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/assets\/img\/blog\/2015\/09\/procrastination-tips.jpg": {
+		"ft": 16384,
+		"iS": 71187,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/procrastination-tips.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/blog\/2015\/09\/seo-for-small-business.jpg": {
+		"ft": 16384,
+		"iS": 53174,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/seo-for-small-business.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/basket-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/basket-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/caret-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/caret-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/caret-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/caret-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/code-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/design-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/design-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/design.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/design.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/map-marker.png": {
+		"ft": 32768,
+		"iS": 1881,
+		"oA": 1,
+		"oAP": "\/assets\/img\/map-marker.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/icons\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
+		"ft": 16384,
+		"iS": 2489,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-full.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 1873,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg": {
+		"ft": 16384,
+		"iS": 663,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 1492,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 2295,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+		"ft": 16384,
+		"iS": 764,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
+		"ft": 16384,
+		"iS": 939,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
+		"ft": 16384,
+		"iS": 2787,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
@@ -242,25 +531,25 @@
 		"oAP": "\/_site\/blog\/page2\/index.html",
 		"oF": 0
 		},
-	"\/_site\/categories\/index.html": {
+	"\/_site\/categories.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/categories\/index.html",
+		"oAP": "\/_site\/categories.html",
 		"oF": 0
 		},
-	"\/_site\/category\/productivity\/index.html": {
+	"\/_site\/category\/productivity.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/productivity\/index.html",
+		"oAP": "\/_site\/category\/productivity.html",
 		"oF": 0
 		},
-	"\/_site\/category\/seo\/index.html": {
+	"\/_site\/category\/seo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/seo\/index.html",
+		"oAP": "\/_site\/category\/seo.html",
 		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
@@ -270,11 +559,25 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
-	"\/_site\/contact\/success\/index.html": {
+	"\/_site\/contact\/success.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/contact\/success\/index.html",
+		"oAP": "\/_site\/contact\/success.html",
+		"oF": 0
+		},
+	"\/_site\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
 	"\/_site\/index.html": {
@@ -284,39 +587,39 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
-	"\/_site\/productivity\/2015\/09\/07\/procrastination-as-a-freelancer\/index.html": {
+	"\/_site\/productivity\/procrastination-as-a-freelancer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/productivity\/2015\/09\/07\/procrastination-as-a-freelancer\/index.html",
+		"oAP": "\/_site\/productivity\/procrastination-as-a-freelancer.html",
 		"oF": 0
 		},
-	"\/_site\/seo\/2015\/09\/23\/seo-basics-for-small-business\/index.html": {
+	"\/_site\/seo\/seo-basics-for-small-business.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/seo\/2015\/09\/23\/seo-basics-for-small-business\/index.html",
+		"oAP": "\/_site\/seo\/seo-basics-for-small-business.html",
 		"oF": 0
 		},
-	"\/_site\/services\/index.html": {
+	"\/_site\/services.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/services\/index.html",
+		"oAP": "\/_site\/services.html",
 		"oF": 0
 		},
-	"\/_site\/text-template\/index.html": {
+	"\/_site\/text-template.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/text-template\/index.html",
+		"oAP": "\/_site\/text-template.html",
 		"oF": 0
 		},
-	"\/_site\/work\/47-farms\/index.html": {
+	"\/_site\/work\/47-farms.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/47-farms\/index.html",
+		"oAP": "\/_site\/work\/47-farms.html",
 		"oF": 0
 		},
 	"\/_site\/work\/index.html": {
