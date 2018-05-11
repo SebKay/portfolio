@@ -178,41 +178,12 @@
 		"oAP": "\/_layouts\/work.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-09-07-procrastination-as-a-freelancer.md": {
+	"\/_posts\/2014-09-05-how-to-hire-a-web-designer.html": {
 		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_posts\/2015-09-07-procrastination-as-a-freelancer.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/_posts\/2015-09-23-seo-basics-for-small-business.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_posts\/2015-09-23-seo-basics-for-small-business.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_posts\/2014-09-05-how-to-hire-a-web-designer.html",
+		"oF": 0
 		},
 	"\/_site\/404.html": {
 		"cB": 0,
@@ -245,6 +216,39 @@
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/assets\/img\/blog\/2014\/09\/book-with-people.png": {
+		"ft": 32768,
+		"iS": 244663,
+		"oA": 1,
+		"oAP": "\/assets\/img\/book-with-people.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/blog\/2014\/09\/client-design-packages.png": {
+		"ft": 32768,
+		"iS": 149371,
+		"oA": 1,
+		"oAP": "\/assets\/img\/client-design-packages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/blog\/2014\/09\/hiring-web-designer-makes-money.png": {
+		"ft": 32768,
+		"iS": 154391,
+		"oA": 1,
+		"oAP": "\/assets\/img\/hiring-web-designer-makes-money.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
 		},
 	"\/_site\/assets\/img\/blog\/2015\/09\/procrastination-tips.jpg": {
 		"ft": 16384,
@@ -524,18 +528,18 @@
 		"oAP": "\/_site\/blog\/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/page2\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blog\/page2\/index.html",
-		"oF": 0
-		},
 	"\/_site\/categories.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/categories.html",
+		"oF": 0
+		},
+	"\/_site\/category\/freelancing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/category\/freelancing.html",
 		"oF": 0
 		},
 	"\/_site\/category\/productivity.html": {
@@ -566,6 +570,13 @@
 		"oAP": "\/_site\/contact\/success.html",
 		"oF": 0
 		},
+	"\/_site\/freelancing\/how-to-hire-a-web-designer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/freelancing\/how-to-hire-a-web-designer.html",
+		"oF": 0
+		},
 	"\/_site\/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
@@ -585,20 +596,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/productivity\/procrastination-as-a-freelancer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/productivity\/procrastination-as-a-freelancer.html",
-		"oF": 0
-		},
-	"\/_site\/seo\/seo-basics-for-small-business.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/seo\/seo-basics-for-small-business.html",
 		"oF": 0
 		},
 	"\/_site\/services.html": {
@@ -1227,6 +1224,39 @@
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/assets\/img\/blog\/2014\/09\/book-with-people.png": {
+		"ft": 32768,
+		"iS": 244663,
+		"oA": 1,
+		"oAP": "\/assets\/img\/book-with-people.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/blog\/2014\/09\/client-design-packages.png": {
+		"ft": 32768,
+		"iS": 149371,
+		"oA": 1,
+		"oAP": "\/assets\/img\/client-design-packages.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/blog\/2014\/09\/hiring-web-designer-makes-money.png": {
+		"ft": 32768,
+		"iS": 154391,
+		"oA": 1,
+		"oAP": "\/assets\/img\/hiring-web-designer-makes-money.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
 		},
 	"\/assets\/img\/blog\/2015\/09\/procrastination-tips.jpg": {
 		"ft": 16384,
@@ -2106,6 +2136,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/categories.html",
+		"oF": 0
+		},
+	"\/category\/freelancing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category\/freelancing.html",
 		"oF": 0
 		},
 	"\/category\/productivity.html": {

@@ -12,7 +12,7 @@
 		</h2>
 		<p class="blog-preview__meta">
 			{% for category in post.categories %}
-				<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category }}</a>
+				<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 			{% endfor %}
 
 			<span class="blog-preview__meta-sep">/</span>
