@@ -156,11 +156,6 @@
 			margin-top: 50px;
 		}
 
-		hr {
-			margin-top: 80px;
-			margin-bottom: 80px;
-		}
-
 		blockquote {
 			p {
 				@include rem(28px);
@@ -209,11 +204,6 @@
 		* + .icon-list,
 		.icon-list + * {
 			margin-top: 40px;
-		}
-
-		hr {
-			margin-top: 60px;
-			margin-bottom: 60px;
 		}
 
 		blockquote {
@@ -278,11 +268,6 @@
 		* + .icon-list,
 		.icon-list + * {
 			margin-top: 30px;
-		}
-
-		hr {
-			margin-top: 40px;
-			margin-bottom: 40px;
 		}
 
 		blockquote {

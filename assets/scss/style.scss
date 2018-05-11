@@ -105,20 +105,30 @@ svg {
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
-	hr {
-		margin: 100px 0;
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	hr,
+	.post-styles hr {
+		margin: map-get($spacing-desktop, medium) 0;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	hr,
+	.post-styles hr {
+		margin: map-get($spacing-laptop, medium) 0;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	hr {
-		margin: 75px 0;
+	hr,
+	.post-styles hr {
+		margin: map-get($spacing-tb1, medium) 0;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	hr {
-		margin: 40px 0;
+	hr,
+	.post-styles hr {
+		margin: map-get($spacing-mobile, medium) 0;
 	}
 }
