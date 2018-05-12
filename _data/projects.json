@@ -38,9 +38,31 @@
 			"icon":"design"
 		},
 		{
-			"title":"Web Development",
+			"title":"WordPress Development",
 			"icon":"code"
 		}],
 		"url":"/work/inspirational-pixels/"
+	},
+	{
+		"title":"Temple Beth Emunah",
+		"excerpt": "TBE is a warm and welcoming synagogue based in Massachusetts. They are home to many interfaith couples, multi-racial families, gay/lesbian congregants and pride themselves on being a pillar of the local community.",
+		"preview_img_desktop_preview_url" : "https://placehold.it/730x430",
+		"preview_img_mobile_preview_url"  : "https://placehold.it/245x350",
+		"preview_img_desktop_url"         : "https://placehold.it/1090x700",
+		"preview_img_tablet_url"          : "https://placehold.it/705x500",
+		"preview_img_mobile_url"          : "https://placehold.it/302x500",
+		"usps" : [{
+			"title":"Logo Design",
+			"icon":"pencil"
+		},
+		{
+			"title":"Web Design",
+			"icon":"design"
+		},
+		{
+			"title":"WordPress Development",
+			"icon":"code"
+		}],
+		"url":"/work/temple-beth-emunah/"
 	}
 ]

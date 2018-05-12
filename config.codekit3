@@ -1992,6 +1992,17 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-freebies.png": {
+		"ft": 32768,
+		"iS": 129646,
+		"oA": 1,
+		"oAP": "\/assets\/img\/inspirational-pixels-freebies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-snippets-tabs.png": {
 		"ft": 32768,
 		"iS": 15093,
@@ -2021,6 +2032,47 @@
 		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
+		"ft": 16384,
+		"iS": 46667,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-calendar-widget.jpg": {
+		"ft": 16384,
+		"iS": 42178,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-calendar-widget.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-menu-animation.gif": {
+		"ft": 4194304,
+		"iS": 470612,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-menu-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-page-sidebar-menu.jpg": {
+		"ft": 16384,
+		"iS": 32729,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-page-sidebar-menu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
@@ -2293,6 +2345,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/work\/inspirational-pixels.html",
+		"oF": 0
+		},
+	"\/_site\/work\/temple-beth-emunah.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/temple-beth-emunah.html",
 		"oF": 0
 		},
 	"\/about.html": {
@@ -4577,6 +4636,47 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
+		"ft": 16384,
+		"iS": 46667,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/temple-beth-emunah\/tbe-calendar-widget.jpg": {
+		"ft": 16384,
+		"iS": 42178,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-calendar-widget.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/temple-beth-emunah\/tbe-menu-animation.gif": {
+		"ft": 4194304,
+		"iS": 470612,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-menu-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/projects\/temple-beth-emunah\/tbe-page-sidebar-menu.jpg": {
+		"ft": 16384,
+		"iS": 32729,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-page-sidebar-menu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
 		"iS": 2502,
@@ -5338,6 +5438,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/work\/inspirational-pixels.html",
+		"oF": 0
+		},
+	"\/work\/temple-beth-emunah.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work\/temple-beth-emunah.html",
 		"oF": 0
 		}
 	},
