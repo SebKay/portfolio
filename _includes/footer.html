@@ -1,12 +1,18 @@
-			{% if page.layout != 'post' and page.layout != 'category' and  page.title != 'Contact' and page.title != 'Success' and page.layout != 'project' %}
+			{% if page.layout != 'post' and page.layout != 'category' and  page.title != 'Contact' and page.title != 'Success' %}
+				{% if page.quote_id %}
+					{% assign quote_id = page.quote_id %}
+				{% else %}
+					{% assign quote_id = 1 %}
+				{% endif %}
+
 				<section class="testimonial">
 					<div class="testimonial__inner">
 						<blockquote>
-							<p>{{ site.data.testimonials[0].quote }}</p>
+							<p>{{ site.data.testimonials[quote_id].quote }}</p>
 							<cite>
-								<img src="{{ site.data.testimonials[0].img_1x_url }}" srcset="{{ site.data.testimonials[0].img_1x_url }} 1x, {{ site.data.testimonials[0].img_2x_url }} 2x">
+								<img src="{{ site.data.testimonials[quote_id].img_1x_url }}" srcset="{{ site.data.testimonials[quote_id].img_1x_url }} 1x, {{ site.data.testimonials[quote_id].img_2x_url }} 2x">
 								<span>
-									{{ site.data.testimonials[0].by }}
+									{{ site.data.testimonials[quote_id].by }}
 								</span>
 							</cite>
 						</blockquote>

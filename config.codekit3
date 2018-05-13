@@ -2118,6 +2118,28 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber-@1x.jpg": {
+		"ft": 16384,
+		"iS": 1836,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
+		"ft": 16384,
+		"iS": 4106,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
 		"iS": 939,
@@ -4767,6 +4789,28 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tbe-page-sidebar-menu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/adam-feber-@1x.jpg": {
+		"ft": 16384,
+		"iS": 1836,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
+		"ft": 16384,
+		"iS": 7089,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
