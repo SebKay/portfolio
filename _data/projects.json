@@ -65,11 +65,11 @@
 	{
 		"title":"Inspirational Pixels",
 		"excerpt": "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
-		"preview_img_desktop_preview_url" : "https://placehold.it/730x430",
-		"preview_img_mobile_preview_url"  : "https://placehold.it/245x350",
-		"preview_img_desktop_url"         : "https://placehold.it/1090x700",
-		"preview_img_tablet_url"          : "https://placehold.it/705x500",
-		"preview_img_mobile_url"          : "https://placehold.it/302x500",
+		"preview_img_desktop_preview_url" : "/assets/img/projects/inspirational-pixels/desktop-preview-@2x.jpg",
+		"preview_img_mobile_preview_url"  : "/assets/img/projects/inspirational-pixels/mobile-preview-@2x.jpg",
+		"preview_img_desktop_url"         : "/assets/img/projects/inspirational-pixels/desktop-@2x.jpg",
+		"preview_img_tablet_url"          : "/assets/img/projects/inspirational-pixels/tablet-@2x.jpg",
+		"preview_img_mobile_url"          : "/assets/img/projects/inspirational-pixels/mobile-@2x.jpg",
 		"usps" : [{
 			"title":"Logo Design",
 			"icon":"pencil"

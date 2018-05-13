@@ -2025,12 +2025,23 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 2295,
+		"iS": 537485,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/desktop.jpg",
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 292007,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2058,12 +2069,12 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 764,
+		"iS": 163521,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/mobile.jpg",
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2076,6 +2087,17 @@
 		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 178578,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
 		"ft": 16384,
@@ -3020,7 +3042,7 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3562,
+		"iS": 3554,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -4615,7 +4637,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
-		"iS": 3005,
+		"iS": 2489,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
@@ -4626,7 +4648,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 2295,
+		"iS": 1873,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -4637,7 +4659,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
-		"iS": 764,
+		"iS": 663,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
@@ -4648,7 +4670,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/tablet.jpg": {
 		"ft": 16384,
-		"iS": 1785,
+		"iS": 1492,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
@@ -4701,12 +4723,23 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 2295,
+		"iS": 537485,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/desktop.jpg",
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 292007,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4734,12 +4767,23 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 764,
+		"iS": 163521,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/mobile.jpg",
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 107400,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4752,6 +4796,17 @@
 		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 131980,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
 		"ft": 16384,
@@ -4818,7 +4873,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
-		"iS": 2502,
+		"iS": 939,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
@@ -4829,7 +4884,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 7917,
+		"iS": 2787,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
