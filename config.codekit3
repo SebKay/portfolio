@@ -1981,6 +1981,50 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-benefits-icons.png": {
+		"ft": 32768,
+		"iS": 5541,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-benefits-icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-customer.png": {
+		"ft": 32768,
+		"iS": 29774,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-customer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-sign-up.png": {
+		"ft": 32768,
+		"iS": 9411,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-sign-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/charigify-responsive-menu.png": {
+		"ft": 32768,
+		"iS": 25317,
+		"oA": 1,
+		"oAP": "\/assets\/img\/charigify-responsive-menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
@@ -2331,6 +2375,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/work\/47-farms.html",
+		"oF": 0
+		},
+	"\/_site\/work\/chargify.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/chargify.html",
 		"oF": 0
 		},
 	"\/_site\/work\/index.html": {
@@ -4584,6 +4635,50 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/assets\/img\/projects\/chargify\/chargify-benefits-icons.png": {
+		"ft": 32768,
+		"iS": 5541,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-benefits-icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/projects\/chargify\/chargify-customer.png": {
+		"ft": 32768,
+		"iS": 29774,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-customer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/projects\/chargify\/chargify-sign-up.png": {
+		"ft": 32768,
+		"iS": 9411,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-sign-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/projects\/chargify\/charigify-responsive-menu.png": {
+		"ft": 32768,
+		"iS": 25317,
+		"oA": 1,
+		"oAP": "\/assets\/img\/charigify-responsive-menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 2295,
@@ -5424,6 +5519,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/work\/47-farms.html",
+		"oF": 0
+		},
+	"\/work\/chargify.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work\/chargify.html",
 		"oF": 0
 		},
 	"\/work\/index.html": {
