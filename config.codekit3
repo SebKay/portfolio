@@ -342,6 +342,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/_site\/assets\/img\/banner-headshot-@2x.jpg": {
+		"ft": 16384,
+		"iS": 76400,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/banner-headshot-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/banner-headshot.jpg": {
+		"ft": 16384,
+		"iS": 149258,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/banner-headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
 		"iS": 3002,
@@ -2550,6 +2572,28 @@
 		"oAP": "\/assets\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/assets\/img\/banner-headshot-@2x.jpg": {
+		"ft": 16384,
+		"iS": 473374,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/banner-headshot-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/banner-headshot.jpg": {
+		"ft": 16384,
+		"iS": 149258,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/banner-headshot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
