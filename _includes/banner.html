@@ -1,7 +1,26 @@
+{% assign banner_subtitle = false %}
+{% assign banner_txt = false %}
+
 {% if page.banner_title == false %}
 	{% assign banner_title = page.banner_title %}
-{% else %}
+{% elsif page.layout != 'post' %}
 	{% assign banner_title = page.title %}
+{% endif %}
+
+{% if page.banner_subtitle %}
+	{% assign banner_subtitle = page.banner_subtitle %}
+{% endif %}
+
+{% if page.layout == 'project' %}
+	{% for project_data in site.data.projects %}
+		{% if project_data.title == page.title %}
+			{% assign project = project_data %}
+		{% endif %}
+	{% endfor %}
+
+	{% if project.excerpt %}
+		{% assign banner_txt = project.excerpt %}
+	{% endif %}
 {% endif %}
 
 {% if banner_title or page.banner_subtitle %}
@@ -14,15 +33,15 @@
 					</h1>
 				{% endif %}
 
-				{% if page.banner_subtitle %}
+				{% if banner_subtitle %}
 					<h2 class="site-banner__subtitle">
-						{{ page.banner_subtitle }}
+						{{ banner_subtitle }}
 					</h2>
 				{% endif %}
 
-				{% if page.banner_txt %}
+				{% if banner_txt %}
 					<p class="site-banner__txt">
-						{{ page.banner_txt }}
+						{{ banner_txt }}
 					</p>
 				{% endif %}
 			</div>
