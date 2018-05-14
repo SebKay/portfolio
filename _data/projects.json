@@ -44,22 +44,6 @@
 		"url":"/work/47-farms/"
 	},
 	{
-		"title":"Chargify",
-		"excerpt": "Chargify is a SaaS company that helps you deal with subscription and recurring billing for your business. I was contacted by their head of marketing to help them revamp the old, out of date website.",
-		"preview_img_desktop_preview_url" : "/assets/img/projects/chargify/desktop-preview.jpg",
-		"preview_img_desktop_url"         : "/assets/img/projects/chargify/desktop.jpg",
-		"usps" : [
-		{
-			"title":"Web Design",
-			"icon":"design"
-		},
-		{
-			"title":"Front-End Development",
-			"icon":"code"
-		}],
-		"url":"/work/chargify/"
-	},
-	{
 		"title":"Inspirational Pixels",
 		"excerpt": "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
 		"preview_img_desktop_preview_url" : "/assets/img/projects/inspirational-pixels/desktop-preview-@2x.jpg",
@@ -80,5 +64,21 @@
 			"icon":"code"
 		}],
 		"url":"/work/inspirational-pixels/"
+	},
+	{
+		"title":"Chargify",
+		"excerpt": "Chargify is a SaaS company that helps you deal with subscription and recurring billing for your business. I was contacted by their head of marketing to help them revamp the old, out of date website.",
+		"preview_img_desktop_preview_url" : "/assets/img/projects/chargify/desktop-preview.jpg",
+		"preview_img_desktop_url"         : "/assets/img/projects/chargify/desktop.jpg",
+		"usps" : [
+		{
+			"title":"Web Design",
+			"icon":"design"
+		},
+		{
+			"title":"Front-End Development",
+			"icon":"code"
+		}],
+		"url":"/work/chargify/"
 	}
 ]
