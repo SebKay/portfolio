@@ -10,38 +10,44 @@
 
 <section class="section section--small spacing-large">
 	<div class="previews previews--grid spacing-medium-bottom">
-		<div class="preview">
-			<div class="preview__bar">
-				<span></span>
-				<span></span>
-				<span></span>
+		{% if project.preview_img_desktop_url %}
+			<div class="preview">
+				<div class="preview__bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="preview__window">
+					<img src="{{ project.preview_img_desktop_url }}">
+				</div>
 			</div>
-			<div class="preview__window">
-				<img src="{{ project.preview_img_desktop_url }}">
-			</div>
-		</div>
+		{% endif %}
 
-		<div class="preview preview--tablet">
-			<div class="preview__bar">
-				<span></span>
-				<span></span>
-				<span></span>
+		{% if project.preview_img_tablet_url %}
+			<div class="preview preview--tablet">
+				<div class="preview__bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="preview__window">
+					<img src="{{ project.preview_img_tablet_url }}">
+				</div>
 			</div>
-			<div class="preview__window">
-				<img src="{{ project.preview_img_tablet_url }}">
-			</div>
-		</div>
+		{% endif %}
 
-		<div class="preview preview--mobile">
-			<div class="preview__bar">
-				<span></span>
-				<span></span>
-				<span></span>
+		{% if project.preview_img_mobile_url %}
+			<div class="preview preview--mobile">
+				<div class="preview__bar">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<div class="preview__window">
+					<img src="{{ project.preview_img_mobile_url }}">
+				</div>
 			</div>
-			<div class="preview__window">
-				<img src="{{ project.preview_img_mobile_url }}">
-			</div>
-		</div>
+		{% endif %}
 	</div>
 
 	<div class="spacer-top spacing-medium-top">

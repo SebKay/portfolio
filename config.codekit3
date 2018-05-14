@@ -1937,12 +1937,34 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/47-farms\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 1024150,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
 		"iS": 2489,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 592637,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1959,12 +1981,45 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/47-farms\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 309796,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 208591,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 663,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 518671,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2024,6 +2079,17 @@
 		"opt": 0,
 		"oT": 2,
 		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 265447,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
@@ -2149,6 +2215,17 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 116340,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4690,12 +4767,34 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/assets\/img\/projects\/47-farms\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 1024150,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/img\/projects\/47-farms\/desktop-full.jpg": {
 		"ft": 16384,
 		"iS": 2489,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-full.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/47-farms\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 592637,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4712,12 +4811,45 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/assets\/img\/projects\/47-farms\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 309796,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 208591,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/img\/projects\/47-farms\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 663,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 518671,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4777,6 +4909,28 @@
 		"opt": 0,
 		"oT": 2,
 		"q": 50
+		},
+	"\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
+		"ft": 16384,
+		"iS": 136107,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/chargify\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 265447,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,

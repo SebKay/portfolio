@@ -7,31 +7,35 @@
 <div class="grid grid--spaced grid--tb2--1 {{ grid_class }}">
 	<div class="grid__col grid__col--7">
 		<div class="previews previews--float">
-			<div class="preview preview--desktop">
-				<div class="preview__bar">
-					<span></span>
-					<span></span>
-					<span></span>
+			{% if project.preview_img_desktop_preview_url %}
+				<div class="preview preview--desktop">
+					<div class="preview__bar">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="preview__window">
+						<a href="{{ project.url }}">
+							<img src="{{ project.preview_img_desktop_preview_url }}">
+						</a>
+					</div>
 				</div>
-				<div class="preview__window">
-					<a href="{{ project.url }}">
-						<img src="{{ project.preview_img_desktop_preview_url }}">
-					</a>
-				</div>
-			</div>
+			{% endif %}
 
-			<div class="preview preview--mobile">
-				<div class="preview__bar">
-					<span></span>
-					<span></span>
-					<span></span>
+			{% if project.preview_img_mobile_preview_url %}
+				<div class="preview preview--mobile">
+					<div class="preview__bar">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div class="preview__window">
+						<a href="{{ project.url }}">
+							<img src="{{ project.preview_img_mobile_preview_url }}">
+						</a>
+					</div>
 				</div>
-				<div class="preview__window">
-					<a href="{{ project.url }}">
-						<img src="{{ project.preview_img_mobile_preview_url }}">
-					</a>
-				</div>
-			</div>
+			{% endif %}
 		</div>
 	</div>
 	<div class="grid__col grid__col--5">
