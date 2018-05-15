@@ -13,6 +13,9 @@
 	background: $ui-color-2-2;
 	// Type
 	color: $ui-color-2-6;
+
+	&:before { content: open-quote; }
+	&:after  { content: close-quote; }
 }
 
 .accordion__opener {

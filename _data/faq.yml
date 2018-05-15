@@ -1,5 +1,26 @@
 - title: I don't know where to start?!
-  content: some text
+  content: Don't worry, whether you're a seasoned pro or completely new to this, just <a href="/contact/">send me a message</a> via my contact form. I'll get back to you ASAP to answer any questions you have.
 
 - title: What services do you offer?
-  content: some text
+  content: I offer website design and development. That includes HTML / CSS sites, WordPress, WooCommerce, Shopify, SEO and more.
+
+- title: How often will I hear from you?
+  content: We'll usually talk at least once a week when the project is underway as I'll have questions for you, and you for me, as the project progresses.
+
+- title: What is the best method for communication?
+  content: Email is always best, but I use Skype for calls to discuss things that email would only confuse. I'm open to anything you'd like to try, so long as it's easy for us both to communicate.
+
+- title: Do you use templates?
+  content: No. I create bespoke designs for all my clients. I have some base code I use for every project which greatly reduces set up time (ultimately reducing cost for you), but all styling and design elements are custom to each project.
+
+- title: Can I see some more of your work?
+  content: Of course. If you go to <a href="https://dribbble.com/sebkaydesign" target="_blank">my Dribbble profile</a>, you'll see a large variety of work from many different projects.
+
+- title: How will my project be managed?
+  content: Each project tends to go through 4 distinct phases. Those are <strong>planning</strong>, <strong>design</strong>, <strong>development</strong> and <strong>launch</strong>.
+
+- title: How much input can I have?
+  content: As much as you'd like. I really enjoy working with my clients, not against them. My process is built to incorporate you as a huge part, since it's ultimately your business I'm offering my solutions to.
+
+- title: What if I don't like the first design?
+  content: That's no problem at all. It happens rarely, but sometimes wires get crossed and things don't turn out as expected. I'm more than happy to work on the design until you've got something that will serve your business the best it can.
