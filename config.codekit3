@@ -290,11 +290,18 @@
 		"oAP": "\/_posts\/2015-09-23-seo-basics-for-small-business.html",
 		"oF": 0
 		},
-	"\/_site\/404.html": {
+	"\/_site\/404\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/404.html",
+		"oAP": "\/_site\/404\/index.html",
+		"oF": 0
+		},
+	"\/_site\/a-look-at-my-web-design-workflow\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/a-look-at-my-web-design-workflow\/index.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
@@ -302,34 +309,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/advice\/how-much-should-a-website-cost.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/advice\/how-much-should-a-website-cost.html",
-		"oF": 0
-		},
-	"\/_site\/advice\/questions-when-hiring-a-freelancer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/advice\/questions-when-hiring-a-freelancer.html",
-		"oF": 0
-		},
-	"\/_site\/advice\/seo-basics-for-small-business.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/advice\/seo-basics-for-small-business.html",
-		"oF": 0
-		},
-	"\/_site\/advice\/stop-charging-hourly-rate.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/advice\/stop-charging-hourly-rate.html",
 		"oF": 0
 		},
 	"\/_site\/assets\/css\/style.min.css": {
@@ -1492,339 +1471,6 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
-		"ft": 16384,
-		"iS": 45173,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
-		"ft": 16384,
-		"iS": 97979,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tablet-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/chargify-benefits-icons.png": {
-		"ft": 32768,
-		"iS": 5415,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chargify-benefits-icons.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/chargify-customer.png": {
-		"ft": 32768,
-		"iS": 28681,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chargify-customer.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/chargify-sign-up.png": {
-		"ft": 32768,
-		"iS": 9216,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chargify-sign-up.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/charigify-responsive-menu.png": {
-		"ft": 32768,
-		"iS": 10268,
-		"oA": 1,
-		"oAP": "\/assets\/img\/charigify-responsive-menu.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
-		"ft": 16384,
-		"iS": 29850,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop-preview.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/chargify\/desktop.jpg": {
-		"ft": 16384,
-		"iS": 55858,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
-		"ft": 16384,
-		"iS": 132114,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
-		"ft": 16384,
-		"iS": 73757,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-freebies.png": {
-		"ft": 32768,
-		"iS": 56239,
-		"oA": 1,
-		"oAP": "\/assets\/img\/inspirational-pixels-freebies.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-snippets-tabs.png": {
-		"ft": 32768,
-		"iS": 10276,
-		"oA": 1,
-		"oAP": "\/assets\/img\/inspirational-pixels-snippets-tabs.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
-		"ft": 16384,
-		"iS": 42484,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/mobile-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
-		"ft": 16384,
-		"iS": 27831,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
-		"ft": 4194304,
-		"iS": 765073,
-		"oA": 1,
-		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
-		"ft": 16384,
-		"iS": 39217,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tablet-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
-		"ft": 16384,
-		"iS": 20903,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/desktop-@2x.jpg": {
-		"ft": 16384,
-		"iS": 172386,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/desktop-preview-@2x.jpg": {
-		"ft": 16384,
-		"iS": 89950,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/mobile-@2x.jpg": {
-		"ft": 16384,
-		"iS": 42902,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/mobile-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
-		"ft": 16384,
-		"iS": 26419,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tablet-@2x.jpg": {
-		"ft": 16384,
-		"iS": 52814,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tablet-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-calendar-widget.jpg": {
-		"ft": 16384,
-		"iS": 21128,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tbe-calendar-widget.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-menu-animation.gif": {
-		"ft": 4194304,
-		"iS": 470612,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tbe-menu-animation.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-page-sidebar-menu.jpg": {
-		"ft": 16384,
-		"iS": 14911,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/tbe-page-sidebar-menu.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/adam-feber-@1x.jpg": {
-		"ft": 16384,
-		"iS": 1363,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber-@1x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
-		"ft": 16384,
-		"iS": 3203,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
-		"ft": 16384,
-		"iS": 712,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
-		"ft": 16384,
-		"iS": 2038,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/js\/app.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1853,53 +1499,67 @@
 		"oAP": "\/_site\/blog\/page4\/index.html",
 		"oF": 0
 		},
-	"\/_site\/categories.html": {
+	"\/_site\/building-a-membership-site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/categories.html",
+		"oAP": "\/_site\/building-a-membership-site\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/advice.html": {
+	"\/_site\/building-a-paid-service-on-wordpress\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/advice.html",
+		"oAP": "\/_site\/building-a-paid-service-on-wordpress\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/copywriting.html": {
+	"\/_site\/categories\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/copywriting.html",
+		"oAP": "\/_site\/categories\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/freelancing.html": {
+	"\/_site\/category\/advice\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/freelancing.html",
+		"oAP": "\/_site\/category\/advice\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/productivity.html": {
+	"\/_site\/category\/copywriting\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/productivity.html",
+		"oAP": "\/_site\/category\/copywriting\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/seo.html": {
+	"\/_site\/category\/freelancing\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/seo.html",
+		"oAP": "\/_site\/category\/freelancing\/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/side-projects.html": {
+	"\/_site\/category\/productivity\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/side-projects.html",
+		"oAP": "\/_site\/category\/productivity\/index.html",
+		"oF": 0
+		},
+	"\/_site\/category\/seo\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/category\/seo\/index.html",
+		"oF": 0
+		},
+	"\/_site\/category\/side-projects\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/category\/side-projects\/index.html",
 		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
@@ -1909,74 +1569,25 @@
 		"oAP": "\/_site\/contact\/index.html",
 		"oF": 0
 		},
-	"\/_site\/contact\/success.html": {
+	"\/_site\/contact\/success\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/contact\/success.html",
+		"oAP": "\/_site\/contact\/success\/index.html",
 		"oF": 0
 		},
-	"\/_site\/copywriting\/writing-portfolio-copy-that-sells.html": {
+	"\/_site\/dealing-with-burnout-as-a-web-designer\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/copywriting\/writing-portfolio-copy-that-sells.html",
+		"oAP": "\/_site\/dealing-with-burnout-as-a-web-designer\/index.html",
 		"oF": 0
 		},
-	"\/_site\/freelancing\/a-look-at-my-web-design-workflow.html": {
+	"\/_site\/freelance-basics-over-deliver\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/freelancing\/a-look-at-my-web-design-workflow.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/dealing-with-burnout-as-a-web-designer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/dealing-with-burnout-as-a-web-designer.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/freelance-basics-over-deliver.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/freelance-basics-over-deliver.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/how-to-hire-a-web-designer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/how-to-hire-a-web-designer.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/how-to-work-with-clients.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/how-to-work-with-clients.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/procrastination-as-a-freelancer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/procrastination-as-a-freelancer.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/productivity-when-working-from-home.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/productivity-when-working-from-home.html",
-		"oF": 0
-		},
-	"\/_site\/freelancing\/working-from-home-5-ways-to-make-it-work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/freelancing\/working-from-home-5-ways-to-make-it-work.html",
+		"oAP": "\/_site\/freelance-basics-over-deliver\/index.html",
 		"oF": 0
 		},
 	"\/_site\/Gemfile": {
@@ -1993,11 +1604,67 @@
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
 		},
+	"\/_site\/how-much-should-a-website-cost\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/how-much-should-a-website-cost\/index.html",
+		"oF": 0
+		},
+	"\/_site\/how-to-hire-a-web-designer\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/how-to-hire-a-web-designer\/index.html",
+		"oF": 0
+		},
+	"\/_site\/how-to-work-with-clients\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/how-to-work-with-clients\/index.html",
+		"oF": 0
+		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/index.html",
+		"oF": 0
+		},
+	"\/_site\/mistakes-of-building-a-business-website\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/mistakes-of-building-a-business-website\/index.html",
+		"oF": 0
+		},
+	"\/_site\/procrastination-as-a-freelancer\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/procrastination-as-a-freelancer\/index.html",
+		"oF": 0
+		},
+	"\/_site\/productivity-when-working-from-home\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/productivity-when-working-from-home\/index.html",
+		"oF": 0
+		},
+	"\/_site\/questions-when-hiring-a-freelancer\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/questions-when-hiring-a-freelancer\/index.html",
+		"oF": 0
+		},
+	"\/_site\/seo-basics-for-small-business\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/seo-basics-for-small-business\/index.html",
 		"oF": 0
 		},
 	"\/_site\/services\/index.html": {
@@ -2007,18 +1674,11 @@
 		"oAP": "\/_site\/services\/index.html",
 		"oF": 0
 		},
-	"\/_site\/side-projects\/building-a-membership-site.html": {
+	"\/_site\/stop-charging-hourly-rate\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/side-projects\/building-a-membership-site.html",
-		"oF": 0
-		},
-	"\/_site\/side-projects\/building-a-paid-service-on-wordpress.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/side-projects\/building-a-paid-service-on-wordpress.html",
+		"oAP": "\/_site\/stop-charging-hourly-rate\/index.html",
 		"oF": 0
 		},
 	"\/_site\/text-template\/index.html": {
@@ -2028,25 +1688,18 @@
 		"oAP": "\/_site\/text-template\/index.html",
 		"oF": 0
 		},
-	"\/_site\/tips\/mistakes-of-building-a-business-website.html": {
+	"\/_site\/work\/47-farms\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/tips\/mistakes-of-building-a-business-website.html",
+		"oAP": "\/_site\/work\/47-farms\/index.html",
 		"oF": 0
 		},
-	"\/_site\/work\/47-farms.html": {
+	"\/_site\/work\/chargify\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/47-farms.html",
-		"oF": 0
-		},
-	"\/_site\/work\/chargify.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/work\/chargify.html",
+		"oAP": "\/_site\/work\/chargify\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/index.html": {
@@ -2056,18 +1709,32 @@
 		"oAP": "\/_site\/work\/index.html",
 		"oF": 0
 		},
-	"\/_site\/work\/inspirational-pixels.html": {
+	"\/_site\/work\/inspirational-pixels\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/inspirational-pixels.html",
+		"oAP": "\/_site\/work\/inspirational-pixels\/index.html",
 		"oF": 0
 		},
-	"\/_site\/work\/temple-beth-emunah.html": {
+	"\/_site\/work\/temple-beth-emunah\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/temple-beth-emunah.html",
+		"oAP": "\/_site\/work\/temple-beth-emunah\/index.html",
+		"oF": 0
+		},
+	"\/_site\/working-from-home-5-ways-to-make-it-work\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/working-from-home-5-ways-to-make-it-work\/index.html",
+		"oF": 0
+		},
+	"\/_site\/writing-portfolio-copy-that-sells\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/writing-portfolio-copy-that-sells\/index.html",
 		"oF": 0
 		},
 	"\/about\/index.html": {
