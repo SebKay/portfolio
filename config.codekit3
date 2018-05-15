@@ -332,6 +332,104 @@
 		"oAP": "\/_site\/advice\/stop-charging-hourly-rate.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/assets\/img\/about\/about-1-@2x.jpg": {
+		"ft": 16384,
+		"iS": 441588,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-1-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-1.jpg": {
+		"ft": 16384,
+		"iS": 149643,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-2-@2x.jpg": {
+		"ft": 16384,
+		"iS": 549668,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-2-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-3-@2x.jpg": {
+		"ft": 16384,
+		"iS": 497772,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-3-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-3.jpg": {
+		"ft": 16384,
+		"iS": 157764,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-32.jpg": {
+		"ft": 16384,
+		"iS": 180412,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-32.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-4-@2x.jpg": {
+		"ft": 16384,
+		"iS": 309605,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-4-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/about\/about-4.jpg": {
+		"ft": 16384,
+		"iS": 118783,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/banner-headshot-@2x.jpg": {
 		"ft": 16384,
 		"iS": 76400,
@@ -1923,11 +2021,11 @@
 		"oAP": "\/_site\/side-projects\/building-a-paid-service-on-wordpress.html",
 		"oF": 0
 		},
-	"\/_site\/text-template\/text-template.html": {
+	"\/_site\/text-template\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/text-template\/text-template.html",
+		"oAP": "\/_site\/text-template\/index.html",
 		"oF": 0
 		},
 	"\/_site\/tips\/mistakes-of-building-a-business-website.html": {
@@ -2563,9 +2661,97 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/img\/about\/about-1-@2x.jpg": {
+		"ft": 16384,
+		"iS": 441588,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-1-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-1.jpg": {
+		"ft": 16384,
+		"iS": 149643,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-2-@2x.jpg": {
+		"ft": 16384,
+		"iS": 549668,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-2-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-2.jpg": {
+		"ft": 16384,
+		"iS": 180412,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-3-@2x.jpg": {
+		"ft": 16384,
+		"iS": 497772,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-3-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-3.jpg": {
+		"ft": 16384,
+		"iS": 157764,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-4-@2x.jpg": {
+		"ft": 16384,
+		"iS": 309605,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-4-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/about\/about-4.jpg": {
+		"ft": 16384,
+		"iS": 118783,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/about-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/img\/banner-headshot-@2x.jpg": {
 		"ft": 16384,
-		"iS": 76400,
+		"iS": 473374,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/banner-headshot-@2x.jpg",
@@ -2587,7 +2773,7 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3562,
+		"iS": 3554,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -3594,7 +3780,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 187855,
+		"iS": 1024150,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3605,7 +3791,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 107075,
+		"iS": 592637,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3616,7 +3802,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 64810,
+		"iS": 309796,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3627,7 +3813,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 45173,
+		"iS": 208591,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3638,7 +3824,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 97979,
+		"iS": 518671,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3693,7 +3879,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
 		"ft": 16384,
-		"iS": 29850,
+		"iS": 136107,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview.jpg",
@@ -3704,7 +3890,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 55858,
+		"iS": 265447,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -3715,7 +3901,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 132114,
+		"iS": 537485,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3726,7 +3912,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 73757,
+		"iS": 292007,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3759,7 +3945,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 42484,
+		"iS": 163521,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3770,7 +3956,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 27831,
+		"iS": 107400,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3789,7 +3975,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 39217,
+		"iS": 131980,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3811,7 +3997,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 172386,
+		"iS": 856390,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3822,7 +4008,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 89950,
+		"iS": 452712,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3833,7 +4019,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 42902,
+		"iS": 186584,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3844,7 +4030,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 26419,
+		"iS": 116340,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3855,7 +4041,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 52814,
+		"iS": 235938,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3918,7 +4104,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
-		"iS": 2502,
+		"iS": 939,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
@@ -3929,7 +4115,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 7917,
+		"iS": 2787,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
