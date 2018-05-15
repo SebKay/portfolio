@@ -4,7 +4,9 @@ encoding: UTF-8
 # Dependencies
 markdown:         rdiscount
 highlighter:         true
-plugins: [jekyll-paginate]
+plugins:
+- jekyll-paginate
+- jekyll-sitemap
 
 # Permalinks
 permalink: /:title/
