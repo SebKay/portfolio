@@ -13,6 +13,7 @@ permalink: /:title/
 
 # Server
 baseurl:          /
+url: "https://sebkay.com"
 encoding:         UTF-8
 
 # Globals
