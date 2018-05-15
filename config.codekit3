@@ -311,16 +311,6 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/style.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/assets\/img\/about\/about-1-@2x.jpg": {
 		"ft": 16384,
 		"iS": 441588,
@@ -1471,6 +1461,339 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 45173,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 97979,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-benefits-icons.png": {
+		"ft": 32768,
+		"iS": 5415,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-benefits-icons.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-customer.png": {
+		"ft": 32768,
+		"iS": 28681,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-customer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/chargify-sign-up.png": {
+		"ft": 32768,
+		"iS": 9216,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chargify-sign-up.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/charigify-responsive-menu.png": {
+		"ft": 32768,
+		"iS": 10268,
+		"oA": 1,
+		"oAP": "\/assets\/img\/charigify-responsive-menu.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
+		"ft": 16384,
+		"iS": 29850,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/chargify\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 55858,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 132114,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 73757,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-freebies.png": {
+		"ft": 32768,
+		"iS": 56239,
+		"oA": 1,
+		"oAP": "\/assets\/img\/inspirational-pixels-freebies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-snippets-tabs.png": {
+		"ft": 32768,
+		"iS": 10276,
+		"oA": 1,
+		"oAP": "\/assets\/img\/inspirational-pixels-snippets-tabs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 42484,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 27831,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
+		"ft": 4194304,
+		"iS": 765073,
+		"oA": 1,
+		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 39217,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
+		"ft": 16384,
+		"iS": 20903,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 172386,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 89950,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 42902,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 26419,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 52814,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-calendar-widget.jpg": {
+		"ft": 16384,
+		"iS": 21128,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-calendar-widget.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-menu-animation.gif": {
+		"ft": 4194304,
+		"iS": 470612,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-menu-animation.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/tbe-page-sidebar-menu.jpg": {
+		"ft": 16384,
+		"iS": 14911,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tbe-page-sidebar-menu.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber-@1x.jpg": {
+		"ft": 16384,
+		"iS": 1363,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
+		"ft": 16384,
+		"iS": 3203,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
+		"ft": 16384,
+		"iS": 712,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
+		"ft": 16384,
+		"iS": 2038,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2418,7 +2741,7 @@
 		},
 	"\/assets\/img\/banner-headshot-@2x.jpg": {
 		"ft": 16384,
-		"iS": 473374,
+		"iS": 76400,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/banner-headshot-@2x.jpg",
@@ -2440,7 +2763,7 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3554,
+		"iS": 3562,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -3447,7 +3770,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 1024150,
+		"iS": 187855,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3458,7 +3781,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 592637,
+		"iS": 107075,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3469,7 +3792,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 309796,
+		"iS": 64810,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3480,7 +3803,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 208591,
+		"iS": 45173,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3491,7 +3814,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 518671,
+		"iS": 97979,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3546,7 +3869,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
 		"ft": 16384,
-		"iS": 136107,
+		"iS": 29850,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview.jpg",
@@ -3557,7 +3880,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 265447,
+		"iS": 55858,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -3568,7 +3891,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 537485,
+		"iS": 132114,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3579,7 +3902,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 292007,
+		"iS": 73757,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3612,7 +3935,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 163521,
+		"iS": 42484,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3623,7 +3946,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 107400,
+		"iS": 27831,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3642,7 +3965,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 131980,
+		"iS": 39217,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3664,7 +3987,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 856390,
+		"iS": 172386,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3675,7 +3998,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 452712,
+		"iS": 89950,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3686,7 +4009,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 186584,
+		"iS": 42902,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3697,7 +4020,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 116340,
+		"iS": 26419,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3708,7 +4031,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 235938,
+		"iS": 52814,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -3771,7 +4094,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
-		"iS": 939,
+		"iS": 2502,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
@@ -3782,7 +4105,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 2787,
+		"iS": 7917,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",

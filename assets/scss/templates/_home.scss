@@ -7,11 +7,12 @@
 	.site-banner__img {
 		img {
 			@extend .img-full;
+			max-width: 551px;
 		}
 	}
 
 	.site-banner__content {
-		max-width: none;
+		@include flex_grow(1);
 		// Type
 		text-align: left;
 	}
@@ -23,6 +24,7 @@
 	.page-home {
 		.site-banner__img {
 			@include flex_shrink(0);
+			width: 42.06106870229008%;
 			margin-right: 80px;
 		}
 	}
