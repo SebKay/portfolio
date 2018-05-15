@@ -12,8 +12,8 @@ plugins:
 permalink: /:title/
 
 # Server
-baseurl:          /
 url: "https://sebkay.com"
+baseurl:          /
 encoding:         UTF-8
 
 # Globals
