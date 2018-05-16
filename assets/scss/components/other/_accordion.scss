@@ -12,7 +12,13 @@
 	cursor: pointer;
 	background: $ui-color-2-2;
 	// Type
+	line-height: 120%;
 	color: $ui-color-2-6;
+}
+
+.accordion__heading-txt {
+	// Type
+	line-height: 130%;
 
 	&:before { content: open-quote; }
 	&:after  { content: close-quote; }
