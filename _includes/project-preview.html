@@ -16,7 +16,7 @@
 					</div>
 					<div class="preview__window">
 						<a href="{{ project.url }}">
-							<img src="{{ project.preview_img_desktop_preview_url }}">
+							<img src="{{ project.preview_img_desktop_preview_url }}" srcset="{{ project.preview_img_desktop_preview_url }} 1x, {{ project.preview_img_desktop_preview_url_2x }} 2x">
 						</a>
 					</div>
 				</div>
@@ -31,7 +31,7 @@
 					</div>
 					<div class="preview__window">
 						<a href="{{ project.url }}">
-							<img src="{{ project.preview_img_mobile_preview_url }}">
+							<img src="{{ project.preview_img_mobile_preview_url }}" srcset="{{ project.preview_img_mobile_preview_url }} 1x, {{ project.preview_img_mobile_preview_url_2x }} 2x">
 						</a>
 					</div>
 				</div>
