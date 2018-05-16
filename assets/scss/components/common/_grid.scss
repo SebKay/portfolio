@@ -29,19 +29,6 @@
 	}
 }
 
-//---- Spaced
-@for $i from 1 through 6 {
-	@if $i != 5 {
-		.grid--spaced-#{$i} {
-			.grid__col {
-				&:nth-of-type(#{($grid-columns / $i)}n) {
-					margin-right: 0;
-				}
-			}
-		}
-	}
-}
-
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.grid--reverse {
