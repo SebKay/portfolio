@@ -98,7 +98,10 @@
 <section class="site-banner">
 	<div class="site-banner__inner">
 		<figure class="site-banner__img">
-			<img src="/assets/img/banner-headshot.jpg" srcset="/assets/img/banner-headshot.jpg 1x, /assets/img/banner-headshot-@2x.jpg 2x" alt="Seb Kay Headshot 2018">
+			<picture>
+				<source srcset="/assets/img/banner-headshot.jpg 1x, /assets/img/banner-headshot-@2x.jpg 2x" media="(min-width: 376px)">
+				<img srcset="/assets/img/banner-headshot-375.jpg 1x, /assets/img/banner-headshot-375-@2x.jpg 2x" alt="Headshot">
+			</picture>
 		</figure>
 		<div class="site-banner__content">
 			<h1 class="site-banner__title">
