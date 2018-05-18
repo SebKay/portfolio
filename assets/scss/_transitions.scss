@@ -14,7 +14,8 @@
 	.blog-preview__thumb a,
 	.blog-preview__title a,
 	.blog-preview__meta a,
-	.share__item {
+	.share__item,
+	a.icon {
 		@include transition(opacity ease $transition-speed);
 	}
 

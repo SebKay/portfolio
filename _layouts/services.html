@@ -2,7 +2,7 @@
 
 <section class="section section--small spacing-large">
 	{% for service in site.data.services %}
-		<div class="service">
+		<div class="service" id="{{ service.title | slugify }}">
 			<div class="service__left">
 				<span class="icon icon--large {{ service.icon_class }}"></span>
 			</div>
