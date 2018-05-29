@@ -1,4 +1,6 @@
 .accordion__item {
+	background: $ui-color-2-2;
+
 	& + & {
 		margin-top: 2px;
 	}
@@ -10,7 +12,6 @@
 	@include flex_align_items(center);
 	position: relative;
 	cursor: pointer;
-	background: $ui-color-2-2;
 	// Type
 	line-height: 120%;
 	color: $ui-color-2-6;
@@ -30,23 +31,36 @@
 
 	&:before,
 	&:after {
+		@include transition(all ease $transition-speed);
 		position: absolute;
 		content: '';
 		background: $ui-color-1;
 	}
+}
 
-	&:before {
-		@include transition(opacity ease $transition-speed);
+.accordion__item:hover,
+.accordion__item.active {
+	.accordion__heading {
+		background: $ui-color-2-9;
 	}
 }
 
-.accordion__heading.active .accordion__opener:before {
-	opacity: 0;
+.accordion__item.active {
+	.accordion__opener {
+		&:before,
+		&:after {
+			@include transform(rotate(90deg));
+		}
+
+		&:after {
+			opacity: 0;
+		}
+	}
 }
 
 .accordion__content {
 	display: none;
-	background: $ui-color-2-2;
+	background: $ui-color-2-9;
 	@extend .post-styles;
 }
 

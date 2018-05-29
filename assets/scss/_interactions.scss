@@ -1,66 +1,71 @@
-.no-touch {
-	@include form_inputs {
-		&:hover,
-		&:focus {
+@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.no-touch {
+		@include form_inputs {
+			&:hover,
+			&:focus {
+				border-color: $ui-color-2-7;
+				background: #fff;
+			}
+		}
+
+		.jcf-select:not(.jcf-drop-active):hover .jcf-select-text {
 			border-color: $ui-color-2-7;
 			background: #fff;
 		}
-	}
 
-	.jcf-select:not(.jcf-drop-active):hover .jcf-select-text {
-		border-color: $ui-color-2-7;
-		background: #fff;
-	}
-
-	.jcf-option:hover {
-		background: $ui-color-2-12;
-		// Type
-		color: $ui-color-2;
-	}
-
-	.jcf-checkbox,
-	.jcf-checkbox input,
-	.jcf-radio,
-	.jcf-radio input {
-		&:hover {
-			cursor: pointer;
+		.jcf-option:hover {
+			background: $ui-color-2-12;
+			// Type
+			color: $ui-color-2;
 		}
-	}
 
-	.site-logo:hover .site-logo__txt,
-	.project-title a:hover,
-	.blog-preview__thumb a:hover,
-	.blog-preview__title a:hover,
-	.blog-preview__meta a:hover,
-	.share__item:hover,
-	a.icon:hover {
-		opacity: 0.6;
-	}
+		.jcf-checkbox,
+		.jcf-checkbox input,
+		.jcf-radio,
+		.jcf-radio input {
+			&:hover {
+				cursor: pointer;
+			}
+		}
 
-	.site-menu__item:hover {
-		// Type
-		color: $ui-color-2;
-	}
+		.site-logo:hover .site-logo__txt,
+		.project-title a:hover,
+		.blog-preview__thumb a:hover,
+		.blog-preview__title a:hover,
+		.blog-preview__meta a:hover,
+		.share__item:hover {
+			opacity: 0.6;
+		}
 
-	.btn:not(.btn--ghost):not(.pagination__item--disabled):hover {
-		border-color: $ui-color-2;
-		background: $ui-color-2;
-	}
+		.site-menu__item:hover,
+		.site-footer-menu__item:hover{
+			// Type
+			color: $ui-color-2;
+		}
 
-	.btn--ghost:hover {
-		border-color: $ui-color-2;
-		// Type
-		color: $ui-color-2;
-	}
+		.site-menu__item:not(.active):hover:before,
+		.site-menu__item:not(.active):hover:after {
+			width: 50%;
+			opacity: 1;
+		}
 
-	.site-footer-menu__item:hover {
-		// Type
-		color: $ui-color-2;
-	}
+		a.icon:hover {
+			background-color: $ui-color-2;
+		}
 
-	.post-styles a:not([class*="btn"]):hover {
-		border-color: $ui-color-2;
-		// Type
-		color: $ui-color-2;
+		.btn:not(.pagination__item--disabled):hover:before {
+			width: 100%;
+			left: 0;
+		}
+
+		.btn--ghost:hover {
+			// Type
+			color: #fff;
+		}
+
+		.post-styles a:not([class*="btn"]):hover {
+			// Type
+			color: $ui-color-1;
+		}
 	}
 }

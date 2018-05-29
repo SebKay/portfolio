@@ -66,7 +66,7 @@ $(document).ready(function() {
 	$('.js-accordion-heading').on('click', function(e) {
 		e.preventDefault();
 
-		$(this).toggleClass('active');
+		$(this).parents('.accordion__item').toggleClass('active');
 		$(this).next('.accordion__content').slideToggle(transition_speed);
 	});
 
@@ -161,33 +161,6 @@ $(document).ready(function() {
 	$(document).ajaxComplete(function() {
 		skp_jcf();
 	});
-
-
-
-	/*--------------------------------------------
-	---- Gravity Forms
-	--------------------------------------------*/
-	function skp_gform_submit() {
-		$('.gform_button').on('click', function() {
-			var form_btn = $(this);
-			var form_id = form_btn.attr('data-gf-id');
-
-			form_btn.addClass('btn--has-loader').append('<span class="btn__loader">' + svg_spinner + '</span>');
-
-			$('html, body').animate({
-				scrollTop: $('#gform_wrapper_' + form_id + ', #form-top-' + form_id).offset().top - 50
-			}, 500);
-		});
-
-		$('.gform_wrapper .validation_error').prepend('<h4>Error</h4><br>');
-	}
-
-	$(document).bind('gform_post_render', function(){
-		skp_gform_submit();
-		skp_jcf();
-	});
-
-	skp_gform_submit();
 
 
 

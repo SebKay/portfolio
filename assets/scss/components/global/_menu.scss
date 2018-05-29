@@ -4,7 +4,6 @@
 
 .site-menu__item {
 	list-style: none;
-	border-bottom: 2px solid transparent;
 	// Type
 	font-weight: map-get(map-get($fonts, 1), medium);
 }
@@ -13,14 +12,14 @@
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
 	.site-menu__item {
 		@include rem(20px);
-		margin-left: 75px;
+		margin-left: 85px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-menu__item {
 		@include rem(18px);
-		margin-left: 45px;
+		margin-left: 55px;
 	}
 }
 
@@ -30,15 +29,33 @@
 	}
 
 	.site-menu__item {
-		padding: 5px;
+		position: relative;
 		// Type
 		color: $ui-color-2-1;
+
+		&:before {
+			@include transform(translateX(-50%));
+			width: 10%;
+			height: 3px;
+			position: absolute;
+			bottom: -20px;
+			left: 50%;
+			opacity: 0;
+			pointer-events: none;
+			content: '';
+			background: $ui-color-1;
+		}
 	}
 
 	.site-menu__item.active {
 		border-bottom-color: $ui-color-1;
 		// Type
 		color: $ui-color-2;
+
+		&:before {
+			width: 50%;
+			opacity: 1;
+		}
 	}
 }
 
