@@ -53,6 +53,7 @@ $(document).ready(function() {
 
 	$(window).on('resize', function() {
 		if($(this).width() > 768) {
+			$('.js-toggle-menu').removeClass('active');
 			$('.site-header__section--menu').css('display', '');
 		}
 	});
