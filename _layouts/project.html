@@ -18,7 +18,7 @@
 					<span></span>
 				</div>
 				<div class="preview__window">
-					<img src="{{ project.preview_img_desktop_url }}" alt="{{ project.title }} desktop preview">
+					<img src="{{ project.preview_img_desktop_url }}" srcset="{{ project.preview_img_desktop_url }} 1x, {{ project.preview_img_desktop_url_2x }} 2x" alt="{{ project.title }} desktop preview">
 				</div>
 			</div>
 		{% endif %}
@@ -31,7 +31,7 @@
 					<span></span>
 				</div>
 				<div class="preview__window">
-					<img src="{{ project.preview_img_tablet_url }}" alt="{{ project.title }} tablet preview">
+					<img src="{{ project.preview_img_tablet_url }}" srcset="{{ project.preview_img_tablet_url }} 1x, {{ project.preview_img_tablet_url_2x }} 2x" alt="{{ project.title }} tablet preview">
 				</div>
 			</div>
 		{% endif %}
@@ -44,7 +44,7 @@
 					<span></span>
 				</div>
 				<div class="preview__window">
-					<img src="{{ project.preview_img_mobile_url }}" alt="{{ project.title }} mobile preview">
+					<img src="{{ project.preview_img_mobile_url }}" srcset="{{ project.preview_img_mobile_url }} 1x, {{ project.preview_img_mobile_url_2x }} 2x" alt="{{ project.title }} mobile preview">
 				</div>
 			</div>
 		{% endif %}

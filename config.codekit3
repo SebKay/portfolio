@@ -1658,6 +1658,146 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 109643,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 59890,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/desktop-preview.jpg": {
+		"ft": 16384,
+		"iS": 24494,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 47097,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/inspirational-pixels-freebies.png": {
+		"ft": 32768,
+		"iS": 38916,
+		"oA": 1,
+		"oAP": "\/assets\/img\/inspirational-pixels-freebies.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/inspirational-pixels-snippets-tabs.png": {
+		"ft": 32768,
+		"iS": 10276,
+		"oA": 1,
+		"oAP": "\/assets\/img\/inspirational-pixels-snippets-tabs.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 35363,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 23071,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/mobile-preview.jpg": {
+		"ft": 16384,
+		"iS": 9869,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/mobile.jpg": {
+		"ft": 16384,
+		"iS": 14796,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
+		"ft": 4194304,
+		"iS": 765073,
+		"oA": 1,
+		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 33548,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels-old\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 14876,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
 		"iS": 109643,
@@ -1671,7 +1811,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 59890,
+		"iS": 305136,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -1682,7 +1822,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview.jpg": {
 		"ft": 16384,
-		"iS": 24494,
+		"iS": 115083,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview.jpg",
@@ -1693,7 +1833,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 47097,
+		"iS": 207542,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -1702,31 +1842,9 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-freebies.png": {
-		"ft": 32768,
-		"iS": 38916,
-		"oA": 1,
-		"oAP": "\/assets\/img\/inspirational-pixels-freebies.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-snippets-tabs.png": {
-		"ft": 32768,
-		"iS": 10276,
-		"oA": 1,
-		"oAP": "\/assets\/img\/inspirational-pixels-snippets-tabs.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 2,
-		"q": 50
-		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 35363,
+		"iS": 127783,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -1737,7 +1855,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 23071,
+		"iS": 98846,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -1748,7 +1866,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview.jpg": {
 		"ft": 16384,
-		"iS": 9869,
+		"iS": 38867,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview.jpg",
@@ -1759,7 +1877,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
 		"ft": 16384,
-		"iS": 14796,
+		"iS": 53421,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
@@ -1768,17 +1886,75 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/projects\/inspirational-pixels\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
-		"ft": 4194304,
-		"iS": 765073,
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-1-@2x.jpg": {
+		"ft": 16384,
+		"iS": 263076,
+		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/Screen-Recording-2015-09-04-at-12.50-pm.gif",
+		"oAP": "\/assets\/img\/project-img-1-@2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-1.jpg": {
+		"ft": 16384,
+		"iS": 104584,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-2-@2x.jpg": {
+		"ft": 16384,
+		"iS": 255980,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-2.jpg": {
+		"ft": 16384,
+		"iS": 108419,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-3-@2x.jpg": {
+		"ft": 16384,
+		"iS": 134766,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-3.jpg": {
+		"ft": 16384,
+		"iS": 56798,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 33548,
+		"iS": 199800,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -1789,7 +1965,7 @@
 		},
 	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet.jpg": {
 		"ft": 16384,
-		"iS": 14876,
+		"iS": 88000,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
@@ -4221,7 +4397,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/desktop-@2x.jpg": {
 		"ft": 16384,
 		"iS": 537485,
 		"jF": 0,
@@ -4232,7 +4408,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
 		"iS": 292007,
 		"jF": 0,
@@ -4243,7 +4419,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/desktop-preview.jpg": {
 		"ft": 16384,
 		"iS": 91332,
 		"jF": 0,
@@ -4254,7 +4430,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/desktop.jpg": {
 		"ft": 16384,
 		"iS": 169889,
 		"jF": 0,
@@ -4265,7 +4441,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-freebies.png": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/inspirational-pixels-freebies.png": {
 		"ft": 32768,
 		"iS": 129646,
 		"oA": 1,
@@ -4276,7 +4452,7 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/inspirational-pixels-snippets-tabs.png": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/inspirational-pixels-snippets-tabs.png": {
 		"ft": 32768,
 		"iS": 15093,
 		"oA": 1,
@@ -4287,7 +4463,7 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/mobile-@2x.jpg": {
 		"ft": 16384,
 		"iS": 163521,
 		"jF": 0,
@@ -4298,7 +4474,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
 		"iS": 107400,
 		"jF": 0,
@@ -4309,7 +4485,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/mobile-preview.jpg": {
 		"ft": 16384,
 		"iS": 35763,
 		"jF": 0,
@@ -4320,7 +4496,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/mobile.jpg": {
 		"ft": 16384,
 		"iS": 55850,
 		"jF": 0,
@@ -4331,7 +4507,7 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/Screen-Recording-2015-09-04-at-12.50-pm.gif": {
 		"ft": 4194304,
 		"iS": 765073,
 		"oA": 1,
@@ -4339,7 +4515,7 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/tablet-@2x.jpg": {
 		"ft": 16384,
 		"iS": 131980,
 		"jF": 0,
@@ -4350,9 +4526,185 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/projects\/inspirational-pixels\/tablet.jpg": {
+	"\/assets\/img\/projects\/inspirational-pixels-old\/tablet.jpg": {
 		"ft": 16384,
 		"iS": 57593,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 524439,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 305136,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview.jpg": {
+		"ft": 16384,
+		"iS": 115083,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 207542,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 128612,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 98846,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview.jpg": {
+		"ft": 16384,
+		"iS": 38867,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+		"ft": 16384,
+		"iS": 53421,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-1-@2x.jpg": {
+		"ft": 16384,
+		"iS": 263076,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-1-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-1.jpg": {
+		"ft": 16384,
+		"iS": 104584,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-2-@2x.jpg": {
+		"ft": 16384,
+		"iS": 255980,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-2.jpg": {
+		"ft": 16384,
+		"iS": 108419,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-3-@2x.jpg": {
+		"ft": 16384,
+		"iS": 134766,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/project-img-3.jpg": {
+		"ft": 16384,
+		"iS": 56798,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 199800,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/projects\/inspirational-pixels\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 88000,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
