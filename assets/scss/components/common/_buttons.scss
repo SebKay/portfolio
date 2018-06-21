@@ -3,6 +3,7 @@
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
+	border-radius: $border-radius;
 	background: $ui-color-1;
 	// Type
 	font-family: map-get(map-get($fonts, 2), family);
@@ -11,19 +12,28 @@
 	text-align: center;
 	color: #fff;
 
-	&:before {
+	&:before,
+	&:after {
 		width: 0%;
 		height: 100%;
 		position: absolute;
 		bottom: 0;
-		right: 0;
 		content: '';
 		background: $ui-color-2;
+	}
+
+	&:before {
+		left: 0;
+	}
+
+	&:after {
+		right: 0;
 	}
 }
 
 .btn__inner {
 	position: relative;
+	z-index: 10;
 }
 
 //---- With Loading Icon

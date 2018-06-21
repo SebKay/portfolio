@@ -34,11 +34,11 @@
 		.blog-preview__title a:hover,
 		.blog-preview__meta a:hover,
 		.share__item:hover {
-			opacity: 0.6;
+			opacity: 0.55;
 		}
 
 		.site-menu__item:hover,
-		.site-footer-menu__item:hover{
+		.site-footer-menu__item:hover {
 			// Type
 			color: $ui-color-2;
 		}
@@ -53,9 +53,9 @@
 			background-color: $ui-color-2;
 		}
 
-		.btn:not(.pagination__item--disabled):hover:before {
-			width: 100%;
-			left: 0;
+		.btn:not(.pagination__item--disabled):hover:before,
+		.btn:not(.pagination__item--disabled):hover:after {
+			width: 51%;
 		}
 
 		.btn--ghost:hover {

@@ -2,6 +2,7 @@
 	@extend %form-field-base;
 	padding-left: 15px;
 	padding-right: 15px;
+	border-radius: $border-radius;
 
 	&::-moz-placeholder {
 		opacity: 1;

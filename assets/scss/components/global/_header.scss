@@ -3,6 +3,7 @@
 	@extend .section--large;
 	@include flex(flex);
 	position: relative;
+	border-radius: 0 0 0 $border-radius;
 }
 
 .site-header__section--logo {
@@ -18,6 +19,10 @@
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-header {
 		background: #fff;
+	}
+
+	.site-header__section--logo {
+		margin-bottom: -1px;
 	}
 
 	.site-header__inner {

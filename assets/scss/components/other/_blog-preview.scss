@@ -5,11 +5,13 @@
 
 	img {
 		@extend .img-full;
+		border-radius: $border-radius;
 	}
 }
 
 .blog-preview__content {
 	position: relative;
+	border-radius: $border-radius;
 	background: $ui-color-2-12;
 	// Type
 	text-align: center;

@@ -1,11 +1,13 @@
 .site-logo {
 	@include flex_center();
+	border-radius: 0 0 0 $border-radius;
 	background: $ui-color-2;
 	// Type
 	text-align: center;
 }
 
 .site-logo__txt {
+	@include transition(all ease $transition-speed);
 	// Type
 	font-family: map-get(map-get($fonts, 3), family);
 	color: #fff;

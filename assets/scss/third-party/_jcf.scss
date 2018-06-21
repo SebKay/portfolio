@@ -22,6 +22,7 @@
 	padding-right: 15px + $form-field-height; // Offset the dropdown arrow
 	position: relative;
 	z-index: 810;
+	border-radius: $border-radius;
 }
 
 .jcf-select-opener {
@@ -49,6 +50,7 @@
 	position: absolute;
 	top: 0;
 	left: 0;
+	border-radius: $border-radius;
 	box-shadow: 0 5px 10px black(0.15);
 	background: #ddd;
 }

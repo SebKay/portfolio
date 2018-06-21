@@ -4,6 +4,14 @@
 	& + & {
 		margin-top: 2px;
 	}
+
+	&:first-child {
+		border-radius: $border-radius $border-radius 0 0;
+	}
+
+	&:last-child {
+		border-radius: 0 0 $border-radius $border-radius;
+	}
 }
 
 .accordion__heading {
@@ -27,6 +35,7 @@
 
 .accordion__opener {
 	position: absolute;
+	border-radius: $border-radius;
 	background: #fff;
 
 	&:before,
@@ -34,6 +43,7 @@
 		@include transition(all ease $transition-speed);
 		position: absolute;
 		content: '';
+		border-radius: $border-radius;
 		background: $ui-color-1;
 	}
 }

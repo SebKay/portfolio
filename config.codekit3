@@ -290,11 +290,25 @@
 		"oAP": "\/_posts\/2015-09-23-seo-basics-for-small-business.html",
 		"oF": 0
 		},
+	"\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_redirects",
+		"oF": 0
+		},
 	"\/_site\/404\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/404\/index.html",
+		"oF": 0
+		},
+	"\/_site\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_site\/_redirects",
 		"oF": 0
 		},
 	"\/_site\/a-look-at-my-web-design-workflow\/index.html": {
@@ -475,7 +489,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2014\/09\/assembla-case-study-featured-area.png": {
 		"ft": 32768,
-		"iS": 112418,
+		"iS": 56617,
 		"oA": 1,
 		"oAP": "\/assets\/img\/assembla-case-study-featured-area.png",
 		"oF": 0,
@@ -1648,6 +1662,182 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
+		"ft": 16384,
+		"iS": 153412,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 92557,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop-preview.jpg": {
+		"ft": 16384,
+		"iS": 39133,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
+		"ft": 16384,
+		"iS": 68067,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 41004,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
+		"ft": 16384,
+		"iS": 32469,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile-preview.jpg": {
+		"ft": 16384,
+		"iS": 13759,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
+		"ft": 16384,
+		"iS": 18850,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-1-@2x.jpg": {
+		"ft": 16384,
+		"iS": 93084,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-1-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-1.jpg": {
+		"ft": 16384,
+		"iS": 39688,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-2-@2x.jpg": {
+		"ft": 16384,
+		"iS": 78740,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-2.jpg": {
+		"ft": 16384,
+		"iS": 33812,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-3-@2x.jpg": {
+		"ft": 16384,
+		"iS": 46705,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/project-img-3.jpg": {
+		"ft": 16384,
+		"iS": 20106,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/project-img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
+		"ft": 16384,
+		"iS": 58153,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/projects\/inspirational-pixels\/tablet.jpg": {
+		"ft": 16384,
+		"iS": 29533,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/projects\/temple-beth-emunah\/before-and-after-TBE-logo.jpg": {
 		"ft": 16384,
 		"iS": 17702,
@@ -1853,6 +2043,16 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1942,6 +2142,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/category\/side-projects\/index.html",
+		"oF": 0
+		},
+	"\/_site\/category\/tips\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/category\/tips\/index.html",
 		"oF": 0
 		},
 	"\/_site\/contact\/index.html": {
@@ -2726,7 +2933,7 @@
 		},
 	"\/assets\/img\/about\/about-1-@2x.jpg": {
 		"ft": 16384,
-		"iS": 441588,
+		"iS": 91952,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-1-@2x.jpg",
@@ -2737,7 +2944,7 @@
 		},
 	"\/assets\/img\/about\/about-1.jpg": {
 		"ft": 16384,
-		"iS": 149643,
+		"iS": 29688,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-1.jpg",
@@ -2748,7 +2955,7 @@
 		},
 	"\/assets\/img\/about\/about-2-@2x.jpg": {
 		"ft": 16384,
-		"iS": 549668,
+		"iS": 121131,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-2-@2x.jpg",
@@ -2759,7 +2966,7 @@
 		},
 	"\/assets\/img\/about\/about-2.jpg": {
 		"ft": 16384,
-		"iS": 180412,
+		"iS": 38698,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-2.jpg",
@@ -2770,7 +2977,7 @@
 		},
 	"\/assets\/img\/about\/about-3-@2x.jpg": {
 		"ft": 16384,
-		"iS": 497772,
+		"iS": 107632,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-3-@2x.jpg",
@@ -2781,7 +2988,7 @@
 		},
 	"\/assets\/img\/about\/about-3.jpg": {
 		"ft": 16384,
-		"iS": 157764,
+		"iS": 33446,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-3.jpg",
@@ -2792,7 +2999,7 @@
 		},
 	"\/assets\/img\/about\/about-4-@2x.jpg": {
 		"ft": 16384,
-		"iS": 309605,
+		"iS": 67185,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-4-@2x.jpg",
@@ -2803,7 +3010,7 @@
 		},
 	"\/assets\/img\/about\/about-4.jpg": {
 		"ft": 16384,
-		"iS": 118783,
+		"iS": 25219,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/about-4.jpg",
@@ -2836,7 +3043,7 @@
 		},
 	"\/assets\/img\/banner-headshot-@2x.jpg": {
 		"ft": 16384,
-		"iS": 473374,
+		"iS": 76400,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/banner-headshot-@2x.jpg",
@@ -2847,7 +3054,7 @@
 		},
 	"\/assets\/img\/banner-headshot.jpg": {
 		"ft": 16384,
-		"iS": 149258,
+		"iS": 22646,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/banner-headshot.jpg",
@@ -2858,7 +3065,7 @@
 		},
 	"\/assets\/img\/bg-pattern.gif": {
 		"ft": 4194304,
-		"iS": 3554,
+		"iS": 3562,
 		"oA": 1,
 		"oAP": "\/assets\/img\/bg-pattern.gif",
 		"oF": 0,
@@ -3887,7 +4094,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 1024150,
+		"iS": 187855,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -3898,7 +4105,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 592637,
+		"iS": 107075,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -3931,7 +4138,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 309796,
+		"iS": 64810,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -3942,7 +4149,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 208591,
+		"iS": 45173,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -3975,7 +4182,7 @@
 		},
 	"\/assets\/img\/projects\/47-farms\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 518671,
+		"iS": 97979,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -4041,7 +4248,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop-preview.jpg": {
 		"ft": 16384,
-		"iS": 136107,
+		"iS": 29850,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview.jpg",
@@ -4052,7 +4259,7 @@
 		},
 	"\/assets\/img\/projects\/chargify\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 265447,
+		"iS": 55858,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -4063,7 +4270,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 524439,
+		"iS": 132114,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -4074,7 +4281,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 305136,
+		"iS": 73757,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -4085,7 +4292,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop-preview.jpg": {
 		"ft": 16384,
-		"iS": 115083,
+		"iS": 91332,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview.jpg",
@@ -4096,7 +4303,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/desktop.jpg": {
 		"ft": 16384,
-		"iS": 207542,
+		"iS": 169889,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop.jpg",
@@ -4107,7 +4314,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 128612,
+		"iS": 42484,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -4118,7 +4325,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 98846,
+		"iS": 27831,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -4129,7 +4336,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile-preview.jpg": {
 		"ft": 16384,
-		"iS": 38867,
+		"iS": 35763,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview.jpg",
@@ -4140,7 +4347,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/mobile.jpg": {
 		"ft": 16384,
-		"iS": 53421,
+		"iS": 55850,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile.jpg",
@@ -4217,7 +4424,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 199800,
+		"iS": 39217,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -4228,7 +4435,7 @@
 		},
 	"\/assets\/img\/projects\/inspirational-pixels\/tablet.jpg": {
 		"ft": 16384,
-		"iS": 88000,
+		"iS": 57593,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet.jpg",
@@ -4250,7 +4457,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-@2x.jpg": {
 		"ft": 16384,
-		"iS": 856390,
+		"iS": 172386,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-@2x.jpg",
@@ -4261,7 +4468,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/desktop-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 452712,
+		"iS": 89950,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/desktop-preview-@2x.jpg",
@@ -4294,7 +4501,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-@2x.jpg": {
 		"ft": 16384,
-		"iS": 186584,
+		"iS": 42902,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-@2x.jpg",
@@ -4305,7 +4512,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/mobile-preview-@2x.jpg": {
 		"ft": 16384,
-		"iS": 116340,
+		"iS": 26419,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/mobile-preview-@2x.jpg",
@@ -4338,7 +4545,7 @@
 		},
 	"\/assets\/img\/projects\/temple-beth-emunah\/tablet-@2x.jpg": {
 		"ft": 16384,
-		"iS": 235938,
+		"iS": 52814,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/tablet-@2x.jpg",
@@ -4412,7 +4619,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@1x.jpg": {
 		"ft": 16384,
-		"iS": 939,
+		"iS": 2502,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@1x.jpg",
@@ -4423,7 +4630,7 @@
 		},
 	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 2787,
+		"iS": 7917,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
@@ -5088,6 +5295,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/category\/side-projects.html",
+		"oF": 0
+		},
+	"\/category\/tips.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/category\/tips.html",
 		"oF": 0
 		},
 	"\/contact\/index.html": {

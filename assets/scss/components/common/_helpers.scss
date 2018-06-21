@@ -34,6 +34,7 @@
 //---- Icons
 .icon {
 	display: inline-block;
+	border-radius: $border-radius;
 	background-color: $ui-color-1;
 	background-repeat: no-repeat;
 	background-position: center;

@@ -26,6 +26,8 @@
 	&:not(:last-child) {
 		&:after {
 			content: '-';
+			// Type
+			color: $ui-color-2-5 !important;
 		}
 	}
 }

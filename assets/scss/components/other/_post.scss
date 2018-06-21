@@ -9,6 +9,16 @@
 }
 
 .post-styles {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		// Type
+		line-height: 120%;
+	}
+
 	p,
 	li,
 	td {
@@ -69,6 +79,7 @@
 
 	img {
 		padding: 10px;
+		border-radius: $border-radius;
 		background: $ui-color-2-2;
 	}
 

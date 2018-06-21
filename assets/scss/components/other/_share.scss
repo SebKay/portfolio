@@ -8,8 +8,8 @@
 	list-style: none;
 
 	a {
-		display: block;
 		@include flex_center();
+		border-radius: $border-radius;
 
 		svg {
 			* {
@@ -27,8 +27,8 @@
 @media screen and (min-width: map-get($breakpoints, mobile-2) + 1) {
 	.share__item {
 		a {
-			width: 80px;
-			height: 80px;
+			width: 70px;
+			height: 70px;
 
 			svg {
 				width: 26px;

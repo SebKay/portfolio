@@ -36,13 +36,14 @@
 		&:before {
 			@include transform(translateX(-50%));
 			width: 10%;
-			height: 3px;
+			height: 4px;
 			position: absolute;
 			bottom: -20px;
 			left: 50%;
 			opacity: 0;
 			pointer-events: none;
 			content: '';
+			border-radius: $border-radius;
 			background: $ui-color-1;
 		}
 	}
