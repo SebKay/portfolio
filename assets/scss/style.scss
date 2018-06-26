@@ -49,10 +49,15 @@
 	'components/other/share',
 	'components/other/service';
 
-//---- Interactions
+
+
+/*--------------------------------------------
+---- Interactions
+--------------------------------------------*/
 @import
 	'interactions',
-	'transitions';
+	'transitions',
+	'animations';
 
 
 

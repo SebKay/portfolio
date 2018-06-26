@@ -6,7 +6,7 @@
 				{% endif %}
 
 				<section class="testimonial">
-					<div class="testimonial__inner">
+					<div class="testimonial__inner anim anim-up anim-fade">
 						<blockquote>
 							<p>{{ site.data.testimonials[quote_id].quote }}</p>
 							<cite>
@@ -22,17 +22,19 @@
 
 			{% if page.title != 'Contact' and page.title != 'Success' %}
 				<section class="section section--large spacing-large txt-center spacer-top">
-					<h2>
-						Let's Work Together
-					</h2>
+					<div class="anim anim-up anim-fade">
+						<h2>
+							Let's Work Together
+						</h2>
 
-					<br><br>
+						<br><br>
 
-					<a class="btn" href="/contact/">
-						<span class="btn__inner">
-							Get in Touch
-						</span>
-					</a>
+						<a class="btn" href="/contact/">
+							<span class="btn__inner">
+								Get in Touch
+							</span>
+						</a>
+					</div>
 				</section>
 			{% endif %}
 
@@ -62,7 +64,7 @@
 			</footer>
 		</div><!--end .page-wrap-->
 
-		<script type="text/javascript" src="/assets/js/app.min.js"></script>
+		<script async type="text/javascript" src="/assets/js/app.min.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31577987-1"></script>

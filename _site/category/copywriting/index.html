@@ -23,8 +23,13 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="no-touch no-js page-copywriting">
+		<script type="text/javascript">
+			// Class for animations
+			document.body.classList.add('animations-enabled');
+		</script>
+
 		<div class="page-wrap">
-			<header class="site-header">
+			<header class="site-header anim anim-down anim-fade">
 				<div class="site-header__inner">
 					<div class="site-header__section site-header__section--logo">
 						<a class="site-logo" href="/">
@@ -105,7 +110,7 @@
 
 	<section class="site-banner">
 		<div class="site-banner__inner">
-			<div class="site-banner__content">
+			<div class="site-banner__content anim anim-up anim-fade">
 				
 					<h1 class="site-banner__title">
 						Copywriting
@@ -125,7 +130,7 @@
 
 <section class="section section--medium spacing-large">
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/writing-portfolio-copy-that-sells/">
 			<img src="/assets/img/blog/2014/09/chinese-lantern.png" alt="Working From Home (5 Ways to Make it Work)">
@@ -170,17 +175,19 @@
 
 			
 				<section class="section section--large spacing-large txt-center spacer-top">
-					<h2>
-						Let's Work Together
-					</h2>
+					<div class="anim anim-up anim-fade">
+						<h2>
+							Let's Work Together
+						</h2>
 
-					<br><br>
+						<br><br>
 
-					<a class="btn" href="/contact/">
-						<span class="btn__inner">
-							Get in Touch
-						</span>
-					</a>
+						<a class="btn" href="/contact/">
+							<span class="btn__inner">
+								Get in Touch
+							</span>
+						</a>
+					</div>
 				</section>
 			
 
@@ -244,7 +251,7 @@
 			</footer>
 		</div><!--end .page-wrap-->
 
-		<script type="text/javascript" src="/assets/js/app.min.js"></script>
+		<script async type="text/javascript" src="/assets/js/app.min.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31577987-1"></script>

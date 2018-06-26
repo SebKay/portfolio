@@ -23,8 +23,13 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="no-touch no-js page-blog">
+		<script type="text/javascript">
+			// Class for animations
+			document.body.classList.add('animations-enabled');
+		</script>
+
 		<div class="page-wrap">
-			<header class="site-header">
+			<header class="site-header anim anim-down anim-fade">
 				<div class="site-header__inner">
 					<div class="site-header__section site-header__section--logo">
 						<a class="site-logo" href="/">
@@ -105,7 +110,7 @@
 
 	<section class="site-banner">
 		<div class="site-banner__inner">
-			<div class="site-banner__content">
+			<div class="site-banner__content anim anim-up anim-fade">
 				
 					<h1 class="site-banner__title">
 						Blog
@@ -129,7 +134,7 @@
 
 <section class="section section--medium spacing-large">
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/seo-basics-for-small-business/">
 			<img src="/assets/img/blog/2015/09/seo-basics-for-small-buisiness-websites-thumb.jpg" alt="SEO Basics for Small Business Websites">
@@ -167,7 +172,7 @@
 
 
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/procrastination-as-a-freelancer/">
 			<img src="/assets/img/blog/2015/09/beating-procrastination-as-a-freelancer.jpg" alt="Beating Procrastination as a Freelancer">
@@ -205,7 +210,7 @@
 
 
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/a-look-at-my-web-design-workflow/">
 			<img src="/assets/img/blog/2015/08/man-writing-on-whiteboard.jpg" alt="A Look at My Web Design Workflow">
@@ -243,7 +248,7 @@
 
 
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/productivity-when-working-from-home/">
 			<img src="/assets/img/blog/2015/08/woman-on-a-macbook-pro.jpg" alt="Being Productive When Working From Home (5 Ways)">
@@ -281,7 +286,7 @@
 
 
 	
-		<article class="blog-preview">
+		<article class="blog-preview anim anim-up anim-fade">
 	<figure class="blog-preview__thumb">
 		<a href="/stop-charging-hourly-rate/">
 			<img src="/assets/img/blog/2015/07/calculator.jpg" alt="Stop Charging an Hourly Rate!">
@@ -343,7 +348,7 @@
 				
 
 				<section class="testimonial">
-					<div class="testimonial__inner">
+					<div class="testimonial__inner anim anim-up anim-fade">
 						<blockquote>
 							<p>Seb is not only great at design and development, but he is a problem solver who always delivers an exceptional quality of work. Highly recommended.</p>
 							<cite>
@@ -359,17 +364,19 @@
 
 			
 				<section class="section section--large spacing-large txt-center spacer-top">
-					<h2>
-						Let's Work Together
-					</h2>
+					<div class="anim anim-up anim-fade">
+						<h2>
+							Let's Work Together
+						</h2>
 
-					<br><br>
+						<br><br>
 
-					<a class="btn" href="/contact/">
-						<span class="btn__inner">
-							Get in Touch
-						</span>
-					</a>
+						<a class="btn" href="/contact/">
+							<span class="btn__inner">
+								Get in Touch
+							</span>
+						</a>
+					</div>
 				</section>
 			
 
@@ -433,7 +440,7 @@
 			</footer>
 		</div><!--end .page-wrap-->
 
-		<script type="text/javascript" src="/assets/js/app.min.js"></script>
+		<script async type="text/javascript" src="/assets/js/app.min.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31577987-1"></script>

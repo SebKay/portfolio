@@ -18,26 +18,35 @@ $(document).ready(function() {
 
 
 	/*--------------------------------------------
-	---- Sticky Header
+	---- Animations
 	--------------------------------------------*/
-	var scroll_elem   = $('body');
-	var header_offset = scroll_elem.offset().top;
-
-	function skp_site_scrolled() {
-		var y_scroll_pos = window.pageYOffset;
-
-		if(y_scroll_pos > header_offset) {
-			scroll_elem.removeClass('site-scroll--inactive');
-			scroll_elem.addClass('site-scroll--active');
-		}else {
-			scroll_elem.removeClass('site-scroll--active');
-			scroll_elem.addClass('site-scroll--inactive');
-		}
-	}
-
-	$(window).on('load scroll', function() {
-		skp_site_scrolled();
+	//---- Load
+	$(window).on('load', function() {
+		$('.anim').each(function() {
+			$(this).addClass('loaded');
+		});
 	});
+
+	//---- Scroll
+	/*$(window).on('load scroll', function() {
+		$('.anim').each(function() {
+			var offset = 170;
+
+			if($(window).width() > 1024) {
+				var item_top      = $(this).offset().top + offset,
+				window_height     = $(window).height(),
+				window_scroll_top = $(window).scrollTop();
+
+				if(window_scroll_top > (item_top - window_height)) {
+					$(this).addClass('loaded');
+				}else {
+					$(this).removeClass('loaded');
+				}
+			}else {
+				$(this).addClass('loaded');
+			}
+		});
+	});*/
 
 
 
@@ -68,57 +77,6 @@ $(document).ready(function() {
 
 		$(this).parents('.accordion__item').toggleClass('active');
 		$(this).next('.accordion__content').slideToggle(transition_speed);
-	});
-
-
-
-	/*--------------------------------------------
-	---- Toggle Modal
-	--------------------------------------------*/
-	//---- Inject overlay and close button
-	$('.modal').prepend('<div class="modal__overlay"></div>');
-	$('.modal__inner').append('<a class="modal__close" href="#">' + svg_close + '</a>');
-
-	//---- Toggle
-	$('[data-modal-target]').on('click', function(e) {
-		e.preventDefault();
-
-		// Get data attribute value
-		var modal_link = $(this).attr('data-modal-target');
-
-		if($('[data-modal="' + modal_link + '"]').length) {
-			$('[data-modal="' + modal_link + '"]').fadeIn(transition_speed).addClass('active');
-			$('body').addClass('lock-scroll');
-		}
-	});
-
-	function skp_close_modal() {
-		var modal = $('.modal.active');
-
-		if(modal.length) {
-			modal.fadeOut(transition_speed).removeClass('active');
-			$('body').removeClass('lock-scroll');
-
-			// Reload iFrame (for stopping videos playing)
-			modal.find('iframe').each(function() {
-				var href = $(this).attr('src');
-				$(this).attr('src', href);
-			});
-		}
-	}
-
-	// Close button or overlay
-	$('.modal__close, .modal__close *, .modal__overlay').on('click', function(e) {
-		e.preventDefault();
-
-		skp_close_modal();
-	});
-
-	// ESC key
-	$(document).keyup(function(e) {
-		if(e.keyCode == 27) {
-			skp_close_modal();
-		}
 	});
 
 
@@ -178,35 +136,6 @@ $(document).ready(function() {
 				scrollTop: $(scroll_href).offset().top - offset
 			}, 450);
 		}
-	});
-
-
-
-	/*--------------------------------------------
-	---- Share Popup
-	--------------------------------------------*/
-	function skp_popup_center(url, title, passed_width, passed_height) {
-		var dual_screen_left = window.screenLeft !== undefined ? window.screenLeft : screen.left;
-		var dual_screen_top  = window.screenTop !== undefined ? window.screenTop : screen.top;
-
-		var width  = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
-		var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
-
-		var left = ((width / 2) - (passed_width / 2)) + dual_screen_left;
-		var top  = ((height / 3) - (passed_height / 3)) + dual_screen_top;
-
-		var newWindow = window.open(url, title, 'scrollbars=yes, width=' + passed_width + ', height=' + passed_height + ', top=' + top + ', left=' + left);
-
-		// Focus on new window
-		if(window.focus) {
-			newWindow.focus();
-		}
-	};
-
-	$('.js-popup').on('click', function(e) {
-		e.preventDefault();
-
-		skp_popup_center($(this).attr('href'), $(this).find('.text').html(), 580, 470);
 	});
 
 

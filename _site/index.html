@@ -23,8 +23,13 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="no-touch no-js page-home">
+		<script type="text/javascript">
+			// Class for animations
+			document.body.classList.add('animations-enabled');
+		</script>
+
 		<div class="page-wrap">
-			<header class="site-header">
+			<header class="site-header anim anim-down anim-fade">
 				<div class="site-header__inner">
 					<div class="site-header__section site-header__section--logo">
 						<a class="site-logo" href="/">
@@ -96,7 +101,7 @@
 
 
 <section class="site-banner">
-	<div class="site-banner__inner">
+	<div class="site-banner__inner anim anim-up anim-fade">
 		<figure class="site-banner__img">
 			<picture>
 				<source srcset="/assets/img/banner-headshot.jpg 1x, /assets/img/banner-headshot-@2x.jpg 2x" media="(min-width: 376px)">
@@ -135,7 +140,7 @@
 </section>
 
 <section class="testimonial">
-	<div class="testimonial__inner">
+	<div class="testimonial__inner anim anim-up anim-fade">
 		<blockquote>
 			<p>Seb is an excellent web designer and faultless technician. He’s a pleasure to work with, great value for money and will always go the extra mile when necessary.</p>
 			<cite>
@@ -148,7 +153,7 @@
 	</div>
 </section>
 
-<section class="section section--large spacing-large">
+<section class="section section--large spacing-large anim anim-up anim-fade">
 	<div class="txt-center spacing-medium-bottom">
 		<h2>
 			Featured Work
@@ -235,7 +240,7 @@
 </section>
 
 <section class="bg-grey">
-	<div class="section section--large spacing-large">
+	<div class="section section--large spacing-large anim anim-up anim-fade">
 		<div class="txt-center spacing-medium-bottom">
 			<h2>
 				My Services
@@ -314,7 +319,7 @@
 				
 
 				<section class="testimonial">
-					<div class="testimonial__inner">
+					<div class="testimonial__inner anim anim-up anim-fade">
 						<blockquote>
 							<p>Seb is not only great at design and development, but he is a problem solver who always delivers an exceptional quality of work. Highly recommended.</p>
 							<cite>
@@ -330,17 +335,19 @@
 
 			
 				<section class="section section--large spacing-large txt-center spacer-top">
-					<h2>
-						Let's Work Together
-					</h2>
+					<div class="anim anim-up anim-fade">
+						<h2>
+							Let's Work Together
+						</h2>
 
-					<br><br>
+						<br><br>
 
-					<a class="btn" href="/contact/">
-						<span class="btn__inner">
-							Get in Touch
-						</span>
-					</a>
+						<a class="btn" href="/contact/">
+							<span class="btn__inner">
+								Get in Touch
+							</span>
+						</a>
+					</div>
 				</section>
 			
 
@@ -404,7 +411,7 @@
 			</footer>
 		</div><!--end .page-wrap-->
 
-		<script type="text/javascript" src="/assets/js/app.min.js"></script>
+		<script async type="text/javascript" src="/assets/js/app.min.js"></script>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31577987-1"></script>
