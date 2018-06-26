@@ -4,6 +4,7 @@
 	overflow: hidden;
 	cursor: pointer;
 	border-radius: $border-radius;
+	border: 3px solid $ui-color-1;
 	background: $ui-color-1;
 	// Type
 	font-family: map-get(map-get($fonts, 2), family);
@@ -11,24 +12,10 @@
 	letter-spacing: 0.5px;
 	text-align: center;
 	color: #fff;
+}
 
-	&:before,
-	&:after {
-		width: 0%;
-		height: 100%;
-		position: absolute;
-		bottom: 0;
-		content: '';
-		background: $ui-color-2;
-	}
-
-	&:before {
-		left: 0;
-	}
-
-	&:after {
-		right: 0;
-	}
+.btn:not(.btn--ghost):not(.pagination__item--disabled) {
+	box-shadow: inset 0 0 0 32px $ui-color-1;
 }
 
 .btn__inner {
@@ -85,7 +72,7 @@
 
 //---- Ghost
 .btn--ghost {
-	box-shadow: inset 0 0 0 3px $ui-color-1;
+	box-shadow: none;
 	background: #fff;
 	// Type
 	color: $ui-color-1;

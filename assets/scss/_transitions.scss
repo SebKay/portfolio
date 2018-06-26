@@ -32,9 +32,7 @@
 		@include transition(background ease $transition-speed);
 	}
 
-	.btn:before,
-	.btn:after,
-	.btn--ghost,
+	.btn,
 	.post-styles a:not([class*="btn"]),
 	.jcf-option,
 	.site-menu__item:before {
