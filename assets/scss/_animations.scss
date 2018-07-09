@@ -1,5 +1,5 @@
 @media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.animations-enabled {
+	.animations-enabled.page-home {
 		.anim {
 			@include transition(all ease ($transition-speed * 1.5));
 		}

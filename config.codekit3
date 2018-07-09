@@ -2043,6 +2043,16 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/_site\/blog\/index.html": {
 		"cB": 0,
 		"ft": 8192,
