@@ -47,10 +47,6 @@ label {
 	display: block;
 }
 
-input[name="honey-for-badgers"] {
-	display: none;
-}
-
 //---- Stylised
 .form__inner {
 	@include flex(flex);
