@@ -4,10 +4,12 @@
 /my-work/chargify /work/chargify
 /my-work/* /work
 
-/portfolio-assembla-1-2/ /work/
-
 /category/* /blog
 
 /dealing-with-burnout-as-a-web-designer/man-standing-at-water/ /dealing-with-burnout-as-a-web-designer
+/how-to-hire-a-web-designer/client-design-packages/ /how-to-hire-a-web-designer/
+/working-from-home-5-ways-to-make-it-work/men-in-boat/ /working-from-home-5-ways-to-make-it-work/
+
+/blog/page/2/ /blog/page2/
 
 /* /404 404
