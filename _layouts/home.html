@@ -39,6 +39,20 @@
 	</div>
 </section>
 
+<section class="bg-grey">
+	<div class="section section--large spacing-large anim anim-up anim-fade">
+		<div class="txt-center spacing-medium-bottom">
+			<h2>
+				Featured Work
+			</h2>
+		</div>
+
+		{% assign project = site.data.projects[0] %}
+
+		{% include project-preview.html %}
+	</div>
+</section>
+
 <section class="testimonial">
 	<div class="testimonial__inner anim anim-up anim-fade">
 		<blockquote>
@@ -56,54 +70,40 @@
 <section class="section section--large spacing-large anim anim-up anim-fade">
 	<div class="txt-center spacing-medium-bottom">
 		<h2>
-			Featured Work
+			My Services
 		</h2>
 	</div>
 
-	{% assign project = site.data.projects[0] %}
-
-	{% include project-preview.html %}
-</section>
-
-<section class="bg-grey">
-	<div class="section section--large spacing-large anim anim-up anim-fade">
-		<div class="txt-center spacing-medium-bottom">
-			<h2>
-				My Services
-			</h2>
-		</div>
-
-		<div class="grid grid--spaced grid--tb2--1">
-			{% for service in site.data.services %}
-				<div class="grid__col grid__col--4 txt-center">
-					<a class="icon icon--{{ service.icon }}" href="/services/#{{ service.title | slugify }}">
-						{{ site.data.svgs[0][service.icon] }}
-					</a>
-					<br><br><br>
-					<h3 class="h4">
-						{{ service.title }}
-					</h3>
-					<br>
-					<p class="txt-large">
-						{{ service.tagline }}
+	<div class="grid grid--spaced grid--tb2--1">
+		{% for service in site.data.services %}
+			<div class="grid__col grid__col--4 txt-center">
+				<a class="icon icon--{{ service.icon }}" href="/services/#{{ service.title | slugify }}">
+					{{ site.data.svgs[0][service.icon] }}
+				</a>
+				<br><br><br>
+				<h3 class="h4">
+					{{ service.title }}
+				</h3>
+				<br>
+				<p class="txt-large">
+					{{ service.tagline }}
+				</p>
+				<br>
+				<div class="post-styles">
+					<p>
+						{{ service.excerpt }}
 					</p>
-					<br>
-					<div class="post-styles">
-						<p>
-							{{ service.excerpt }}
-						</p>
-					</div>
 				</div>
-			{% endfor %}
-		</div>
+			</div>
+		{% endfor %}
+	</div>
 
-		<div class="txt-center spacing-small-top">
-			<a class="btn" href="/services">
-				<span class="btn__inner">
-					View All Services
-				</span>
-			</a>
-		</div>
+	<div class="txt-center spacing-small-top">
+		<a class="btn" href="/services">
+			<span class="btn__inner">
+				View All Services
+			</span>
+		</a>
 	</div>
 </section>
 
