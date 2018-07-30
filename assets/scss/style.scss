@@ -96,6 +96,10 @@ picture {
 	height: auto;
 }
 
+img {
+	border-radius: $border-radius;
+}
+
 svg {
 	width: 100%;
 	height: auto;

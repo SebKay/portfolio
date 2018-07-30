@@ -52,16 +52,16 @@
 	.testimonial__inner {
 		blockquote {
 			p {
-				@include rem(34px);
+				@include rem(36px);
 				// Type
-				line-height: 34px * 1.3;
+				line-height: 36px * 1.3;
 			}
 
 			cite {
 				margin-top: 60px;
 
 				span {
-					@include rem(22px);
+					@include rem(24px);
 				}
 			}
 		}
@@ -72,16 +72,16 @@
 	.testimonial__inner {
 		blockquote {
 			p {
-				@include rem(30px);
+				@include rem(32px);
 				// Type
-				line-height: 26px * 1.3;
+				line-height: 32px * 1.3;
 			}
 
 			cite {
 				margin-top: 40px;
 
 				span {
-					@include rem(20px);
+					@include rem(22px);
 				}
 			}
 		}
