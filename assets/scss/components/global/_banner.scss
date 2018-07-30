@@ -26,6 +26,18 @@
 	line-height: 24px * 1.25;
 }
 
+.site-banner__notice {
+	@include flex(inline-flex);
+	border-radius: $border-radius;
+	background: $ui-color-2-2;
+	// Type
+	font-family: map-get(map-get($fonts, 2), family);
+	font-weight: map-get(map-get($fonts, 2), semibold);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: $ui-color-1;
+}
+
 .site-banner__actions {
 	@include flex(inline-flex);
 }
@@ -52,8 +64,14 @@
 		}
 	}
 
-	* + .site-banner__actions {
+	* + .site-banner__actions,
+	.site-banner__notice {
 		margin-top: 40px;
+	}
+
+	.site-banner__notice {
+		@include rem(20px);
+		padding: 30px 40px;
 	}
 
 	.site-banner__actions {
@@ -78,8 +96,14 @@
 		}
 	}
 
-	* + .site-banner__actions {
+	* + .site-banner__actions,
+	.site-banner__notice {
 		margin-top: 30px;
+	}
+
+	.site-banner__notice {
+		@include rem(16px);
+		padding: 20px 30px;
 	}
 
 	.site-banner__actions {
