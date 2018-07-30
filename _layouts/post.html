@@ -45,7 +45,7 @@
 
 		<ul class="share">
 			<li class="share__item share__item--twitter">
-				<a href="https://twitter.com/home?status={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank">
+				<a href="https://twitter.com/home?status={{ page.title | url_encode }} - {{ site.url | url_encode }}{{ page.url | url_encode }} via @SebKayDesign" target="_blank">
 					{{ site.data.svgs[0].twitter }}
 				</a>
 			</li>
@@ -55,8 +55,13 @@
 				</a>
 			</li>
 			<li class="share__item share__item--google">
-				<a href="https://plus.google.com/share?url={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank">
+				<a href="https://plus.google.com/share?url={{ page.title | url_encode }}{{ page.url | url_encode }}" target="_blank">
 					{{ site.data.svgs[0].google }}
+				</a>
+			</li>
+			<li class="share__item share__item--linkedin">
+				<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}&summary={{ page.excerpt }}" target="_blank">
+					{{ site.data.svgs[0].linkedin }}
 				</a>
 			</li>
 		</ul>
