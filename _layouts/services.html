@@ -4,7 +4,9 @@
 	{% for service in site.data.services %}
 		<div class="service anim anim-up anim-fade" id="{{ service.title | slugify }}">
 			<div class="service__left">
-				<span class="icon icon--large {{ service.icon_class }}"></span>
+				<span class="icon icon--large icon--{{ service.icon }}">
+					{{ site.data.svgs[0][service.icon] }}
+				</span>
 			</div>
 
 			<div class="service__right">

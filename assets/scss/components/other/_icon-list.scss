@@ -18,20 +18,12 @@
 	color: $ui-color-2-7;
 }
 
-[class*="icon-list__item--"] {
-	padding-left: 30px;
-}
+.icon-list__icon {
+	margin-right: 15px;
 
-.icon-list__item--pencil {
-	background-image: image-url('icons/pencil.svg');
-}
-
-.icon-list__item--design {
-	background-image: image-url('icons/design.svg');
-}
-
-.icon-list__item--code {
-	background-image: image-url('icons/code.svg');
+	svg * {
+		fill: $ui-color-2-7;
+	}
 }
 
 //---- Responsive ----//
@@ -48,16 +40,17 @@
 }
 
 @media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.icon-list__item {
-		min-height: 22px;
-		background-size: 22px;
+	.icon-list__icon {
+		width: 18px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
 	.icon-list__item {
 		@include rem(14px);
-		min-height: 18px;
-		background-size: 18px;
+	}
+
+	.icon-list__icon {
+		width: 16px;
 	}
 }

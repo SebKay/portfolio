@@ -33,23 +33,17 @@
 
 //---- Icons
 .icon {
-	display: inline-block;
+	@include flex(inline-flex);
+	@include flex_align_items(center);
+	@include flex_justify(center);
 	border-radius: $border-radius;
 	background-color: $ui-color-1;
 	background-repeat: no-repeat;
 	background-position: center;
-}
 
-.icon--design {
-	background-image: image-url('icons/design-white.svg');
-}
-
-.icon--code {
-	background-image: image-url('icons/code-white.svg');
-}
-
-.icon--basket {
-	background-image: image-url('icons/basket-white.svg');
+	svg * {
+		fill: #fff;
+	}
 }
 
 //---- Other
@@ -124,16 +118,16 @@ body.lock-scroll {
 		width: 365px;
 		height: 365px;
 
-		&.icon--design {
-			background-size: 108px;
+		&.icon--pencil svg {
+			width: 108px;
 		}
 
-		&.icon--code {
-			background-size: 123px;
+		&.icon--code svg {
+			width: 123px;
 		}
 
-		&.icon--basket {
-			background-size: 108px;
+		&.icon--cart svg {
+			width: 108px;
 		}
 	}
 }
@@ -160,16 +154,16 @@ body.lock-scroll {
 		width: 260px;
 		height: 260px;
 
-		&.icon--design {
-			background-size: 88px;
+		&.icon--pencil svg {
+			width: 88px;
 		}
 
-		&.icon--code {
-			background-size: 103px;
+		&.icon--code svg {
+			width: 103px;
 		}
 
-		&.icon--basket {
-			background-size: 88px;
+		&.icon--cart svg {
+			width: 88px;
 		}
 	}
 }
@@ -181,16 +175,16 @@ body.lock-scroll {
 		height: 110px;
 	}
 
-	.icon--design {
-		background-size: 48px;
+	.icon--pencil svg {
+		width: 40px;
 	}
 
-	.icon--code {
-		background-size: 53px;
+	.icon--code svg {
+		width: 50px;
 	}
 
-	.icon--basket {
-		background-size: 48px;
+	.icon--cart svg {
+		width: 40px;
 	}
 }
 
@@ -217,15 +211,15 @@ body.lock-scroll {
 		height: 90px;
 	}
 
-	.icon--design {
-		background-size: 38px;
+	.icon--pencil svg {
+		width: 30px;
 	}
 
-	.icon--code {
-		background-size: 43px;
+	.icon--code svg {
+		width: 40px;
 	}
 
-	.icon--basket {
-		background-size: 38px;
+	.icon--cart svg {
+		width: 30px;
 	}
 }

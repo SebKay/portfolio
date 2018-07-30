@@ -44,21 +44,31 @@
 				{{ project.title }}
 			</a>
 		</h2>
+
 		<br>
+
 		<div class="post-styles">
 			<p>
 				{{ project.excerpt }}
 			</p>
 		</div>
+
 		<br><br>
+
 		<ul class="icon-list">
 			{% for usp in project.usps %}
 				<li class="icon-list__item icon-list__item--{{ usp.icon }}">
+					<span class="icon-list__icon">
+						{{ site.data.svgs[0][usp.icon] }}
+					</span>
+
 					{{ usp.title }}
 				</li>
 			{% endfor %}
 		</ul>
+
 		<br><br>
+
 		<a class="btn" href="{{ project.url }}">
 			<span class="btn__inner">
 				View Case Study

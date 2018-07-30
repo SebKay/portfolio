@@ -52,6 +52,14 @@
 		"oAP": "\/_data\/services.yml",
 		"oF": 0
 		},
+	"\/_data\/svgs.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_data\/svgs.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/_data\/testimonials.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -1289,16 +1297,6 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
 	"\/_site\/assets\/img\/favicon-192x192.png": {
 		"ft": 32768,
 		"iS": 876,
@@ -1332,17 +1330,7 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/google.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/google.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/basket-white.svg": {
+	"\/_site\/assets\/img\/icons\/fontawesome\/basket-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -1352,37 +1340,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/_site\/assets\/img\/icons\/caret-left.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/caret-left.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/caret-right.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/caret-right.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/code-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/code-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/code.svg": {
+	"\/_site\/assets\/img\/icons\/fontawesome\/code.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -1392,17 +1350,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/_site\/assets\/img\/icons\/design-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/design-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/design.svg": {
+	"\/_site\/assets\/img\/icons\/fontawesome\/design.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -1412,27 +1360,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/_site\/assets\/img\/icons\/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/google.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/google.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/_site\/assets\/img\/icons\/pencil.svg": {
+	"\/_site\/assets\/img\/icons\/fontawesome\/pencil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -1442,11 +1370,71 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/_site\/assets\/img\/icons\/twitter.svg": {
+	"\/_site\/assets\/img\/icons\/social\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/social\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/social\/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/zondicons\/cart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/zondicons\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/zondicons\/computer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/computer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/_site\/assets\/img\/icons\/zondicons\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 25232891903,
@@ -2042,16 +2030,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
-		},
-	"\/_site\/assets\/img\/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
 		},
 	"\/_site\/assets\/js\/app.min.js": {
 		"ft": 64,
@@ -3895,16 +3873,6 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
 	"\/assets\/img\/favicon-192x192.png": {
 		"ft": 32768,
 		"iS": 876,
@@ -3938,17 +3906,7 @@
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/google.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/google.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/basket-white.svg": {
+	"\/assets\/img\/icons\/fontawesome\/basket-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -3958,37 +3916,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/caret-left.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/caret-left.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/caret-right.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/caret-right.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/code-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/code-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/code.svg": {
+	"\/assets\/img\/icons\/fontawesome\/code.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -3998,17 +3926,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/design-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/design-white.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/design.svg": {
+	"\/assets\/img\/icons\/fontawesome\/design.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -4018,27 +3936,7 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/facebook.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/google.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/google.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 25232891903,
-		"prP": 0
-		},
-	"\/assets\/img\/icons\/pencil.svg": {
+	"\/assets\/img\/icons\/fontawesome\/pencil.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
@@ -4048,13 +3946,73 @@
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/assets\/img\/icons\/twitter.svg": {
+	"\/assets\/img\/icons\/social\/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/social\/google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/social\/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/twitter.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/zondicons\/cart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/cart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/zondicons\/code.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/code.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/zondicons\/computer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/computer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
+	"\/assets\/img\/icons\/zondicons\/pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pencil.svg",
+		"oF": 0,
+		"opt": 0,
 		"plM": 25232891903,
 		"prP": 0
 		},
@@ -4648,16 +4606,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
-		},
-	"\/assets\/img\/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "\/assets\/img\/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 25232891903,
-		"prP": 0
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,

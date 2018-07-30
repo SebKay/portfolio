@@ -18,7 +18,7 @@
 		},
 		{
 			"title":"Web Design",
-			"icon":"design"
+			"icon":"computer"
 		},
 		{
 			"title":"WordPress Development",
@@ -45,7 +45,7 @@
 		},
 		{
 			"title":"Web Design",
-			"icon":"design"
+			"icon":"computer"
 		},
 		{
 			"title":"Web Development",
@@ -61,10 +61,10 @@
 		"usps" : [
 		{
 			"title":"Web Design",
-			"icon":"design"
+			"icon":"pencil"
 		},
 		{
-			"title":"Front-End Development",
+			"title":"Web Development",
 			"icon":"code"
 		}],
 		"url":"/work/chargify/"
@@ -88,7 +88,7 @@
 		},
 		{
 			"title" : "Web Design",
-			"icon"  : "design"
+			"icon"  : "computer"
 		},
 		{
 			"title" : "WordPress Development",
