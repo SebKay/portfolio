@@ -54,22 +54,6 @@
 		"url":"/work/47-farms/"
 	},
 	{
-		"title":"Chargify",
-		"excerpt": "Chargify is a SaaS company that helps you deal with subscription and recurring billing for your business. I was contacted by their head of marketing to help them revamp the old, out of date website.",
-		"preview_img_desktop_preview_url" : "/assets/img/projects/chargify/desktop-preview.jpg",
-		"preview_img_desktop_url"         : "/assets/img/projects/chargify/desktop.jpg",
-		"usps" : [
-		{
-			"title":"Web Design",
-			"icon":"pencil"
-		},
-		{
-			"title":"Web Development",
-			"icon":"code"
-		}],
-		"url":"/work/chargify/"
-	},
-	{
 		"title"                              : "Temple Beth Emunah",
 		"excerpt"                            : "TBE is a warm and welcoming synagogue based in Massachusetts. They are home to many interfaith couples, multi-racial families, gay/lesbian congregants and pride themselves on being a pillar of the local community.",
 		"preview_img_desktop_preview_url"    : "/assets/img/projects/temple-beth-emunah/desktop-preview.jpg",
@@ -95,5 +79,21 @@
 			"icon"  : "code"
 		}],
 		"url":"/work/temple-beth-emunah/"
+	},
+	{
+		"title":"Chargify",
+		"excerpt": "Chargify is a SaaS company that helps you deal with subscription and recurring billing for your business. I was contacted by their head of marketing to help them revamp the old, out of date website.",
+		"preview_img_desktop_preview_url" : "/assets/img/projects/chargify/desktop-preview.jpg",
+		"preview_img_desktop_url"         : "/assets/img/projects/chargify/desktop.jpg",
+		"usps" : [
+		{
+			"title":"Web Design",
+			"icon":"pencil"
+		},
+		{
+			"title":"Web Development",
+			"icon":"code"
+		}],
+		"url":"/work/chargify/"
 	}
 ]
