@@ -22,8 +22,6 @@
 
 .site-banner__txt {
 	@extend .txt-medium;
-	// Type
-	line-height: 24px * 1.25;
 }
 
 .site-banner__notice {
@@ -59,6 +57,9 @@
 	}
 
 	.site-banner__txt {
+		// Type
+		line-height: 28px * 1.25;
+
 		* + & {
 			margin-top: 20px;
 		}
@@ -91,6 +92,9 @@
 	}
 
 	.site-banner__txt {
+		// Type
+		line-height: 24px * 1.25;
+
 		* + & {
 			margin-top: 10px;
 		}

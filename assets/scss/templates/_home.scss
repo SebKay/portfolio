@@ -7,12 +7,13 @@
 	.site-banner__img {
 		img {
 			@extend .img-full;
-			max-width: 551px;
+			max-width: 673px;
 			border-radius: $border-radius;
 		}
 	}
 
 	.site-banner__content {
+		@include flex_align_self(center);
 		@include flex_grow(1);
 		// Type
 		text-align: left;
