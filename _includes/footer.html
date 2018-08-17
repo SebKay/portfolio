@@ -1,4 +1,4 @@
-			{% if page.layout != 'post' and page.layout != 'category' and  page.title != 'Contact' and page.title != 'Message Sent!' %}
+			{% if page.layout != 'post' and page.layout != 'category' and page.title != 'Contact' and page.title != 'Message Sent!' and page.title != 'Calendi' %}
 				{% if page.quote_id %}
 					{% assign quote_id = page.quote_id %}
 				{% else %}
@@ -20,7 +20,7 @@
 				</section>
 			{% endif %}
 
-			{% if page.title != 'Contact' and page.title != 'Success' %}
+			{% if page.title != 'Contact' and page.title != 'Success' and page.title != 'Calendi' %}
 				<section class="section section--large spacing-large txt-center spacer-top">
 					<div class="anim anim-up anim-fade">
 						<h2>

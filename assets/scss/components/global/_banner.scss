@@ -7,6 +7,10 @@
 	text-align: center;
 }
 
+.site-banner + .bg-grey {
+	margin-top: -2px;
+}
+
 .site-banner__content {
 	@extend .section;
 	@extend .section--small;

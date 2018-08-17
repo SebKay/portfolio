@@ -1,0 +1,101 @@
+{% include header.html %}
+
+<section class="bg-grey">
+	<div class="section section--small spacing-huge">
+		<div class="grid grid--spaced grid--m-1 txt-center">
+			<div class="grid__col grid__col--6">
+				<span class="icon icon--pencil" href="/services/#{{ service.title | slugify }}">
+					{{ site.data.svgs[0].calendar }}
+				</span>
+				<br><br><br>
+				<h2 class="h3">
+					Overview of the Month
+				</h2>
+				<br>
+				<div class="post-styles">
+					<p>
+						Calendi gives you a clear overview of what's coming up, as well as what's already been published.
+					</p>
+				</div>
+			</div>
+
+			<div class="grid__col grid__col--6">
+				<span class="icon icon--pencil" href="/services/#{{ service.title | slugify }}">
+					{{ site.data.svgs[0].pin }}
+				</span>
+				<br><br><br>
+				<h2 class="h3">
+					All Post Types
+				</h2>
+				<br>
+				<div class="post-styles">
+					<p>
+						You can enable as many post types as you want and easily see each item's post type in the calendar.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bggrey spacing-large-bottom">
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--spaced grid--m-1">
+			<div class="grid__col grid__col--8">
+				<img src="/assets/img/calendi/calendi-img-1.jpg">
+			</div>
+
+			<div class="grid__col grid__col--4 grid__col--center">
+				<div class="post-styles">
+					<h2 class="h3">
+						The Interface
+					</h2>
+					<p>
+						Calendi has a clean and minimal UI. Every part has been designed for ease of use.
+					</p>
+					<p>
+						Although it has a minimal feature set, every feature has a specific purpose to make managing your content easier.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--spaced grid--reverse-2 grid--m-1">
+			<div class="grid__col grid__col--8">
+				<img src="/assets/img/calendi/calendi-img-2.jpg">
+			</div>
+
+			<div class="grid__col grid__col--4 grid__col--center">
+				<div class="post-styles">
+					<h2 class="h3">
+						Post Types
+					</h2>
+					<p>
+						You can easily enable any post type (except media, because that would be weird).
+					</p>
+					<p>
+						No need to worry about your own custom post types not showing up. If they're properly registered, they'll be available in the dropdown.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--large spacing-large txt-center spacer-top">
+	<h2>
+		Download Calendi
+	</h2>
+
+	<br><br>
+
+	<a class="btn" href="#" target="_blank">
+		<span class="btn__inner">
+			Download For Free
+		</span>
+	</a>
+</section>
+
+{% include footer.html %}

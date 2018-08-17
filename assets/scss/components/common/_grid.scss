@@ -3,12 +3,16 @@
 	@include flex_wrap(wrap);
 }
 
+.grid__col--center {
+	@include flex_align_self(center);
+}
+
 @for $i from 1 through $grid-columns {
 	.grid__col--#{$i} {
 		width: (100% / $grid-columns * $i);
 	}
 
-	.grid--spaced:not(.grid--reverse) {
+	.grid--spaced:not(.grid--reverse):not(.grid--reverse-2) {
 		.grid__col--#{$i} {
 			@include calc_grid_col($i);
 
@@ -18,7 +22,8 @@
 		}
 	}
 
-	.grid--spaced.grid--reverse {
+	.grid--spaced.grid--reverse,
+	.grid--reverse-2.grid--reverse-2 {
 		.grid__col--#{$i} {
 			@include calc_grid_col($i);
 
@@ -36,6 +41,12 @@
 	}
 }
 
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.grid--reverse-2 {
+		@include flex_direction(row-reverse);
+	}
+}
+
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.grid--tb2--1 {
 		.grid__col.grid__col {
@@ -45,6 +56,19 @@
 
 		.grid__col + .grid__col {
 			margin-top: 50px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.grid--m-1.grid--m-1 {
+		.grid__col.grid__col {
+			width: 100%;
+			margin-right: 0 !important;
+		}
+
+		.grid__col + .grid__col {
+			margin-top: 30px;
 		}
 	}
 }

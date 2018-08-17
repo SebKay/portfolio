@@ -69,7 +69,8 @@ $spacing-desktop: (
 	tiny   : 45px,
 	small  : 60px,
 	medium : 100px,
-	large  : 150px
+	large  : 150px,
+	huge   : 200px
 );
 
 $spacing-laptop: (
@@ -77,7 +78,8 @@ $spacing-laptop: (
 	tiny   : 45px,
 	small  : 60px,
 	medium : 80px,
-	large  : 110px
+	large  : 110px,
+	huge   : 150px
 );
 
 $spacing-tb1: (
@@ -85,7 +87,8 @@ $spacing-tb1: (
 	tiny   : 30px,
 	small  : 45px,
 	medium : 60px,
-	large  : 80px
+	large  : 80px,
+	huge   : 110px
 );
 
 $spacing-mobile: (
@@ -93,7 +96,8 @@ $spacing-mobile: (
 	tiny   : 20px,
 	small  : 30px,
 	medium : 45px,
-	large  : 55px
+	large  : 55px,
+	huge   : 55px
 );
 
 $sections-percent: 92%;
