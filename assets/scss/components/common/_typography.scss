@@ -18,13 +18,9 @@ strong  { font-weight: map-get(map-get($fonts, 1), semibold); }
 em      { font-style: italic; }
 a       { color: $text-color; text-decoration: none; position: relative; }
 
-address { font-style: normal; }
-
 .txt-left   { text-align: left; }
 .txt-center { text-align: center; }
 .txt-right  { text-align: right; }
-
-.txt-highlight { color: $ui-color-1; }
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
