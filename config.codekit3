@@ -74,6 +74,13 @@
 		"oAP": "\/_drafts\/2018-08-20-tips-for-improving-homepage.html",
 		"oF": 0
 		},
+	"\/_drafts\/2018-09-25-calendi.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_drafts\/2018-09-25-calendi.html",
+		"oF": 0
+		},
 	"\/_includes\/banner.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1301,6 +1308,50 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-hover-over-post.jpg": {
+		"ft": 16384,
+		"iS": 30005,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-hover-over-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-month.jpg": {
+		"ft": 16384,
+		"iS": 27786,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-select-month.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-post-types.jpg": {
+		"ft": 16384,
+		"iS": 29292,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-select-post-types.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-thumb.jpg": {
+		"ft": 16384,
+		"iS": 18905,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/img\/calendar.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2370,6 +2421,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/text-template\/index.html",
+		"oF": 0
+		},
+	"\/_site\/tips-for-improving-homepage\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/tips-for-improving-homepage\/index.html",
 		"oF": 0
 		},
 	"\/_site\/work\/47-farms\/index.html": {
@@ -3961,6 +4019,50 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/seo-basics-for-small-business-websites-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/blog\/2018\/09\/calendi-hover-over-post.jpg": {
+		"ft": 16384,
+		"iS": 30005,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-hover-over-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/blog\/2018\/09\/calendi-select-month.jpg": {
+		"ft": 16384,
+		"iS": 27786,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-select-month.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/blog\/2018\/09\/calendi-select-post-types.jpg": {
+		"ft": 16384,
+		"iS": 29292,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-select-post-types.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/blog\/2018\/09\/calendi-thumb.jpg": {
+		"ft": 16384,
+		"iS": 18905,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/calendi-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
