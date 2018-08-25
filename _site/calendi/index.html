@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en-GB">
 	<head>
-		<title>Calendi - A Simple Editorial Calendar for WordPress | Seb Kay</title>
+		<title>Calendi | Seb Kay</title>
 
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -19,10 +19,10 @@
 		<link href="/assets/img/favicon-297x297.png" rel="apple-touch-icon-precomposed">
 		<meta content="/assets/img/favicon-297x297.png" name="msapplication-TileImage">
 
-		<meta name="description" content="I recently released my first WordPress plugin. Here's what I've learned about building and releasing something for free.">
+		<meta name="description" content="Easily manage your WordPress posts (and other post types) with the Calendi WordPress plugin.">
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
-	<body class="no-touch no-js page-calendi-a-simple-editorial-calendar-for-wordpress">
+	<body class="no-touch no-js page-calendi">
 		<script type="text/javascript">
 			// Class for animations
 			document.body.classList.add('animations-enabled');
@@ -79,7 +79,7 @@
 									
 
 									
-									<a class="site-menu__item active" href="/blog/">
+									<a class="site-menu__item " href="/blog/">
 										Blog
 									</a>
 								
@@ -108,174 +108,142 @@
 
 
 
-
-			
-
-
-<section class="spacing-large">
-	<div class="section section--medium spacing-medium-bottom anim anim-up anim-fade">
-		<figure>
-			<img class="img-full" src="/assets/img/blog/2018/09/calendi-thumb.jpg" alt="Calendi - A Simple Editorial Calendar for WordPress">
-		</figure>
-	</div>
-	<div class="section section--tiny anim anim-up anim-fade">
-		<div class="post-intro">
-			<h1>
-				Calendi - A Simple Editorial Calendar for WordPress
-			</h1>
-			<p class="blog-preview__meta">
+	<section class="site-banner">
+		<div class="site-banner__inner">
+			<div class="site-banner__content anim anim-up anim-fade">
 				
-					<a href="http://localhost:4000/category/side-projects/">Side projects</a>
+					<h1 class="site-banner__title">
+						Calendi
+					</h1>
 				
 
-				<span class="blog-preview__meta-sep">/</span>
+				
+					<h2 class="site-banner__subtitle">
+						An easy to use editorial calendar for WordPress
+					</h2>
+				
 
 				
-				25th
+
 				
-				September,
-				2018
-			</p>
-			
-				<p class="txt-large">
-					I recently released my first WordPress plugin. Here's what I've learned about building and releasing something for free.
-				</p>
-			
-		</div>
 
-		<hr>
-
-		<div class="post-styles">
-			<h2>Experience and Ideas</h2>
-
-<p>On Tuesday the 21st of August I published my first WordPress plugin live for the world to see. Everything below is what I've learned about building and releasing <a href="https://wordpress.org/plugins/calendi/">Calendi</a>, the simple editorial calendar for WordPress.</p>
-
-<p>For the last 10 years I've been building websites with WordPress. That's a lot of themes and plugins. However until the last week I'd never released a plugin on the official directory.</p>
-
-<p>Don't get me wrong, I've built hundreds of themes and well over 50 plugins, yet I've never released one the "official" way. By official I mean via WordPress itself, weather that's on the theme directory or the plugin directory.</p>
-
-<p>There have been ideas that have come and gone. Some have fizzled out in the planning stage, others in the design stage and some even got into development. Yet I've always fallen out of love with the idea before it actually becomes reality. This time however, things are different.</p>
-
-<p><figure>
-    <img src="/assets/img/blog/2018/09/calendi-hover-over-post.jpg" alt="Main view of Calendi">
-    <figcaption>
-        The main view of Calendi. Clean and simple to use.
-    </figcaption>
-</figure></p>
-
-<h2>The Same Problem</h2>
-
-<p>Time after time of trying to build a plugin, just to get my feet wet with releasing something, I've failed.</p>
-
-<p>The main reason I kept letting these little ideas fizzle out was because of the reason I started making them, which was just for the sake of it. With Calendi however, it's much different.</p>
-
-<p><a href="https://inspirationalpixels.com/">Inspirational Pixels</a> is a web development tutorial site I run in my spare time. I've been publishing posts more frequently in the past few months and began needing a better way to schedule and see all my content for the forthcoming weeks.</p>
-
-<p>My biggest issue with WordPress for publishing content on a regular basis is that is has no built-in calendar, so I ended up building my own...but aren't there already solutions out? Yes, there are loads.</p>
-
-<p>So, why did I not want to use one of the solutions that already existed? The quick answer is because I didn't like them, but a more truthful answer is that they try to be all things to all people, and that's not what I was after.</p>
-
-<p><figure>
-    <img src="/assets/img/blog/2018/09/calendi-select-post-types.jpg" alt="Select multiple post types in Calendi">
-    <figcaption>
-        If your post type is correctly registered, it'll show in the dropdown.
-    </figcaption>
-</figure></p>
-
-<h2>The Only Solution</h2>
-
-<p>The main point of Calendi is that it's simple and does exactly what it says on the tin. It shows you what's been published, what's going to be published and allows you to select multiple post types.</p>
-
-<p>The ability to see custom post types in the calendar was something a lot of calendars were missing, yet it's one of the earliest and easiest features I added.</p>
-
-<p>In the end the only solution I saw when it came to managing my own content was to built my own.</p>
-
-<p>I've long been an advocate of <em>not</em> re-inventing the wheel if it already does the job. However, the exception has always been that if the already built solution does the job badly or just doesn't fit nicely with how you do things,  make your own.</p>
-
-<p><figure>
-    <img src="/assets/img/blog/2018/09/calendi-select-month.jpg" alt="Select month or year in Calendi">
-    <figcaption>
-        Select any month of the year. The only years available are those that have posts in them.
-    </figcaption>
-</figure></p>
-
-<h2>Final Thoughts</h2>
-
-<p>I read a really great post a few days ago by Spencer Fry about <a href="http://www.spencerfry.com/startup-advice-you-haven-t-heard-before">running his own SaaS business</a> and what he's learned so far.</p>
-
-<p>The thing I liked most is that it wasn't filled with the usual bullshit most posts of that nature have. It was a really insightful article talking about real problems he's faced and how he's grown from them.</p>
-
-<p>One thing that really stuck out was the advice to not look at what others are doing and just make your product the best it can be. I didn't realized whilst building Calendi, but I'd already taken the advice. Where I'd been so focused on making it the best it could be, I never even thought to look at the competition.</p>
-
-<p>In hindsight a quick look at what others were doing might have been helpful, but I don't feel as though it would've made Calendi any better or worse.</p>
-
-<p>All in all I'm very happy with how my first official WordPress plugin ended up and am excited to launch some new features for it very soon. The biggest one being drag and drop to change post dates, something I have limited experience with. Exciting!</p>
-
-<p><strong>You can <a href="https://wordpress.org/plugins/calendi/">download Calendi for free</a> on the official WordPress directory.</strong></p>
-
-		</div>
-
-		<hr>
-
-		<ul class="share">
-			<li class="share__item share__item--twitter">
-				<a href="https://twitter.com/home?status=Calendi+-+A+Simple+Editorial+Calendar+for+WordPress - http%3A%2F%2Flocalhost%3A4000%2Fcalendi%2F via @SebKayDesign" target="_blank">
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><path d='M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z'/></svg>
-				</a>
-			</li>
-			<li class="share__item share__item--facebook">
-				<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fcalendi%2F" target="_blank">
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 264 512'><path d='M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229'/></svg>
-				</a>
-			</li>
-			<li class="share__item share__item--google">
-				<a href="https://plus.google.com/share?url=http%3A%2F%2Flocalhost%3A4000%2Fcalendi%2F" target="_blank">
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 512'><path d='M386.061 228.496c1.834 9.692 3.143 19.384 3.143 31.956C389.204 370.205 315.599 448 204.8 448c-106.084 0-192-85.915-192-192s85.916-192 192-192c51.864 0 95.083 18.859 128.611 50.292l-52.126 50.03c-14.145-13.621-39.028-29.599-76.485-29.599-65.484 0-118.92 54.221-118.92 121.277 0 67.056 53.436 121.277 118.92 121.277 75.961 0 104.513-54.745 108.965-82.773H204.8v-66.009h181.261zm185.406 6.437V179.2h-56.001v55.733h-55.733v56.001h55.733v55.733h56.001v-55.733H627.2v-56.001h-55.733z'/></svg>
-				</a>
-			</li>
-			<li class="share__item share__item--linkedin">
-				<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Fcalendi%2F&title=Calendi+-+A+Simple+Editorial+Calendar+for+WordPress&summary=I recently released my first WordPress plugin. Here's what I've learned about building and releasing something for free." target="_blank">
-					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M100.3 480H7.4V180.9h92.9V480zM53.8 140.1C24.1 140.1 0 115.5 0 85.8 0 56.1 24.1 32 53.8 32c29.7 0 53.8 24.1 53.8 53.8 0 29.7-24.1 54.3-53.8 54.3zM448 480h-92.7V334.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V480h-92.8V180.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V480z'/></svg>
-				</a>
-			</li>
-		</ul>
-
-		
-			<hr>
-
-			<div id="disqus_thread"></div>
-			<script>
-			(function() { // DON'T EDIT BELOW THIS LINE
-			var d = document, s = d.createElement('script');
-			s.src = 'https://sebkay.disqus.com/embed.js';
-			s.setAttribute('data-timestamp', +new Date());
-			(d.head || d.body).appendChild(s);
-			})();
-			</script>
-			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		
-	</div>
-</section>
-
-
-			
-
-			
-				<section class="section section--large spacing-large txt-center spacer-top">
-					<div class="anim anim-up anim-fade">
-						<h2>
-							Let's Work Together
-						</h2>
-
-						<br><br>
-
-						<a class="btn" href="/contact/">
+				
+					<div class="site-banner__actions">
+						<a class="btn" href="https://wordpress.org/plugins/calendi/">
 							<span class="btn__inner">
-								Get in Touch
+								Download For Free
 							</span>
 						</a>
 					</div>
-				</section>
+				
+			</div>
+		</div>
+	</section>
+
+
+			
+
+
+<section class="bg-grey">
+	<div class="section section--small spacing-huge">
+		<div class="grid grid--spaced grid--m-1 txt-center">
+			<div class="grid__col grid__col--6">
+				<span class="icon icon--pencil">
+					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'><path d='M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z'/></svg>
+				</span>
+				<br><br><br>
+				<h2 class="h3">
+					Overview of the Month
+				</h2>
+				<br>
+				<div class="post-styles">
+					<p>
+						Calendi gives you a clear overview of what's coming up, as well as what's already been published.
+					</p>
+				</div>
+			</div>
+
+			<div class="grid__col grid__col--6">
+				<span class="icon icon--pencil">
+					<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'><path d='M298.028 214.267L285.793 96H328c13.255 0 24-10.745 24-24V24c0-13.255-10.745-24-24-24H56C42.745 0 32 10.745 32 24v48c0 13.255 10.745 24 24 24h42.207L85.972 214.267C37.465 236.82 0 277.261 0 328c0 13.255 10.745 24 24 24h136v104.007c0 1.242.289 2.467.845 3.578l24 48c2.941 5.882 11.364 5.893 14.311 0l24-48a8.008 8.008 0 0 0 .845-3.578V352h136c13.255 0 24-10.745 24-24-.001-51.183-37.983-91.42-85.973-113.733z'/></svg>
+				</span>
+				<br><br><br>
+				<h2 class="h3">
+					All Post Types
+				</h2>
+				<br>
+				<div class="post-styles">
+					<p>
+						You can enable as many post types as you want and easily see each item's post type in the calendar.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="bggrey spacing-large-bottom">
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--spaced grid--m-1">
+			<div class="grid__col grid__col--8">
+				<img src="/assets/img/calendi/calendi-img-1.jpg">
+			</div>
+
+			<div class="grid__col grid__col--4 grid__col--center">
+				<div class="post-styles">
+					<h2 class="h3">
+						The Interface
+					</h2>
+					<p>
+						Calendi has a clean and minimal UI. Every part has been designed for ease of use.
+					</p>
+					<p>
+						Although it has a minimal feature set, every feature has a specific purpose to make managing your content easier.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--spaced grid--reverse-2 grid--m-1">
+			<div class="grid__col grid__col--8">
+				<img src="/assets/img/calendi/calendi-img-2.jpg">
+			</div>
+
+			<div class="grid__col grid__col--4 grid__col--center">
+				<div class="post-styles">
+					<h2 class="h3">
+						Post Types
+					</h2>
+					<p>
+						You can easily enable any post type (except media, because that would be weird).
+					</p>
+					<p>
+						No need to worry about your own custom post types not showing up. If they're properly registered, they'll be available in the dropdown.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section section--large spacing-large txt-center spacer-top">
+	<h2>
+		Download Calendi
+	</h2>
+
+	<br><br>
+
+	<a class="btn" href="https://wordpress.org/plugins/calendi/">
+		<span class="btn__inner">
+			Download For Free
+		</span>
+	</a>
+</section>
+
+			
+
 			
 
 			<footer class="site-footer">
@@ -320,7 +288,7 @@
 							
 
 							
-							<a class="site-footer-menu__item active" href="/blog/">
+							<a class="site-footer-menu__item " href="/blog/">
 								Blog
 							</a>
 						
