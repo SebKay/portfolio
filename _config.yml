@@ -1,37 +1,29 @@
 # Settings
-encoding: UTF-8
-future: true
+url      : "https://sebkay.com"
+encoding : UTF-8
+future   : true
 
 # Dependencies
-markdown:         rdiscount
-highlighter:         true
-plugins:
+markdown    : rdiscount
+highlighter : true
+plugins     :
 - jekyll-paginate
 - jekyll-sitemap
 
 # Permalinks
-permalink: /:title/
-
-# Server
-url: "https://sebkay.com"
-baseurl:          /
-encoding:         UTF-8
+baseurl   : /
+permalink : /blog/:title/
 
 # Globals
-title: Seb Kay
-description: Web Design & Development
-paginate: 5
-paginate_path: "/blog/page:num/"
+title         : Seb Kay
+description   : Web Design & Development
+paginate      : 5
+paginate_path : "/blog/page:num/"
 
 # Exclude
 exclude:
 - config.codekit3
-- assets/scss/
-- assets/js/plugins/
-- assets/js/app.js
-- assets/js/jquery.custom.js
-- assets/js/jquery.js
-- assets/js/svg.js
+- assets_dev/s
 
 # Include
 include:

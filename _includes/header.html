@@ -3,13 +3,6 @@
 {% else %}
 	{% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% endif %}
-{% if page.seo_description %}
-	{% assign seo_description = page.seo_description %}
-{% elsif page.excerpt %}
-	{% assign seo_description = page.excerpt %}
-{% else %}
-	{% assign seo_description = 'Bespoke web design and development for small and medium sized businesses. Made in Hampshire, UK.' %}
-{% endif %}
 <!DOCTYPE html>
 <html lang="en-GB">
 	<head>
@@ -33,50 +26,3 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="no-touch no-js page-{{ page.title | slugify }}">
-		<script type="text/javascript">
-			// Class for animations
-			document.body.classList.add('animations-enabled');
-		</script>
-
-		<div class="page-wrap">
-			<header class="site-header anim anim-down anim-fade">
-				<div class="site-header__inner">
-					<div class="site-header__section site-header__section--logo">
-						<a class="site-logo" href="/">
-							<span class="site-logo__txt">
-								Seb
-							</span>
-						</a>
-					</div>
-
-					<div class="site-header__section site-header__section--toggle-menu">
-						<a class="toggle-menu js-toggle-menu" href="#">
-							<span class="toggle-menu__line"></span>
-							<span class="toggle-menu__line"></span>
-							<span class="toggle-menu__line"></span>
-						</a>
-					</div>
-
-					<div class="site-header__section site-header__section--menu">
-						<div class="site-menu">
-							<nav class="site-menu__inner">
-								{% for menu-item in site.data.menu %}
-									{% assign current-menu-item = null %}
-									{% assign menu-item-slug = menu-item.url | remove: '/' %}
-
-									{% if page.url == menu-item.url or page.parent == menu-item-slug %}
-										{% assign current-menu-item = 'active' %}
-									{% endif %}
-									<a class="site-menu__item {{ current-menu-item }}" href="{{ menu-item.url }}">
-										{{ menu-item.name }}
-									</a>
-								{% endfor %}
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
-
-			{% if page.url != '/' %}
-				{% include banner.html %}
-			{% endif %}
