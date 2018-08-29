@@ -228,6 +228,13 @@
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
+	"\/_site\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_site\/_redirects",
+		"oF": 0
+		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
 		"ft": 8192,

@@ -26,3 +26,35 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="no-touch no-js page-{{ page.title | slugify }}">
+		<header class="site-header">
+			<div class="site-header__inner">
+				<div class="site-header__section site-header__section--logo">
+					<a class="site-logo" href="{{ site.url }}">
+						Seb Kay
+					</a>
+				</div>
+
+				{% if site.data.menu %}
+					<div class="site-header__section site-header__section--menu">
+						<nav class="site-menu">
+							<ul class="site-menu__inner">
+								{% for menu-item in site.data.menu %}
+									{% assign menu-item-current = null %}
+									{% assign menu-item-slug = menu-item.url | remove: '/' %}
+
+									{% if page.url == menu-item.url or page.parent == menu-item-slug %}
+										{% assign menu-item-current = 'active' %}
+									{% endif %}
+
+									<li class="site-menu__item {{ menu-item-current }}">
+										<a href="{{ site.url }}{{ menu-item.url }}">
+											{{ menu-item.name }}
+										</a>
+									</li>
+								{% endfor %}
+							</ul>
+						</nav>
+					</div>
+				{% endif %}
+			</div>
+		</header>
