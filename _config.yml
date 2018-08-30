@@ -23,8 +23,11 @@ paginate_path : "/blog/page:num/"
 # Exclude
 exclude:
 - config.codekit3
-- assets_dev/s
 
 # Include
 include:
 - _redirects
+
+sass:
+  style: compressed
+  sass_dir: assets/css/

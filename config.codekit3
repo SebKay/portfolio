@@ -9,6 +9,146 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_extends.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_extends.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_functions.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_functions.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_reset.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_variables.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/54a1fa5cc201bfa36df60455f89fcc8e9570b452\/_header.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/54a1fa5cc201bfa36df60455f89fcc8e9570b452\/_header.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_extends.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_extends.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_functions.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_functions.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_mixins.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_mixins.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_reset.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_reset.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_variables.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_variables.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_button.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_button.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_sections.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_sections.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_spacing.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_spacing.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_typography.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_button.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_button.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_sections.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_sections.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_spacing.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_spacing.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_typography.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_typography.scssc",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -452,17 +592,7 @@
 		"oAP": "\/_site\/sitemap.xml",
 		"oF": 0
 		},
-	"\/assets\/css\/style.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/assets_dev\/scss\/base\/_extends.scss": {
+	"\/assets\/css\/base\/_extends.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -475,7 +605,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/base\/_functions.scss": {
+	"\/assets\/css\/base\/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -488,7 +618,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/base\/_mixins.scss": {
+	"\/assets\/css\/base\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -501,7 +631,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/base\/_reset.scss": {
+	"\/assets\/css\/base\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -514,7 +644,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/base\/_variables.scss": {
+	"\/assets\/css\/base\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -527,7 +657,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/components\/common\/_button.scss": {
+	"\/assets\/css\/components\/common\/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -540,7 +670,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/components\/common\/_sections.scss": {
+	"\/assets\/css\/components\/common\/_sections.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -553,7 +683,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/components\/common\/_spacing.scss": {
+	"\/assets\/css\/components\/common\/_spacing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -566,7 +696,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/components\/common\/_typography.scss": {
+	"\/assets\/css\/components\/common\/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -579,7 +709,7 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/components\/site\/_header.scss": {
+	"\/assets\/css\/components\/site\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -592,14 +722,14 @@
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets_dev\/scss\/style.scss": {
+	"\/assets\/css\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/assets\/css\/style.css",
 		"oF": 0,
 		"oS": 3,
@@ -2593,9 +2723,9 @@
 		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "assets\/css\/",
+		"autoOutputPathRelativePath": "\/assets\/css\/",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
