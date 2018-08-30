@@ -1,0 +1,15 @@
+.btn {
+	@include rem(20px);
+	padding: 20px 35px;
+	display: inline-block;
+	border-radius: 1000px;
+	background: map-get($ui-colors, 1);
+	// Type
+	font-weight: map-get(map-get($font-1, weights), medium);
+	color: #fff;
+}
+
+.btn--large {
+	@include rem(24px);
+	padding: 24px 39px;
+}

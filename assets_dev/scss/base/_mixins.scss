@@ -1,0 +1,7 @@
+//---- PX to REM
+@mixin rem($pixels) {
+	font-size: $pixels;
+	font-size: rem-calculate($pixels);
+
+	// Dependency: rem-calculate() in _functions.scss
+}

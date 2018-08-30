@@ -1,4 +1,4 @@
-//---- Fonts
+//---- Typography
 $font-1 : (
 	family : ('Rubik', 'Arial', sans-serif),
 	weights : (
@@ -7,6 +7,9 @@ $font-1 : (
 		medium  : 500
 	)
 );
+
+$base-text-size : 16px;
+$base-text-color : #5e5e5e;
 
 //---- Sections
 $sections : (
@@ -22,4 +25,10 @@ $spacing-1 : (
 	small : 40px,
 	medium : 80px,
 	large : 160px
+);
+
+//---- Colors
+$ui-colors: (
+	1 : #4b6cc1,
+	2 : #1f1f1f
 );
