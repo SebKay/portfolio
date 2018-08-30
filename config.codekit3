@@ -109,6 +109,13 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
+	"\/_layouts\/style-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/style-guide.html",
+		"oF": 0
+		},
 	"\/_posts\/2014-09-05-how-to-hire-a-web-designer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -241,6 +248,16 @@
 		"oA": 1,
 		"oAP": "\/_site\/_redirects",
 		"oF": 0
+		},
+	"\/_site\/assets\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
@@ -537,6 +554,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_variables.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets_dev\/scss\/components\/common\/_sections.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_sections.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets_dev\/scss\/components\/common\/_spacing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_spacing.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets_dev\/scss\/components\/site\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_header.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

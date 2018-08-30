@@ -7,3 +7,17 @@
 	'base/mixins',
 	'base/extends',
 	'base/reset';
+
+
+
+/*--------------------------------------------
+---- Components
+--------------------------------------------*/
+//---- Global
+@import
+	'components/site/header';
+
+//---- Common
+@import
+	'components/common/sections',
+	'components/common/spacing';

@@ -1,9 +1,25 @@
 //---- Fonts
-$font-1: (
+$font-1 : (
 	family : ('Rubik', 'Arial', sans-serif),
 	weights : (
 		light   : 300,
 		regular : 400,
 		medium  : 500
 	)
+);
+
+//---- Sections
+$sections : (
+	large : 1500px
+);
+
+$site-width         : 92%;
+$site-spacing-outer : (100 - $site-width) / 2;
+
+
+//---- Spacing
+$spacing-1 : (
+	small : 40px,
+	medium : 80px,
+	large : 160px
 );

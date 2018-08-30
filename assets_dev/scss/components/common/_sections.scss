@@ -1,0 +1,11 @@
+.section {
+	width: $site-width;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+@each $section, $amount in $sections {
+	.section--#{$section} {
+		max-width: $amount;
+	}
+}

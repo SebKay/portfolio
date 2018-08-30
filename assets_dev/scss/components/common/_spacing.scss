@@ -1,0 +1,9 @@
+@each $spacing, $amount in $spacing-1 {
+	.spacing-#{$spacing} {
+		padding-top: $amount;
+		padding-bottom: $amount;
+	}
+
+	.spacing-#{$spacing}-top    { padding-top: $amount; }
+	.spacing-#{$spacing}-bottom { padding-top: $amount; }
+}
