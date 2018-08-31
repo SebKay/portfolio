@@ -1,0 +1,17 @@
+.site-menu__inner {
+	@include flex(flex);
+}
+
+.site-menu__item {
+	@include rem(20px);
+	list-style: none;
+
+	&:not(:last-child) {
+		margin-right: 60px;
+	}
+}
+
+.site-menu__link {
+	// Type
+	color: map-get($ui-colors, '2');
+}

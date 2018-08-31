@@ -1,0 +1,20 @@
+.site-logo {
+	@include rem(24px);
+	display: block;
+	// Type
+	font-weight: map-get(map-get($font-1, weights), medium);
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: map-get($ui-colors, '2');
+
+	&:after {
+		width: 100%;
+		max-width: 30px;
+		height: 4px;
+		margin-top: 17px;
+		display: block;
+		content: '';
+		border-radius: 1000px;
+		background: map-get($ui-colors, '1');
+	}
+}

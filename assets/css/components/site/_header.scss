@@ -2,3 +2,16 @@
 	@extend .section;
 	@extend .section--large;
 }
+
+.site-header__inner {
+	@include flex(flex);
+	padding-top: 80px;
+}
+
+.site-header__section--logo {
+	@include flex_shrink(0);
+}
+
+.site-header__section--menu {
+	margin-left: auto;
+}

@@ -44,11 +44,32 @@
 		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_variables.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_banner.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_banner.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_logo.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_logo.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_menu.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_menu.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/54a1fa5cc201bfa36df60455f89fcc8e9570b452\/_header.scssc": {
@@ -382,6 +403,23 @@
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
+	"\/_site\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_site\/_redirects",
+		"oF": 0
+		},
+	"\/_site\/assets\/css\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -571,6 +609,20 @@
 		"oAP": "\/_site\/category\/tips\/index.html",
 		"oF": 0
 		},
+	"\/_site\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -709,6 +761,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/css\/components\/site\/_banner.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_banner.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/css\/components\/site\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -718,6 +783,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_header.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/site\/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_logo.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/site\/_menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_menu.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -2623,7 +2714,7 @@
 		"quality": 70
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "assets\/js\/",
 		"autoOutputPathReplace1": "",

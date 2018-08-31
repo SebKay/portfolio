@@ -1,0 +1,26 @@
+.site-banner {
+	@extend .spacing-huge;
+	@extend .section;
+	@extend .section--large;
+	border-bottom: 2px solid map-get($ui-colors, '2-1');
+}
+
+.site-banner__inner {
+	@extend .section;
+	@extend .section--small;
+	@extend .section--full;
+	// Type
+	text-align: center;
+}
+
+* + .site-banner__title,
+* + .site-banner__subtitle,
+* + .site-banner__btn {
+	margin-top: 30px;
+}
+
+.site-banner__subtitle {
+	@extend .h3;
+	// Type
+	color: $base-text-color;
+}

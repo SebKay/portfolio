@@ -13,7 +13,9 @@ $base-text-color : #5e5e5e;
 
 //---- Sections
 $sections : (
-	large : 1500px
+	small  : 1000px,
+	medium : 1250px,
+	large  : 1500px
 );
 
 $site-width         : 92%;
@@ -22,13 +24,15 @@ $site-spacing-outer : (100 - $site-width) / 2;
 
 //---- Spacing
 $spacing-1 : (
-	small : 40px,
+	small  : 40px,
 	medium : 80px,
-	large : 160px
+	large  : 160px,
+	huge   : 200px
 );
 
 //---- Colors
 $ui-colors: (
-	1 : #4b6cc1,
-	2 : #1f1f1f
+	'1'   : #4b6cc1,
+	'2'   : #1f1f1f,
+	'2-1' : #f1f1f1
 );
