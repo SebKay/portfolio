@@ -1,5 +1,6 @@
 .site-logo {
 	@include rem(24px);
+	@include transition(color ease $transition-speed);
 	display: block;
 	// Type
 	font-weight: map-get(map-get($font-1, weights), medium);

@@ -3,6 +3,11 @@
 {% else %}
 	{% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% endif %}
+{% if page.style == 'dark' %}
+	{% assign header_class = 'site-header--dark' %}
+{% else %}
+	{% assign header_class = null %}
+{% endif %}
 <!DOCTYPE html>
 <html lang="en-GB">
 	<head>
@@ -26,7 +31,7 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="js-inactive page-{{ page.title | slugify }}">
-		<header class="site-header">
+		<header class="site-header {{ header_class }}">
 			<div class="site-header__inner">
 				<div class="site-header__section site-header__section--logo">
 					<a class="site-logo" href="{{ site.url }}">

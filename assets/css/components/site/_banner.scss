@@ -1,4 +1,4 @@
-.site-banner {
+.site-banner__inner {
 	@extend .section;
 	@extend .section--large;
 	max-height: 100vh;
@@ -7,7 +7,7 @@
 	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
-.site-banner__inner {
+.site-banner__content {
 	@extend .section;
 	@extend .section--small;
 	@extend .section--full;
@@ -25,4 +25,23 @@
 	@extend .h3;
 	// Type
 	color: map-get($ui-colors, 2_2);
+}
+
+//---- Dark version
+.site-banner--dark {
+	background: map-get($ui-colors, 2);
+
+	.site-banner__inner {
+		border-bottom: none;
+	}
+
+	.site-banner__title {
+		// Type
+		color: #fff;
+	}
+
+	.site-banner__subtitle {
+		// Type
+		color: map-get($ui-colors, 2_3);
+	}
 }

@@ -1,15 +1,22 @@
-<section class="site-banner {{ page.banner_class }}">
+{% if page.style == 'dark' %}
+	{% assign banner_class = 'site-banner--dark' %}
+{% else %}
+	{% assign banner_class = null %}
+{% endif %}
+<section class="site-banner {{ banner_class }}">
 	<div class="site-banner__inner">
-		<h1 class="site-banner__title">
-			Page Title
-		</h1>
-		<h2 class="site-banner__subtitle">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget fringilla tortor.
-		</h2>
-		<div class="site-banner__btn">
-			<a class="btn btn--large" href="">
-				Button
-			</a>
+		<div class="site-banner__content">
+			<h1 class="site-banner__title">
+				Page Title
+			</h1>
+			<h2 class="site-banner__subtitle">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget fringilla tortor.
+			</h2>
+			<div class="site-banner__btn">
+				<a class="btn btn--large" href="">
+					Button
+				</a>
+			</div>
 		</div>
 	</div>
 </section>

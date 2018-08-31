@@ -12,6 +12,7 @@
 }
 
 .site-menu__link {
+	@include transition(color ease $transition-speed);
 	// Type
 	color: map-get($ui-colors, 2_2);
 }

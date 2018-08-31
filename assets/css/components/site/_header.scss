@@ -1,6 +1,5 @@
 .site-header {
 	padding-top: 80px;
-	background: #fff;
 }
 
 .site-header__inner {
@@ -16,4 +15,19 @@
 
 .site-header__section--menu {
 	margin-left: auto;
+}
+
+//---- Dark version
+.site-scroll--inactive {
+	.site-header--dark {
+		.site-logo {
+			// Type
+			color: #fff;
+		}
+
+		.site-menu__link {
+			// Type
+			color: map-get($ui-colors, 2_3);
+		}
+	}
 }

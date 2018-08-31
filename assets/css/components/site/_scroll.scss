@@ -1,6 +1,4 @@
 .js-active {
-	padding-top: $header-height-dt;
-
 	.site-header {
 		@include transition(all ease $transition-speed);
 		width: 100%;
@@ -11,12 +9,16 @@
 		z-index: map-get($z-index, 2);
 	}
 
+	.site-banner {
+		padding-top: $header-height-dt;
+	}
+
 	&.site-scroll--active {
 		.site-header {
 			padding-top: 30px;
 			padding-bottom: 30px;
 			box-shadow: 0 2px 8px black(0.08);
+			background: #fff;
 		}
 	}
 }
-
