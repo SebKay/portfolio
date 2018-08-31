@@ -1,8 +1,10 @@
 .site-banner {
-	@extend .spacing-huge;
 	@extend .section;
 	@extend .section--large;
-	border-bottom: 2px solid map-get($ui-colors, '2-1');
+	max-height: 100vh;
+	padding-top: 10.5%;
+	padding-bottom: 10.5%;
+	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
 .site-banner__inner {
@@ -22,5 +24,5 @@
 .site-banner__subtitle {
 	@extend .h3;
 	// Type
-	color: $base-text-color;
+	color: map-get($ui-colors, 2_2);
 }

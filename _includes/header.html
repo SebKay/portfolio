@@ -25,7 +25,7 @@
 		<meta name="description" content="{{ seo_description }}">
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
-	<body class="no-touch no-js page-{{ page.title | slugify }}">
+	<body class="js-inactive page-{{ page.title | slugify }}">
 		<header class="site-header">
 			<div class="site-header__inner">
 				<div class="site-header__section site-header__section--logo">
@@ -47,7 +47,7 @@
 									{% endif %}
 
 									<li class="site-menu__item {{ menu-item-current }}">
-										<a href="{{ site.url }}{{ menu-item.url }}">
+										<a class="site-menu__link" href="{{ site.url }}{{ menu-item.url }}">
 											{{ menu-item.name }}
 										</a>
 									</li>

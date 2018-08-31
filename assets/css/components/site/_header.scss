@@ -1,11 +1,13 @@
 .site-header {
-	@extend .section;
-	@extend .section--large;
+	padding-top: 80px;
+	background: #fff;
 }
 
 .site-header__inner {
+	@extend .section;
+	@extend .section--large;
 	@include flex(flex);
-	padding-top: 80px;
+	@include flex_align_items(center);
 }
 
 .site-header__section--logo {

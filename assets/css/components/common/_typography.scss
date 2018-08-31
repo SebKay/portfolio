@@ -3,7 +3,7 @@ body {
 	font-family: map-get($font-1, family);
 	font-weight: map-get(map-get($font-1, weights), light);
 	font-size: $base-text-size;
-	color: $base-text-color;
+	color: map-get($ui-colors, 2_2);
 }
 
 h1,
@@ -14,7 +14,7 @@ h5,
 h6 {
 	// Type
 	font-weight: map-get(map-get($font-1, weights), regular);
-	color: map-get($ui-colors, '2');
+	color: map-get($ui-colors, 2);
 }
 
 h1, .h1 { @include rem(72px); }
@@ -29,5 +29,5 @@ p, li { @include rem(20px); }
 a {
 	// Type
 	text-decoration: none;
-	color: map-get($ui-colors, '1');
+	color: map-get($ui-colors, 1);
 }

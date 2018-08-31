@@ -3,3 +3,13 @@
 	$rem-size: $pixels / $base-text-size;
 	@return #{$rem-size}rem;
 }
+
+//---- RGBA Black
+@function black($opacity) {
+	@return rgba(0,0,0,$opacity)
+}
+
+//---- RGBA White
+@function white($opacity) {
+	@return rgba(255,255,255,$opacity)
+}

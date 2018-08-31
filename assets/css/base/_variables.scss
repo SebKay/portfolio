@@ -9,7 +9,6 @@ $font-1 : (
 );
 
 $base-text-size : 16px;
-$base-text-color : #5e5e5e;
 
 //---- Sections
 $sections : (
@@ -21,7 +20,6 @@ $sections : (
 $site-width         : 92%;
 $site-spacing-outer : (100 - $site-width) / 2;
 
-
 //---- Spacing
 $spacing-1 : (
 	small  : 40px,
@@ -32,7 +30,19 @@ $spacing-1 : (
 
 //---- Colors
 $ui-colors: (
-	'1'   : #4b6cc1,
-	'2'   : #1f1f1f,
-	'2-1' : #f1f1f1
+	1   : #4b6cc1,
+	2   : #1f1f1f,
+	2_1 : #f1f1f1,
+	2_2 : #5e5e5e
 );
+
+//---- Offsets
+$header-height-dt: 125px;
+
+//---- Other
+$z-index :(
+	1 : 900,
+	2 : 800
+);
+
+$transition-speed : 0.3s;
