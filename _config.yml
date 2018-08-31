@@ -28,6 +28,11 @@ exclude:
 include:
 - _redirects
 
+exclude:
+- assets/js/third-party/
+- assets/js/app.js
+- assets/js/jquery.custom.js
+
 sass:
   style: compressed
   sass_dir: assets/css/
