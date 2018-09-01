@@ -14,17 +14,8 @@
 
 
 /*--------------------------------------------
----- Components
+---- Common
 --------------------------------------------*/
-//---- Global
-@import
-	'components/site/header',
-	'components/site/logo',
-	'components/site/menu',
-	'components/site/banner',
-	'components/site/scroll';
-
-//---- Common
 @import
 	'components/common/typography',
 	'components/common/button',
@@ -34,6 +25,20 @@
 	'components/common/helpers',
 	'components/common/bg',
 	'components/common/grid';
+
+
+
+/*--------------------------------------------
+---- Components
+--------------------------------------------*/
+//---- Global
+@import
+	'components/site/header',
+	'components/site/logo',
+	'components/site/menu',
+	'components/site/banner',
+	'components/site/cta',
+	'components/site/scroll';
 
 //---- Projects
 @import

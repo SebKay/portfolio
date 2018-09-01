@@ -12,8 +12,8 @@ $base-text-size : 16px;
 
 //---- Sections
 $sections : (
-	small  : 1000px,
-	medium : 1250px,
+	small  : 980px,
+	medium : 1240px,
 	large  : 1500px
 );
 
@@ -31,7 +31,7 @@ $spacing-1 : (
 //---- Colors
 $ui-colors: (
 	1   : #4b6cc1,
-	2   : #1f1f1f,
+	2   : #191a1d,
 	2_1 : #f1f1f1,
 	2_2 : #5e5e5e,
 	2_3 : #ababab,
@@ -39,8 +39,8 @@ $ui-colors: (
 );
 
 //---- Grid
-$grid-cols : 12;
-$grid-spacing-px : 60;
+$grid-cols            : 12;
+$grid-spacing-px      : 60;
 $grid-spacing-percent : 4%;
 
 //---- Offsets

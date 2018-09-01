@@ -29,6 +29,7 @@ include:
 - _redirects
 
 exclude:
+- config.codekit3
 - assets/js/third-party/
 - assets/js/app.js
 - assets/js/jquery.custom.js

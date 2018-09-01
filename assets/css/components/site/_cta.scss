@@ -1,0 +1,22 @@
+.site-cta {
+	background-color: map-get($ui-colors, 2);
+	-webkit-clip-path: polygon(0 0, 100% 7.5%, 100% 100%, 0 92.5%);
+	clip-path: polygon(0 0, 100% 7.5%, 100% 100%, 0 92.5%);
+}
+
+.site-cta__inner {
+	@extend .spacing-huge;
+	@extend .section;
+	@extend .section--small;
+}
+
+.site-cta__title {
+	// Type
+	color: #fff;
+}
+
+.site-cta__txt {
+	@extend .txt-large;
+	// Type
+	color: white(0.5);
+}

@@ -30,8 +30,8 @@
 //---- Dark version
 .site-banner--dark {
 	background-color: map-get($ui-colors, 2);
-	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92.5%);
-	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92.5%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
 
 	.site-banner__inner {
 		border-bottom: none;

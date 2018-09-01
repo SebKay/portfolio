@@ -20,3 +20,20 @@
 		fill: map-get($ui-colors, 2_4);
 	}
 }
+
+//---- Light version
+.icon-list--light {
+	.icon-list__img {
+		svg * {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+
+	.icon-list__item {
+		&,
+		a {
+			// Type
+			color: white(0.5);
+		}
+	}
+}

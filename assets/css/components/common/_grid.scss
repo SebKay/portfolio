@@ -11,3 +11,7 @@
 		}
 	}
 }
+
+.grid__col--v-center {
+	@include flex_align_self(center);
+}
