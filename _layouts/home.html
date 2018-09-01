@@ -1,5 +1,181 @@
 {% include header.html %}
 
-home
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			Featured Work
+		</h2>
+	</div>
+
+	<article class="project-preview">
+		<div class="project-preview__img">
+			<figure class="browser">
+				<div class="browser__actions">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+				<div class="browser__inner">
+					<a href="#">
+						<img src="https://placehold.it/890x555">
+					</a>
+				</div>
+			</figure>
+		</div>
+
+		<div class="project-preview__content">
+			<div class="content-styles">
+				<h2>
+					<a href="#">
+						Inspirational Pixels
+					</a>
+				</h2>
+				<p class="txt-large">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum neque a diam euismod iaculis. Praesent id turpis sit amet mauris imperdiet gravida non non mauris.
+				</p>
+			</div>
+			<div class="spacing-small-top">
+				<ul class="icon-list">
+					<li class="icon-list__item">
+						<span class="icon-list__img">
+							{{ site.data.svgs[0].pen }}
+						</span>
+						Logo Design
+					</li>
+					<li class="icon-list__item">
+						<span class="icon-list__img">
+							{{ site.data.svgs[0].screen }}
+						</span>
+						Web Design
+					</li>
+					<li class="icon-list__item">
+						<span class="icon-list__img">
+							{{ site.data.svgs[0].code }}
+						</span>
+						WordPress Development
+					</li>
+				</ul>
+			</div>
+			<div class="spacing-small-top">
+				<a class="btn" href="#">
+					View Case Study
+				</a>
+			</div>
+		</div>
+	</article>
+</section>
+
+<section class="bg-grey bg-slanted">
+	<div class="section section--small spacing-huge">
+		<blockquote class="quote">
+			<div class="quote__inner">
+				<p class="quote__txt">Seb is an excellent web designer and faultless technician. He’s a pleasure to work with, great value for money and will always go the extra mile when necessary.</p>
+			</div>
+			<cite class="quote__meta">
+				<img src="https://placehold.it/55x55">
+				<strong>
+					Chris Fenwick
+				</strong>
+				Owner of Fenwick Studio
+			</cite>
+		</blockquote>
+	</div>
+</section>
+
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			My Services
+		</h2>
+	</div>
+
+	<div class="grid">
+		<div class="grid__col grid__col--4">
+			<div class="service txt-center">
+				<span class="service__icon">
+					{{ site.data.svgs[0].pen }}
+				</span>
+				<div class="content-styles">
+					<h3 class="h4">
+						Web Design
+					</h3>
+					<p class="txt-large">
+						Modern and User Focused
+					</p>
+					<p>
+						From single landing pages to fully-blown eCommerce store, I can created a design that fits perfectly with you and your business.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="spacing-medium-top txt-center">
+		<a class="btn" href="#">
+			View All Services
+		</a>
+	</div>
+</section>
+
+<section class="bg-grey bg-slanted">
+	<div class="section section--small spacing-huge">
+		<blockquote class="quote">
+			<div class="quote__inner">
+				<p class="quote__txt">Seb is an excellent web designer and faultless technician. He’s a pleasure to work with, great value for money and will always go the extra mile when necessary.</p>
+			</div>
+			<cite class="quote__meta">
+				<img src="https://placehold.it/55x55">
+				<strong>
+					Chris Fenwick
+				</strong>
+				Owner of Fenwick Studio
+			</cite>
+		</blockquote>
+	</div>
+</section>
+
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			From My Blog
+		</h2>
+	</div>
+
+	<div class="grid">
+		<div class="grid__col grid__col--6">
+			<article class="post-card">
+				<figure class="post-card__thumb">
+					<a href="">
+						<img src="https://placehold.it/720x335">
+					</a>
+				</figure>
+				<div class="post-card__inner">
+					<div class="content-styles txt-center">
+						<h3>
+							<a href="">
+								Calendi - A Simple Editorial Calendar for WordPress
+							</a>
+						</h3>
+						<p class="txt-large">
+							<a href="">Side projects</a>
+							<span class="txt-fade">/</span>
+							25th September, 2018
+						</p>
+						<p>
+							I recently released my first WordPress plugin. Here's what I've learned about building and releasing something for free.
+						</p>
+					</div>
+				</div>
+			</article>
+		</div>
+	</div>
+
+	<div class="spacing-medium-top txt-center">
+		<a class="btn" href="#">
+			View More Posts
+		</a>
+	</div>
+</section>
 
 {% include footer.html %}

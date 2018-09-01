@@ -22,5 +22,5 @@
 }
 
 @function calc_grid_cols($cols) {
-	@return (calc_grid_col_width() * $cols) + ($grid-spacing-px * ($cols - 1));
+	@return (calc_grid_col_width() * $cols) + ($grid-spacing-percent * ($cols - 1));
 }

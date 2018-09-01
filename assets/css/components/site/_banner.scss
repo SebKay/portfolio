@@ -2,7 +2,6 @@
 	@extend .spacing-huge;
 	@extend .section;
 	@extend .section--large;
-	max-height: 100vh;
 	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
@@ -17,13 +16,14 @@
 * + .site-banner__title,
 * + .site-banner__subtitle,
 * + .site-banner__btn {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 .site-banner__subtitle {
 	@extend .h3;
 	// Type
 	font-weight: map-get(map-get($font-1, weights), light);
+	line-height: 125%;
 	color: map-get($ui-colors, 2_2);
 }
 

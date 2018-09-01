@@ -1,5 +1,6 @@
 .grid {
 	@include flex(flex);
+	@include flex_wrap(wrap);
 }
 
 @for $i from 1 through $grid-cols {

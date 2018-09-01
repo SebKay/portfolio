@@ -6,17 +6,25 @@
 <section class="site-banner {{ banner_class }}">
 	<div class="site-banner__inner">
 		<div class="site-banner__content">
-			<h1 class="site-banner__title">
-				Page Title
-			</h1>
-			<h2 class="site-banner__subtitle">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget fringilla tortor.
-			</h2>
-			<div class="site-banner__btn">
-				<a class="btn btn--large" href="">
-					Button
-				</a>
-			</div>
+			{% if page.banner_title %}
+				<h1 class="site-banner__title">
+					{{ page.banner_title }}
+				</h1>
+			{% endif %}
+
+			{% if page.banner_desc %}
+				<h2 class="site-banner__subtitle">
+					{{ page.banner_desc }}
+				</h2>
+			{% endif %}
+
+			{% if page.banner_btn_txt and page.banner_btn_url %}
+				<div class="site-banner__btn">
+					<a class="btn btn--large" href="{{ page.banner_btn_url }}">
+						{{ page.banner_btn_txt }}
+					</a>
+				</div>
+			{% endif %}
 		</div>
 	</div>
 </section>
