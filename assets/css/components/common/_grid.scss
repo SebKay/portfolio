@@ -2,10 +2,12 @@
 	@include flex(flex);
 }
 
-.grid__col {
-	width: 30.666666666666664%;
+@for $i from 1 through $grid-cols {
+	.grid__col--#{$i} {
+		width: calc_grid_cols($i);
 
-	&:not(:nth-child(3n)) {
-		margin-right: 4%;
+		&:not(:nth-child(#{$i - 1}n)) {
+			margin-right: $grid-spacing-percent;
+		}
 	}
 }
