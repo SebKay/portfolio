@@ -5,5 +5,5 @@
 	}
 
 	.spacing-#{$spacing}-top    { padding-top: $amount; }
-	.spacing-#{$spacing}-bottom { padding-top: $amount; }
+	.spacing-#{$spacing}-bottom { padding-bottom: $amount; }
 }

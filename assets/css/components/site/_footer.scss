@@ -1,0 +1,15 @@
+.site-footer {
+	background: map-get($ui-colors, 2_5);
+}
+
+.site-footer__inner {
+	@extend .spacing-small;
+	@extend .section;
+	@extend .section--small;
+	// Type
+	text-align: center;
+
+	p {
+		@include rem(18px);
+	}
+}
