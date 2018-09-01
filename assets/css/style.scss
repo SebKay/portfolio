@@ -32,12 +32,17 @@
 	'components/common/section-title',
 	'components/common/spacing',
 	'components/common/helpers',
-	'components/common/bg';
+	'components/common/bg',
+	'components/common/grid';
 
 //---- Projects
 @import
 	'components/projects/browser',
 	'components/projects/project-preview';
+
+//---- Services
+@import
+	'components/services/service';
 
 //---- Other
 @import

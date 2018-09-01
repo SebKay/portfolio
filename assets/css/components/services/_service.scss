@@ -1,0 +1,29 @@
+.service {
+	padding: 80px;
+	border-radius: $border-radius;
+	border-top: 4px solid map-get($ui-colors, 1);
+	background: map-get($ui-colors, 2_1);
+	// Type
+	text-align: center;
+}
+
+.service__icon {
+	@extend %line-bottom;
+	display: inline-block;
+
+	svg {
+		max-width: 52px;
+		max-height: 52px;
+
+		* {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+
+	&:after {
+		margin-top: 40px;
+		margin-bottom: 40px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}

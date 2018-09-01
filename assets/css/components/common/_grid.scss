@@ -1,0 +1,11 @@
+.grid {
+	@include flex(flex);
+}
+
+.grid__col {
+	width: 30.666666666666664%;
+
+	&:not(:nth-child(3n)) {
+		margin-right: 4%;
+	}
+}

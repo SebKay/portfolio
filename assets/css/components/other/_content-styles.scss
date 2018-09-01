@@ -1,6 +1,10 @@
 .content-styles {
 	* + * {
-		margin-top: 25px;
+		margin-top: 30px;
+	}
+
+	* + p {
+		margin-top: 15px;
 	}
 
 	p, li {

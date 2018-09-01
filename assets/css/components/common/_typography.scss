@@ -17,6 +17,23 @@ h6, h6 a {
 	color: map-get($ui-colors, 2);
 }
 
+strong {
+	// Type
+	font-weight: map-get(map-get($font-1, weights), medium);
+}
+
+a {
+	// Type
+	text-decoration: none;
+	color: map-get($ui-colors, 1);
+}
+
+.txt-large {
+	@include rem(24px);
+	// Type
+	color: map-get($ui-colors, 2);
+}
+
 h1, .h1 { @include rem(72px); }
 h2, .h2 { @include rem(52px); }
 h3, .h3 { @include rem(40px); }
@@ -25,13 +42,3 @@ h5, .h5 { @include rem(28px); }
 h6, .h6 { @include rem(22px); }
 
 p, li { @include rem(20px); }
-
-strong { font-weight: map-get(map-get($font-1, weights), medium); }
-
-a {
-	// Type
-	text-decoration: none;
-	color: map-get($ui-colors, 1);
-}
-
-.txt-large { @include rem(24px); }

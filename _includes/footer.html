@@ -1,3 +1,21 @@
-	<script async type="text/javascript" src="/assets/js/app.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.min.js"></script>
+
+	<script src="headsupgrid/hugrid.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			pageUnits     = 'px';
+			colUnits      = 'px';
+			pagewidth     = 1500;
+			columns       = 12;
+			columnwidth   = 70;
+			gutterwidth   = 60;
+			pagetopmargin = 0;
+			rowheight     = 20;
+			gridonload    = 'off';
+
+			makehugrid();
+			setgridonload();
+		});
+	</script>
 </body>
 </html>
