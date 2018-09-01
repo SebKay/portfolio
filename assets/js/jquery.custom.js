@@ -17,18 +17,20 @@ $(document).ready(function() {
 		var body          = $('body');
 		var scroll_offset = body.offset().top;
 
-		$(window).on('load scroll', function() {
-			var scroll_position_y = window.pageYOffset;
+		var scroll_position_y = window.pageYOffset;
 
-			if(scroll_position_y > scroll_offset) {
-				body.removeClass('site-scroll--inactive').addClass('site-scroll--active');
-			}else {
-				body.removeClass('site-scroll--active').addClass('site-scroll--inactive');
-			}
-		});
+		if(scroll_position_y > scroll_offset) {
+			body.removeClass('site-scroll--inactive').addClass('site-scroll--active');
+		}else {
+			body.removeClass('site-scroll--active').addClass('site-scroll--inactive');
+		}
 	}
 
 	skp_site_scroll();
+
+	$(window).on('scroll', function() {
+		skp_site_scroll();
+	});
 
 
 

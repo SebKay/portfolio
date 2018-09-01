@@ -1,9 +1,8 @@
 .site-banner__inner {
+	@extend .spacing-huge;
 	@extend .section;
 	@extend .section--large;
 	max-height: 100vh;
-	padding-top: 10.5%;
-	padding-bottom: 10.5%;
 	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
@@ -30,7 +29,9 @@
 
 //---- Dark version
 .site-banner--dark {
-	background: map-get($ui-colors, 2);
+	background-color: map-get($ui-colors, 2);
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92.5%);
+	clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 92.5%);
 
 	.site-banner__inner {
 		border-bottom: none;
