@@ -156,6 +156,13 @@
 		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_quote.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_post-card.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_post-card.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_browser.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -836,6 +843,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_variables.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/blog\/_post-card.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_post-card.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

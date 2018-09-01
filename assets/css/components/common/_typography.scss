@@ -34,6 +34,16 @@ a {
 	color: map-get($ui-colors, 2);
 }
 
+.txt-fade {
+	// Type
+	color: map-get($ui-colors, 2_3);
+}
+
+.txt-center {
+	// Type
+	text-align: center;
+}
+
 h1, .h1 { @include rem(72px); }
 h2, .h2 { @include rem(52px); }
 h3, .h3 { @include rem(40px); }
