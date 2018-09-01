@@ -1,11 +1,9 @@
 .site-logo {
+	@extend %txt-upper;
 	@include rem(24px);
 	@include transition(color ease $transition-speed);
 	display: block;
 	// Type
-	font-weight: map-get(map-get($font-1, weights), medium);
-	text-transform: uppercase;
-	letter-spacing: 1px;
 	color: map-get($ui-colors, 2);
 
 	&:after {

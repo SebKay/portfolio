@@ -29,4 +29,16 @@
 	'components/common/typography',
 	'components/common/button',
 	'components/common/sections',
-	'components/common/spacing';
+	'components/common/section-title',
+	'components/common/spacing',
+	'components/common/helpers';
+
+//---- Projects
+@import
+	'components/projects/browser',
+	'components/projects/project-preview';
+
+//---- Other
+@import
+	'components/other/icon-list',
+	'components/other/content-styles';

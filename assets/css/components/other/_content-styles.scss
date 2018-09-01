@@ -1,0 +1,10 @@
+.content-styles {
+	* + * {
+		margin-top: 25px;
+	}
+
+	p, li {
+		// Type
+		line-height: 145%;
+	}
+}

@@ -5,13 +5,6 @@ $(document).ready(function() {
 	//---- Global transition speed
 	var transition_speed = 300;
 
-	//---- Remove 'no-touch' class for touch devices
-	var is_touch_device = ('ontouchstart' in window) || (navigator.msMaxTouchPoints || navigator.maxTouchPoints) > 2;
-
-	if(is_touch_device) {
-		$('body').removeClass('touch-inactive').addClass('touch-active');
-	}
-
 	//---- Remove 'no-js' class when JavaScript is enabled
 	$('body').removeClass('js-inactive').addClass('js-active');
 
@@ -20,22 +13,23 @@ $(document).ready(function() {
 	/*--------------------------------------------
 	---- Sticky Header
 	--------------------------------------------*/
-	var body          = $('body');
-	var header_offset = body.offset().top;
-
 	function skp_site_scroll() {
-		var scroll_position_y = window.pageYOffset;
+		var body          = $('body');
+		var scroll_offset = body.offset().top;
 
-		if(scroll_position_y > header_offset) {
-			body.removeClass('site-scroll--inactive').addClass('site-scroll--active');
-		}else {
-			body.removeClass('site-scroll--active').addClass('site-scroll--inactive');
-		}
+		$(window).on('load scroll', function() {
+			var scroll_position_y = window.pageYOffset;
+
+			if(scroll_position_y > scroll_offset) {
+				body.removeClass('site-scroll--inactive').addClass('site-scroll--active');
+			}else {
+				body.removeClass('site-scroll--active').addClass('site-scroll--inactive');
+			}
+		});
 	}
 
-	$(window).on('load scroll', function() {
-		skp_site_scroll();
-	});
+	skp_site_scroll();
+
 
 
 	/*--------------------------------------------

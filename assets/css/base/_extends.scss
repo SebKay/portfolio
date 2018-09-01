@@ -1,0 +1,6 @@
+%txt-upper {
+	// Type
+	font-weight: map-get(map-get($font-1, weights), medium);
+	text-transform: uppercase;
+	letter-spacing: 1.25px;
+}

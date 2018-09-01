@@ -1,0 +1,13 @@
+.project-preview {
+	@include flex(flex);
+}
+
+.project-preview__img {
+	width: 57.333333333333336%;
+}
+
+.project-preview__content {
+	@include flex_align_self(center);
+	width: 37.333333333333336%;
+	margin-left: auto;
+}

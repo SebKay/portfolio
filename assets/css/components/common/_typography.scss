@@ -6,12 +6,12 @@ body {
 	color: map-get($ui-colors, 2_2);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h1 a,
+h2, h2 a,
+h3, h3 a,
+h4, h4 a,
+h5, h5 a,
+h6, h6 a {
 	// Type
 	font-weight: map-get(map-get($font-1, weights), regular);
 	color: map-get($ui-colors, 2);
@@ -31,3 +31,5 @@ a {
 	text-decoration: none;
 	color: map-get($ui-colors, 1);
 }
+
+.txt-large { @include rem(24px); }
