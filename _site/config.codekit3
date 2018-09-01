@@ -135,6 +135,13 @@
 		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_icon-list.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_quote.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_quote.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_browser.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -175,6 +182,13 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_typography.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_bg.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_bg.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_button.scssc": {
@@ -775,6 +789,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/css\/components\/common\/_bg.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_bg.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/css\/components\/common\/_button.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -875,6 +902,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_icon-list.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/other\/_quote.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_quote.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

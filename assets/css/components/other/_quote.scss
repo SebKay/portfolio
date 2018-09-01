@@ -1,0 +1,64 @@
+.quote {
+	// Type
+	text-align: center;
+}
+
+.quote__inner {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	position: relative;
+
+	&:before,
+	&:after {
+		@include transform(translateX(-50%));
+		width: 60px;
+		height: 4px;
+		position: absolute;
+		left: 50%;
+		content: '';
+		border-radius: 1000px;
+		background: map-get($ui-colors, 1);
+	}
+
+	&:before {
+		top: 0;
+	}
+
+	&:after {
+		bottom: 0;
+	}
+}
+
+.quote__txt {
+	@extend .h3;
+	// Type
+	line-height: 135%;
+	color: map-get($ui-colors, 2);
+
+	&:before { content: open-quote; }
+	&:after  { content: close-quote; }
+}
+
+.quote__meta {
+	@extend .txt-large;
+	margin-top: 70px;
+	display: block;
+	// Type
+	font-style: normal;
+
+	img,
+	strong {
+		display: block
+	}
+
+	img {
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 20px;
+		border-radius: 1000px;
+	}
+
+	strong {
+		margin-bottom: 10px;
+	}
+}

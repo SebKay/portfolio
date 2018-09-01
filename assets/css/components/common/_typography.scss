@@ -26,6 +26,8 @@ h6, .h6 { @include rem(22px); }
 
 p, li { @include rem(20px); }
 
+strong { font-weight: map-get(map-get($font-1, weights), medium); }
+
 a {
 	// Type
 	text-decoration: none;
