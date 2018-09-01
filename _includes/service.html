@@ -1,0 +1,26 @@
+<div class="service txt-center">
+	{% if service.icon %}
+		<span class="service__icon">
+			{{ site.data.svgs[0].[service.icon] }}
+		</span>
+	{% endif %}
+	<div class="content-styles">
+		{% if service.title %}
+			<h3 class="h4">
+				{{ service.title }}
+			</h3>
+		{% endif %}
+
+		{% if service.subtitle %}
+			<p class="txt-large txt-dark">
+				{{ service.subtitle }}
+			</p>
+		{% endif %}
+
+		{% if service.excerpt %}
+			<p>
+				{{ service.excerpt }}
+			</p>
+		{% endif %}
+	</div>
+</div>

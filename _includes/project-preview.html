@@ -1,0 +1,58 @@
+<article class="project-preview">
+	<div class="project-preview__img">
+		<figure class="browser">
+			<div class="browser__actions">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
+			<div class="browser__inner">
+				<a href="#">
+					<img src="https://placehold.it/890x555">
+				</a>
+			</div>
+		</figure>
+	</div>
+
+	<div class="project-preview__content">
+		<div class="content-styles">
+			{% if project.title %}
+				<h2>
+					<a href="{{ project.url }}">
+						{{ project.title }}
+					</a>
+				</h2>
+			{% endif %}
+
+			{% if project.excerpt %}
+				<p class="txt-large">
+					{{ project.excerpt }}
+				</p>
+			{% endif %}
+		</div>
+
+		{% if project.usps %}
+			<div class="spacing-small-top">
+				<ul class="icon-list">
+					{% for usp in project.usps %}
+						<li class="icon-list__item">
+							<span class="icon-list__img">
+								{{ site.data.svgs[0].[usp.icon] }}
+							</span>
+							{{ usp.title }}
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endif %}
+
+		{% if project.url %}
+			<div class="spacing-small-top">
+				<a class="btn" href="{{ project.url }}">
+					View Case Study
+				</a>
+			</div>
+		{% endif %}
+	</div>
+</article>

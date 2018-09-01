@@ -14,15 +14,15 @@
 		"preview_img_mobile_url_2x"          : "/assets/img/projects/inspirational-pixels/mobile-@2x.jpg",
 		"usps"                               : [{
 			"title":"Logo Design",
-			"icon":"pencil"
+			"icon" :"pen"
 		},
 		{
 			"title":"Web Design",
-			"icon":"computer"
+			"icon" :"screen"
 		},
 		{
 			"title":"WordPress Development",
-			"icon":"code"
+			"icon" :"code"
 		}],
 		"url":"/work/inspirational-pixels/"
 	},

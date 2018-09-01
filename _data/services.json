@@ -1,0 +1,20 @@
+[
+	{
+		"title"    : "Web Design",
+		"subtitle" : "Modern and User Focused",
+		"excerpt"  : "From single landing pages to fully-blown eCommerce store, I can created a design that fits perfectly with you and your business.",
+		"icon"     : "pen"
+	},
+	{
+		"title"    : "Web Development",
+		"subtitle" : "Responsive and Perfomant",
+		"excerpt"  : "An off the shelf theme might be ok when you're first starting out, but you need something bespoke and tailored to your needs.",
+		"icon"     : "screen"
+	},
+	{
+		"title"    : "eCommerce",
+		"subtitle" : "Shopify and WooCommerce",
+		"excerpt"  : "Selling your product should be the focus, not managing the website. You’ll have a custom solution that does all the heavy lifting for you.",
+		"icon"     : "cart"
+	}
+]

@@ -304,11 +304,19 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/services.yml": {
+	"\/_data\/services.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_data\/services.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_data\/services_old.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_data\/services.yml",
+		"oAP": "\/_data\/services_old.yml",
 		"oF": 0
 		},
 	"\/_data\/svgs.json": {
@@ -352,6 +360,34 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/header.html",
+		"oF": 0
+		},
+	"\/_includes\/post-preview.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/post-preview.html",
+		"oF": 0
+		},
+	"\/_includes\/project-preview.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/project-preview.html",
+		"oF": 0
+		},
+	"\/_includes\/service.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/service.html",
+		"oF": 0
+		},
+	"\/_includes\/testimonial.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/testimonial.html",
 		"oF": 0
 		},
 	"\/_layouts\/category.html": {

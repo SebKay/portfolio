@@ -7,7 +7,7 @@
 	.grid__col--#{$i} {
 		width: calc_grid_cols($i);
 
-		&:not(:nth-child(#{$i - 1}n)) {
+		&:not(:nth-child(#{$i - 1}n)):not(:last-child) {
 			margin-right: $grid-spacing-percent;
 		}
 	}

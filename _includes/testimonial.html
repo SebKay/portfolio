@@ -1,0 +1,19 @@
+<section class="bg-grey bg-slanted">
+	<div class="section section--small spacing-huge">
+		<blockquote class="quote">
+			{% if testimonial.quote %}
+				<div class="quote__inner">
+					<p class="quote__txt">{{ testimonial.quote }}</p>
+				</div>
+			{% endif %}
+
+			<cite class="quote__meta">
+				<img src="https://placehold.it/55x55">
+				<strong>
+					{{ testimonial.by }}
+				</strong>
+				{{ testimonial.by_meta }}
+			</cite>
+		</blockquote>
+	</div>
+</section>

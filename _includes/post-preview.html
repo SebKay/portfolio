@@ -1,0 +1,41 @@
+<article class="post-card">
+	<figure class="post-card__thumb">
+		<a href="{{ post.url }}">
+			<img src="https://placehold.it/720x335">
+		</a>
+	</figure>
+	<div class="post-card__inner">
+		<div class="content-styles txt-center">
+			{% if post.title %}
+				<h3>
+					<a href="{{ post.url }}">
+						{{ post.title }}
+					</a>
+				</h3>
+			{% endif %}
+			<p class="txt-large txt-dark">
+				{% for category in post.categories %}
+					<a href="/category/{{ category | slugify }}/">{{ category  | replace: '-', ' ' | capitalize }}</a>
+				{% endfor %}
+
+				<span class="txt-fade">/</span>
+
+				{% assign d = post.date | date: "%-d"  %}
+				{% case d %}
+					{% when '1' or '21' or '31' %}{{ d }}st
+					{% when '2' or '22' %}{{ d }}nd
+					{% when '3' or '23' %}{{ d }}rd
+					{% else %}{{ d }}th
+				{% endcase %}
+				{{ post.date | date: "%B" }},
+				{{ post.date | date: "%Y" }}
+			</p>
+
+			{% if post.excerpt %}
+				<p>
+					{{ post.excerpt }}
+				</p>
+			{% endif %}
+		</div>
+	</div>
+</article>

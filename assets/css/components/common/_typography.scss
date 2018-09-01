@@ -30,6 +30,9 @@ a {
 
 .txt-large {
 	@include rem(24px);
+}
+
+.txt-dark {
 	// Type
 	color: map-get($ui-colors, 2);
 }
