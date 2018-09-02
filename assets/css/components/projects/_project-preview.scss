@@ -11,3 +11,27 @@
 	width: 34.66666666666667%;
 	margin-left: auto;
 }
+
+//---- Small version
+.project-preview--small {
+	@include flex_direction(column);
+
+	.project-preview__img,
+	.project-preview__content {
+		width: 100%;
+	}
+
+	.project-preview__content {
+		padding: 40px 20px 0;
+		// Type
+		text-align: center;
+
+		h2 {
+			@extend .h4;
+		}
+
+		* + .btn {
+			margin-top: 20px;
+		}
+	}
+}

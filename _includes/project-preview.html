@@ -1,4 +1,4 @@
-<article class="project-preview">
+<article class="project-preview {{ project_class }}">
 	<div class="project-preview__img">
 		<figure class="browser">
 			<div class="browser__actions">
@@ -8,7 +8,7 @@
 			</div>
 
 			<div class="browser__inner">
-				<a href="#">
+				<a href="{{ project.url }}">
 					<img src="https://placehold.it/890x555">
 				</a>
 			</div>
@@ -26,33 +26,43 @@
 			{% endif %}
 
 			{% if project.excerpt %}
-				<p class="txt-large">
-					{{ project.excerpt }}
-				</p>
+				{% if project_class == 'project-preview--small' %}
+					<p>
+						{{ project.excerpt }}
+					</p>
+				{% else %}
+					<p class="txt-large">
+						{{ project.excerpt }}
+					</p>
+				{% endif %}
 			{% endif %}
 		</div>
 
-		{% if project.usps %}
-			<div class="spacing-small-top">
-				<ul class="icon-list">
-					{% for usp in project.usps %}
-						<li class="icon-list__item">
-							<span class="icon-list__img">
-								{{ site.data.svgs[0].[usp.icon] }}
-							</span>
-							{{ usp.title }}
-						</li>
-					{% endfor %}
-				</ul>
-			</div>
+		{% if project_class != 'project-preview--small' %}
+			{% if project.usps %}
+				<div class="spacing-small-top">
+					<ul class="icon-list">
+						{% for usp in project.usps %}
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].[usp.icon] }}
+								</span>
+								{{ usp.title }}
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
+			{% endif %}
 		{% endif %}
 
-		{% if project.url %}
-			<div class="spacing-small-top">
-				<a class="btn" href="{{ project.url }}">
-					View Case Study
-				</a>
-			</div>
+		{% if project_class != 'project-preview--small' %}
+			{% if project.url %}
+				<div class="spacing-small-top">
+						<a class="btn" href="{{ project.url }}">
+							View Case Study
+						</a>
+				</div>
+			{% endif %}
 		{% endif %}
 	</div>
 </article>

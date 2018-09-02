@@ -3,12 +3,27 @@
 	@include flex_wrap(wrap);
 }
 
+.grid--dev {
+	& + & {
+		margin-top: 80px;
+	}
+
+	.grid__col {
+		background: #e2e2e2;
+	}
+}
+
 @for $i from 1 through $grid-cols {
 	.grid__col--#{$i} {
 		width: calc_grid_cols($i);
 
-		&:not(:nth-child(#{$i - 1}n)):not(:last-child) {
+
+		&:not(:nth-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
 			margin-right: $grid-spacing-percent;
+		}
+
+		&:nth-of-type(1n+#{12 / $i + 1}) {
+			margin-top: #{$grid-spacing-px}px;
 		}
 	}
 }

@@ -425,6 +425,13 @@
 		"oAP": "\/_layouts\/style-guide.html",
 		"oF": 0
 		},
+	"\/_layouts\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/work.html",
+		"oF": 0
+		},
 	"\/_posts\/2014-09-05-how-to-hire-a-web-designer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -830,6 +837,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/sitemap.xml",
+		"oF": 0
+		},
+	"\/_site\/style-guide\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/style-guide\/index.html",
+		"oF": 0
+		},
+	"\/_site\/work\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/work\/index.html",
 		"oF": 0
 		},
 	"\/assets\/css\/base\/_extends.scss": {
@@ -1394,6 +1415,20 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/style-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/style-guide.html",
+		"oF": 0
+		},
+	"\/work\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/work\/index.html",
 		"oF": 0
 		}
 	},
