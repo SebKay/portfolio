@@ -1,0 +1,49 @@
+{% include header.html %}
+
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			Recent Posts
+		</h2>
+	</div>
+
+	<div class="grid">
+		{% for post in paginator.posts %}
+			<div class="grid__col grid__col--6">
+				{% include post-preview.html %}
+			</div>
+		{% endfor %}
+	</div>
+
+	{% if paginator.previous_page or paginator.next_page %}
+		<div class="spacing-medium-top">
+			<div class="grid">
+				<div class="grid__col grid__col--6 txt-right">
+					{% if paginator.previous_page %}
+						<a class="btn" href="{{ paginator.previous_page_path }}">
+							< Previous
+						</a>
+					{% else %}
+						<a class="btn btn--disabled" href="#">
+							< Previous
+						</a>
+					{% endif %}
+				</div>
+
+				<div class="grid__col grid__col--6">
+					{% if paginator.next_page %}
+						<a class="btn" href="{{ paginator.next_page_path }}">
+							Next >
+						</a>
+					{% else %}
+						<a class="btn btn--disabled" href="#">
+							Next >
+						</a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	{% endif %}
+</section>
+
+{% include footer.html %}

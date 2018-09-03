@@ -1,3 +1,9 @@
+.post-card {
+	height: 100%;
+	border-radius: $border-radius;
+	background: map-get($ui-colors, 2_1);
+}
+
 .post-card__thumb {
 	img {
 		display: block;
@@ -8,5 +14,4 @@
 .post-card__inner {
 	padding: 80px;
 	border-radius: 0 0 $border-radius $border-radius;
-	background: map-get($ui-colors, 2_1);
 }

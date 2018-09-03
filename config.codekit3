@@ -419,6 +419,13 @@
 		"oAP": "\/_includes\/testimonial.html",
 		"oF": 0
 		},
+	"\/_layouts\/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/blog.html",
+		"oF": 0
+		},
 	"\/_layouts\/category.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -601,6 +608,13 @@
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
+	"\/_site\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_site\/_redirects",
+		"oF": 0
+		},
 	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -617,6 +631,16 @@
 		"oAP": "\/_site\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/_site\/assets\/js\/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
@@ -681,6 +705,13 @@
 		"oAP": "\/_site\/blog\/how-to-work-with-clients\/index.html",
 		"oF": 0
 		},
+	"\/_site\/blog\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/blog\/index.html",
+		"oF": 0
+		},
 	"\/_site\/blog\/mistakes-of-building-a-business-website\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -688,25 +719,18 @@
 		"oAP": "\/_site\/blog\/mistakes-of-building-a-business-website\/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/page2\/index.html": {
+	"\/_site\/blog\/page\/2\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/page2\/index.html",
+		"oAP": "\/_site\/blog\/page\/2\/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/page3\/index.html": {
+	"\/_site\/blog\/page\/3\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/page3\/index.html",
-		"oF": 0
-		},
-	"\/_site\/blog\/page4\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/blog\/page4\/index.html",
+		"oAP": "\/_site\/blog\/page\/3\/index.html",
 		"oF": 0
 		},
 	"\/_site\/blog\/procrastination-as-a-freelancer\/index.html": {
@@ -806,6 +830,50 @@
 		"oA": 2,
 		"oAP": "\/_site\/category\/tips\/index.html",
 		"oF": 0
+		},
+	"\/_site\/Gemfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile",
+		"oF": 0
+		},
+	"\/_site\/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/Gemfile.lock",
+		"oF": 0
+		},
+	"\/_site\/headsupgrid\/hugrid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/headsupgrid\/hugrid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/headsupgrid\/hugrid.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_site\/headsupgrid\/jquery-1.6.2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/_site\/index.html": {
 		"cB": 0,
@@ -1352,6 +1420,13 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
+		},
+	"\/blog\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog\/index.html",
+		"oF": 0
 		},
 	"\/category\/advice.html": {
 		"cB": 0,

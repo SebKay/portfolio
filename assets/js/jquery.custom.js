@@ -60,4 +60,14 @@ jQuery(document).ready(function($) {
 	$(document).ajaxComplete(function() {
 		skp_jcf();
 	});
+
+
+
+	/*--------------------------------------------
+	---- Other
+	--------------------------------------------*/
+	//---- Disable buttons
+	$('.btn--disabled').on('click', function(e) {
+		e.preventDefault();
+	})
 });

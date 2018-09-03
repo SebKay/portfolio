@@ -13,3 +13,8 @@
 	@include rem(24px);
 	padding: 24px 39px;
 }
+
+.btn--disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
