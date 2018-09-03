@@ -1,20 +1,47 @@
-{% if page.style == 'dark' %}
+{% if page.style == 'dark' or page.is_post %}
 	{% assign banner_class = 'site-banner--dark' %}
 {% else %}
 	{% assign banner_class = null %}
 {% endif %}
+
+{% if page.is_post %}
+	{% assign banner_tagline = 'Blog' %}
+	{% assign banner_title = page.title %}
+
+	{% capture banner_desc %}
+		{% assign d = page.date | date: "%-d"  %}
+		{% case d %}
+			{% when '1' or '21' or '31' %}{{ d }}st
+			{% when '2' or '22' %}{{ d }}nd
+			{% when '3' or '23' %}{{ d }}rd
+			{% else %}{{ d }}th
+		{% endcase %}
+		{{ page.date | date: "%B" }},
+		{{ page.date | date: "%Y" }}
+	{% endcapture %}
+{% else %}
+	{% assign banner_tagline = page.banner_tagline %}
+	{% assign banner_title = page.banner_title %}
+	{% assign banner_desc = page.banner_desc %}
+{% endif %}
 <section class="site-banner {{ banner_class }}">
 	<div class="site-banner__inner">
 		<div class="site-banner__content">
-			{% if page.banner_title %}
+			{% if banner_tagline %}
+				<h3 class="site-banner__tagline">
+					{{ banner_tagline }}
+				</h3>
+			{% endif %}
+
+			{% if banner_title %}
 				<h1 class="site-banner__title">
-					{{ page.banner_title }}
+					{{ banner_title }}
 				</h1>
 			{% endif %}
 
-			{% if page.banner_desc %}
+			{% if banner_desc %}
 				<h2 class="site-banner__subtitle">
-					{{ page.banner_desc }}
+					{{ banner_desc }}
 				</h2>
 			{% endif %}
 

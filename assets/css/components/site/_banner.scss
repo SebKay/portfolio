@@ -19,6 +19,13 @@
 	margin-top: 40px;
 }
 
+.site-banner__tagline {
+	@extend %txt-upper;
+	@extend .h4;
+	// Type
+	color: map-get($ui-colors, 2_4);
+}
+
 .site-banner__subtitle {
 	@extend .h3;
 	// Type
@@ -42,6 +49,7 @@
 		color: #fff;
 	}
 
+	.site-banner__tagline,
 	.site-banner__subtitle {
 		// Type
 		color: map-get($ui-colors, 2_3);

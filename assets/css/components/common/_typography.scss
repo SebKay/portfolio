@@ -28,19 +28,11 @@ a {
 	color: map-get($ui-colors, 1);
 }
 
-.txt-large {
-	@include rem(24px);
-}
+.txt-dark { color: map-get($ui-colors, 2); }
+.txt-fade { color: map-get($ui-colors, 2_3); }
 
-.txt-dark {
-	// Type
-	color: map-get($ui-colors, 2);
-}
-
-.txt-fade {
-	// Type
-	color: map-get($ui-colors, 2_3);
-}
+.txt-small { @include rem(18px); }
+.txt-large { @include rem(24px); }
 
 .txt-left   { text-align: left; }
 .txt-center { text-align: center; }

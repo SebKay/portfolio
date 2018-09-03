@@ -3,6 +3,14 @@ url      : "https://sebkay.com"
 encoding : UTF-8
 future   : true
 
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
+
 # Dependencies
 highlighter : true
 plugins     :
@@ -22,6 +30,7 @@ paginate_path : "/blog/page/:num/"
 # Markdown
 markdown: kramdown
 
+# Sass
 sass:
   style: compressed
   sass_dir: assets/css/

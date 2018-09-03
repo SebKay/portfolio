@@ -1,18 +1,18 @@
+.site-header {
+	@include transition(all ease $transition-speed);
+	width: 100%;
+	padding-bottom: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: map-get($z-index, 2);
+}
+
+.site-banner {
+	padding-top: $header-height-dt;
+}
+
 .js-active {
-	.site-header {
-		@include transition(all ease $transition-speed);
-		width: 100%;
-		padding-bottom: 80px;
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: map-get($z-index, 2);
-	}
-
-	.site-banner {
-		padding-top: $header-height-dt;
-	}
-
 	&.site-scroll--active {
 		.site-header {
 			padding-top: 30px;

@@ -1,5 +1,55 @@
 {% include header.html %}
 
-post
+<section class="section section--small spacing-huge">
+	<div class="spacing-small-bottom">
+		<div class="content-styles">
+			<img src="{{ page.thumb_url }}">
+		</div>
+	</div>
+
+	<div class="content-styles">
+		{{ page.content | markdownify }}
+	</div>
+
+	<div class="spacing-medium-top">
+		<ul class="share">
+			<li class="share__item share__item--twitter">
+				<a href="https://twitter.com/home?status={{ page.title | url_encode }} - {{ site.url | url_encode }}{{ page.url | url_encode }} via @SebKayDesign" target="_blank">
+					{{ site.data.svgs[0].twitter }}
+				</a>
+			</li>
+			<li class="share__item share__item--facebook">
+				<a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank">
+					{{ site.data.svgs[0].facebook }}
+				</a>
+			</li>
+			<li class="share__item share__item--google">
+				<a href="https://plus.google.com/share?url={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank">
+					{{ site.data.svgs[0].google_plus }}
+				</a>
+			</li>
+			<li class="share__item share__item--linkedin">
+				<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url | url_encode }}{{ page.url | url_encode }}&title={{ page.title | url_encode }}&summary={{ page.excerpt }}" target="_blank">
+					{{ site.data.svgs[0].linkedin }}
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	{% if page.comments %}
+		<div class="spacing-medium-top">
+			<div id="disqus_thread"></div>
+			<script>
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://sebkay.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+		</div>
+	{% endif %}
+</section>
 
 {% include footer.html %}

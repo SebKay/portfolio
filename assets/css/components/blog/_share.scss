@@ -1,0 +1,34 @@
+.share {
+	@include flex(flex);
+	@include flex_align_items(center);
+}
+
+.share__item {
+	margin: 0;
+	list-style: none;
+
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
+
+	a {
+		@include flex_center();
+		width: 70px;
+		height: 70px;
+		border-radius: $border-radius;
+
+		svg {
+			width: 26px;
+			height: 26px;
+
+			* {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+.share__item--twitter a  { background: map-get($social-colors, twitter); }
+.share__item--facebook a { background: map-get($social-colors, facebook); }
+.share__item--google a   { background: map-get($social-colors, google); }
+.share__item--linkedin a { background: map-get($social-colors, linkedin); }

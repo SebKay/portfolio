@@ -11,4 +11,17 @@
 		// Type
 		line-height: 145%;
 	}
+
+	img {
+		border: 5px solid map-get($ui-colors, 2_1);
+		border-radius: $border-radius;
+		background: #fff;
+	}
+
+	figcaption {
+		@extend .txt-small;
+		// Type
+		text-align: center;
+	}
+
 }

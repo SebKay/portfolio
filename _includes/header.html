@@ -3,7 +3,7 @@
 {% else %}
 	{% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% endif %}
-{% if page.style == 'dark' %}
+{% if page.style == 'dark' or page.is_post %}
 	{% assign header_class = 'site-header--dark' %}
 {% else %}
 	{% assign header_class = null %}
