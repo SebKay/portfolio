@@ -93,6 +93,13 @@
 		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_scroll.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_full-service.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_full-service.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_service.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -363,6 +370,13 @@
 		"oAP": "\/_includes\/banner.html",
 		"oF": 0
 		},
+	"\/_includes\/blog-preview.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/blog-preview.html",
+		"oF": 0
+		},
 	"\/_includes\/footer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -587,11 +601,11 @@
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
-	"\/_site\/_redirects": {
+	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_site\/_redirects",
+		"oA": 2,
+		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
 	"\/_site\/assets\/css\/style.css": {
@@ -603,16 +617,6 @@
 		"oAP": "\/_site\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/_site\/assets\/js\/app.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
@@ -803,50 +807,6 @@
 		"oAP": "\/_site\/category\/tips\/index.html",
 		"oF": 0
 		},
-	"\/_site\/Gemfile": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/Gemfile",
-		"oF": 0
-		},
-	"\/_site\/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/Gemfile.lock",
-		"oF": 0
-		},
-	"\/_site\/headsupgrid\/hugrid.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/headsupgrid\/hugrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/headsupgrid\/hugrid.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_site\/headsupgrid\/jquery-1.6.2.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/_site\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -894,6 +854,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/work\/index.html",
+		"oF": 0
+		},
+	"\/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
 		"oF": 0
 		},
 	"\/assets\/css\/base\/_extends.scss": {

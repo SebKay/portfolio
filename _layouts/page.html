@@ -1,5 +1,11 @@
 {% include header.html %}
 
-index
+<section class="section section--small spacing-huge-top">
+	<div class="content-styles">
+		{{ page.content | markdownify }}
+	</div>
+</section>
+
+{% include blog-preview.html %}
 
 {% include footer.html %}

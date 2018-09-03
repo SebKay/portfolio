@@ -4,7 +4,6 @@ encoding : UTF-8
 future   : true
 
 # Dependencies
-markdown    : rdiscount
 highlighter : true
 plugins     :
 - jekyll-paginate
@@ -20,9 +19,12 @@ description   : Web Design & Development
 paginate      : 5
 paginate_path : "/blog/page:num/"
 
-# Exclude
-exclude:
-- config.codekit3
+# Markdown
+markdown: kramdown
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
 
 # Include
 include:
@@ -33,7 +35,3 @@ exclude:
 - assets/js/third-party/
 - assets/js/app.js
 - assets/js/jquery.custom.js
-
-sass:
-  style: compressed
-  sass_dir: assets/css/
