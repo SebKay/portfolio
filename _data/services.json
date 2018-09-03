@@ -3,18 +3,56 @@
 		"title"    : "Web Design",
 		"subtitle" : "Modern and User Focused",
 		"excerpt"  : "From single landing pages to fully-blown eCommerce store, I can created a design that fits perfectly with you and your business.",
-		"icon"     : "pen"
+		"icon"     : "pen",
+		"sub_items" : [
+			{
+				"title" : "Brochure",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			},
+			{
+				"title" : "eCommerce",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			},
+			{
+				"title" : "Application UI",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			}
+		]
 	},
 	{
 		"title"    : "Web Development",
 		"subtitle" : "Responsive and Perfomant",
 		"excerpt"  : "An off the shelf theme might be ok when you're first starting out, but you need something bespoke and tailored to your needs.",
-		"icon"     : "screen"
+		"icon"     : "screen",
+		"sub_items" : [
+			{
+				"title" : "HTML / CSS",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			},
+			{
+				"title" : "WordPress",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			},
+			{
+				"title" : "Performance Review",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			}
+		]
 	},
 	{
 		"title"    : "eCommerce",
 		"subtitle" : "Shopify and WooCommerce",
 		"excerpt"  : "Selling your product should be the focus, not managing the website. You’ll have a custom solution that does all the heavy lifting for you.",
-		"icon"     : "cart"
+		"icon"     : "cart",
+		"sub_items" : [
+			{
+				"title" : "Shopify",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			},
+			{
+				"title" : "WooCommerce",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis a ante tempus sollicitudin. Proin euismod mollis velit, id luctus augue lobortis et."
+			}
+		]
 	}
 ]

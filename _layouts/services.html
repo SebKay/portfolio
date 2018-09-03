@@ -1,0 +1,40 @@
+{% include header.html %}
+
+<div class="spacing-huge-top"></div>
+
+{% for service in site.data.services %}
+	<section class="section section--small spacing-small-bottom">
+		<div class="full-service">
+			<div class="full-service__section full-service__section--icon">
+				<span class="full-service__icon">
+					{{ site.data.svgs[0].[service.icon] }}
+				</span>
+			</div>
+			<div class="full-service__section full-service__section--content">
+				{% if service.title %}
+					<div class="content-styles">
+						<h2>
+							{{ service.title }}
+						</h2>
+					</div>
+				{% endif %}
+				{% for service_sub_item in service.sub_items %}
+					<div class="spacing-tiny-top">
+						<div class="content-styles">
+							<h3 class="h4">
+								{{ service_sub_item.title }}
+							</h3>
+							<p>
+								{{ service_sub_item.desc }}
+							</p>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+{% endfor %}
+
+<div class="spacing-large-top"></div>
+
+{% include footer.html %}

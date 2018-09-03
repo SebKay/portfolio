@@ -1,0 +1,28 @@
+.full-service {
+	@include flex(flex);
+	padding: 120px;
+	border-radius: $border-radius;
+	border-top: 4px solid map-get($ui-colors, 1);
+	background: map-get($ui-colors, 2_1);
+}
+
+.full-service__section--icon {
+	width: calc_grid_cols(3);
+}
+
+.full-service__section--content {
+	width: calc_grid_cols(9);
+	margin-left: auto;
+}
+
+.full-service__icon {
+	max-width: 130px;
+	display: inline-block;
+
+	svg {
+
+		* {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+}

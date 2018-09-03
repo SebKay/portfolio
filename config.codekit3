@@ -440,6 +440,13 @@
 		"oAP": "\/_layouts\/process.html",
 		"oF": 0
 		},
+	"\/_layouts\/services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/services.html",
+		"oF": 0
+		},
 	"\/_layouts\/style-guide.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -861,6 +868,13 @@
 		"oAP": "\/_site\/robots.txt",
 		"oF": 0
 		},
+	"\/_site\/services\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/services\/index.html",
+		"oF": 0
+		},
 	"\/_site\/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
@@ -1138,6 +1152,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_project-preview.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/services\/_full-service.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_full-service.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -1464,6 +1491,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/process.html",
+		"oF": 0
+		},
+	"\/services.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/services.html",
 		"oF": 0
 		},
 	"\/style-guide.html": {
