@@ -1,0 +1,55 @@
+[
+	{
+		"title"    : "Step 1",
+		"subtitle" : "Getting Started",
+		"items" : [
+			{
+				"icon"  : "chat",
+				"title" : "Initial Chat",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			},
+			{
+				"icon"  : "text-left",
+				"title" : "Brief",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			}
+		]
+	},
+	{
+		"title"    : "Step 2",
+		"subtitle" : "Design",
+		"items" : [
+			{
+				"icon"  : "grid",
+				"title" : "Wireframes",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			},
+			{
+				"icon"  : "screen",
+				"title" : "Designs",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			}
+		]
+	},
+	{
+		"title"    : "Step 3",
+		"subtitle" : "Build & Launch",
+		"items" : [
+			{
+				"icon"  : "code",
+				"title" : "Code",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			},
+			{
+				"icon"  : "learn",
+				"title" : "Training",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			},
+			{
+				"icon"  : "bolt",
+				"title" : "Launch",
+				"desc"  : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur massa leo, accumsan non nisl sit amet, venenatis consectetur velit. Etiam eget nulla quis lacus efficitur."
+			}
+		]
+	}
+]

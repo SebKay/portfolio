@@ -42,10 +42,9 @@ a {
 	color: map-get($ui-colors, 2_3);
 }
 
-.txt-center {
-	// Type
-	text-align: center;
-}
+.txt-left   { text-align: left; }
+.txt-center { text-align: center; }
+.txt-right  { text-align: right; }
 
 h1, .h1 { @include rem(72px); }
 h2, .h2 { @include rem(52px); }

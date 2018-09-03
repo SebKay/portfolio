@@ -3,6 +3,52 @@
 	@include flex_wrap(wrap);
 }
 
+.grid--reverse {
+	@include flex_direction(row-reverse);
+}
+
+@for $i from 1 through $grid-cols {
+	.grid:not(.grid--reverse) {
+		.grid__col--#{$i} {
+			width: calc_grid_cols($i);
+
+			&:not(:nth-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
+				margin-right: $grid-spacing-percent;
+			}
+
+			&:nth-of-type(1n+#{12 / $i + 1}) {
+				margin-top: #{$grid-spacing-px}px;
+			}
+		}
+	}
+
+	.grid--reverse {
+		.grid__col--#{$i} {
+			width: calc_grid_cols($i);
+
+			&:not(:nth-last-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
+				margin-left: $grid-spacing-percent;
+			}
+
+			&:nth-last-of-type(1n+#{12 / $i + 1}) {
+				margin-top: #{$grid-spacing-px}px;
+			}
+		}
+	}
+}
+
+.grid__col--v-center {
+	@include flex_align_self(center);
+}
+
+.grid__col--right {
+	margin-left: auto;
+}
+
+.grid__col--left {
+	margin-right: auto;
+}
+
 .grid--dev {
 	& + & {
 		margin-top: 80px;
@@ -11,23 +57,4 @@
 	.grid__col {
 		background: #e2e2e2;
 	}
-}
-
-@for $i from 1 through $grid-cols {
-	.grid__col--#{$i} {
-		width: calc_grid_cols($i);
-
-
-		&:not(:nth-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
-			margin-right: $grid-spacing-percent;
-		}
-
-		&:nth-of-type(1n+#{12 / $i + 1}) {
-			margin-top: #{$grid-spacing-px}px;
-		}
-	}
-}
-
-.grid__col--v-center {
-	@include flex_align_self(center);
 }
