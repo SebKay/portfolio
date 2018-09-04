@@ -2,12 +2,12 @@
 	@extend %txt-upper;
 	@extend %line-bottom;
 	@include rem(24px);
-	@include transition(color ease $transition-speed);
 	display: block;
 	// Type
 	color: map-get($ui-colors, 2);
 
 	&:after {
+		max-width: 30%;
 		margin-top: 17px;
 	}
 }

@@ -12,7 +12,21 @@
 }
 
 .site-menu__link {
-	@include transition(color ease $transition-speed);
+	position: relative;
 	// Type
 	color: map-get($ui-colors, 2_2);
+
+	&:before {
+		@include transform(translateX(-50%));
+		width: 20%;
+		height: 4px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		opacity: 0;
+		pointer-events: none;
+		content: '';
+		border-radius: $border-radius;
+		background: map-get($ui-colors, 1);
+	}
 }

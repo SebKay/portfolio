@@ -1,0 +1,58 @@
+.site-logo:hover:after {
+	max-width: 15%;
+}
+
+.site-menu__link:hover,
+.site-menu__link.active {
+	// Type
+	color: map-get($ui-colors, 2);
+}
+
+.site-menu__link:hover:before,
+.site-menu__link.active:before {
+	width: 80%;
+	opacity: 1;
+}
+
+.btn:not(.btn--disabled):hover {
+	@include transform(scale(1.075));
+	box-shadow: inset 0 0 0 2px map-get($ui-colors, 1);
+	background: none;
+	// Type
+	color: map-get($ui-colors, 1);
+}
+
+.btn--hover-light:not(.btn--disabled):hover {
+	// Type
+	color: #fff;
+}
+
+.content-styles h1 a:hover,
+.content-styles h2 a:hover,
+.content-styles h3 a:hover,
+.content-styles h4 a:hover,
+.content-styles h5 a:hover,
+.content-styles h6 a:hover {
+	opacity: 0.5;
+}
+
+.content-styles p a:hover,
+.content-styles li a:hover {
+	border-bottom-color: map-get($ui-colors, 1);
+}
+
+.icon-list--light .icon-list__item a:hover {
+	// Type
+	color: #fff;
+}
+
+.browser__inner a:hover,
+.post-card__thumb a:hover {
+	opacity: 0.5;
+}
+
+.site-scroll--inactive .site-header--dark .site-menu__link:hover,
+.site-scroll--inactive .site-header--dark .site-menu__link.active {
+	// Type
+	color: #fff;
+}

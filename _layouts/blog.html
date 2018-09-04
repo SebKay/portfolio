@@ -4,6 +4,13 @@
 	<div class="spacing-small-bottom">
 		<h2 class="section-title">
 			Recent Posts
+
+			{% if paginator.page and paginator.page > 1 %}
+				-
+				<span class="section-title__txt">
+					Page {{ paginator.page }}
+				</span>
+			{% endif %}
 		</h2>
 	</div>
 

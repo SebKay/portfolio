@@ -53,8 +53,8 @@
 										{% assign menu-item-current = 'active' %}
 									{% endif %}
 
-									<li class="site-menu__item {{ menu-item-current }}">
-										<a class="site-menu__link" href="{{ site.url }}{{ menu-item.url }}">
+									<li class="site-menu__item">
+										<a class="site-menu__link {{ menu-item-current }}" href="{{ site.url }}{{ menu-item.url }}">
 											{{ menu-item.name }}
 										</a>
 									</li>

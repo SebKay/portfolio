@@ -3,13 +3,33 @@
 		margin-top: 30px;
 	}
 
-	* + p {
+	* + p,
+	li + li {
 		margin-top: 20px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		// Type
+		line-height: 115%;
 	}
 
 	p, li {
 		// Type
-		line-height: 145%;
+		line-height: 160%;
+
+		a {
+			border-bottom: 1px solid transparent;
+		}
+	}
+
+	ul,
+	ol {
+		padding-left: 30px;
 	}
 
 	img {
@@ -23,5 +43,4 @@
 		// Type
 		text-align: center;
 	}
-
 }

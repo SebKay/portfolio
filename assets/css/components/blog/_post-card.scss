@@ -5,8 +5,12 @@
 }
 
 .post-card__thumb {
+	a,
 	img {
 		display: block;
+	}
+
+	img {
 		border-radius: $border-radius $border-radius 0 0;
 	}
 }
