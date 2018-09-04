@@ -28,8 +28,9 @@ a {
 	color: map-get($ui-colors, 1);
 }
 
-.txt-dark { color: map-get($ui-colors, 2); }
-.txt-fade { color: map-get($ui-colors, 2_3); }
+.txt-dark      { color: map-get($ui-colors, 2); }
+.txt-fade      { color: map-get($ui-colors, 2_3); }
+.txt-highlight { color: map-get($ui-colors, 1); }
 
 .txt-small { @include rem(18px); }
 .txt-large { @include rem(24px); }

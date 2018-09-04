@@ -1,0 +1,97 @@
+//---- Select
+.jcf-select {
+	display: block;
+	position: relative;
+	cursor: pointer;
+}
+
+.jcf-select-text {
+	@extend %form-field;
+	position: relative;
+	z-index: 20;
+}
+
+.jcf-select-opener {
+	@include flex_center();
+	@include transition(transform ease $transition-speed);
+	width: 60px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 30;
+
+	svg {
+		width: 22px;
+
+		* {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+}
+
+.jcf-select-drop {
+	width: 100%;
+	padding-top: 60px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: $border-radius;
+	border: 2px solid map-get($ui-colors, 2_7);
+	background: map-get($ui-colors, 2_6);
+}
+
+.jcf-list-content {
+	max-height: 330px;
+	-webkit-overflow-scrolling: touch;
+	overflow: auto;
+	display: block;
+
+	li {
+		list-style: none;
+
+		&:last-child .jcf-option {
+			border-bottom: none;
+		}
+	}
+}
+
+.jcf-option {
+	@include rem(18px);
+	min-height: 60px;
+	padding: 21px 21px 0;
+	display: block;
+	border-bottom: 2px solid map-get($ui-colors, 2_7);
+	// Type
+	font-weight: map-get(map-get($font-1, weights), light);
+	color: map-get($ui-colors, 2);
+
+	&.jcf-disabled {
+		display: none;
+	}
+}
+
+// Active
+.jcf-drop-active {
+	.jcf-select-text {
+		border-radius: $border-radius $border-radius 0 0;
+	}
+
+	.jcf-select-opener {
+		@include transform(rotate(180deg));
+	}
+}
+
+// Flipped
+.jcf-drop-flipped {
+	.jcf-select-text {
+		border-radius: 0 0 $border-radius $border-radius;
+	}
+
+	.jcf-select-drop {
+		padding-top: 0;
+		padding-bottom: 60px;
+		top: auto;
+		bottom: 0;
+	}
+}

@@ -2,9 +2,11 @@
 	@include rem(20px);
 	padding: 20px 35px;
 	display: inline-block;
+	cursor: pointer;
 	border-radius: 1000px;
 	background: map-get($ui-colors, 1);
 	// Type
+	font-family: map-get($font-1, family);
 	font-weight: map-get(map-get($font-1, weights), medium);
 	color: #fff;
 }

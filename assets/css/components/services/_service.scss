@@ -1,7 +1,7 @@
 .service {
 	padding: 80px;
 	border-radius: $border-radius;
-	border-top: 4px solid map-get($ui-colors, 1);
+	border-top: 6px solid map-get($ui-colors, 1);
 	background: map-get($ui-colors, 2_1);
 }
 
