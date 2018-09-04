@@ -3,9 +3,18 @@
 		margin-top: 30px;
 	}
 
+	* + .grid__col {
+		margin-top: 0;
+	}
+
 	* + p,
 	li + li {
 		margin-top: 20px;
+	}
+
+	* + hr,
+	hr + * {
+		margin-top: 60px;
 	}
 
 	h1,

@@ -7,6 +7,12 @@ svg {
 	display: block;
 }
 
+hr {
+	height: 2px;
+	border: none;
+	background: map-get($ui-colors, 2_1);
+}
+
 .hidden {
 	display: none;
 }
