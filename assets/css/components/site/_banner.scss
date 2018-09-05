@@ -36,7 +36,7 @@
 
 //---- Dark version
 .site-banner--dark {
-	background-color: map-get($ui-colors, 2);
+	background: map-get($ui-colors, 2) url('../img/bg-stripes.svg') center / 618px no-repeat;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
 
