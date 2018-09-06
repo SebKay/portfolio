@@ -1,99 +1,44 @@
 [
 	{
-		"title"                              : "Inspirational Pixels",
-		"excerpt"                            : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
-		"preview_img_desktop_preview_url"    : "/assets/img/projects/inspirational-pixels/desktop-preview.jpg",
-		"preview_img_desktop_preview_url_2x" : "/assets/img/projects/inspirational-pixels/desktop-preview-@2x.jpg",
-		"preview_img_mobile_preview_url"     : "/assets/img/projects/inspirational-pixels/mobile-preview.jpg",
-		"preview_img_mobile_preview_url_2x"  : "/assets/img/projects/inspirational-pixels/mobile-preview-@2x.jpg",
-		"preview_img_desktop_url"            : "/assets/img/projects/inspirational-pixels/desktop.jpg",
-		"preview_img_desktop_url_2x"         : "/assets/img/projects/inspirational-pixels/desktop-@2x.jpg",
-		"preview_img_tablet_url"             : "/assets/img/projects/inspirational-pixels/tablet.jpg",
-		"preview_img_tablet_url_2x"          : "/assets/img/projects/inspirational-pixels/tablet-@2x.jpg",
-		"preview_img_mobile_url"             : "/assets/img/projects/inspirational-pixels/mobile.jpg",
-		"preview_img_mobile_url_2x"          : "/assets/img/projects/inspirational-pixels/mobile-@2x.jpg",
-		"usps"                               : [{
-			"title":"Logo Design",
-			"icon" :"pen"
-		},
-		{
-			"title":"Web Design",
-			"icon" :"screen"
-		},
-		{
-			"title":"WordPress Development",
-			"icon" :"code"
-		}],
-		"url":"/work/inspirational-pixels/"
+		"title"          : "Calendi",
+		"excerpt"        : "A simple editorial calendar for WordPress with a focus on usability and ease of use.",
+		"thumb"          : "/assets/img/work/calendi/thumb.jpg",
+		"thumb_2x"       : "/assets/img/work/calendi/thumb-@2x.jpg",
+		"thumb_small"    : "/assets/img/work/calendi/thumb-small.jpg",
+		"thumb_small_2x" : "/assets/img/work/calendi/thumb-small-@2x.jpg",
+		"url"            : "/work/calendi/",
+		"usps"           : [
+			{
+				"title":"UI Design",
+				"icon" :"pen"
+			},
+			{
+				"title":"WordPress Development",
+				"icon" :"code"
+			}
+		]
 	},
 	{
-		"title"                              : "47 Farms",
-		"excerpt"                            : "A service which helps everyday people connect with local farms in New Jersey. Everybody wants to know where their food is coming from, so this is the perfect way to do just that. Farm to table, enabled.",
-		"preview_img_desktop_preview_url"    : "/assets/img/projects/47-farms/desktop-preview.jpg",
-		"preview_img_desktop_preview_url_2x" : "/assets/img/projects/47-farms/desktop-preview-@2x.jpg",
-		"preview_img_mobile_preview_url"     : "/assets/img/projects/47-farms/mobile-preview.jpg",
-		"preview_img_mobile_preview_url_2x"  : "/assets/img/projects/47-farms/mobile-preview-@2x.jpg",
-		"preview_img_desktop_url"            : "/assets/img/projects/47-farms/desktop.jpg",
-		"preview_img_desktop_url_2x"         : "/assets/img/projects/47-farms/desktop-@2x.jpg",
-		"preview_img_tablet_url"             : "/assets/img/projects/47-farms/tablet.jpg",
-		"preview_img_tablet_url_2x"          : "/assets/img/projects/47-farms/tablet-@2x.jpg",
-		"preview_img_mobile_url"             : "/assets/img/projects/47-farms/mobile.jpg",
-		"preview_img_mobile_url_2x"          : "/assets/img/projects/47-farms/mobile-@2x.jpg",
-		"usps"                               : [{
-			"title":"Logo Design",
-			"icon":"pencil"
-		},
-		{
-			"title":"Web Design",
-			"icon":"computer"
-		},
-		{
-			"title":"Web Development",
-			"icon":"code"
-		}],
-		"url":"/work/47-farms/"
-	},
-	{
-		"title"                              : "Temple Beth Emunah",
-		"excerpt"                            : "TBE is a warm and welcoming synagogue based in Massachusetts. They are home to many interfaith couples, multi-racial families, gay/lesbian congregants and pride themselves on being a pillar of the local community.",
-		"preview_img_desktop_preview_url"    : "/assets/img/projects/temple-beth-emunah/desktop-preview.jpg",
-		"preview_img_desktop_preview_url_2x" : "/assets/img/projects/temple-beth-emunah/desktop-preview-@2x.jpg",
-		"preview_img_mobile_preview_url"     : "/assets/img/projects/temple-beth-emunah/mobile-preview.jpg",
-		"preview_img_mobile_preview_url_2"   : "/assets/img/projects/temple-beth-emunah/mobile-preview-@2x.jpg",
-		"preview_img_desktop_url"            : "/assets/img/projects/temple-beth-emunah/desktop.jpg",
-		"preview_img_desktop_url_2x"         : "/assets/img/projects/temple-beth-emunah/desktop-@2x.jpg",
-		"preview_img_tablet_url"             : "/assets/img/projects/temple-beth-emunah/tablet.jpg",
-		"preview_img_tablet_url_2x"          : "/assets/img/projects/temple-beth-emunah/tablet-@2x.jpg",
-		"preview_img_mobile_url"             : "/assets/img/projects/temple-beth-emunah/mobile.jpg",
-		"preview_img_mobile_url_2x"          : "/assets/img/projects/temple-beth-emunah/mobile-@2x.jpg",
-		"usps"                               : [{
-			"title" : "Logo Design",
-			"icon"  : "pencil"
-		},
-		{
-			"title" : "Web Design",
-			"icon"  : "computer"
-		},
-		{
-			"title" : "WordPress Development",
-			"icon"  : "code"
-		}],
-		"url":"/work/temple-beth-emunah/"
-	},
-	{
-		"title":"Chargify",
-		"excerpt": "Chargify is a SaaS company that helps you deal with subscription and recurring billing for your business. I was contacted by their head of marketing to help them revamp the old, out of date website.",
-		"preview_img_desktop_preview_url" : "/assets/img/projects/chargify/desktop-preview.jpg",
-		"preview_img_desktop_url"         : "/assets/img/projects/chargify/desktop.jpg",
-		"usps" : [
-		{
-			"title":"Web Design",
-			"icon":"pencil"
-		},
-		{
-			"title":"Web Development",
-			"icon":"code"
-		}],
-		"url":"/work/chargify/"
+		"title"          : "Inspirational Pixels",
+		"excerpt"        : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
+		"thumb"          : "/assets/img/work/inspirational-pixels/thumb.jpg",
+		"thumb_2x"       : "/assets/img/work/inspirational-pixels/thumb-@2x.jpg",
+		"thumb_small"    : "/assets/img/work/inspirational-pixels/thumb-small.jpg",
+		"thumb_small_2x" : "/assets/img/work/inspirational-pixels/thumb-small-@2x.jpg",
+		"url"            : "/work/inspirational-pixels/",
+		"usps"           : [
+				{
+				"title":"Logo Design",
+				"icon" :"pen"
+			},
+			{
+				"title":"Web Design",
+				"icon" :"screen"
+			},
+			{
+				"title":"WordPress Development",
+				"icon" :"code"
+			}
+		]
 	}
 ]

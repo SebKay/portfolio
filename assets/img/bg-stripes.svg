@@ -30,9 +30,9 @@
 <defs>
     <style>
       .cls-1 {
-        fill: #4b6cc1;
+        fill: #fff;
         fill-rule: evenodd;
-        opacity: 0.03;
+        opacity: 0.02;
       }
     </style>
   </defs>

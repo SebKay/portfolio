@@ -1,3 +1,11 @@
+{% if project_class == 'project-preview--small' %}
+	{% assign thumb_url = project.thumb_small %}
+	{% assign thumb_url_2x = project.thumb_small_2x %}
+{% else %}
+	{% assign thumb_url = project.thumb %}
+	{% assign thumb_url_2x = project.thumb_2x %}
+{% endif %}
+
 <article class="project-preview {{ project_class }}">
 	<div class="project-preview__img">
 		<figure class="browser">
@@ -9,7 +17,7 @@
 
 			<div class="browser__inner">
 				<a href="{{ project.url }}">
-					<img src="https://placehold.it/890x555">
+					<img src="{{ thumb_url }}" srcset="{{ thumb_url }} 1x, {{ thumb_url_2x }} 2x">
 				</a>
 			</div>
 		</figure>
