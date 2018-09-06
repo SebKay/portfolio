@@ -2,7 +2,7 @@
 	{
 		"title"    : "Web Design",
 		"subtitle" : "Modern and User Focused",
-		"excerpt"  : "From single landing pages to fully-blown eCommerce store, I can created a design that fits perfectly with you and your business.",
+		"excerpt"  : "From single landing pages to fully-blown eCommerce store, I'll create a design that fits you and your business.",
 		"icon"     : "pen",
 		"sub_items" : [
 			{
@@ -21,7 +21,7 @@
 	},
 	{
 		"title"    : "Web Development",
-		"subtitle" : "Responsive and Perfomant",
+		"subtitle" : "Responsive and Performant",
 		"excerpt"  : "An off the shelf theme might be ok when you're first starting out, but you need something bespoke and tailored to your needs.",
 		"icon"     : "screen",
 		"sub_items" : [
