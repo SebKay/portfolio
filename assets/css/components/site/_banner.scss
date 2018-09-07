@@ -1,14 +1,11 @@
 .site-banner__inner {
 	@extend .spacing-huge;
 	@extend .section;
-	@extend .section--large;
+	@extend .section--medium;
 	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
 .site-banner__content {
-	@extend .section;
-	@extend .section--small;
-	@extend .section--full;
 	// Type
 	text-align: center;
 }

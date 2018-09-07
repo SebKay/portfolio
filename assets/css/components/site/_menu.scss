@@ -3,7 +3,7 @@
 }
 
 .site-menu__item {
-	@include rem(20px);
+	@include rem(24px);
 	list-style: none;
 
 	&:not(:last-child) {

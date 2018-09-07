@@ -1,6 +1,6 @@
 .big-icon {
-	width: 200px;
-	height: 200px;
+	width: 260px;
+	height: 260px;
 	display: inline-block;
 	position: relative;
 	border-radius: 1000px;
@@ -8,7 +8,7 @@
 
 	svg {
 		@include transform(translate(-50%, -50%));
-		max-width: 62px;
+		max-width: 66px;
 		position: absolute;
 		top: 50%;
 		left: 50%;

@@ -32,18 +32,18 @@ a {
 .txt-fade      { color: map-get($ui-colors, 2_3); }
 .txt-highlight { color: map-get($ui-colors, 1); }
 
-.txt-small { @include rem(18px); }
-.txt-large { @include rem(24px); }
+.txt-small { @include rem(20px); }
+.txt-large { @include rem(30px); }
 
 .txt-left   { text-align: left; }
 .txt-center { text-align: center; }
 .txt-right  { text-align: right; }
 
-h1, .h1 { @include rem(72px); }
-h2, .h2 { @include rem(52px); }
-h3, .h3 { @include rem(40px); }
-h4, .h4 { @include rem(34px); }
-h5, .h5 { @include rem(28px); }
+h1, .h1 { @include rem(92px); }
+h2, .h2 { @include rem(68px); }
+h3, .h3 { @include rem(52px); }
+h4, .h4 { @include rem(38px); }
+h5, .h5 { @include rem(26px); }
 h6, .h6 { @include rem(22px); }
 
-p, li { @include rem(20px); }
+p, li { @include rem(24px); }

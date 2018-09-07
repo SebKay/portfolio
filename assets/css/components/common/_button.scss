@@ -1,6 +1,6 @@
 .btn {
-	@include rem(20px);
-	padding: 20px 35px;
+	@include rem(26px);
+	padding: 24px 36px;
 	display: inline-block;
 	cursor: pointer;
 	border-radius: 1000px;
@@ -12,8 +12,8 @@
 }
 
 .btn--large {
-	@include rem(24px);
-	padding: 24px 39px;
+	@include rem(32px);
+	padding: 28px 56px;
 }
 
 .btn--disabled {

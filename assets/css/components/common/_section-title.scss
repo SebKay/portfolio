@@ -1,6 +1,6 @@
 .section-title {
 	@extend %txt-upper;
-	@include rem(24px);
+	@include rem(28px);
 	padding-bottom: 15px;
 	border-bottom: 4px solid map-get($ui-colors, 2_1);
 	// Type

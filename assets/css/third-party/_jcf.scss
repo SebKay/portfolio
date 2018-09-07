@@ -14,7 +14,7 @@
 .jcf-select-opener {
 	@include flex_center();
 	@include transition(transform ease $transition-speed);
-	width: 60px;
+	width: 70px;
 	height: 100%;
 	position: absolute;
 	top: 0;
@@ -32,7 +32,7 @@
 
 .jcf-select-drop {
 	width: 100%;
-	padding-top: 60px;
+	padding-top: 70px;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -58,8 +58,8 @@
 
 .jcf-option {
 	@include rem(18px);
-	min-height: 60px;
-	padding: 21px 21px 0;
+	min-height: 70px;
+	padding: 24px 24px 0;
 	display: block;
 	border-bottom: 2px solid map-get($ui-colors, 2_7);
 	// Type
@@ -90,7 +90,7 @@
 
 	.jcf-select-drop {
 		padding-top: 0;
-		padding-bottom: 60px;
+		padding-bottom: 70px;
 		top: auto;
 		bottom: 0;
 	}

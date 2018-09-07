@@ -3,12 +3,17 @@
 }
 
 .project-preview__img {
-	width: 60.66666666666667%;
+	width: calc_grid_cols(7.5);
+
+	img {
+		width: 100%;
+		display: block;
+	}
 }
 
 .project-preview__content {
 	@include flex_align_self(center);
-	width: 34.66666666666667%;
+	width: calc_grid_cols(4.5);
 	margin-left: auto;
 }
 

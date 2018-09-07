@@ -1,7 +1,7 @@
 .site-logo {
 	@extend %txt-upper;
 	@extend %line-bottom;
-	@include rem(24px);
+	@include rem(28px);
 	display: block;
 	// Type
 	color: map-get($ui-colors, 2);

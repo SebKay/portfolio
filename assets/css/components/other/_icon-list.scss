@@ -1,19 +1,19 @@
 .icon-list__item {
 	@extend %txt-upper;
-	@include rem(18px);
+	@include rem(22px);
 	@include flex(flex);
 	@include flex_align_items(center);
 	// Type
 	color: map-get($ui-colors, 2_4);
 
 	&:not(:last-child) {
-		margin-bottom: 25px;
+		margin-bottom: 30px;
 	}
 }
 
 .icon-list__img {
-	max-width: 22px;
-	max-height: 22px;
+	max-width: 24px;
+	max-height: 24px;
 	margin-right: 15px;
 
 	svg * {

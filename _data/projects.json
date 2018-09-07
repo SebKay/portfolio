@@ -1,30 +1,11 @@
 [
 	{
-		"title"          : "Calendi",
-		"excerpt"        : "A simple editorial calendar for WordPress with a focus on usability and ease of use.",
-		"thumb"          : "/assets/img/work/calendi/thumb.jpg",
-		"thumb_2x"       : "/assets/img/work/calendi/thumb-@2x.jpg",
-		"thumb_small"    : "/assets/img/work/calendi/thumb-small.jpg",
-		"thumb_small_2x" : "/assets/img/work/calendi/thumb-small-@2x.jpg",
-		"url"            : "/work/calendi/",
-		"usps"           : [
-			{
-				"title":"UI Design",
-				"icon" :"pen"
-			},
-			{
-				"title":"WordPress Development",
-				"icon" :"code"
-			}
-		]
-	},
-	{
 		"title"          : "Inspirational Pixels",
 		"excerpt"        : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
-		"thumb"          : "/assets/img/work/inspirational-pixels/thumb.jpg",
-		"thumb_2x"       : "/assets/img/work/inspirational-pixels/thumb-@2x.jpg",
-		"thumb_small"    : "/assets/img/work/inspirational-pixels/thumb-small.jpg",
-		"thumb_small_2x" : "/assets/img/work/inspirational-pixels/thumb-small-@2x.jpg",
+		"thumb"          : "https://placehold.it/1030x655",
+		"thumb_2x"       : "https://placehold.it/2060x1310",
+		"thumb_small"    : "https://placehold.it/505x321",
+		"thumb_small_2x" : "https://placehold.it/1010x642",
 		"url"            : "/work/inspirational-pixels/",
 		"usps"           : [
 				{
@@ -34,6 +15,25 @@
 			{
 				"title":"Web Design",
 				"icon" :"screen"
+			},
+			{
+				"title":"WordPress Development",
+				"icon" :"code"
+			}
+		]
+	},
+	{
+		"title"          : "Calendi",
+		"excerpt"        : "A simple editorial calendar for WordPress with a focus on usability and ease of use.",
+		"thumb"          : "https://placehold.it/1030x655",
+		"thumb_2x"       : "https://placehold.it/2060x1310",
+		"thumb_small"    : "https://placehold.it/505x321",
+		"thumb_small_2x" : "https://placehold.it/1010x642",
+		"url"            : "/work/calendi/",
+		"usps"           : [
+			{
+				"title":"UI Design",
+				"icon" :"pen"
 			},
 			{
 				"title":"WordPress Development",

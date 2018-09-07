@@ -1,11 +1,11 @@
 - quote    : Seb is an excellent web designer and faultless technician. He’s a pleasure to work with, great value for money and will always go the extra mile when necessary.
-  img_1x_url : /assets/img/testimonials/chris-fenwick-@1x.jpg
-  img_2x_url : /assets/img/testimonials/chris-fenwick-@2x.jpg
+  img_url : https://placehold.it/80x80
+  img_url_2x : https://placehold.it/160x160
   by         : Chris Fenwick
   by_meta    : Owner of Fenwick Studio
 
 - quote    : Seb is not only great for design and development, but he is a problem solver who always delivers an exceptional quality of work. Highly recommended.
-  img_1x_url : /assets/img/testimonials/adam-feber-@1x.jpg
-  img_2x_url : /assets/img/testimonials/adam-feber-@2x.jpg
+  img_url : https://placehold.it/80x80
+  img_url_2x : https://placehold.it/160x160
   by         : Adam Feber
   by_meta    : Director of Marketing at Chargify

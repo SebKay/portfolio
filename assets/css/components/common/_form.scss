@@ -32,7 +32,7 @@ button {
 
 label {
 	@extend %txt-upper;
-	@include rem(18px);
+	@include rem(20px);
 	padding-bottom: 15px;
 	display: block;
 	// Type
@@ -70,4 +70,9 @@ label {
 .form__req {
 	// Type
 	color: map-get($ui-colors, 3);
+}
+
+.form__label-note {
+	// Type
+	color: map-get($ui-colors, 2_3);
 }

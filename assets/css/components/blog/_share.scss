@@ -13,13 +13,13 @@
 
 	a {
 		@include flex_center();
-		width: 70px;
-		height: 70px;
+		width: 90px;
+		height: 90px;
 		border-radius: $border-radius;
 
 		svg {
-			width: 26px;
-			height: 26px;
+			width: 28px;
+			height: 28px;
 
 			* {
 				fill: #fff;

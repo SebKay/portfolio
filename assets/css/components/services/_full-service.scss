@@ -1,6 +1,6 @@
 .full-service {
 	@include flex(flex);
-	padding: 120px;
+	padding: 150px;
 	border-radius: $border-radius;
 	border-top: 6px solid map-get($ui-colors, 1);
 	background: map-get($ui-colors, 2_1);
@@ -16,11 +16,10 @@
 }
 
 .full-service__icon {
-	max-width: 130px;
+	max-width: 120px;
 	display: inline-block;
 
 	svg {
-
 		* {
 			fill: map-get($ui-colors, 1);
 		}

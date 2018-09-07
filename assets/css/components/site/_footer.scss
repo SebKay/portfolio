@@ -3,13 +3,13 @@
 }
 
 .site-footer__inner {
-	@extend .spacing-small;
+	@extend .spacing-tiny;
 	@extend .section;
 	@extend .section--small;
 	// Type
 	text-align: center;
 
 	p {
-		@include rem(18px);
+		@extend .txt-small;
 	}
 }

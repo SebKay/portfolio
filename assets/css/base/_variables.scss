@@ -13,8 +13,8 @@ $base-text-size : 16px;
 //---- Sections
 $sections : (
 	small  : 980px,
-	medium : 1240px,
-	large  : 1500px
+	medium : 1290px,
+	large  : 1725px
 );
 
 $site-width         : 92%;
@@ -22,11 +22,11 @@ $site-spacing-outer : (100 - $site-width) / 2;
 
 //---- Spacing
 $spacing-1 : (
-	tiny   : 40px,
-	small  : 60px,
-	medium : 80px,
-	large  : 160px,
-	huge   : 200px
+	tiny   : 50px,
+	small  : 75px,
+	medium : 112px,
+	large  : 150px,
+	huge   : 300px
 );
 
 //---- Colors
@@ -53,11 +53,11 @@ $social-colors: (
 
 //---- Grid
 $grid-cols            : 12;
-$grid-spacing-px      : 60;
-$grid-spacing-percent : 4%;
+$grid-spacing-px      : 75;
+$grid-spacing-percent : 4.3478260869565215%;
 
 //---- Offsets
-$header-height-dt: 125px;
+$header-height-dt: 149px;
 
 //---- Other
 $z-index :(
