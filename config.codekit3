@@ -376,13 +376,6 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/services_old.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_data\/services_old.yml",
-		"oF": 0
-		},
 	"\/_data\/svgs.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -487,6 +480,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
+		"oF": 0
+		},
+	"\/_layouts\/landing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/landing.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -680,6 +680,16 @@
 		"oAP": "\/_site\/assets\/css\/style-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/_site\/assets\/img\/bg-stripes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-stripes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/_site\/assets\/img\/blog\/2014\/09\/arkham-oracle-case-study.png": {
 		"ft": 32768,
@@ -1831,6 +1841,13 @@
 		"oAP": "\/_site\/style-guide\/index.html",
 		"oF": 0
 		},
+	"\/_site\/template-landing\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/template-landing\/index.html",
+		"oF": 0
+		},
 	"\/_site\/work\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2312,6 +2329,16 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/assets\/img\/bg-stripes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-stripes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
 		},
 	"\/assets\/img\/blog\/2014\/09\/arkham-oracle-case-study.png": {
 		"ft": 32768,
@@ -3404,6 +3431,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/style-guide.html",
+		"oF": 0
+		},
+	"\/template-landing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/template-landing.html",
 		"oF": 0
 		},
 	"\/work\/index.html": {

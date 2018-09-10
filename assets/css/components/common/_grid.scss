@@ -7,6 +7,18 @@
 	@include flex_direction(row-reverse);
 }
 
+.grid__col--v-center {
+	@include flex_align_self(center);
+}
+
+.grid__col--right {
+	margin-left: auto;
+}
+
+.grid__col--left {
+	margin-right: auto;
+}
+
 @for $i from 1 through $grid-cols {
 	.grid:not(.grid--reverse) {
 		.grid__col--#{$i} {
@@ -35,18 +47,6 @@
 			}
 		}
 	}
-}
-
-.grid__col--v-center {
-	@include flex_align_self(center);
-}
-
-.grid__col--right {
-	margin-left: auto;
-}
-
-.grid__col--left {
-	margin-right: auto;
 }
 
 .grid--dev {
