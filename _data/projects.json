@@ -1,11 +1,13 @@
 [
 	{
 		"title"          : "Inspirational Pixels",
+		"tagline"        : "Learn how to make websites",
 		"excerpt"        : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
 		"thumb"          : "https://placehold.it/1030x655",
 		"thumb_2x"       : "https://placehold.it/2060x1310",
 		"thumb_small"    : "https://placehold.it/505x321",
 		"thumb_small_2x" : "https://placehold.it/1010x642",
+		"thumb_full"     : "https://placehold.it/1705x1060",
 		"url"            : "/work/inspirational-pixels/",
 		"usps"           : [
 				{

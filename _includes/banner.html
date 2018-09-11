@@ -24,6 +24,21 @@
 	{% assign banner_title = page.banner_title %}
 	{% assign banner_desc = page.banner_desc %}
 {% endif %}
+
+{% if page.layout == 'project' %}
+	{% assign project = false %}
+
+	{% for project_data in site.data.projects %}
+		{% if project_data.title == page.title %}
+			{% assign project = project_data %}
+		{% endif %}
+	{% endfor %}
+
+	{% assign banner_tagline = project.tagline %}
+	{% assign banner_title = project.title %}
+	{% assign banner_desc = project.excerpt %}
+{% endif %}
+
 <section class="site-banner {{ banner_class }}">
 	<div class="site-banner__inner">
 		<div class="site-banner__content">
