@@ -35,8 +35,8 @@
 .site-banner--dark {
 	padding-bottom: $slanted_offset;
 	background: map-get($ui-colors, 2);
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 92.5%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 
 	.site-banner__inner {
 		border-bottom: none;

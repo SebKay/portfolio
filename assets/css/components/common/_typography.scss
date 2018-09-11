@@ -39,7 +39,7 @@ a {
 .txt-center { text-align: center; }
 .txt-right  { text-align: right; }
 
-h1, .h1 { @include rem(92px); }
+h1, .h1 { @include rem(88px); }
 h2, .h2 { @include rem(68px); }
 h3, .h3 { @include rem(52px); }
 h4, .h4 { @include rem(38px); }

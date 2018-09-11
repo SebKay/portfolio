@@ -5,6 +5,10 @@
 .bg-slanted {
 	padding-top: $slanted_offset;
 	padding-bottom: $slanted_offset;
-	-webkit-clip-path: polygon(0 0, 100% 7.5%, 100% 100%, 0 92.5%);
-	clip-path: polygon(0 0, 100% 7.5%, 100% 100%, 0 92.5%);
+	-webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+	clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+}
+
+.bg-slanted + .site-cta {
+	margin-top: -100px;
 }
