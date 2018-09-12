@@ -1,14 +1,15 @@
 .big-icon {
-	width: 260px;
-	height: 260px;
-	display: inline-block;
+	width: 100%;
+	max-width: 260px;
+	padding-bottom: 100%;
+	display: block;
 	position: relative;
 	border-radius: 1000px;
 	background: map-get($ui-colors, 2_1);
 
 	svg {
 		@include transform(translate(-50%, -50%));
-		max-width: 66px;
+		width: 25%;
 		position: absolute;
 		top: 50%;
 		left: 50%;

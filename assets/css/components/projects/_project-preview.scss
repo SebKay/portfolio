@@ -3,8 +3,6 @@
 }
 
 .project-preview__img {
-	width: calc_grid_cols(7);
-
 	img {
 		width: 100%;
 		display: block;
@@ -13,7 +11,6 @@
 
 .project-preview__content {
 	@include flex_align_self(center);
-	width: calc_grid_cols(5);
 	margin-left: auto;
 }
 
@@ -27,7 +24,6 @@
 	}
 
 	.project-preview__content {
-		padding: 40px 20px 0;
 		// Type
 		text-align: center;
 
@@ -37,6 +33,38 @@
 
 		* + .btn {
 			margin-top: 20px;
+		}
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet_1) + 1) {
+	.project-preview__img {
+		width: calc_grid_cols(7);
+	}
+
+	.project-preview__content {
+		width: calc_grid_cols(5);
+	}
+
+	//---- Small version
+	.project-preview--small {
+		.project-preview__content {
+			padding: 40px 20px 0;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+	.project-preview__img,
+	.project-preview__content {
+		width: calc_grid_cols(6);
+	}
+
+	//---- Small version
+	.project-preview--small {
+		.project-preview__content {
+			padding-top: 30px;
 		}
 	}
 }

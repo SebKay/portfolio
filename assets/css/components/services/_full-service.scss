@@ -1,5 +1,6 @@
 .full-service {
 	@include flex(flex);
+	padding: 10%;
 	border-radius: $border-radius;
 	border-top: 6px solid map-get($ui-colors, 1);
 	background: map-get($ui-colors, 2_1);
@@ -15,7 +16,7 @@
 }
 
 .full-service__icon {
-	max-width: 120px;
+	width: 60%;
 	display: inline-block;
 
 	svg {
@@ -28,12 +29,10 @@
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
 	.full-service {
-		padding: 150px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, laptop_1)) {
 	.full-service {
-		padding: 125px;
 	}
 }

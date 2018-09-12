@@ -27,10 +27,6 @@
 			&:not(:nth-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
 				margin-right: $grid-spacing-percent;
 			}
-
-			&:nth-of-type(1n+#{12 / $i + 1}) {
-				margin-top: #{$grid-spacing-px}px;
-			}
 		}
 	}
 
@@ -40,10 +36,6 @@
 
 			&:not(:nth-last-of-type(#{($grid-cols / $i)}n)):not(:last-child) {
 				margin-left: $grid-spacing-percent;
-			}
-
-			&:nth-last-of-type(1n+#{12 / $i + 1}) {
-				margin-top: #{$grid-spacing-px}px;
 			}
 		}
 	}
@@ -56,5 +48,60 @@
 
 	.grid__col {
 		background: #e2e2e2;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet_1) + 1) {
+	@for $i from 1 through $grid-cols {
+		.grid:not(.grid--reverse) {
+			.grid__col--#{$i} {
+				&:nth-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px}px;
+				}
+			}
+		}
+
+		.grid--reverse {
+			.grid__col--#{$i} {
+				&:nth-last-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px}px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+	@for $i from 1 through $grid-cols {
+		.grid:not(.grid--reverse) {
+			.grid__col--#{$i} {
+				&:nth-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px-tablet-1}px;
+				}
+			}
+		}
+
+		.grid--reverse {
+			.grid__col--#{$i} {
+				&:nth-last-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px-tablet-1}px;
+				}
+			}
+		}
+	}
+
+	.grid.grid--tb1-1 {
+		.grid__col.grid__col {
+			width: 100%;
+
+			&:nth-child(1n) {
+				margin-right: 0;
+			}
+
+			&:nth-child(1n+2) {
+				margin-top: 40px;
+			}
+		}
 	}
 }

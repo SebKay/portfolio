@@ -23,6 +23,12 @@ $sections-laptop : (
 	large  : 1280px
 );
 
+$sections-tablet : (
+	small  : 700px,
+	medium : 825px,
+	large  : 1024px
+);
+
 $site-width         : 92%;
 $site-spacing-outer : (100 - $site-width) / 2;
 
@@ -41,6 +47,14 @@ $spacing-2 : (
 	medium : 75px,
 	large  : 100px,
 	huge   : 150px
+);
+
+$spacing-3 : (
+	tiny   : 40px,
+	small  : 50px,
+	medium : 60px,
+	large  : 80px,
+	huge   : 120px
 );
 
 //---- Colors
@@ -66,14 +80,16 @@ $social-colors: (
 );
 
 //---- Grid
-$grid-cols            : 12;
-$grid-spacing-px      : 75;
-$grid-spacing-percent : 4.3478260869565215%;
+$grid-cols                : 12;
+$grid-spacing-px          : 75;
+$grid-spacing-px-tablet-1 : 40;
+$grid-spacing-percent     : 4.3478260869565215%;
 
 //---- Offsets
-$header-height-dt     : 150px;
-$header-height-laptop : 120px;
-$slanted_offset       : 100px;
+$header-height-dt  : 150px;
+$header-height-lt  : 120px;
+$header-height-tb1 : 86px;
+$slanted_offset    : 100px;
 
 //---- Other
 $z-index :(
@@ -86,5 +102,7 @@ $transition-speed : 0.3s;
 
 $breakpoints :(
 	laptop_1 : 1440px,
-	laptop_2 : 1280px
+	laptop_2 : 1280px,
+	tablet_1 : 1024px,
+	mobile_1 : 670px
 );

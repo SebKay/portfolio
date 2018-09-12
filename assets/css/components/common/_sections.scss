@@ -24,3 +24,11 @@
 		}
 	}
 }
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+	@each $section, $amount in $sections-tablet {
+		.section--#{$section} {
+			max-width: $amount;
+		}
+	}
+}

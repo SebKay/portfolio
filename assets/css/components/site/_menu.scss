@@ -4,10 +4,6 @@
 
 .site-menu__item {
 	list-style: none;
-
-	&:not(:last-child) {
-		margin-right: 60px;
-	}
 }
 
 .site-menu__link {
@@ -34,11 +30,29 @@
 @media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
 	.site-menu__item {
 		@include rem(24px);
+
+		&:not(:last-child) {
+			margin-right: 60px;
+		}
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, tablet_1) + 1) {
 	.site-menu__item {
 		@include rem(22px);
+
+		&:not(:last-child) {
+			margin-right: 50px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+	.site-menu__item {
+		@include rem(20px);
+
+		&:not(:last-child) {
+			margin-right: 50px;
+		}
 	}
 }

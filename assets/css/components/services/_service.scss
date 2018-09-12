@@ -9,19 +9,9 @@
 	display: inline-block;
 
 	svg {
-		max-width: 52px;
-		max-height: 52px;
-
 		* {
 			fill: map-get($ui-colors, 1);
 		}
-	}
-
-	&:after {
-		margin-top: 40px;
-		margin-bottom: 40px;
-		margin-right: auto;
-		margin-left: auto;
 	}
 }
 
@@ -38,8 +28,49 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, tablet_1) + 1) {
 	.service {
 		padding: 65px 40px;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.service__icon {
+		svg {
+			max-width: 52px;
+			max-height: 52px;
+		}
+
+		&:after {
+			margin-top: 40px;
+			margin-bottom: 40px;
+			margin-right: auto;
+			margin-left: auto;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.service {
+		@include flex(flex);
+		padding: 60px;
+		// Type
+		text-align: left;
+	}
+
+	.service__icon {
+		@include flex_shrink(0);
+		@include flex_align_self(center);
+		@include flex(flex);
+		margin-right: 60px;
+
+		svg {
+			max-width: 110px;
+			max-height: 110px;
+		}
+
+		&:after {
+			display: none;
+		}
 	}
 }
