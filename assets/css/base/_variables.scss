@@ -17,6 +17,12 @@ $sections : (
 	large  : 1725px
 );
 
+$sections-laptop : (
+	small  : 825px,
+	medium : 970px,
+	large  : 1280px
+);
+
 $site-width         : 92%;
 $site-spacing-outer : (100 - $site-width) / 2;
 
@@ -29,7 +35,13 @@ $spacing-1 : (
 	huge   : 250px
 );
 
-$slanted_offset : 3.515625%;
+$spacing-2 : (
+	tiny   : 40px,
+	small  : 60px,
+	medium : 75px,
+	large  : 100px,
+	huge   : 150px
+);
 
 //---- Colors
 $ui-colors: (
@@ -59,7 +71,9 @@ $grid-spacing-px      : 75;
 $grid-spacing-percent : 4.3478260869565215%;
 
 //---- Offsets
-$header-height-dt: 149px;
+$header-height-dt     : 150px;
+$header-height-laptop : 120px;
+$slanted_offset       : 100px;
 
 //---- Other
 $z-index :(
@@ -67,6 +81,10 @@ $z-index :(
 	2 : 800
 );
 
-
-$border-radius : 6px;
+$border-radius    : 6px;
 $transition-speed : 0.3s;
+
+$breakpoints :(
+	laptop_1 : 1440px,
+	laptop_2 : 1280px
+);

@@ -1,5 +1,4 @@
 .service {
-	padding: 75px 60px;
 	border-radius: $border-radius;
 	border-top: 6px solid map-get($ui-colors, 1);
 	background: map-get($ui-colors, 2_1);
@@ -23,5 +22,24 @@
 		margin-bottom: 40px;
 		margin-right: auto;
 		margin-left: auto;
+	}
+}
+
+.grid__col {
+	.service {
+		min-height: 100%;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	.service {
+		padding: 75px 60px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	.service {
+		padding: 65px 40px;
 	}
 }

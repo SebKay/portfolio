@@ -3,7 +3,7 @@
 }
 
 .project-preview__img {
-	width: calc_grid_cols(7.5);
+	width: calc_grid_cols(7);
 
 	img {
 		width: 100%;
@@ -13,7 +13,7 @@
 
 .project-preview__content {
 	@include flex_align_self(center);
-	width: calc_grid_cols(4.5);
+	width: calc_grid_cols(5);
 	margin-left: auto;
 }
 

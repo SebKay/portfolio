@@ -4,12 +4,23 @@
 	margin-left: auto;
 }
 
-@each $section, $amount in $sections {
-	.section--#{$section} {
-		max-width: $amount;
+.section--full.section--full {
+	width: 100%;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	@each $section, $amount in $sections {
+		.section--#{$section} {
+			max-width: $amount;
+		}
 	}
 }
 
-.section--full {
-	width: 100%;
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	@each $section, $amount in $sections-laptop {
+		.section--#{$section} {
+			max-width: $amount;
+		}
+	}
 }

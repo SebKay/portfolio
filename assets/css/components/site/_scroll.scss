@@ -1,15 +1,10 @@
 .site-header {
 	@include transition(all ease $transition-speed);
 	width: 100%;
-	padding-bottom: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: map-get($z-index, 2);
-}
-
-.site-banner {
-	padding-top: $header-height-dt;
 }
 
 .js-active {
@@ -20,5 +15,18 @@
 			box-shadow: 0 2px 8px black(0.08);
 			background: #fff;
 		}
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	.site-banner {
+		padding-top: $header-height-dt;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	.site-banner {
+		padding-top: $header-height-laptop;
 	}
 }

@@ -3,7 +3,6 @@
 }
 
 .site-menu__item {
-	@include rem(24px);
 	list-style: none;
 
 	&:not(:last-child) {
@@ -28,5 +27,18 @@
 		content: '';
 		border-radius: $border-radius;
 		background: map-get($ui-colors, 1);
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	.site-menu__item {
+		@include rem(24px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	.site-menu__item {
+		@include rem(22px);
 	}
 }

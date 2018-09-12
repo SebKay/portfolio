@@ -1,15 +1,23 @@
 [
 	{
-		"title"          : "Inspirational Pixels",
-		"tagline"        : "Learn how to make websites",
-		"excerpt"        : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
-		"thumb"          : "https://placehold.it/1030x655",
-		"thumb_2x"       : "https://placehold.it/2060x1310",
-		"thumb_small"    : "https://placehold.it/505x321",
-		"thumb_small_2x" : "https://placehold.it/1010x642",
-		"thumb_full"     : "https://placehold.it/1705x1060",
-		"url"            : "/work/inspirational-pixels/",
-		"usps"           : [
+		"title"        : "Inspirational Pixels",
+		"tagline"      : "Learn how to make websites",
+		"excerpt"      : "A web design blog with a focus on improving the skills of web designers and developers through the use of tutorials, articles, videos, code snippets and freebies.",
+		"full_preview" : "https://placehold.it/1705x1060",
+		"thumbs"       : [
+			{
+				"featured"           : "https://placehold.it/955x650",
+				"featured_2x"        : "https://placehold.it/1910x1300",
+				"featured_mobile"    : "https://placehold.it/500x500",
+				"featured_mobile_2x" : "https://placehold.it/600x600",
+				"small"              : "https://placehold.it/505x321",
+				"small_2x"           : "https://placehold.it/1010x642",
+				"small_mobile"       : "https://placehold.it/700x700",
+				"small_mobile_2x"    : "https://placehold.it/800x800"
+			}
+		],
+		"url"          : "/work/inspirational-pixels/",
+		"usps"         : [
 				{
 				"title":"Logo Design",
 				"icon" :"pen"
@@ -17,25 +25,6 @@
 			{
 				"title":"Web Design",
 				"icon" :"screen"
-			},
-			{
-				"title":"WordPress Development",
-				"icon" :"code"
-			}
-		]
-	},
-	{
-		"title"          : "Calendi",
-		"excerpt"        : "A simple editorial calendar for WordPress with a focus on usability and ease of use.",
-		"thumb"          : "https://placehold.it/1030x655",
-		"thumb_2x"       : "https://placehold.it/2060x1310",
-		"thumb_small"    : "https://placehold.it/505x321",
-		"thumb_small_2x" : "https://placehold.it/1010x642",
-		"url"            : "/work/calendi/",
-		"usps"           : [
-			{
-				"title":"UI Design",
-				"icon" :"pen"
 			},
 			{
 				"title":"WordPress Development",

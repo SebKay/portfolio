@@ -1,5 +1,4 @@
 .btn {
-	@include rem(26px);
 	padding: 24px 36px;
 	display: inline-block;
 	cursor: pointer;
@@ -12,11 +11,31 @@
 }
 
 .btn--large {
-	@include rem(32px);
 	padding: 28px 56px;
 }
 
 .btn--disabled {
 	opacity: 0.5;
 	cursor: not-allowed;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	.btn {
+		@include rem(26px);
+	}
+
+	.btn--large {
+		@include rem(32px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	.btn {
+		@include rem(22px);
+	}
+
+	.btn--large {
+		@include rem(26px);
+	}
 }

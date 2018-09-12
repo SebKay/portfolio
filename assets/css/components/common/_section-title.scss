@@ -1,6 +1,5 @@
 .section-title {
 	@extend %txt-upper;
-	@include rem(28px);
 	padding-bottom: 15px;
 	border-bottom: 4px solid map-get($ui-colors, 2_1);
 	// Type
@@ -10,4 +9,22 @@
 .section-title__txt {
 	// Type
 	color: map-get($ui-colors, 2);
+}
+
+
+.section--full.section--full {
+	width: 100%;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	.section-title {
+		@include rem(28px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	.section-title {
+		@include rem(26px);
+	}
 }

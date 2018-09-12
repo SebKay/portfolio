@@ -1,9 +1,24 @@
-@each $spacing, $amount in $spacing-1 {
-	.spacing-#{$spacing} {
-		padding-top: $amount;
-		padding-bottom: $amount;
-	}
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
+	@each $spacing, $amount in $spacing-1 {
+		.spacing-#{$spacing} {
+			padding-top: $amount;
+			padding-bottom: $amount;
+		}
 
-	.spacing-#{$spacing}-top    { padding-top: $amount; }
-	.spacing-#{$spacing}-bottom { padding-bottom: $amount; }
+		.spacing-#{$spacing}-top    { padding-top: $amount; }
+		.spacing-#{$spacing}-bottom { padding-bottom: $amount; }
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+	@each $spacing, $amount in $spacing-2 {
+		.spacing-#{$spacing} {
+			padding-top: $amount;
+			padding-bottom: $amount;
+		}
+
+		.spacing-#{$spacing}-top    { padding-top: $amount; }
+		.spacing-#{$spacing}-bottom { padding-bottom: $amount; }
+	}
 }
