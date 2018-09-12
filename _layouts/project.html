@@ -8,91 +8,75 @@
 	{% endif %}
 {% endfor %}
 
-<section class="section section--large spacing-huge-top">
-	<figure class="browser">
-		<div class="browser__actions">
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
-
-		<div class="browser__inner">
-			<a href="{{ project.url }}">
-				<img src="{{ project.thumb_full }}">
-			</a>
-		</div>
-	</figure>
-</section>
-
-<section class="section section--medium spacing-large-top">
-	<div class="spacing-small-bottom">
-		<h2 class="section-title">
-			The Brief
-		</h2>
-	</div>
-
-	<div class="content-styles">
-		<h2 class="h3">
-			Outdated and Underutilised
-		</h2>
-		<p class="txt-large">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum neque a diam euismod iaculis. Praesent id turpis sit amet mauris imperdiet gravida non non mauris.
-			<br><br>
-			Praesent id turpis sit amet mauris imperdiet gravida non non mauris. Sed rutrum neque a diam euismod iaculis.
-			<br><br>
-			Sed rutrum neque a diam euismod iaculis. Praesent id turpis sit amet mauris imperdiet gravida non non mauris.
-		</p>
-	</div>
-</section>
-
-<section class="section section--large spacing-large-top">
-	<div class="grid">
-		<div class="grid__col grid__col--6">
-			<div class="content-styles">
-				<img src="https://placehold.it/825x625">
+<section>
+	<div class="section section--large spacing-huge-top">
+		<figure class="browser">
+			<div class="browser__actions">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
+
+			<div class="browser__inner">
+				<a href="{{ project.url }}">
+					<img src="{{ project.thumb_full }}">
+				</a>
+			</div>
+		</figure>
+	</div>
+
+	<div class="section section--medium spacing-large-top">
+		<div class="spacing-small-bottom">
+			<h2 class="section-title">
+				The Brief
+			</h2>
 		</div>
 
-		<div class="grid__col grid__col--6">
-			<div class="content-styles">
-				<img src="https://placehold.it/825x625">
+		<div class="content-styles">
+			{{ page.sections[0] }}
+		</div>
+	</div>
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid">
+			<div class="grid__col grid__col--6">
+				<div class="content-styles">
+					<img src="{{ page.img_1_url }}">
+				</div>
+			</div>
+
+			<div class="grid__col grid__col--6">
+				<div class="content-styles">
+					<img src="{{ page.img_2_url }}">
+				</div>
 			</div>
 		</div>
 	</div>
-</section>
 
-<section class="section section--medium spacing-large-top">
-	<div class="spacing-small-bottom">
-		<h2 class="section-title">
-			The Result
-		</h2>
-	</div>
-
-	<div class="content-styles">
-		<h2 class="h3">
-			Modern and Responsive
-		</h2>
-		<p class="txt-large">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum neque a diam euismod iaculis. Praesent id turpis sit amet mauris imperdiet gravida non non mauris.
-			<br><br>
-			Praesent id turpis sit amet mauris imperdiet gravida non non mauris. Sed rutrum neque a diam euismod iaculis.
-			<br><br>
-			Sed rutrum neque a diam euismod iaculis. Praesent id turpis sit amet mauris imperdiet gravida non non mauris.
-		</p>
-	</div>
-</section>
-
-<section class="section section--large spacing-large-top">
-	<div class="grid">
-		<div class="grid__col grid__col--6">
-			<div class="content-styles">
-				<img src="https://placehold.it/825x625">
-			</div>
+	<div class="section section--medium spacing-large-top">
+		<div class="spacing-small-bottom">
+			<h2 class="section-title">
+				The Result
+			</h2>
 		</div>
 
-		<div class="grid__col grid__col--6">
-			<div class="content-styles">
-				<img src="https://placehold.it/825x625">
+		<div class="content-styles">
+			{{ page.sections[1] }}
+		</div>
+	</div>
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid">
+			<div class="grid__col grid__col--6">
+				<div class="content-styles">
+					<img src="{{ page.img_3_url }}">
+				</div>
+			</div>
+
+			<div class="grid__col grid__col--6">
+				<div class="content-styles">
+					<img src="{{ page.img_4_url }}">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -100,7 +84,7 @@
 
 <div class="spacing-large-top"></div>
 
-{% assign testimonial = site.data.testimonials[0] %}
+{% assign testimonial = site.data.testimonials[page.testimonial_id] %}
 {% include testimonial.html %}
 
 {% include footer.html %}
