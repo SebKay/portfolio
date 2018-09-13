@@ -7,10 +7,6 @@
 	margin: 0;
 	list-style: none;
 
-	&:not(:last-child) {
-		margin-right: 30px;
-	}
-
 	a {
 		@include flex_center();
 		border-radius: $border-radius;
@@ -43,7 +39,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.share__item {
 		a {
 			width: 80px;
@@ -52,6 +48,32 @@
 			svg {
 				width: 24px;
 				height: 24px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.share__item {
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.share__item {
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+
+		a {
+			width: 60px;
+			height: 60px;
+
+			svg {
+				width: 20px;
+				height: 20px;
 			}
 		}
 	}

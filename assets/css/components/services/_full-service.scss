@@ -1,22 +1,11 @@
 .full-service {
 	@include flex(flex);
-	padding: 10%;
 	border-radius: $border-radius;
 	border-top: 6px solid map-get($ui-colors, 1);
 	background: map-get($ui-colors, 2_1);
 }
 
-.full-service__section--icon {
-	width: calc_grid_cols(3);
-}
-
-.full-service__section--content {
-	width: calc_grid_cols(9);
-	margin-left: auto;
-}
-
 .full-service__icon {
-	width: 60%;
 	display: inline-block;
 
 	svg {
@@ -28,11 +17,51 @@
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	.full-service {
-	}
+
 }
 
 @media screen and (max-width: map-get($breakpoints, laptop_1)) {
+
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.full-service {
+		padding: 10%;
+	}
+
+	.full-service__section--icon {
+		width: calc_grid_cols(3);
+	}
+
+	.full-service__section--content {
+		width: calc_grid_cols(9);
+		margin-left: auto;
+	}
+
+	.full-service__icon {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.full-service {
+		padding: 30px;
+	}
+
+	.full-service__section--icon,
+	.full-service__section--content {
+		width: 100%;
+	}
+
+	.full-service__section--content {
+		margin-top: 30px;
+	}
+
+	.full-service {
+		@include flex_direction(column);
+	}
+
+	.full-service__icon {
+		width: 80px;
 	}
 }

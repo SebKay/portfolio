@@ -13,7 +13,6 @@
 .icon-list__img {
 	max-width: 24px;
 	max-height: 24px;
-	margin-right: 15px;
 
 	svg * {
 		fill: map-get($ui-colors, 2_4);
@@ -44,8 +43,25 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.icon-list__item {
 		@include rem(20px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.icon-list__img {
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.icon-list__item {
+		@include rem(18px);
+		@include flex_direction(column);
+	}
+
+	.icon-list__img {
+		margin-bottom: 10px;
 	}
 }

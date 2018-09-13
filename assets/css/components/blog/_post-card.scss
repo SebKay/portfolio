@@ -27,8 +27,14 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop_1)) {
+@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.post-card__inner {
 		padding: 55px 40px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.post-card__inner {
+		padding: 45px 30px;
 	}
 }

@@ -4,8 +4,6 @@
 }
 
 .quote__inner {
-	padding-top: 60px;
-	padding-bottom: 60px;
 	position: relative;
 
 	&:before,
@@ -41,7 +39,6 @@
 
 .quote__meta {
 	@extend .txt-large;
-	margin-top: 70px;
 	display: block;
 	// Type
 	font-style: normal;
@@ -60,5 +57,28 @@
 
 	strong {
 		margin-bottom: 10px;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.quote__inner {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.quote__meta {
+		margin-top: 70px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.quote__inner {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.quote__meta {
+		margin-top: 40px;
 	}
 }

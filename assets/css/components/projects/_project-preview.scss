@@ -55,7 +55,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.project-preview__img,
 	.project-preview__content {
 		width: calc_grid_cols(6);
@@ -66,5 +66,22 @@
 		.project-preview__content {
 			padding-top: 30px;
 		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.project-preview {
+		@include flex_direction(column);
+		// Type
+		text-align: center;
+	}
+
+	.project-preview__img,
+	.project-preview__content {
+		width: 100%;
+	}
+
+	.project-preview__content {
+		padding-top: 30px;
 	}
 }

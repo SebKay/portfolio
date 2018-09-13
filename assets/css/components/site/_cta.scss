@@ -25,3 +25,11 @@
 	// Type
 	color: white(0.5);
 }
+
+//---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.site-cta {
+		// Type
+		text-align: center;
+	}
+}

@@ -10,12 +10,6 @@
 	text-align: center;
 }
 
-* + .site-banner__title,
-* + .site-banner__subtitle,
-* + .site-banner__btn {
-	margin-top: 40px;
-}
-
 .site-banner__tagline {
 	@extend %txt-upper;
 	@extend .h4;
@@ -51,5 +45,26 @@
 	.site-banner__subtitle {
 		// Type
 		color: map-get($ui-colors, 2_3);
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	* + .site-banner__title,
+	* + .site-banner__subtitle,
+	* + .site-banner__btn {
+		margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	* + .site-banner__title,
+	* + .site-banner__subtitle,
+	* + .site-banner__btn {
+		margin-top: 30px;
+	}
+
+	.site-banner__tagline {
+		@include rem(22px);
 	}
 }

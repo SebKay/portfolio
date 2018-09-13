@@ -34,7 +34,7 @@
 	}
 }
 
-@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+@media screen and (min-width: map-get($breakpoints, tablet_1) + 1), (max-width: map-get($breakpoints, mobile_1)) {
 	.service__icon {
 		svg {
 			max-width: 52px;
@@ -71,6 +71,19 @@
 
 		&:after {
 			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.service {
+		padding: 30px;
+	}
+
+	.service__icon {
+		&:after {
+			margin-top: 25px;
+			margin-bottom: 20px;
 		}
 	}
 }

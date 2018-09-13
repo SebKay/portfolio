@@ -1,29 +1,6 @@
 .content-styles {
-	* + * {
-		margin-top: 30px;
-	}
-
-	* + .grid__col {
+	* + .grid__col.grid__col {
 		margin-top: 0;
-	}
-
-	* + p,
-	li + li {
-		margin-top: 20px;
-	}
-
-	p + h1,
-	p + h2,
-	p + h3,
-	p + h4,
-	p + h5,
-	p + h6 {
-		margin-top: 50px;
-	}
-
-	* + hr,
-	hr + * {
-		margin-top: 75px;
 	}
 
 	h1,
@@ -60,5 +37,60 @@
 		@extend .txt-small;
 		// Type
 		text-align: center;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.content-styles {
+		* + * {
+			margin-top: 30px;
+		}
+
+		* + p,
+		li + li {
+			margin-top: 20px;
+		}
+
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6 {
+			margin-top: 50px;
+		}
+
+		* + hr,
+		hr + * {
+			margin-top: 75px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.content-styles {
+		* + * {
+			margin-top: 20px;
+		}
+
+		* + p,
+		li + li {
+			margin-top: 15px;
+		}
+
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6 {
+			margin-top: 30px;
+		}
+
+		* + hr,
+		hr + * {
+			margin-top: 50px;
+		}
 	}
 }

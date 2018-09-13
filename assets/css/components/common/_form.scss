@@ -43,21 +43,7 @@ label {
 	@include flex_wrap(wrap);
 }
 
-.form__item {
-	&:nth-child(2n) {
-		margin-left: auto;
-	}
-
-	&:nth-child(1n+3) {
-		margin-top: 40px;
-	}
-}
-
-.form__item--half {
-	width: calc_grid_cols(6);
-}
-
-.form__item--full {
+.form__item--full.form__item--full {
 	width: 100%;
 }
 
@@ -83,8 +69,38 @@ label {
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	label {
 		@include rem(18px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.form__item--half {
+		width: calc_grid_cols(6);
+	}
+
+	.form__item {
+		&:nth-child(2n) {
+			margin-left: auto;
+		}
+
+		&:nth-child(1n+3) {
+			margin-top: 40px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	label {
+		@include rem(16px);
+	}
+
+	.form__item {
+		width: 100%;
+
+		&:nth-child(1n+2) {
+			margin-top: 20px;
+		}
 	}
 }

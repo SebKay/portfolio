@@ -14,7 +14,7 @@
 		</h2>
 	</div>
 
-	<div class="grid">
+	<div class="grid grid--m-1">
 		{% for post in paginator.posts %}
 			<div class="grid__col grid__col--6">
 				{% include post-preview.html %}
@@ -27,24 +27,24 @@
 			<div class="grid">
 				<div class="grid__col grid__col--6 txt-right">
 					{% if paginator.previous_page %}
-						<a class="btn" href="{{ paginator.previous_page_path }}">
-							< Previous
+						<a class="btn btn--m-full" href="{{ paginator.previous_page_path }}">
+							Previous
 						</a>
 					{% else %}
-						<a class="btn btn--disabled" href="#">
-							< Previous
+						<a class="btn btn--m-full btn--disabled" href="#">
+							Previous
 						</a>
 					{% endif %}
 				</div>
 
 				<div class="grid__col grid__col--6">
 					{% if paginator.next_page %}
-						<a class="btn" href="{{ paginator.next_page_path }}">
-							Next >
+						<a class="btn btn--m-full" href="{{ paginator.next_page_path }}">
+							Next
 						</a>
 					{% else %}
-						<a class="btn btn--disabled" href="#">
-							Next >
+						<a class="btn btn--m-full btn--disabled" href="#">
+							Next
 						</a>
 					{% endif %}
 				</div>
