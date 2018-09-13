@@ -15,7 +15,7 @@
 
 //---- Dark version
 .site-scroll--inactive {
-	.site-header--dark {
+	.site-header--dark:not(.site-header--menu-active) {
 		.site-logo {
 			// Type
 			color: #fff;
@@ -24,6 +24,10 @@
 		.site-menu__link {
 			// Type
 			color: map-get($ui-colors, 2_3);
+		}
+
+		.toggle-menu__line {
+			background: #fff;
 		}
 	}
 }
@@ -43,9 +47,36 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, tablet_2) + 1) {
 	.site-header {
 		padding-top: 40px;
 		padding-bottom: 40px;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet_2) + 1) {
+	.site-header__section--menu {
+		.toggle-menu {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_2)) {
+	.site-header {
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.site-header__section--logo,
+		.toggle-menu {
+			position: relative;
+			z-index: 20;
+		}
+	}
+
+	.site-header__section--menu {
+		.site-menu {
+			display: none;
+		}
 	}
 }

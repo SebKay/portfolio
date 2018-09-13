@@ -93,11 +93,25 @@
 		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_scroll.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_toggle-menu.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_toggle-menu.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/46dd5f134b78121d72da28e123e88f0bb1c7a99e\/_jcf.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/46dd5f134b78121d72da28e123e88f0bb1c7a99e\/_jcf.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_animations.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_animations.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_interactions.scssc": {
@@ -1556,16 +1570,6 @@
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/js\/app.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1875,6 +1879,19 @@
 		"oA": 2,
 		"oAP": "\/about.html",
 		"oF": 0
+		},
+	"\/assets\/css\/_animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_animations.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"\/assets\/css\/_interactions.scss": {
 		"aP": 0,
@@ -2314,6 +2331,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_scroll.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/components\/site\/_toggle-menu.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_toggle-menu.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1

@@ -3,7 +3,8 @@ jQuery(document).ready(function($) {
 	---- Setup
 	--------------------------------------------*/
 	//---- Global transition speed
-	var transition_speed = 300;
+	var transition_speed      = 300;
+	var transition_speed_menu = 500;
 
 	//---- Remove 'no-js' class when JavaScript is enabled
 	$('body').removeClass('js-inactive').addClass('js-active');
@@ -30,6 +31,44 @@ jQuery(document).ready(function($) {
 
 	$(window).on('scroll', function() {
 		skp_site_scroll();
+	});
+
+
+
+	/*--------------------------------------------
+	---- Toggle Menu (< 768)
+	--------------------------------------------*/
+	$('.js-toggle-menu').on('click', function(e) {
+		e.preventDefault();
+
+		$('.site-header').toggleClass('site-header--menu-active');
+
+		var button = $(this);
+		var menu   = $('.site-menu');
+
+		if(menu.length) {
+			if($(this).hasClass('active')) {
+				$(this).removeClass('active animate-end').addClass('animate-reverse');
+				menu.stop().fadeOut({ duration: transition_speed_menu, queue: false }).slideUp(transition_speed_menu);
+
+				setTimeout(function() {
+					button.removeClass('animate-reverse');
+				}, transition_speed_menu);
+			}else {
+				$(this).addClass('active animate');
+				menu.stop().fadeIn({ duration: transition_speed_menu, queue: false }).css('display', 'none').slideDown(transition_speed_menu);
+
+				setTimeout(function() {
+					button.addClass('animate-end').removeClass('animate');
+				}, transition_speed_menu);
+			}
+		}
+	});
+
+	$(window).on('resize', function() {
+		if($(this).width() > 768) {
+			$('.site-menu').css('display', '');
+		}
 	});
 
 

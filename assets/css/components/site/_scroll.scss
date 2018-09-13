@@ -10,8 +10,6 @@
 .js-active {
 	&.site-scroll--active {
 		.site-header {
-			padding-top: 40px;
-			padding-bottom: 40px;
 			box-shadow: 0 2px 8px black(0.08);
 			background: #fff;
 		}
@@ -34,5 +32,27 @@
 @media screen and (max-width: map-get($breakpoints, tablet_1)) {
 	.site-banner {
 		padding-top: $header-height-tb1;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet_2) + 1) {
+	.js-active {
+		&.site-scroll--active {
+			.site-header {
+				padding-top: 40px;
+				padding-bottom: 40px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_2)) {
+	.js-active {
+		&.site-scroll--active {
+			.site-header {
+				padding-top: 30px;
+				padding-bottom: 30px;
+			}
+		}
 	}
 }

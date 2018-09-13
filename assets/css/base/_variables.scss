@@ -97,12 +97,14 @@ $z-index :(
 	2 : 800
 );
 
-$border-radius    : 6px;
-$transition-speed : 0.3s;
+$border-radius         : 6px;
+$transition-speed      : 0.3s;
+$transition-speed-menu : 0.5s;
 
 $breakpoints :(
 	laptop_1 : 1440px,
 	laptop_2 : 1280px,
 	tablet_1 : 1024px,
+	tablet_2 : 768px,
 	mobile_1 : 670px
 );

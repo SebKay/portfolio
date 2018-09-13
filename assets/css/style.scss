@@ -40,6 +40,7 @@
 @import
 	'components/site/header',
 	'components/site/logo',
+	'components/site/toggle-menu',
 	'components/site/menu',
 	'components/site/banner',
 	'components/site/cta',
@@ -76,4 +77,5 @@
 --------------------------------------------*/
 @import
 	'interactions',
-	'transitions';
+	'transitions',
+	'animations';

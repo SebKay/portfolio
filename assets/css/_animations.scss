@@ -1,0 +1,45 @@
+@keyframes toggle_menu_icon_line_1 {
+	0% {
+		top: 0px;
+	}
+
+	50% {
+		@include transform(rotate(0deg));
+		top: 9px;
+	}
+
+	100% {
+		@include transform(rotate(-45deg));
+		top: 9px;
+	}
+}
+
+@keyframes toggle_menu_icon_line_2 {
+	0%, 50% {
+		opacity: 1;
+	}
+
+	51% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes toggle_menu_icon_line_3 {
+	0% {
+		top: 18px;
+	}
+
+	50% {
+		@include transform(rotate(0deg));
+		top: 9px;
+	}
+
+	100% {
+		@include transform(rotate(45deg));
+		top: 9px;
+	}
+}
