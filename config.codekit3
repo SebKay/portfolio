@@ -412,6 +412,36 @@
 		"oAP": "\/_drafts\/2018-08-20-tips-for-improving-homepage.html",
 		"oF": 0
 		},
+	"\/_headsupgrid\/hugrid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_headsupgrid\/hugrid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_headsupgrid\/hugrid.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_headsupgrid\/jquery-1.6.2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/_includes\/banner.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1994,36 +2024,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
-		},
-	"\/_site\/headsupgrid\/hugrid.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_site\/headsupgrid\/hugrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/headsupgrid\/hugrid.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_site\/headsupgrid\/jquery-1.6.2.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"\/_site\/index.html": {
 		"cB": 0,
@@ -3848,36 +3848,6 @@
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
-		},
-	"\/headsupgrid\/hugrid.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/headsupgrid\/hugrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/headsupgrid\/hugrid.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/headsupgrid\/jquery-1.6.2.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"\/index.html": {
 		"cB": 0,
