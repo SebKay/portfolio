@@ -92,6 +92,18 @@ label {
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		@include rem(18px);
+		height: 60px;
+		padding: 15px;
+	}
+
+	textarea {
+		min-height: 180px;
+	}
+
 	label {
 		@include rem(16px);
 	}

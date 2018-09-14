@@ -57,6 +57,14 @@ $spacing-3 : (
 	huge   : 120px
 );
 
+$spacing-4 : (
+	tiny   : 30px,
+	small  : 30px,
+	medium : 40px,
+	large  : 60px,
+	huge   : 80px
+);
+
 //---- Colors
 $ui-colors: (
 	1   : #4b6cc1,
@@ -90,6 +98,7 @@ $header-height-dt  : 150px;
 $header-height-lt  : 120px;
 $header-height-tb1 : 86px;
 $slanted_offset    : 100px;
+$slanted_offset_mobile    : 50px;
 
 //---- Other
 $z-index :(

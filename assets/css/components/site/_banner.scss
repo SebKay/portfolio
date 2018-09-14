@@ -27,10 +27,7 @@
 
 //---- Dark version
 .site-banner--dark {
-	padding-bottom: $slanted_offset;
 	background: map-get($ui-colors, 2);
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 100px));
 
 	.site-banner__inner {
 		border-bottom: none;
@@ -66,5 +63,24 @@
 
 	.site-banner__tagline {
 		@include rem(22px);
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	//---- Dark version
+	.site-banner--dark {
+		padding-bottom: $slanted_offset;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	//---- Dark version
+	.site-banner--dark {
+		padding-bottom: $slanted_offset_mobile;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset_mobile}));
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset_mobile}));
 	}
 }

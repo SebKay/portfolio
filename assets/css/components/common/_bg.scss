@@ -2,9 +2,21 @@
 	background-color: map-get($ui-colors, 2_1);
 }
 
-.bg-slanted {
-	padding-top: $slanted_offset;
-	padding-bottom: $slanted_offset;
-	-webkit-clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
-	clip-path: polygon(0 0, 100% 100px, 100% 100%, 0 calc(100% - 100px));
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.bg-slanted {
+		padding-top: $slanted_offset;
+		padding-bottom: $slanted_offset;
+		-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 calc(100% - #{$slanted_offset}));
+		clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 calc(100% - #{$slanted_offset}));
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.bg-slanted {
+		padding-top: $slanted_offset_mobile;
+		padding-bottom: $slanted_offset_mobile;
+		-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset_mobile}, 100% 100%, 0 calc(100% - #{$slanted_offset_mobile}));
+		clip-path: polygon(0 0, 100% #{$slanted_offset_mobile}, 100% 100%, 0 calc(100% - #{$slanted_offset_mobile}));
+	}
 }

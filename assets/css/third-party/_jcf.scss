@@ -96,3 +96,32 @@
 		bottom: 0;
 	}
 }
+
+//---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	.jcf-select-text {
+		@include rem(18px);
+		height: 60px;
+		padding: 15px;
+	}
+
+	.jcf-select-opener {
+		width: 60px;
+	}
+
+	.jcf-select-drop {
+		padding-top: 60px;
+	}
+
+	.jcf-option {
+		@include rem(16px);
+		min-height: 60px;
+		padding: 23px 15px 0;
+	}
+
+	.jcf-drop-flipped {
+		.jcf-select-drop {
+			padding-bottom: 60px;
+		}
+	}
+}

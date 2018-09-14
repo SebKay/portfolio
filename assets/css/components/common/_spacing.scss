@@ -23,8 +23,20 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	@each $spacing, $amount in $spacing-3 {
+		.spacing-#{$spacing} {
+			padding-top: $amount;
+			padding-bottom: $amount;
+		}
+
+		.spacing-#{$spacing}-top    { padding-top: $amount; }
+		.spacing-#{$spacing}-bottom { padding-bottom: $amount; }
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+	@each $spacing, $amount in $spacing-4 {
 		.spacing-#{$spacing} {
 			padding-top: $amount;
 			padding-bottom: $amount;
