@@ -2,6 +2,7 @@ input[type="text"],
 input[type="email"],
 textarea {
 	@extend %form-field;
+	@include transition(border-color ease $transition-speed);
 
 	&::-moz-placeholder {
 		opacity: 1;
@@ -52,6 +53,7 @@ label {
 	text-align: center;
 }
 
+.form__validation,
 .form__req {
 	// Type
 	color: map-get($ui-colors, 3);
@@ -60,6 +62,20 @@ label {
 .form__label-note {
 	// Type
 	color: map-get($ui-colors, 2_3);
+}
+
+.form__validation {
+	margin-top: 10px;
+	display: none !important;
+}
+
+.form__item--error {
+	input[type="text"],
+	input[type="email"],
+	textarea,
+	.jcf-select:not(.jcf-drop-active) .jcf-select-text {
+		border-color: map-get($ui-colors, 3);
+	}
 }
 
 //---- Responsive ----//

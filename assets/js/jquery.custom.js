@@ -107,6 +107,27 @@ jQuery(document).ready(function($) {
 
 
 	/*--------------------------------------------
+	---- Form Validation
+	--------------------------------------------*/
+	var form_validation_arr = {
+		errorElement   : 'span',
+		errorClass     : 'form__validation',
+		errorPlacement : function(error, element) {
+			error.appendTo(element.parent());
+		},
+		highlight: function(element) {
+			$(element).parents('.form__item').addClass("form__item--error");
+		},
+		unhighlight: function(element) {
+			$(element).parents('.form__item').removeClass("form__item--error");
+		}
+	};
+
+	$('.js-form-validate').validate(form_validation_arr);
+
+
+
+	/*--------------------------------------------
 	---- Other
 	--------------------------------------------*/
 	//---- Disable buttons

@@ -1570,6 +1570,204 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/_site\/assets\/img\/favicon-192x192.png": {
+		"ft": 32768,
+		"iS": 4594,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/favicon-297x297.png": {
+		"ft": 32768,
+		"iS": 6294,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-297x297.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1683,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
+		"ft": 16384,
+		"iS": 5100,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/adam-feber.jpg": {
+		"ft": 16384,
+		"iS": 2116,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
+		"ft": 16384,
+		"iS": 3640,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+		"ft": 16384,
+		"iS": 1604,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-@2x.jpg": {
+		"ft": 16384,
+		"iS": 101590,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 55136,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-mobile.jpg": {
+		"ft": 16384,
+		"iS": 21474,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured.jpg": {
+		"ft": 16384,
+		"iS": 42852,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/full-preview.jpg": {
+		"ft": 16384,
+		"iS": 92925,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/full-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-1.jpg": {
+		"ft": 16384,
+		"iS": 34606,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-2.jpg": {
+		"ft": 16384,
+		"iS": 35921,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-3.jpg": {
+		"ft": 16384,
+		"iS": 28151,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 30813,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/small-@2x.jpg": {
+		"ft": 16384,
+		"iS": 44336,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/small-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/inspirational-pixels\/small.jpg": {
+		"ft": 16384,
+		"iS": 16124,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/_site\/assets\/js\/app.min.js": {
 		"ft": 64,
 		"ma": 0,
@@ -1774,6 +1972,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/contact\/index.html",
+		"oF": 0
+		},
+	"\/_site\/contact\/success\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/contact\/success\/index.html",
 		"oF": 0
 		},
 	"\/_site\/Gemfile": {
@@ -3252,6 +3457,204 @@
 		"opt": 0,
 		"q": 70
 		},
+	"\/assets\/img\/favicon-192x192.png": {
+		"ft": 32768,
+		"iS": 4594,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/favicon-297x297.png": {
+		"ft": 32768,
+		"iS": 6294,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-297x297.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1683,
+		"oA": 1,
+		"oAP": "\/assets\/img\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 2,
+		"q": 50
+		},
+	"\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
+		"ft": 16384,
+		"iS": 5100,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/adam-feber.jpg": {
+		"ft": 16384,
+		"iS": 2116,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/adam-feber.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
+		"ft": 16384,
+		"iS": 3640,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/testimonials\/chris-fenwick.jpg": {
+		"ft": 16384,
+		"iS": 1604,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/featured-@2x.jpg": {
+		"ft": 16384,
+		"iS": 101590,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/featured-mobile-@2x.jpg": {
+		"ft": 16384,
+		"iS": 55136,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-mobile-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/featured-mobile.jpg": {
+		"ft": 16384,
+		"iS": 21474,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/featured.jpg": {
+		"ft": 16384,
+		"iS": 42852,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/full-preview.jpg": {
+		"ft": 16384,
+		"iS": 92925,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/full-preview.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/img-1.jpg": {
+		"ft": 16384,
+		"iS": 34606,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/img-2.jpg": {
+		"ft": 16384,
+		"iS": 35921,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/img-3.jpg": {
+		"ft": 16384,
+		"iS": 28151,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/img-4.jpg": {
+		"ft": 16384,
+		"iS": 30813,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/img-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/small-@2x.jpg": {
+		"ft": 16384,
+		"iS": 44336,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/small-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/inspirational-pixels\/small.jpg": {
+		"ft": 16384,
+		"iS": 16124,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/small.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3342,6 +3745,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/assets\/js\/third-party\/jquery.validate.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/assets\/js\/jquery.validate.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/assets\/js\/third-party\/picturefill.js": {
 		"ft": 64,
 		"ma": 0,
@@ -3413,6 +3826,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/contact\/index.html",
+		"oF": 0
+		},
+	"\/contact\/success.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact\/success.html",
 		"oF": 0
 		},
 	"\/Gemfile": {

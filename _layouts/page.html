@@ -1,10 +1,12 @@
 {% include header.html %}
 
-<section class="section section--small spacing-huge-top">
-	<div class="content-styles">
-		{{ page.content | markdownify }}
-	</div>
-</section>
+{% if page.content != '' %}
+	<section class="section section--small spacing-huge-top">
+		<div class="content-styles">
+			{{ page.content | markdownify }}
+		</div>
+	</section>
+{% endif %}
 
 {% include blog-preview.html %}
 
