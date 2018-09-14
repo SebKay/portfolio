@@ -7,25 +7,25 @@
 		</h2>
 	</div>
 
-	<div class="grid">
+	<div class="grid grid--m-1">
 		{% for usp in page.usps %}
-			{% assign usp_icon = usp.[1].icon %}
+			{% assign usp_icon = usp[1].icon %}
 
 			<div class="grid__col grid__col--6 txt-center">
 				<div class="spacing-tiny-bottom">
 					<span class="big-icon">
-						{{ site.data.svgs[0].[usp_icon] }}
+						{{ site.data.svgs[0][usp_icon] }}
 					</span>
 				</div>
 				<div class="content-styles">
 					<h3 class="h4">
-						{{ usp.[1].title }}
+						{{ usp[1].title }}
 					</h3>
 					<p class="txt-large txt-dark">
-						{{ usp.[1].subtitle }}
+						{{ usp[1].subtitle }}
 					</p>
 					<p>
-						{{ usp.[1].desc }}
+						{{ usp[1].desc }}
 					</p>
 				</div>
 			</div>
@@ -33,9 +33,9 @@
 	</div>
 </section>
 
-{% assign feature_wrapper_class = 'spacing-large-bottom' %}
-{% assign feature_grid_class = null %}
-{% assign feature_grid_left_class = null %}
+{% assign feature_wrapper_class    = 'spacing-large-bottom' %}
+{% assign feature_grid_class       = null %}
+{% assign feature_grid_left_class  = null %}
 {% assign feature_grid_right_class = 'grid__col--right' %}
 
 <section class="bg-grey bg-slanted">
@@ -54,19 +54,19 @@
 			{% endif %}
 
 			<div class="section section--large {{ feature_wrapper_class }}">
-				<div class="grid {{ feature_grid_class }}">
+				<div class="grid grid--m-1 {{ feature_grid_class }}">
 					<div class="grid__col grid__col--7 {{ feature_grid_left_class }}">
 						<div class="content-styles">
-							<img src="{{ feature.[1].img_url }}">
+							<img src="{{ feature[1].img_url }}">
 						</div>
 					</div>
 					<div class="grid__col grid__col--5 grid__col--v-center {{ feature_grid_right_class }}">
 						<div class="content-styles">
 							<h2 class="h3">
-								{{ feature.[1].title }}
+								{{ feature[1].title }}
 							</h2>
 							<p class="txt-large">
-								{{ feature.[1].desc }}
+								{{ feature[1].desc }}
 							</p>
 						</div>
 					</div>

@@ -1,6 +1,5 @@
 .big-icon {
-	width: 100%;
-	display: block;
+	display: inline-block;
 	position: relative;
 	border-radius: 1000px;
 	background: map-get($ui-colors, 2_1);
@@ -19,10 +18,24 @@
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
+@media screen and (min-width: map-get($breakpoints, tablet_1) + 1) {
 	.big-icon {
-		max-width: 260px;
-		padding-bottom: 100%;
+		width: 250px;
+		height: 250px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, tablet_2) + 1) {
+	.big-icon {
+		width: 160px;
+		height: 160px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet_2)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
+	.big-icon {
+		width: 140px;
+		height: 140px;
 	}
 }
 
