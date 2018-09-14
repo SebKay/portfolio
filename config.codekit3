@@ -345,6 +345,13 @@
 		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_typography.scssc",
 		"oF": 0
 		},
+	"\/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/404.html",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -708,11 +715,11 @@
 		"oAP": "\/_redirects",
 		"oF": 0
 		},
-	"\/_site\/_redirects": {
+	"\/_site\/404\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_site\/_redirects",
+		"oA": 2,
+		"oAP": "\/_site\/404\/index.html",
 		"oF": 0
 		},
 	"\/_site\/about\/index.html": {
