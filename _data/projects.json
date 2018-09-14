@@ -6,12 +6,12 @@
 		"full_preview" : "/assets/img/work/inspirational-pixels/full-preview.jpg",
 		"thumbs"       : [
 			{
-				"featured"           : "https://placehold.it/955x650",
-				"featured_2x"        : "https://placehold.it/1910x1300",
-				"featured_mobile"    : "https://placehold.it/500x500",
-				"featured_mobile_2x" : "https://placehold.it/600x600",
-				"small"              : "https://placehold.it/505x321",
-				"small_2x"           : "https://placehold.it/1010x642",
+				"featured"           : "/assets/img/work/inspirational-pixels/featured.jpg",
+				"featured_2x"        : "/assets/img/work/inspirational-pixels/featured-@2x.jpg",
+				"featured_mobile"    : "/assets/img/work/inspirational-pixels/featured-mobile.jpg",
+				"featured_mobile_2x" : "/assets/img/work/inspirational-pixels/featured-mobile-@2x.jpg",
+				"small"              : "/assets/img/work/inspirational-pixels/small.jpg",
+				"small_2x"           : "/assets/img/work/inspirational-pixels/small-@2x.jpg",
 				"small_mobile"       : "https://placehold.it/700x700",
 				"small_mobile_2x"    : "https://placehold.it/800x800"
 			}
