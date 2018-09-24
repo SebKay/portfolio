@@ -1,23 +1,6 @@
 .page-cta {
 	@extend %accent-box;
+	padding: 80px;
 	// Type
 	text-align: center;
-}
-
-@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	.page-cta {
-		padding: 80px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
-	.page-cta {
-		padding: 60px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile_1)) {
-	.page-cta {
-		padding: 30px;
-	}
 }

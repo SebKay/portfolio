@@ -3,6 +3,8 @@
 }
 
 .project-preview__img {
+	width: calc_grid_cols(7) + $grid-spacing-percent;
+
 	img {
 		width: 100%;
 		display: block;
@@ -11,6 +13,7 @@
 
 .project-preview__content {
 	@include flex_align_self(center);
+	width: calc_grid_cols(4) + $grid-spacing-percent;
 	margin-left: auto;
 }
 
@@ -24,6 +27,7 @@
 	}
 
 	.project-preview__content {
+		padding: 40px 20px 0;
 		// Type
 		text-align: center;
 
@@ -38,50 +42,3 @@
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, tablet_1) + 1) {
-	.project-preview__img {
-		width: calc_grid_cols(7) + $grid-spacing-percent;
-	}
-
-	.project-preview__content {
-		width: calc_grid_cols(4) + $grid-spacing-percent;
-	}
-
-	//---- Small version
-	.project-preview--small {
-		.project-preview__content {
-			padding: 40px 20px 0;
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
-	.project-preview__img,
-	.project-preview__content {
-		width: calc_grid_cols(6);
-	}
-
-	//---- Small version
-	.project-preview--small {
-		.project-preview__content {
-			padding-top: 30px;
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile_1)) {
-	.project-preview {
-		@include flex_direction(column);
-		// Type
-		text-align: center;
-	}
-
-	.project-preview__img,
-	.project-preview__content {
-		width: 100%;
-	}
-
-	.project-preview__content {
-		padding-top: 30px;
-	}
-}

@@ -1,5 +1,12 @@
 .site-cta {
+	padding-top: $slanted_offset;
 	background-color: map-get($ui-colors, 2);
+	-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
+}
+
+.bg-slanted + .site-cta {
+	margin-top: -#{$slanted_offset};
 }
 
 .site-cta__inner {
@@ -20,28 +27,3 @@
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
-	.site-cta {
-		padding-top: $slanted_offset;
-		-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
-		clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
-	}
-
-	.bg-slanted + .site-cta {
-		margin-top: -#{$slanted_offset};
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile_1)) {
-	.site-cta {
-		padding-top: $slanted_offset_mobile;
-		-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset_mobile}, 100% 100%, 0 100%);
-		clip-path: polygon(0 0, 100% #{$slanted_offset_mobile}, 100% 100%, 0 100%);
-		// Type
-		text-align: center;
-	}
-
-	.bg-slanted + .site-cta {
-		margin-top: -#{$slanted_offset_mobile};
-	}
-}

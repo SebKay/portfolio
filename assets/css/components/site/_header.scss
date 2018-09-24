@@ -1,3 +1,13 @@
+.site-header {
+	width: 100%;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: map-get($z-index, 2);
+}
+
 .site-header__inner {
 	@extend .section;
 	@extend .section--large;
@@ -11,72 +21,27 @@
 
 .site-header__section--menu {
 	margin-left: auto;
+
+	.toggle-menu {
+		display: none;
+	}
 }
 
 //---- Dark version
-.site-scroll--inactive {
-	.site-header--dark:not(.site-header--menu-active) {
-		.site-logo {
-			// Type
-			color: #fff;
-		}
+.site-header--dark {
+	.site-logo {
+		// Type
+		color: #fff;
+	}
 
-		.site-menu__link {
-			// Type
-			color: map-get($ui-colors, 2_3);
-		}
+	.site-menu__link {
+		// Type
+		color: map-get($ui-colors, 2_3);
+	}
 
-		.toggle-menu__line {
-			background: #fff;
-		}
+	.toggle-menu__line {
+		background: #fff;
 	}
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	.site-header {
-		padding-top: 100px;
-		padding-bottom: 100px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, tablet_1) + 1) {
-	.site-header {
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet_1)) and (min-width: map-get($breakpoints, tablet_2) + 1) {
-	.site-header {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-}
-
-@media screen and (min-width: map-get($breakpoints, tablet_2) + 1) {
-	.site-header__section--menu {
-		.toggle-menu {
-			display: none;
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet_2)) {
-	.site-header {
-		padding-top: 30px;
-		padding-bottom: 30px;
-
-		.site-header__section--logo,
-		.toggle-menu {
-			position: relative;
-			z-index: 20;
-		}
-	}
-
-	.site-header__section--menu {
-		.site-menu {
-			display: none;
-		}
-	}
-}

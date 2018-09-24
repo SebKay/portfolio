@@ -8,27 +8,10 @@
 	width: 100%;
 }
 
+@each $section, $amount in $sections {
+	.section--#{$section} {
+		max-width: $amount;
+	}
+}
+
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	@each $section, $amount in $sections {
-		.section--#{$section} {
-			max-width: $amount;
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop_1)) {
-	@each $section, $amount in $sections-laptop {
-		.section--#{$section} {
-			max-width: $amount;
-		}
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet_1)) {
-	@each $section, $amount in $sections-tablet {
-		.section--#{$section} {
-			max-width: $amount;
-		}
-	}
-}

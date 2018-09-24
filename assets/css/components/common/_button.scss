@@ -1,4 +1,6 @@
 .btn {
+	@include rem(26px);
+	padding: 24px 36px;
 	display: inline-block;
 	cursor: pointer;
 	border-radius: 1000px;
@@ -14,51 +16,9 @@
 	cursor: not-allowed;
 }
 
+.btn--large {
+	@include rem(32px);
+	padding: 28px 56px;
+}
+
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	.btn {
-		@include rem(26px);
-	}
-
-	.btn--large {
-		@include rem(32px);
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, mobile_1) + 1) {
-	.btn {
-		@include rem(22px);
-	}
-
-	.btn--large {
-		@include rem(26px);
-	}
-}
-
-@media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
-	.btn {
-		padding: 24px 36px;
-	}
-
-	.btn--large {
-		padding: 28px 56px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile_1)) {
-	.btn {
-		@include rem(20px);
-		padding: 20px 30px;
-	}
-
-	.btn--large {
-		@include rem(22px);
-		padding: 24px 46px;
-	}
-
-	.btn--m-full {
-		width: 100%;
-		// Type
-		text-align: center;
-	}
-}
