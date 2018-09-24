@@ -722,6 +722,13 @@
 		"oAP": "\/_site\/404\/index.html",
 		"oF": 0
 		},
+	"\/_site\/_redirects": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_site\/_redirects",
+		"oF": 0
+		},
 	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1679,6 +1686,28 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/calendi\/featured-@2x.jpg": {
+		"ft": 16384,
+		"iS": 52036,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/_site\/assets\/img\/work\/calendi\/featured.jpg": {
+		"ft": 16384,
+		"iS": 22470,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3536,6 +3565,28 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/calendi\/featured-@2x.jpg": {
+		"ft": 16384,
+		"iS": 52036,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"\/assets\/img\/work\/calendi\/featured.jpg": {
+		"ft": 16384,
+		"iS": 22470,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "\/assets\/img\/featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
