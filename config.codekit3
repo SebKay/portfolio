@@ -212,6 +212,13 @@
 		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_icon-list.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_overlap-img.scssc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_overlap-img.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_page-cta.scssc": {
 		"cB": 0,
 		"ft": 8192,
@@ -418,36 +425,6 @@
 		"oA": 2,
 		"oAP": "\/_drafts\/2018-08-20-tips-for-improving-homepage.html",
 		"oF": 0
-		},
-	"\/_headsupgrid\/hugrid.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/_headsupgrid\/hugrid-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_headsupgrid\/hugrid.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/_headsupgrid\/jquery-1.6.2.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
 		},
 	"\/_includes\/banner.html": {
 		"cB": 0,
@@ -824,7 +801,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2014\/09\/book-with-people.png": {
 		"ft": 32768,
-		"iS": 243956,
+		"iS": 226281,
 		"oA": 1,
 		"oAP": "\/assets\/img\/book-with-people.png",
 		"oF": 0,
@@ -1011,7 +988,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-1.png": {
 		"ft": 32768,
-		"iS": 42990,
+		"iS": 42963,
 		"oA": 1,
 		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-1.png",
 		"oF": 0,
@@ -1088,7 +1065,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot2.png": {
 		"ft": 32768,
-		"iS": 100271,
+		"iS": 100216,
 		"oA": 1,
 		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot2.png",
 		"oF": 0,
@@ -1572,7 +1549,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-hover-over-post.jpg": {
 		"ft": 16384,
-		"iS": 30005,
+		"iS": 21973,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/calendi-hover-over-post.jpg",
@@ -1583,7 +1560,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-month.jpg": {
 		"ft": 16384,
-		"iS": 27786,
+		"iS": 19466,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/calendi-select-month.jpg",
@@ -1594,7 +1571,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-post-types.jpg": {
 		"ft": 16384,
-		"iS": 29292,
+		"iS": 20509,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/calendi-select-post-types.jpg",
@@ -1605,7 +1582,7 @@
 		},
 	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-thumb.jpg": {
 		"ft": 16384,
-		"iS": 18905,
+		"iS": 10290,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/calendi-thumb.jpg",
@@ -1715,7 +1692,7 @@
 		},
 	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-@2x.jpg": {
 		"ft": 16384,
-		"iS": 101590,
+		"iS": 240699,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "\/assets\/img\/featured-@2x.jpg",
@@ -2060,6 +2037,36 @@
 		"oA": 2,
 		"oAP": "\/_site\/Gemfile.lock",
 		"oF": 0
+		},
+	"\/_site\/headsupgrid\/hugrid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/_site\/headsupgrid\/hugrid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/_site\/headsupgrid\/hugrid.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/_site\/headsupgrid\/jquery-1.6.2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/_site\/index.html": {
 		"cB": 0,
@@ -2417,6 +2424,19 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/assets\/css\/components\/other\/_overlap-img.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_overlap-img.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
 	"\/assets\/css\/components\/other\/_page-cta.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -2608,6 +2628,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/style.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/assets\/css\/templates\/_home.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 8,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_home.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -3906,6 +3939,36 @@
 		"oA": 2,
 		"oAP": "\/Gemfile.lock",
 		"oF": 0
+		},
+	"\/headsupgrid\/hugrid.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/headsupgrid\/hugrid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/headsupgrid\/hugrid.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/headsupgrid\/jquery-1.6.2.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"\/index.html": {
 		"cB": 0,

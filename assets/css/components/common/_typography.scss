@@ -38,17 +38,17 @@ a {
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop_1) + 1) {
-	h1, .h1 { @include rem(88px); }
-	h2, .h2 { @include rem(68px); }
-	h3, .h3 { @include rem(52px); }
-	h4, .h4 { @include rem(38px); }
-	h5, .h5 { @include rem(26px); }
-	h6, .h6 { @include rem(22px); }
+	h1, .h1 { @include rem(82px); }
+	h2, .h2 { @include rem(62px); }
+	h3, .h3 { @include rem(50px); }
+	h4, .h4 { @include rem(40px); }
+	h5, .h5 { @include rem(32px); }
+	h6, .h6 { @include rem(26px); }
 
 	p, li { @include rem(24px); }
 
 	.txt-small { @include rem(20px); }
-	.txt-large { @include rem(30px); }
+	.txt-large { @include rem(28px); }
 }
 
 @media screen and (max-width: map-get($breakpoints, laptop_1)) and (min-width: map-get($breakpoints, tablet_1) + 1) {

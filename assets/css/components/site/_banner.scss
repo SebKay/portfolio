@@ -1,7 +1,7 @@
 .site-banner__inner {
 	@extend .spacing-huge;
 	@extend .section;
-	@extend .section--medium;
+	@extend .section--small;
 	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
@@ -12,13 +12,13 @@
 
 .site-banner__tagline {
 	@extend %txt-upper;
-	@extend .h4;
+	@extend .h5;
 	// Type
 	color: map-get($ui-colors, 2_4);
 }
 
 .site-banner__subtitle {
-	@extend .h3;
+	@extend .h4;
 	// Type
 	font-weight: map-get(map-get($font-1, weights), light);
 	line-height: 125%;
@@ -45,12 +45,33 @@
 	}
 }
 
+//---- Alternate Layout
+.site-banner--alt {
+	.site-banner__inner {
+		@extend .section--medium;
+		@include flex(flex);
+		@include flex_align_items(center);
+	}
+
+	.site-banner__content {
+		padding-right: 147px;
+		// Type
+		text-align: left;
+	}
+
+	.overlap-img {
+		@include flex_shrink(0);
+		max-width: 524px;
+		background: map-get($ui-colors, 2_8);
+	}
+}
+
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	* + .site-banner__title,
 	* + .site-banner__subtitle,
 	* + .site-banner__btn {
-		margin-top: 40px;
+		margin-top: 50px;
 	}
 }
 

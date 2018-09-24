@@ -1,7 +1,12 @@
+{% assign banner_class = 'site-banner' %}
+{% assign page_slug = page.title | slugify %}
+
 {% if page.style == 'dark' or page.is_post %}
-	{% assign banner_class = 'site-banner--dark' %}
-{% else %}
-	{% assign banner_class = null %}
+	{% capture banner_class %}{{ banner_class | append: ' site-banner--dark' }}{% endcapture %}
+{% endif %}
+
+{% if page_slug == 'home' %}
+	{% capture banner_class %}{{ banner_class | append: ' site-banner--alt' }}{% endcapture %}
 {% endif %}
 
 {% if page.is_post %}
@@ -39,7 +44,7 @@
 	{% assign banner_desc = project.excerpt %}
 {% endif %}
 
-<section class="site-banner {{ banner_class }}">
+<section class="{{ banner_class }}">
 	<div class="site-banner__inner">
 		<div class="site-banner__content">
 			{% if banner_tagline %}
@@ -68,5 +73,11 @@
 				</div>
 			{% endif %}
 		</div>
+
+		{% if page_slug == 'home' %}
+			<figure class="overlap-img">
+				<img src="https://placehold.it/404x600">
+			</figure>
+		{% endif %}
 	</div>
 </section>

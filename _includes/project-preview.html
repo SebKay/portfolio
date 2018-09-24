@@ -1,33 +1,19 @@
 {% if project_class == 'project-preview--small' %}
-	{% assign thumb_url    = project.thumbs.[0].small %}
-	{% assign thumb_url_2x = project.thumbs.[0].small_2x %}
-	{% assign thumb_url_mobile = project.thumbs.[0].small_mobile %}
+	{% assign thumb_url           = project.thumbs.[0].small %}
+	{% assign thumb_url_2x        = project.thumbs.[0].small_2x %}
+	{% assign thumb_url_mobile    = project.thumbs.[0].small_mobile %}
 	{% assign thumb_url_mobile_2x = project.thumbs.[0].small_mobile_2x %}
 {% else %}
-	{% assign thumb_url    = project.thumbs.[0].featured %}
-	{% assign thumb_url_2x = project.thumbs.[0].featured_2x %}
-	{% assign thumb_url_mobile = project.thumbs.[0].featured_mobile %}
+	{% assign thumb_url           = project.thumbs.[0].featured %}
+	{% assign thumb_url_2x        = project.thumbs.[0].featured_2x %}
+	{% assign thumb_url_mobile    = project.thumbs.[0].featured_mobile %}
 	{% assign thumb_url_mobile_2x = project.thumbs.[0].featured_mobile_2x %}
 {% endif %}
 
 <article class="project-preview {{ project_class }}">
 	<div class="project-preview__img">
-		<figure class="browser">
-			<div class="browser__actions">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-
-			<div class="browser__inner">
-				<a href="{{ project.url }}">
-					<picture>
-						<source srcset="{{ thumb_url }} 1x, {{ thumb_url_2x }} 2x" media="(min-width: 671px)">
-						<source srcset="{{ thumb_url_mobile }} 1x, {{ thumb_url_mobile_2x }} 2x" media="(max-width: 670px)">
-						<img srcset="{{ thumb_url }}">
-					</picture>
-				</a>
-			</div>
+		<figure class="overlap-img">
+			<img src="https://placehold.it/855x760">
 		</figure>
 	</div>
 

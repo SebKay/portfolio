@@ -49,7 +49,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link active" href="http://localhost:4000/work/">
+										<a class="site-menu__link active" href="/work/">
 											Work
 										</a>
 									</li>
@@ -60,7 +60,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link " href="http://localhost:4000/process/">
+										<a class="site-menu__link " href="/process/">
 											Process
 										</a>
 									</li>
@@ -71,7 +71,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link " href="http://localhost:4000/services/">
+										<a class="site-menu__link " href="/services/">
 											Services
 										</a>
 									</li>
@@ -82,7 +82,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link " href="http://localhost:4000/about/">
+										<a class="site-menu__link " href="/about/">
 											About
 										</a>
 									</li>
@@ -93,7 +93,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link " href="http://localhost:4000/blog/">
+										<a class="site-menu__link " href="/blog/">
 											Blog
 										</a>
 									</li>
@@ -104,7 +104,7 @@
 									
 
 									<li class="site-menu__item">
-										<a class="site-menu__link " href="http://localhost:4000/contact/">
+										<a class="site-menu__link " href="/contact/">
 											Contact
 										</a>
 									</li>
@@ -117,6 +117,11 @@
 		</header>
 
 		
+
+
+
+
+
 
 
 
@@ -141,6 +146,8 @@
 
 			
 		</div>
+
+		
 	</div>
 </section>
 
@@ -158,22 +165,8 @@
 
 <article class="project-preview ">
 	<div class="project-preview__img">
-		<figure class="browser">
-			<div class="browser__actions">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-
-			<div class="browser__inner">
-				<a href="/work/inspirational-pixels/">
-					<picture>
-						<source srcset="/assets/img/work/inspirational-pixels/featured.jpg 1x, /assets/img/work/inspirational-pixels/featured-@2x.jpg 2x" media="(min-width: 671px)">
-						<source srcset="/assets/img/work/inspirational-pixels/featured-mobile.jpg 1x, /assets/img/work/inspirational-pixels/featured-mobile-@2x.jpg 2x" media="(max-width: 670px)">
-						<img srcset="/assets/img/work/inspirational-pixels/featured.jpg">
-					</picture>
-				</a>
-			</div>
+		<figure class="overlap-img">
+			<img src="https://placehold.it/855x760">
 		</figure>
 	</div>
 
@@ -256,22 +249,8 @@
 
 <article class="project-preview project-preview--small">
 	<div class="project-preview__img">
-		<figure class="browser">
-			<div class="browser__actions">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-
-			<div class="browser__inner">
-				<a href="/work/inspirational-pixels/">
-					<picture>
-						<source srcset="/assets/img/work/inspirational-pixels/small.jpg 1x, /assets/img/work/inspirational-pixels/small-@2x.jpg 2x" media="(min-width: 671px)">
-						<source srcset="https://placehold.it/700x700 1x, https://placehold.it/800x800 2x" media="(max-width: 670px)">
-						<img srcset="/assets/img/work/inspirational-pixels/small.jpg">
-					</picture>
-				</a>
-			</div>
+		<figure class="overlap-img">
+			<img src="https://placehold.it/855x760">
 		</figure>
 	</div>
 
@@ -308,22 +287,8 @@
 
 <article class="project-preview project-preview--small">
 	<div class="project-preview__img">
-		<figure class="browser">
-			<div class="browser__actions">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-
-			<div class="browser__inner">
-				<a href="/work/inspirational-pixels/">
-					<picture>
-						<source srcset="/assets/img/work/calendi/featured.jpg 1x, /assets/img/work/calendi/featured.jpg 2x" media="(min-width: 671px)">
-						<source srcset="https://placehold.it/700x700 1x, https://placehold.it/800x800 2x" media="(max-width: 670px)">
-						<img srcset="/assets/img/work/calendi/featured.jpg">
-					</picture>
-				</a>
-			</div>
+		<figure class="overlap-img">
+			<img src="https://placehold.it/855x760">
 		</figure>
 	</div>
 
@@ -358,7 +323,7 @@
 </section>
 
 
-<section class="bg-grey bg-slanted">
+<section class="bg-grey-stripes bg-slanted">
 	<div class="section section--small spacing-huge">
 		<blockquote class="quote">
 			
@@ -446,6 +411,25 @@
 	</footer>
 
 	<script type="text/javascript" src="/assets/js/app.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="/headsupgrid/hugrid.css">
+	<script src="/headsupgrid/hugrid.js"></script>
+	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			pageUnits     = 'px';
+			colUnits      = 'px';
+			pagewidth     = 1700;
+			columns       = 12;
+			columnwidth   = 83;
+			gutterwidth   = 64;
+			pagetopmargin = 100;
+			rowheight     = 0;
+			gridonload    = 'off';
+
+			makehugrid();
+			setgridonload();
+		});
+	</script>
 </body>
 </html>
 

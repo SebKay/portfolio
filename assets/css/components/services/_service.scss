@@ -1,7 +1,5 @@
 .service {
-	border-radius: $border-radius;
-	border-top: 6px solid map-get($ui-colors, 1);
-	background: map-get($ui-colors, 2_1);
+	@extend %accent-box;
 }
 
 .service__icon {

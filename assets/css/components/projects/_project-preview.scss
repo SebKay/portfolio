@@ -40,11 +40,11 @@
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, tablet_1) + 1) {
 	.project-preview__img {
-		width: calc_grid_cols(7);
+		width: calc_grid_cols(7) + $grid-spacing-percent;
 	}
 
 	.project-preview__content {
-		width: calc_grid_cols(5);
+		width: calc_grid_cols(4) + $grid-spacing-percent;
 	}
 
 	//---- Small version

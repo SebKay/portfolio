@@ -2,6 +2,10 @@
 	background-color: map-get($ui-colors, 2_1);
 }
 
+.bg-grey-stripes {
+	background: map-get($ui-colors, 2_1) url('../img/bg-stripes.svg') center / 800px no-repeat;
+}
+
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, mobile_1) + 1) {
 	.bg-slanted {
