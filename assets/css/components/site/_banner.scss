@@ -1,8 +1,12 @@
+.site-banner {
+	padding-top: $header-height;
+	border-bottom: 4px solid map-get($ui-colors, 2_1);
+}
+
 .site-banner__inner {
 	@extend .spacing-huge;
 	@extend .section;
 	@extend .section--small;
-	border-bottom: 2px solid map-get($ui-colors, 2_1);
 }
 
 .site-banner__content {
@@ -35,13 +39,10 @@
 //---- Dark version
 .site-banner--dark {
 	padding-bottom: $slanted_offset;
+	border-bottom: none;
 	background: map-get($ui-colors, 2);
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
-
-	.site-banner__inner {
-		border-bottom: none;
-	}
 
 	.site-banner__title {
 		// Type
@@ -72,6 +73,12 @@
 	.overlap-img {
 		@include flex_shrink(0);
 		max-width: 524px;
+	}
+}
+
+//---- Alternate Layout (Dark)
+.site-banner--alt.site-banner--dark {
+	.overlap-img {
 		background: map-get($ui-colors, 2_8);
 	}
 }

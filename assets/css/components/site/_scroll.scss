@@ -1,0 +1,18 @@
+.site-scroll--active {
+	.site-header {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		box-shadow: 0 2px 15px black(0.08);
+		background: #fff;
+
+		.site-logo {
+			// Type
+			color: map-get($ui-colors, 2);
+		}
+
+		.site-menu__link {
+			// Type
+			color: map-get($ui-colors, 2_2);
+		}
+	}
+}

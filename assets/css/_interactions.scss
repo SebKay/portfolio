@@ -51,8 +51,16 @@
 	opacity: 1;
 }
 
-.site-menu__link:hover,
-.site-menu__link.active {
+.site-scroll--inactive .site-menu__link:hover,
+.site-scroll--active .site-menu__link:hover,
+.site-scroll--inactive .site-menu__link.active,
+.site-scroll--active .site-menu__link.active {
+	// Type
+	color: map-get($ui-colors, 2);
+}
+
+.site-scroll--inactive .site-header--dark .site-menu__link:hover,
+.site-scroll--inactive .site-header--dark .site-menu__link.active {
 	// Type
 	color: #fff;
 }

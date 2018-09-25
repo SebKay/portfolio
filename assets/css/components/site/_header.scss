@@ -1,4 +1,5 @@
 .site-header {
+	@include transition(all ease $transition-speed);
 	width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
