@@ -17,6 +17,19 @@
 	margin-left: auto;
 }
 
+//---- Reversed version
+.project-preview--reverse {
+	@include flex_direction(row-reverse);
+
+	.project-preview__img {
+		margin-left: auto;
+	}
+
+	.project-preview__content {
+		margin-left: 0;
+	}
+}
+
 //---- Small version
 .project-preview--small {
 	@include flex_direction(column);

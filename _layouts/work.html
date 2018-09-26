@@ -1,34 +1,17 @@
 {% include header.html %}
 
-<section class="section section--large spacing-huge">
-	<div class="spacing-small-bottom">
-		<h2 class="section-title">
-			Featured Work
-		</h2>
-	</div>
+<section class="section section--large spacing-huge-top">
+	{% for project in site.data.projects %}
+		{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
 
-	{% assign project = site.data.projects[0] %}
-	{% include project-preview.html %}
+		{% if cycle_type == 'even' %}
+			{% assign project_class = 'project-preview--reverse' %}
+		{% endif %}
+
+		<div class="spacing-huge-bottom">
+			{% include project-preview.html %}
+		</div>
+	{% endfor %}
 </section>
-
-<section class="section section--large spacing-huge-bottom">
-	<div class="spacing-small-bottom">
-		<h2 class="section-title">
-			Recent Work
-		</h2>
-	</div>
-
-	<div class="grid grid--m-1">
-		{% for project in site.data.projects %}
-			<div class="grid__col grid__col--4">
-				{% assign project_class = 'project-preview--small' %}
-				{% include project-preview.html %}
-			</div>
-		{% endfor %}
-	</div>
-</section>
-
-{% assign testimonial = site.data.testimonials[0] %}
-{% include testimonial.html %}
 
 {% include footer.html %}
