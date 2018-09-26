@@ -1,18 +1,18 @@
 [
 	{
-		"url"          : "/work/inspirational-pixels/",
+		"url"          : "/projects/inspirational-pixels/",
 		"title"        : "Inspirational Pixels",
 		"tagline"      : "Learn how to make websites",
 		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
-		"full_preview" : "/assets/img/work/inspirational-pixels/full-preview.jpg",
+		"full_preview" : "/assets/img/projects/inspirational-pixels/full-preview.jpg",
 		"thumbs"       : [
 			{
-				"featured"           : "/assets/img/work/inspirational-pixels/featured.jpg",
-				"featured_2x"        : "/assets/img/work/inspirational-pixels/featured-@2x.jpg",
-				"featured_mobile"    : "/assets/img/work/inspirational-pixels/featured-mobile.jpg",
-				"featured_mobile_2x" : "/assets/img/work/inspirational-pixels/featured-mobile-@2x.jpg",
-				"small"              : "/assets/img/work/inspirational-pixels/small.jpg",
-				"small_2x"           : "/assets/img/work/inspirational-pixels/small-@2x.jpg",
+				"featured"           : "/assets/img/projects/inspirational-pixels/featured.jpg",
+				"featured_2x"        : "/assets/img/projects/inspirational-pixels/featured-@2x.jpg",
+				"featured_mobile"    : "/assets/img/projects/inspirational-pixels/featured-mobile.jpg",
+				"featured_mobile_2x" : "/assets/img/projects/inspirational-pixels/featured-mobile-@2x.jpg",
+				"small"              : "/assets/img/projects/inspirational-pixels/small.jpg",
+				"small_2x"           : "/assets/img/projects/inspirational-pixels/small-@2x.jpg",
 				"small_mobile"       : "https://placehold.it/700x700",
 				"small_mobile_2x"    : "https://placehold.it/800x800"
 			}
@@ -38,38 +38,5 @@
 			}
 		],
 		"testimonial_id" : 0
-	},
-	{
-		"title"        : "Calendi",
-		"tagline"      : "Learn how to make websites",
-		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
-		"full_preview" : "/assets/img/work/inspirational-pixels/full-preview.jpg",
-		"thumbs"       : [
-			{
-				"featured"           : "/assets/img/work/calendi/featured.jpg",
-				"featured_2x"        : "/assets/img/work/calendi/featured-@2x.jpg",
-				"featured_mobile"    : "/assets/img/work/calendi/featured.jpg",
-				"featured_mobile_2x" : "/assets/img/work/calendi/featured.jpg",
-				"small"              : "/assets/img/work/calendi/featured.jpg",
-				"small_2x"           : "/assets/img/work/calendi/featured.jpg",
-				"small_mobile"       : "https://placehold.it/700x700",
-				"small_mobile_2x"    : "https://placehold.it/800x800"
-			}
-		],
-		"url"          : "/work/inspirational-pixels/",
-		"usps"         : [
-				{
-				"title":"Logo Design",
-				"icon" :"pen"
-			},
-			{
-				"title":"Web Design",
-				"icon" :"screen"
-			},
-			{
-				"title":"WordPress Development",
-				"icon" :"code"
-			}
-		]
 	}
 ]
