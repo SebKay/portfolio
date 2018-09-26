@@ -1,5 +1,6 @@
 [
 	{
+		"url"          : "/work/inspirational-pixels/",
 		"title"        : "Inspirational Pixels",
 		"tagline"      : "Learn how to make websites",
 		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
@@ -16,7 +17,12 @@
 				"small_mobile_2x"    : "https://placehold.it/800x800"
 			}
 		],
-		"url"          : "/work/inspirational-pixels/",
+		"img_1" : "https://placehold.it/524x393",
+		"img_2" : "https://placehold.it/524x393",
+		"img_3" : "https://placehold.it/524x393",
+		"img_4" : "https://placehold.it/524x393",
+		"img_5" : "https://placehold.it/524x393",
+		"img_6" : "https://placehold.it/524x393",
 		"usps"         : [
 				{
 				"title":"Logo Design",
@@ -30,7 +36,8 @@
 				"title":"WordPress Development",
 				"icon" :"code"
 			}
-		]
+		],
+		"testimonial_id" : 0
 	},
 	{
 		"title"        : "Calendi",

@@ -25,66 +25,78 @@
 		</figure>
 	</div>
 
-	<div class="section section--medium spacing-large-top">
-		<div class="spacing-small-bottom">
-			<h2 class="section-title">
-				The Brief
-			</h2>
-		</div>
+	{% if page.sections[0] %}
+		<div class="section section--small spacing-large-top">
+			<div class="spacing-small-bottom">
+				<h2 class="section-title">
+					The Brief
+				</h2>
+			</div>
 
-		<div class="content-styles">
-			{{ page.sections[0] }}
+			<div class="content-styles">
+				{{ page.sections[0] }}
+			</div>
 		</div>
-	</div>
+	{% endif %}
 
 	<div class="section section--large spacing-large-top">
 		<div class="grid grid--m-1">
-			<div class="grid__col grid__col--6">
+			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ page.img_1_url }}">
+					<img src="{{ project.img_1 }}">
 				</div>
 			</div>
-
-			<div class="grid__col grid__col--6">
+			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ page.img_2_url }}">
+					<img src="{{ project.img_2 }}">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.img_3 }}">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="section section--medium spacing-large-top">
-		<div class="spacing-small-bottom">
-			<h2 class="section-title">
-				The Result
-			</h2>
-		</div>
+	{% if page.sections[1] %}
+		<div class="section section--small spacing-large-top">
+			<div class="spacing-small-bottom">
+				<h2 class="section-title">
+					The Result
+				</h2>
+			</div>
 
-		<div class="content-styles">
-			{{ page.sections[1] }}
+			<div class="content-styles">
+				{{ page.sections[1] }}
+			</div>
 		</div>
-	</div>
+	{% endif %}
 
 	<div class="section section--large spacing-large-top">
 		<div class="grid grid--m-1">
-			<div class="grid__col grid__col--6">
+			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ page.img_3_url }}">
+					<img src="{{ project.img_1 }}">
 				</div>
 			</div>
-
-			<div class="grid__col grid__col--6">
+			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ page.img_4_url }}">
+					<img src="{{ project.img_2 }}">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.img_3 }}">
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<div class="spacing-large-top"></div>
+<div class="spacing-huge-top"></div>
 
-{% assign testimonial = site.data.testimonials[page.testimonial_id] %}
+{% assign testimonial = site.data.testimonials[project.testimonial_id] %}
 {% include testimonial.html %}
 
 {% include footer.html %}
