@@ -1,60 +1,62 @@
-	<section class="site-cta">
-		<div class="site-cta__inner">
-			<div class="grid grid--m-1">
-				<div class="grid__col grid__col--8">
-					<div class="content-styles spacing-tiny-bottom">
-						<h2 class="site-cta__title">
-							Get In Touch
-						</h2>
-						<p class="site-cta__txt">
-							I love helping great people with great projects.
-							<br>
-							Sound like you? Let’s talk!
-						</p>
+	{% if page.title != 'Contact' %}
+		<section class="site-cta">
+			<div class="site-cta__inner">
+				<div class="grid grid--m-1">
+					<div class="grid__col grid__col--8">
+						<div class="content-styles spacing-tiny-bottom">
+							<h2 class="site-cta__title">
+								Get In Touch
+							</h2>
+							<p class="site-cta__txt">
+								I love helping great people with great projects.
+								<br>
+								Sound like you? Let’s talk!
+							</p>
+						</div>
+						<a class="btn btn--large btn--hover-light" href="/contact/">
+							Message Me
+						</a>
 					</div>
-					<a class="btn btn--large btn--hover-light" href="/contact/">
-						Message Me
-					</a>
-				</div>
-				<div class="grid__col grid__col--4 grid__col--v-center">
-					<ul class="icon-list icon-list--light">
-						<li class="icon-list__item">
-							<span class="icon-list__img">
-								{{ site.data.svgs[0].envelope }}
-							</span>
-							<a href="mailto:seb@sebkay.com">
-								seb@sebkay.com
-							</a>
-						</li>
-						<li class="icon-list__item">
-							<span class="icon-list__img">
-								{{ site.data.svgs[0].dribbble }}
-							</span>
-							<a href="https://dribbble.com/sebkaydesign" target="_blank">
-								On Dribbble
-							</a>
-						</li>
-						<li class="icon-list__item">
-							<span class="icon-list__img">
-								{{ site.data.svgs[0].twitter }}
-							</span>
-							<a href="https://twitter.com/SebKayDesign" target="_blank">
-								On Twitter
-							</a>
-						</li>
-						<li class="icon-list__item">
-							<span class="icon-list__img">
-								{{ site.data.svgs[0].instagram }}
-							</span>
-							<a href="https://www.instagram.com/sebkaydesign/" target="_blank">
-								On Instagram
-							</a>
-						</li>
-					</ul>
+					<div class="grid__col grid__col--4 grid__col--v-center">
+						<ul class="icon-list icon-list--light">
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].envelope }}
+								</span>
+								<a href="mailto:seb@sebkay.com">
+									seb@sebkay.com
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].dribbble }}
+								</span>
+								<a href="https://dribbble.com/sebkaydesign" target="_blank">
+									On Dribbble
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].twitter }}
+								</span>
+								<a href="https://twitter.com/SebKayDesign" target="_blank">
+									On Twitter
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].instagram }}
+								</span>
+								<a href="https://www.instagram.com/sebkaydesign/" target="_blank">
+									On Instagram
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
+	{% endif %}
 
 	<footer class="site-footer">
 		<div class="site-footer__inner">
