@@ -4,27 +4,21 @@
 		"title"        : "Inspirational Pixels",
 		"tagline"      : "Learn how to make websites",
 		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
-		"full_preview" : "/assets/img/projects/inspirational-pixels/full-preview.jpg",
-		"thumbs"       : [
+		"full_preview" : "https://placehold.it/1680x1133",
+		"images"       : [
 			{
-				"featured"           : "/assets/img/projects/inspirational-pixels/featured.jpg",
-				"featured_2x"        : "/assets/img/projects/inspirational-pixels/featured-@2x.jpg",
-				"featured_mobile"    : "/assets/img/projects/inspirational-pixels/featured-mobile.jpg",
-				"featured_mobile_2x" : "/assets/img/projects/inspirational-pixels/featured-mobile-@2x.jpg",
-				"small"              : "/assets/img/projects/inspirational-pixels/small.jpg",
-				"small_2x"           : "/assets/img/projects/inspirational-pixels/small-@2x.jpg",
-				"small_mobile"       : "https://placehold.it/700x700",
-				"small_mobile_2x"    : "https://placehold.it/800x800"
+				"featured"    : "https://placehold.it/909x800",
+				"featured_2x" : "https://placehold.it/1818x1600",
+				"content_1"   : "https://placehold.it/524x393",
+				"content_2"   : "https://placehold.it/524x393",
+				"content_3"   : "https://placehold.it/524x393",
+				"content_4"   : "https://placehold.it/524x393",
+				"content_5"   : "https://placehold.it/524x393",
+				"content_6"   : "https://placehold.it/524x393",
 			}
 		],
-		"img_1" : "https://placehold.it/524x393",
-		"img_2" : "https://placehold.it/524x393",
-		"img_3" : "https://placehold.it/524x393",
-		"img_4" : "https://placehold.it/524x393",
-		"img_5" : "https://placehold.it/524x393",
-		"img_6" : "https://placehold.it/524x393",
 		"usps"         : [
-				{
+			{
 				"title":"Logo Design",
 				"icon" :"pen"
 			},
@@ -37,6 +31,16 @@
 				"icon" :"code"
 			}
 		],
-		"testimonial_id" : 0
+		"testimonial_id" : 0,
+		"sections" : [
+			{
+				"title" : "The Brief",
+				"content" : "I've been running Inspirational Pixels since 2013, so around five years. In that time the site has built up quite a large archive of varying content.<br><br>The real aim of the redesign was to make the content easily accessible, but have a focus on showing the difference between pieces of content.<br><br>The main staples of content on the site are tutorials, articles, freebies and snippets, so there needed to be a way of easily identifying what each piece was without having to click into it."
+			},
+			{
+				"title" : "The Result",
+				"content" : "Everything is now easily identifiable by having a unique card design for each post preview. The cards are dynamic change depending on what type of content they are. <br><br>Posts that are either tutorials or articles having a tag and matching icon over the bottom left of the thumbnail. Whereas freebies show the file size at the bottom of the card and snippets show the code language the snippet is written in. <br><br>I also had the opportunity to rework the placement of the ads on the site. Before it was annoying to see ads plastered in the sidebar. Now in the redesign, the sidebar is gone and ads flow better in the overall design, yet are still obvious that they are advertisements."
+			}
+		]
 	}
 ]

@@ -25,16 +25,18 @@
 		</figure>
 	</div>
 
-	{% if page.sections[0] %}
+	{% if project.sections[0].content or project.sections[0].title %}
 		<div class="section section--small spacing-large-top">
 			<div class="spacing-small-bottom">
 				<h2 class="section-title">
-					The Brief
+					{{ project.sections[0].title }}
 				</h2>
 			</div>
 
 			<div class="content-styles">
-				{{ page.sections[0] }}
+				<p class="txt-large">
+					{{ project.sections[0].content }}
+				</p>
 			</div>
 		</div>
 	{% endif %}
@@ -43,32 +45,34 @@
 		<div class="grid grid--m-1">
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_1 }}">
+					<img src="{{ project.images[0].content_1 }}">
 				</div>
 			</div>
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_2 }}">
+					<img src="{{ project.images[0].content_2 }}">
 				</div>
 			</div>
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_3 }}">
+					<img src="{{ project.images[0].content_3 }}">
 				</div>
 			</div>
 		</div>
 	</div>
 
-	{% if page.sections[1] %}
+	{% if project.sections[1].content or project.sections[1].title %}
 		<div class="section section--small spacing-large-top">
 			<div class="spacing-small-bottom">
 				<h2 class="section-title">
-					The Result
+					{{ project.sections[1].title }}
 				</h2>
 			</div>
 
 			<div class="content-styles">
-				{{ page.sections[1] }}
+				<p class="txt-large">
+					{{ project.sections[1].content }}
+				</p>
 			</div>
 		</div>
 	{% endif %}
@@ -77,17 +81,17 @@
 		<div class="grid grid--m-1">
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_1 }}">
+					<img src="{{ project.images[0].content_4 }}">
 				</div>
 			</div>
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_2 }}">
+					<img src="{{ project.images[0].content_5 }}">
 				</div>
 			</div>
 			<div class="grid__col grid__col--4">
 				<div class="content-styles">
-					<img src="{{ project.img_3 }}">
+					<img src="{{ project.images[0].content_6 }}">
 				</div>
 			</div>
 		</div>

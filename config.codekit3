@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,2138 +7,2024 @@
 		"uuidString": "3B6C4ACD-9D47-45D9-BA40-5F2F56D9CF7C"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28905",
 "files": {
-	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_extends.scssc": {
+	"/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_extends.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_extends.scssc",
+		"oAP": "/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_extends.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_functions.scssc": {
+	"/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_functions.scssc",
+		"oAP": "/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_functions.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_mixins.scssc": {
+	"/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_mixins.scssc",
+		"oAP": "/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_mixins.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_reset.scssc": {
+	"/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_reset.scssc",
+		"oAP": "/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_reset.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_variables.scssc": {
+	"/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/05842c916c5559b8437c45be8fd3f0e21a805fad\/_variables.scssc",
+		"oAP": "/.sass-cache/05842c916c5559b8437c45be8fd3f0e21a805fad/_variables.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_banner.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_banner.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_banner.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_banner.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_cta.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_cta.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_cta.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_cta.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_footer.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_footer.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_footer.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_footer.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_header.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_header.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_header.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_logo.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_logo.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_logo.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_logo.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_menu.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_menu.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_menu.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_menu.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_scroll.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_scroll.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_scroll.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_scroll.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_toggle-menu.scssc": {
+	"/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_toggle-menu.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17b9685e82ca55f96b3c8492601a42791c10e480\/_toggle-menu.scssc",
+		"oAP": "/.sass-cache/17b9685e82ca55f96b3c8492601a42791c10e480/_toggle-menu.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/46dd5f134b78121d72da28e123e88f0bb1c7a99e\/_jcf.scssc": {
+	"/.sass-cache/46dd5f134b78121d72da28e123e88f0bb1c7a99e/_jcf.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/46dd5f134b78121d72da28e123e88f0bb1c7a99e\/_jcf.scssc",
+		"oAP": "/.sass-cache/46dd5f134b78121d72da28e123e88f0bb1c7a99e/_jcf.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_animations.scssc": {
+	"/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_animations.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_animations.scssc",
+		"oAP": "/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_animations.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_interactions.scssc": {
+	"/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_interactions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_interactions.scssc",
+		"oAP": "/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_interactions.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_transitions.scssc": {
+	"/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_transitions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/473ac6dc520eb0ade1fc6ddcc7b23907905542e2\/_transitions.scssc",
+		"oAP": "/.sass-cache/473ac6dc520eb0ade1fc6ddcc7b23907905542e2/_transitions.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_full-service.scssc": {
+	"/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_full-service.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_full-service.scssc",
+		"oAP": "/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_full-service.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_service.scssc": {
+	"/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_service.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_service.scssc",
+		"oAP": "/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_service.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_services-list.scssc": {
+	"/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_services-list.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/4da51a7232da05dd1135eb58c8024ad07e3abf19\/_services-list.scssc",
+		"oAP": "/.sass-cache/4da51a7232da05dd1135eb58c8024ad07e3abf19/_services-list.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/54a1fa5cc201bfa36df60455f89fcc8e9570b452\/_header.scssc": {
+	"/.sass-cache/54a1fa5cc201bfa36df60455f89fcc8e9570b452/_header.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/54a1fa5cc201bfa36df60455f89fcc8e9570b452\/_header.scssc",
+		"oAP": "/.sass-cache/54a1fa5cc201bfa36df60455f89fcc8e9570b452/_header.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_extends.scssc": {
+	"/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_extends.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_extends.scssc",
+		"oAP": "/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_extends.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_functions.scssc": {
+	"/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_functions.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_functions.scssc",
+		"oAP": "/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_functions.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_mixins.scssc": {
+	"/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_mixins.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_mixins.scssc",
+		"oAP": "/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_mixins.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_reset.scssc": {
+	"/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_reset.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_reset.scssc",
+		"oAP": "/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_reset.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_variables.scssc": {
+	"/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/67f546d13c28178ac63f644ea32ff2026fa1c372\/_variables.scssc",
+		"oAP": "/.sass-cache/67f546d13c28178ac63f644ea32ff2026fa1c372/_variables.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_big-icon.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_big-icon.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_big-icon.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_big-icon.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_content-styles.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_content-styles.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_content-styles.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_content-styles.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_icon-list.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_icon-list.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_icon-list.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_icon-list.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_overlap-img.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_overlap-img.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_overlap-img.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_overlap-img.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_page-cta.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_page-cta.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_page-cta.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_page-cta.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_quote.scssc": {
+	"/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_quote.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/93e360295ee23fddd3161df70319aa1cab186674\/_quote.scssc",
+		"oAP": "/.sass-cache/93e360295ee23fddd3161df70319aa1cab186674/_quote.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_post-card.scssc": {
+	"/.sass-cache/9b306731d4a65dacd569a387276e7dba8d38e97f/_post-card.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_post-card.scssc",
+		"oAP": "/.sass-cache/9b306731d4a65dacd569a387276e7dba8d38e97f/_post-card.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_share.scssc": {
+	"/.sass-cache/9b306731d4a65dacd569a387276e7dba8d38e97f/_share.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/9b306731d4a65dacd569a387276e7dba8d38e97f\/_share.scssc",
+		"oAP": "/.sass-cache/9b306731d4a65dacd569a387276e7dba8d38e97f/_share.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_browser.scssc": {
+	"/.sass-cache/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97/_browser.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_browser.scssc",
+		"oAP": "/.sass-cache/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97/_browser.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_project-preview.scssc": {
+	"/.sass-cache/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97/_project-preview.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97\/_project-preview.scssc",
+		"oAP": "/.sass-cache/b2d70bf78d433bba8e03ad2bd5bda13ee726ff97/_project-preview.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_button.scssc": {
+	"/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_button.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_button.scssc",
+		"oAP": "/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_button.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_sections.scssc": {
+	"/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_sections.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_sections.scssc",
+		"oAP": "/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_sections.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_spacing.scssc": {
+	"/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_spacing.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_spacing.scssc",
+		"oAP": "/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_spacing.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_typography.scssc": {
+	"/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/bff1c622e8eabcd240da460e29cb8a0c9931aa1c\/_typography.scssc",
+		"oAP": "/.sass-cache/bff1c622e8eabcd240da460e29cb8a0c9931aa1c/_typography.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_bg.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_bg.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_bg.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_bg.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_button.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_button.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_button.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_button.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_form.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_form.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_form.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_form.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_grid.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_grid.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_grid.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_grid.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_helpers.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_helpers.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_helpers.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_helpers.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_section-title.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_section-title.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_section-title.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_section-title.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_sections.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_sections.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_sections.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_sections.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_spacing.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_spacing.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_spacing.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_spacing.scssc",
 		"oF": 0
 		},
-	"\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_typography.scssc": {
+	"/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_typography.scssc": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0\/_typography.scssc",
+		"oAP": "/.sass-cache/d1ef6ec4d737dc91d7f050d42389f9c4892da7d0/_typography.scssc",
 		"oF": 0
 		},
-	"\/404.html": {
+	"/404.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/404.html",
+		"oAP": "/404.html",
 		"oF": 0
 		},
-	"\/_config.yml": {
+	"/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_config.yml",
+		"oAP": "/_config.yml",
 		"oF": 0
 		},
-	"\/_data\/faq.yml": {
+	"/_data/faq.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_data\/faq.yml",
+		"oAP": "/_data/faq.yml",
 		"oF": 1
 		},
-	"\/_data\/menu.yml": {
+	"/_data/menu.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_data\/menu.yml",
+		"oAP": "/_data/menu.yml",
 		"oF": 1
 		},
-	"\/_data\/process.json": {
+	"/_data/process.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/_data\/process.json",
+		"oAP": "/_data/process.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/projects.json": {
+	"/_data/projects.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/_data\/projects.json",
+		"oAP": "/_data/projects.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/services.json": {
+	"/_data/services.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/_data\/services.json",
+		"oAP": "/_data/services.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/svgs.json": {
+	"/_data/svgs.json": {
 		"ft": 524288,
 		"oA": 1,
-		"oAP": "\/_data\/svgs.json",
+		"oAP": "/_data/svgs.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
 		},
-	"\/_data\/testimonials.yml": {
+	"/_data/testimonials.yml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_data\/testimonials.yml",
+		"oAP": "/_data/testimonials.yml",
 		"oF": 1
 		},
-	"\/_drafts\/2018-08-20-tips-for-improving-homepage.html": {
+	"/_drafts/2018-08-20-tips-for-improving-homepage.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_drafts\/2018-08-20-tips-for-improving-homepage.html",
+		"oAP": "/_drafts/2018-08-20-tips-for-improving-homepage.html",
 		"oF": 0
 		},
-	"\/_includes\/banner.html": {
+	"/_includes/banner.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/banner.html",
+		"oAP": "/_includes/banner.html",
 		"oF": 0
 		},
-	"\/_includes\/blog-preview.html": {
+	"/_includes/blog-preview.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/blog-preview.html",
+		"oAP": "/_includes/blog-preview.html",
 		"oF": 0
 		},
-	"\/_includes\/footer.html": {
+	"/_includes/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/footer.html",
+		"oAP": "/_includes/footer.html",
 		"oF": 0
 		},
-	"\/_includes\/header.html": {
+	"/_includes/header.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/header.html",
+		"oAP": "/_includes/header.html",
 		"oF": 0
 		},
-	"\/_includes\/post-preview.html": {
+	"/_includes/post-preview.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/post-preview.html",
+		"oAP": "/_includes/post-preview.html",
 		"oF": 0
 		},
-	"\/_includes\/project-preview.html": {
+	"/_includes/project-preview.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/project-preview.html",
+		"oAP": "/_includes/project-preview.html",
 		"oF": 0
 		},
-	"\/_includes\/service.html": {
+	"/_includes/service.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/service.html",
+		"oAP": "/_includes/service.html",
 		"oF": 0
 		},
-	"\/_includes\/testimonial.html": {
+	"/_includes/testimonial.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_includes\/testimonial.html",
+		"oAP": "/_includes/testimonial.html",
 		"oF": 0
 		},
-	"\/_layouts\/blog.html": {
+	"/_layouts/blog.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/blog.html",
+		"oAP": "/_layouts/blog.html",
 		"oF": 0
 		},
-	"\/_layouts\/category.html": {
+	"/_layouts/category.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/category.html",
+		"oAP": "/_layouts/category.html",
 		"oF": 0
 		},
-	"\/_layouts\/contact.html": {
+	"/_layouts/contact.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/contact.html",
+		"oAP": "/_layouts/contact.html",
 		"oF": 0
 		},
-	"\/_layouts\/home.html": {
+	"/_layouts/home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/home.html",
+		"oAP": "/_layouts/home.html",
 		"oF": 0
 		},
-	"\/_layouts\/landing.html": {
+	"/_layouts/landing.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/landing.html",
+		"oAP": "/_layouts/landing.html",
 		"oF": 0
 		},
-	"\/_layouts\/page.html": {
+	"/_layouts/page.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/page.html",
+		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
-	"\/_layouts\/post.html": {
+	"/_layouts/post.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/post.html",
+		"oAP": "/_layouts/post.html",
 		"oF": 0
 		},
-	"\/_layouts\/process.html": {
+	"/_layouts/process.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/process.html",
+		"oAP": "/_layouts/process.html",
 		"oF": 0
 		},
-	"\/_layouts\/project.html": {
+	"/_layouts/project.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/project.html",
+		"oAP": "/_layouts/project.html",
 		"oF": 0
 		},
-	"\/_layouts\/services.html": {
+	"/_layouts/projects.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/services.html",
+		"oAP": "/_layouts/projects.html",
 		"oF": 0
 		},
-	"\/_layouts\/style-guide.html": {
+	"/_layouts/services.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/style-guide.html",
+		"oAP": "/_layouts/services.html",
 		"oF": 0
 		},
-	"\/_layouts\/work.html": {
+	"/_layouts/style-guide.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_layouts\/work.html",
+		"oAP": "/_layouts/style-guide.html",
 		"oF": 0
 		},
-	"\/_posts\/2014-09-05-how-to-hire-a-web-designer.html": {
+	"/_posts/2014-09-05-how-to-hire-a-web-designer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2014-09-05-how-to-hire-a-web-designer.html",
+		"oAP": "/_posts/2014-09-05-how-to-hire-a-web-designer.html",
 		"oF": 0
 		},
-	"\/_posts\/2014-09-10-working-from-home-5-ways-to-make-it-work.html": {
+	"/_posts/2014-09-10-working-from-home-5-ways-to-make-it-work.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2014-09-10-working-from-home-5-ways-to-make-it-work.html",
+		"oAP": "/_posts/2014-09-10-working-from-home-5-ways-to-make-it-work.html",
 		"oF": 0
 		},
-	"\/_posts\/2014-09-18-writing-portfolio-copy-that-sells.html": {
+	"/_posts/2014-09-18-writing-portfolio-copy-that-sells.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2014-09-18-writing-portfolio-copy-that-sells.html",
+		"oAP": "/_posts/2014-09-18-writing-portfolio-copy-that-sells.html",
 		"oF": 0
 		},
-	"\/_posts\/2014-10-15-dealing-with-burnout-as-a-web-designer.html": {
+	"/_posts/2014-10-15-dealing-with-burnout-as-a-web-designer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2014-10-15-dealing-with-burnout-as-a-web-designer.html",
+		"oAP": "/_posts/2014-10-15-dealing-with-burnout-as-a-web-designer.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-01-20-how-to-work-with-clients.html": {
+	"/_posts/2015-01-20-how-to-work-with-clients.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-01-20-how-to-work-with-clients.html",
+		"oAP": "/_posts/2015-01-20-how-to-work-with-clients.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-02-20-freelance-basics-over-deliver.html": {
+	"/_posts/2015-02-20-freelance-basics-over-deliver.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-02-20-freelance-basics-over-deliver.html",
+		"oAP": "/_posts/2015-02-20-freelance-basics-over-deliver.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-03-25-building-a-paid-service-on-wordpress.html": {
+	"/_posts/2015-03-25-building-a-paid-service-on-wordpress.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-03-25-building-a-paid-service-on-wordpress.html",
+		"oAP": "/_posts/2015-03-25-building-a-paid-service-on-wordpress.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-04-19-building-a-membership-site.html": {
+	"/_posts/2015-04-19-building-a-membership-site.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-04-19-building-a-membership-site.html",
+		"oAP": "/_posts/2015-04-19-building-a-membership-site.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-07-01-mistakes-of-building-a-business-website.html": {
+	"/_posts/2015-07-01-mistakes-of-building-a-business-website.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-07-01-mistakes-of-building-a-business-website.html",
+		"oAP": "/_posts/2015-07-01-mistakes-of-building-a-business-website.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-07-08-how-much-should-a-website-cost.html": {
+	"/_posts/2015-07-08-how-much-should-a-website-cost.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-07-08-how-much-should-a-website-cost.html",
+		"oAP": "/_posts/2015-07-08-how-much-should-a-website-cost.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-07-27-questions-when-hiring-a-freelancer.html": {
+	"/_posts/2015-07-27-questions-when-hiring-a-freelancer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-07-27-questions-when-hiring-a-freelancer.html",
+		"oAP": "/_posts/2015-07-27-questions-when-hiring-a-freelancer.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-08-03-stop-charging-hourly-rate.html": {
+	"/_posts/2015-08-03-stop-charging-hourly-rate.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-08-03-stop-charging-hourly-rate.html",
+		"oAP": "/_posts/2015-08-03-stop-charging-hourly-rate.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-08-13-productivity-when-working-from-home.html": {
+	"/_posts/2015-08-13-productivity-when-working-from-home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-08-13-productivity-when-working-from-home.html",
+		"oAP": "/_posts/2015-08-13-productivity-when-working-from-home.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-08-17-a-look-at-my-web-design-workflow.html": {
+	"/_posts/2015-08-17-a-look-at-my-web-design-workflow.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-08-17-a-look-at-my-web-design-workflow.html",
+		"oAP": "/_posts/2015-08-17-a-look-at-my-web-design-workflow.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-09-07-procrastination-as-a-freelancer.html": {
+	"/_posts/2015-09-07-procrastination-as-a-freelancer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-09-07-procrastination-as-a-freelancer.html",
+		"oAP": "/_posts/2015-09-07-procrastination-as-a-freelancer.html",
 		"oF": 0
 		},
-	"\/_posts\/2015-09-23-seo-basics-for-small-business.html": {
+	"/_posts/2015-09-23-seo-basics-for-small-business.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2015-09-23-seo-basics-for-small-business.html",
+		"oAP": "/_posts/2015-09-23-seo-basics-for-small-business.html",
 		"oF": 0
 		},
-	"\/_posts\/2018-09-25-calendi-editorial-calendar-wordpress.html": {
+	"/_posts/2018-09-25-calendi-editorial-calendar-wordpress.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_posts\/2018-09-25-calendi-editorial-calendar-wordpress.html",
+		"oAP": "/_posts/2018-09-25-calendi-editorial-calendar-wordpress.html",
 		"oF": 0
 		},
-	"\/_redirects": {
+	"/_redirects": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_redirects",
+		"oAP": "/_redirects",
 		"oF": 0
 		},
-	"\/_site\/404\/index.html": {
+	"/_site/404/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/404\/index.html",
+		"oAP": "/_site/404/index.html",
 		"oF": 0
 		},
-	"\/_site\/_redirects": {
+	"/_site/_redirects": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/_site\/_redirects",
+		"oAP": "/_site/_redirects",
 		"oF": 0
 		},
-	"\/_site\/about\/index.html": {
+	"/_site/about/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/about\/index.html",
+		"oAP": "/_site/about/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/style.css": {
+	"/_site/assets/css/style.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_site\/assets\/css\/style-min.css",
+		"oAP": "/_site/assets/css/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/_site\/assets\/img\/bg-stripes.svg": {
+	"/_site/assets/img/bg-stripes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-stripes.svg",
+		"oAP": "/assets/img/bg-stripes.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/arkham-oracle-case-study.png": {
+	"/_site/assets/img/blog/2014/09/arkham-oracle-case-study.png": {
 		"ft": 32768,
 		"iS": 32177,
 		"oA": 1,
-		"oAP": "\/assets\/img\/arkham-oracle-case-study.png",
+		"oAP": "/assets/img/arkham-oracle-case-study.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/arkham-oracle-thumb.png": {
+	"/_site/assets/img/blog/2014/09/arkham-oracle-thumb.png": {
 		"ft": 32768,
 		"iS": 225581,
 		"oA": 1,
-		"oAP": "\/assets\/img\/arkham-oracle-thumb.png",
+		"oAP": "/assets/img/arkham-oracle-thumb.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/assembla-case-study-featured-area.png": {
+	"/_site/assets/img/blog/2014/09/assembla-case-study-featured-area.png": {
 		"ft": 32768,
 		"iS": 56617,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-featured-area.png",
+		"oAP": "/assets/img/assembla-case-study-featured-area.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/assembla-case-study-logo-options.png": {
+	"/_site/assets/img/blog/2014/09/assembla-case-study-logo-options.png": {
 		"ft": 32768,
 		"iS": 6559,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-logo-options.png",
+		"oAP": "/assets/img/assembla-case-study-logo-options.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/assembla-case-study-plans.png": {
+	"/_site/assets/img/blog/2014/09/assembla-case-study-plans.png": {
 		"ft": 32768,
 		"iS": 43589,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-plans.png",
+		"oAP": "/assets/img/assembla-case-study-plans.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/assembla-thumbnail.png": {
+	"/_site/assets/img/blog/2014/09/assembla-thumbnail.png": {
 		"ft": 32768,
 		"iS": 161431,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-thumbnail.png",
+		"oAP": "/assets/img/assembla-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/book-with-people.png": {
+	"/_site/assets/img/blog/2014/09/book-with-people.png": {
 		"ft": 32768,
 		"iS": 226281,
 		"oA": 1,
-		"oAP": "\/assets\/img\/book-with-people.png",
+		"oAP": "/assets/img/book-with-people.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/chinese-lantern.png": {
+	"/_site/assets/img/blog/2014/09/chinese-lantern.png": {
 		"ft": 32768,
 		"iS": 76961,
 		"oA": 1,
-		"oAP": "\/assets\/img\/chinese-lantern.png",
+		"oAP": "/assets/img/chinese-lantern.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/clear_language.jpg": {
+	"/_site/assets/img/blog/2014/09/clear_language.jpg": {
 		"ft": 16384,
 		"iS": 15622,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/clear_language.jpg",
+		"oAP": "/assets/img/clear_language.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/client-design-packages.png": {
+	"/_site/assets/img/blog/2014/09/client-design-packages.png": {
 		"ft": 32768,
 		"iS": 53772,
 		"oA": 1,
-		"oAP": "\/assets\/img\/client-design-packages.png",
+		"oAP": "/assets/img/client-design-packages.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/code_graph.jpg": {
+	"/_site/assets/img/blog/2014/09/code_graph.jpg": {
 		"ft": 16384,
 		"iS": 5051,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/code_graph.jpg",
+		"oAP": "/assets/img/code_graph.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/code_graph2.jpg": {
+	"/_site/assets/img/blog/2014/09/code_graph2.jpg": {
 		"ft": 16384,
 		"iS": 5041,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/code_graph2.jpg",
+		"oAP": "/assets/img/code_graph2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/graph.jpg": {
+	"/_site/assets/img/blog/2014/09/graph.jpg": {
 		"ft": 16384,
 		"iS": 2447,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/graph.jpg",
+		"oAP": "/assets/img/graph.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/hiring-web-designer-makes-money.png": {
+	"/_site/assets/img/blog/2014/09/hiring-web-designer-makes-money.png": {
 		"ft": 32768,
 		"iS": 42304,
 		"oA": 1,
-		"oAP": "\/assets\/img\/hiring-web-designer-makes-money.png",
+		"oAP": "/assets/img/hiring-web-designer-makes-money.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-bottom-of-post.png": {
+	"/_site/assets/img/blog/2014/09/ip-bottom-of-post.png": {
 		"ft": 32768,
 		"iS": 27573,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-bottom-of-post.png",
+		"oAP": "/assets/img/ip-bottom-of-post.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-case-study-img-1.png": {
+	"/_site/assets/img/blog/2014/09/ip-case-study-img-1.png": {
 		"ft": 32768,
 		"iS": 52274,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-1.png",
+		"oAP": "/assets/img/ip-case-study-img-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-case-study-img-2.png": {
+	"/_site/assets/img/blog/2014/09/ip-case-study-img-2.png": {
 		"ft": 32768,
 		"iS": 54346,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-2.png",
+		"oAP": "/assets/img/ip-case-study-img-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-case-study-img-3.png": {
+	"/_site/assets/img/blog/2014/09/ip-case-study-img-3.png": {
 		"ft": 32768,
 		"iS": 14773,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-3.png",
+		"oAP": "/assets/img/ip-case-study-img-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-focus-content.jpg": {
+	"/_site/assets/img/blog/2014/09/ip-focus-content.jpg": {
 		"ft": 16384,
 		"iS": 28271,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-focus-content.jpg",
+		"oAP": "/assets/img/ip-focus-content.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-sidebars.png": {
+	"/_site/assets/img/blog/2014/09/ip-sidebars.png": {
 		"ft": 32768,
 		"iS": 101996,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-sidebars.png",
+		"oAP": "/assets/img/ip-sidebars.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-thum.jpg": {
+	"/_site/assets/img/blog/2014/09/ip-thum.jpg": {
 		"ft": 16384,
 		"iS": 68976,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-thum.jpg",
+		"oAP": "/assets/img/ip-thum.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/ip-thumbnail.png": {
+	"/_site/assets/img/blog/2014/09/ip-thumbnail.png": {
 		"ft": 32768,
 		"iS": 157830,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-thumbnail.png",
+		"oAP": "/assets/img/ip-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/men-in-boat.png": {
+	"/_site/assets/img/blog/2014/09/men-in-boat.png": {
 		"ft": 32768,
 		"iS": 164741,
 		"oA": 1,
-		"oAP": "\/assets\/img\/men-in-boat.png",
+		"oAP": "/assets/img/men-in-boat.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-1.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-1.png": {
 		"ft": 32768,
 		"iS": 42963,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-1.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-2.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-2.png": {
 		"ft": 32768,
 		"iS": 122897,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-2.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-3.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-3.png": {
 		"ft": 32768,
 		"iS": 9056,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-3.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-1.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-assembla-screenshot-1.png": {
 		"ft": 32768,
 		"iS": 56285,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-1.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-2.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-assembla-screenshot-2.png": {
 		"ft": 32768,
 		"iS": 56472,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-2.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-3.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-assembla-screenshot-3.png": {
 		"ft": 32768,
 		"iS": 5390,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-3.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot.png": {
 		"ft": 32768,
 		"iS": 71936,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot2.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot2.png": {
 		"ft": 32768,
 		"iS": 100216,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot2.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot3.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot3.png": {
 		"ft": 32768,
 		"iS": 22580,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot3.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-ip-full-optimised.png": {
+	"/_site/assets/img/blog/2014/09/portfolio-ip-full-optimised.png": {
 		"ft": 32768,
 		"iS": 377815,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-ip-full-optimised.png",
+		"oAP": "/assets/img/portfolio-ip-full-optimised.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/portfolio-ip-full.jpg": {
+	"/_site/assets/img/blog/2014/09/portfolio-ip-full.jpg": {
 		"ft": 16384,
 		"iS": 53531,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-ip-full.jpg",
+		"oAP": "/assets/img/portfolio-ip-full.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/social_proof.jpg": {
+	"/_site/assets/img/blog/2014/09/social_proof.jpg": {
 		"ft": 16384,
 		"iS": 22760,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/social_proof.jpg",
+		"oAP": "/assets/img/social_proof.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/09\/waffle.jpg": {
+	"/_site/assets/img/blog/2014/09/waffle.jpg": {
 		"ft": 16384,
 		"iS": 18507,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/waffle.jpg",
+		"oAP": "/assets/img/waffle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/ip-blog-subscibe-popup.jpg": {
+	"/_site/assets/img/blog/2014/10/ip-blog-subscibe-popup.jpg": {
 		"ft": 16384,
 		"iS": 23308,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-blog-subscibe-popup.jpg",
+		"oAP": "/assets/img/ip-blog-subscibe-popup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/leadpages-blog-post-thumb.jpg": {
+	"/_site/assets/img/blog/2014/10/leadpages-blog-post-thumb.jpg": {
 		"ft": 16384,
 		"iS": 10381,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/leadpages-blog-post-thumb.jpg",
+		"oAP": "/assets/img/leadpages-blog-post-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/leadpages-blog-subscibe-popup.jpg": {
+	"/_site/assets/img/blog/2014/10/leadpages-blog-subscibe-popup.jpg": {
 		"ft": 16384,
 		"iS": 38725,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/leadpages-blog-subscibe-popup.jpg",
+		"oAP": "/assets/img/leadpages-blog-subscibe-popup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/man-happy-sad.jpg": {
+	"/_site/assets/img/blog/2014/10/man-happy-sad.jpg": {
 		"ft": 16384,
 		"iS": 49939,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-happy-sad.jpg",
+		"oAP": "/assets/img/man-happy-sad.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/man-standing-at-water.png": {
+	"/_site/assets/img/blog/2014/10/man-standing-at-water.png": {
 		"ft": 32768,
 		"iS": 99815,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-standing-at-water.png",
+		"oAP": "/assets/img/man-standing-at-water.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/messy-wires.jpg": {
+	"/_site/assets/img/blog/2014/10/messy-wires.jpg": {
 		"ft": 16384,
 		"iS": 77930,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/messy-wires.jpg",
+		"oAP": "/assets/img/messy-wires.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2014\/10\/woman-overwhelmed.jpg": {
+	"/_site/assets/img/blog/2014/10/woman-overwhelmed.jpg": {
 		"ft": 16384,
 		"iS": 49394,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-overwhelmed.jpg",
+		"oAP": "/assets/img/woman-overwhelmed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/01\/work-with-clients-thumb.jpg": {
+	"/_site/assets/img/blog/2015/01/work-with-clients-thumb.jpg": {
 		"ft": 16384,
 		"iS": 42255,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/work-with-clients-thumb.jpg",
+		"oAP": "/assets/img/work-with-clients-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/02\/office1.jpg": {
+	"/_site/assets/img/blog/2015/02/office1.jpg": {
 		"ft": 16384,
 		"iS": 36562,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/office1.jpg",
+		"oAP": "/assets/img/office1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/02\/shadow.jpg": {
+	"/_site/assets/img/blog/2015/02/shadow.jpg": {
 		"ft": 16384,
 		"iS": 49206,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/shadow.jpg",
+		"oAP": "/assets/img/shadow.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/02\/Under-Promise-Over-Deliver-Thumb.jpg": {
+	"/_site/assets/img/blog/2015/02/Under-Promise-Over-Deliver-Thumb.jpg": {
 		"ft": 16384,
 		"iS": 32589,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/Under-Promise-Over-Deliver-Thumb.jpg",
+		"oAP": "/assets/img/Under-Promise-Over-Deliver-Thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/03\/ip-members-thumb.jpg": {
+	"/_site/assets/img/blog/2015/03/ip-members-thumb.jpg": {
 		"ft": 16384,
 		"iS": 27302,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-members-thumb.jpg",
+		"oAP": "/assets/img/ip-members-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/04\/thumb.jpg": {
+	"/_site/assets/img/blog/2015/04/thumb.jpg": {
 		"ft": 16384,
 		"iS": 28794,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/thumb.jpg",
+		"oAP": "/assets/img/thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/05\/assembla-offers.png": {
+	"/_site/assets/img/blog/2015/05/assembla-offers.png": {
 		"ft": 32768,
 		"iS": 63425,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offers.png",
+		"oAP": "/assets/img/assembla-offers.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/adam-feber.jpg": {
+	"/_site/assets/img/blog/2015/07/adam-feber.jpg": {
 		"ft": 16384,
 		"iS": 2956,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber.jpg",
+		"oAP": "/assets/img/adam-feber.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot-2.jpg": {
+	"/_site/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot-2.jpg": {
 		"ft": 16384,
 		"iS": 129676,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot-2.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot-desktop.jpg": {
+	"/_site/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot-desktop.jpg": {
 		"ft": 16384,
 		"iS": 82576,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot-desktop.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot.jpg": {
+	"/_site/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot.jpg": {
 		"ft": 16384,
 		"iS": 126238,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/building-a-business-website-thumb.jpg": {
+	"/_site/assets/img/blog/2015/07/building-a-business-website-thumb.jpg": {
 		"ft": 16384,
 		"iS": 36445,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/building-a-business-website-thumb.jpg",
+		"oAP": "/assets/img/building-a-business-website-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/calculator.jpg": {
+	"/_site/assets/img/blog/2015/07/calculator.jpg": {
 		"ft": 16384,
 		"iS": 40203,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calculator.jpg",
+		"oAP": "/assets/img/calculator.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/chris-fenwick.jpg": {
+	"/_site/assets/img/blog/2015/07/chris-fenwick.jpg": {
 		"ft": 16384,
 		"iS": 1972,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oAP": "/assets/img/chris-fenwick.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/how-much-should-a-website-cost-thumb.jpg": {
+	"/_site/assets/img/blog/2015/07/how-much-should-a-website-cost-thumb.jpg": {
 		"ft": 16384,
 		"iS": 43377,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/how-much-should-a-website-cost-thumb.jpg",
+		"oAP": "/assets/img/how-much-should-a-website-cost-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/man-writing-on-whiteboard.jpg": {
+	"/_site/assets/img/blog/2015/07/man-writing-on-whiteboard.jpg": {
 		"ft": 16384,
 		"iS": 28222,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/people-meeting.jpg": {
+	"/_site/assets/img/blog/2015/07/people-meeting.jpg": {
 		"ft": 16384,
 		"iS": 44063,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/people-meeting.jpg",
+		"oAP": "/assets/img/people-meeting.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/07\/watch-zoomed-in.jpg": {
+	"/_site/assets/img/blog/2015/07/watch-zoomed-in.jpg": {
 		"ft": 16384,
 		"iS": 39683,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/watch-zoomed-in.jpg",
+		"oAP": "/assets/img/watch-zoomed-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/hands-writing-in-book.jpg": {
+	"/_site/assets/img/blog/2015/08/hands-writing-in-book.jpg": {
 		"ft": 16384,
 		"iS": 30523,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/hands-writing-in-book.jpg",
+		"oAP": "/assets/img/hands-writing-in-book.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/laptop-and-notebook.jpg": {
+	"/_site/assets/img/blog/2015/08/laptop-and-notebook.jpg": {
 		"ft": 16384,
 		"iS": 70006,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/laptop-and-notebook.jpg",
+		"oAP": "/assets/img/laptop-and-notebook.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/man-on-mac.jpg": {
+	"/_site/assets/img/blog/2015/08/man-on-mac.jpg": {
 		"ft": 16384,
 		"iS": 49018,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-on-mac.jpg",
+		"oAP": "/assets/img/man-on-mac.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/man-writing-code.jpg": {
+	"/_site/assets/img/blog/2015/08/man-writing-code.jpg": {
 		"ft": 16384,
 		"iS": 59864,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-code.jpg",
+		"oAP": "/assets/img/man-writing-code.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/man-writing-on-whiteboard.jpg": {
+	"/_site/assets/img/blog/2015/08/man-writing-on-whiteboard.jpg": {
 		"ft": 16384,
 		"iS": 28314,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/man-writing-on-whiteboard1.jpg": {
+	"/_site/assets/img/blog/2015/08/man-writing-on-whiteboard1.jpg": {
 		"ft": 16384,
 		"iS": 28314,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard1.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/pen-and-notebook.jpg": {
+	"/_site/assets/img/blog/2015/08/pen-and-notebook.jpg": {
 		"ft": 16384,
 		"iS": 29416,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/pen-and-notebook.jpg",
+		"oAP": "/assets/img/pen-and-notebook.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/woman-on-a-macbook-pro.jpg": {
+	"/_site/assets/img/blog/2015/08/woman-on-a-macbook-pro.jpg": {
 		"ft": 16384,
 		"iS": 37853,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-on-a-macbook-pro.jpg",
+		"oAP": "/assets/img/woman-on-a-macbook-pro.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/08\/woman-on-laptop.jpg": {
+	"/_site/assets/img/blog/2015/08/woman-on-laptop.jpg": {
 		"ft": 16384,
 		"iS": 63633,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-on-laptop.jpg",
+		"oAP": "/assets/img/woman-on-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/09\/beating-procrastination-as-a-freelancer.jpg": {
+	"/_site/assets/img/blog/2015/09/beating-procrastination-as-a-freelancer.jpg": {
 		"ft": 16384,
 		"iS": 49846,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/beating-procrastination-as-a-freelancer.jpg",
+		"oAP": "/assets/img/beating-procrastination-as-a-freelancer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/09\/before-and-after-TBE-logo.jpg": {
+	"/_site/assets/img/blog/2015/09/before-and-after-TBE-logo.jpg": {
 		"ft": 16384,
 		"iS": 17702,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
+		"oAP": "/assets/img/before-and-after-TBE-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/09\/seo-basics-for-small-buisiness-websites-thumb.jpg": {
+	"/_site/assets/img/blog/2015/09/seo-basics-for-small-buisiness-websites-thumb.jpg": {
 		"ft": 16384,
 		"iS": 51961,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/seo-basics-for-small-buisiness-websites-thumb.jpg",
+		"oAP": "/assets/img/seo-basics-for-small-buisiness-websites-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2015\/09\/seo-basics-for-small-business-websites-thumb.jpg": {
+	"/_site/assets/img/blog/2015/09/seo-basics-for-small-business-websites-thumb.jpg": {
 		"ft": 16384,
 		"iS": 15620,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/seo-basics-for-small-business-websites-thumb.jpg",
+		"oAP": "/assets/img/seo-basics-for-small-business-websites-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-hover-over-post.jpg": {
+	"/_site/assets/img/blog/2018/09/calendi-hover-over-post.jpg": {
 		"ft": 16384,
 		"iS": 21973,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-hover-over-post.jpg",
+		"oAP": "/assets/img/calendi-hover-over-post.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-month.jpg": {
+	"/_site/assets/img/blog/2018/09/calendi-select-month.jpg": {
 		"ft": 16384,
 		"iS": 19466,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-select-month.jpg",
+		"oAP": "/assets/img/calendi-select-month.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-select-post-types.jpg": {
+	"/_site/assets/img/blog/2018/09/calendi-select-post-types.jpg": {
 		"ft": 16384,
 		"iS": 20509,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-select-post-types.jpg",
+		"oAP": "/assets/img/calendi-select-post-types.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/blog\/2018\/09\/calendi-thumb.jpg": {
+	"/_site/assets/img/blog/2018/09/calendi-thumb.jpg": {
 		"ft": 16384,
 		"iS": 10290,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-thumb.jpg",
+		"oAP": "/assets/img/calendi-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/favicon-192x192.png": {
+	"/_site/assets/img/favicon-192x192.png": {
 		"ft": 32768,
 		"iS": 4594,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-192x192.png",
+		"oAP": "/assets/img/favicon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/favicon-297x297.png": {
+	"/_site/assets/img/favicon-297x297.png": {
 		"ft": 32768,
 		"iS": 6294,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-297x297.png",
+		"oAP": "/assets/img/favicon-297x297.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/favicon-32x32.png": {
+	"/_site/assets/img/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1683,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-32x32.png",
+		"oAP": "/assets/img/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/_site\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
-		"ft": 16384,
-		"iS": 5100,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/adam-feber.jpg": {
-		"ft": 16384,
-		"iS": 2116,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
-		"ft": 16384,
-		"iS": 3640,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/testimonials\/chris-fenwick.jpg": {
-		"ft": 16384,
-		"iS": 1604,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/calendi\/featured-@2x.jpg": {
+	"/_site/assets/img/projects/calendi/featured-@2x.jpg": {
 		"ft": 16384,
 		"iS": 52036,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oAP": "/assets/img/featured-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/calendi\/featured.jpg": {
+	"/_site/assets/img/projects/calendi/featured.jpg": {
 		"ft": 16384,
 		"iS": 22470,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured.jpg",
+		"oAP": "/assets/img/featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-@2x.jpg": {
+	"/_site/assets/img/testimonials/adam-feber-@2x.jpg": {
 		"ft": 16384,
-		"iS": 240699,
+		"iS": 5100,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oAP": "/assets/img/adam-feber-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-mobile-@2x.jpg": {
+	"/_site/assets/img/testimonials/adam-feber.jpg": {
 		"ft": 16384,
-		"iS": 55136,
+		"iS": 2116,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-mobile-@2x.jpg",
+		"oAP": "/assets/img/adam-feber.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured-mobile.jpg": {
+	"/_site/assets/img/testimonials/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 21474,
+		"iS": 3640,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-mobile.jpg",
+		"oAP": "/assets/img/chris-fenwick-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/featured.jpg": {
+	"/_site/assets/img/testimonials/chris-fenwick.jpg": {
 		"ft": 16384,
-		"iS": 42852,
+		"iS": 1604,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured.jpg",
+		"oAP": "/assets/img/chris-fenwick.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/full-preview.jpg": {
-		"ft": 16384,
-		"iS": 92925,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/full-preview.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-1.jpg": {
-		"ft": 16384,
-		"iS": 34606,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-2.jpg": {
-		"ft": 16384,
-		"iS": 35921,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-3.jpg": {
-		"ft": 16384,
-		"iS": 28151,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/img-4.jpg": {
-		"ft": 16384,
-		"iS": 30813,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/small-@2x.jpg": {
-		"ft": 16384,
-		"iS": 44336,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/small-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/img\/work\/inspirational-pixels\/small.jpg": {
-		"ft": 16384,
-		"iS": 16124,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/small.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/_site\/assets\/js\/app.min.js": {
+	"/_site/assets/js/app.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.min.js",
+		"oAP": "/assets/js/app.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html": {
+	"/_site/blog/a-look-at-my-web-design-workflow/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/a-look-at-my-web-design-workflow\/index.html",
+		"oAP": "/_site/blog/a-look-at-my-web-design-workflow/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/building-a-membership-site\/index.html": {
+	"/_site/blog/building-a-membership-site/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/building-a-membership-site\/index.html",
+		"oAP": "/_site/blog/building-a-membership-site/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/building-a-paid-service-on-wordpress\/index.html": {
+	"/_site/blog/building-a-paid-service-on-wordpress/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/building-a-paid-service-on-wordpress\/index.html",
+		"oAP": "/_site/blog/building-a-paid-service-on-wordpress/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/calendi-editorial-calendar-wordpress\/index.html": {
+	"/_site/blog/calendi-editorial-calendar-wordpress/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/calendi-editorial-calendar-wordpress\/index.html",
+		"oAP": "/_site/blog/calendi-editorial-calendar-wordpress/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/dealing-with-burnout-as-a-web-designer\/index.html": {
+	"/_site/blog/dealing-with-burnout-as-a-web-designer/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/dealing-with-burnout-as-a-web-designer\/index.html",
+		"oAP": "/_site/blog/dealing-with-burnout-as-a-web-designer/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/freelance-basics-over-deliver\/index.html": {
+	"/_site/blog/freelance-basics-over-deliver/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/freelance-basics-over-deliver\/index.html",
+		"oAP": "/_site/blog/freelance-basics-over-deliver/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/how-much-should-a-website-cost\/index.html": {
+	"/_site/blog/how-much-should-a-website-cost/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/how-much-should-a-website-cost\/index.html",
+		"oAP": "/_site/blog/how-much-should-a-website-cost/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/how-to-hire-a-web-designer\/index.html": {
+	"/_site/blog/how-to-hire-a-web-designer/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/how-to-hire-a-web-designer\/index.html",
+		"oAP": "/_site/blog/how-to-hire-a-web-designer/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/how-to-work-with-clients\/index.html": {
+	"/_site/blog/how-to-work-with-clients/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/how-to-work-with-clients\/index.html",
+		"oAP": "/_site/blog/how-to-work-with-clients/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/index.html": {
+	"/_site/blog/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/index.html",
+		"oAP": "/_site/blog/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/mistakes-of-building-a-business-website\/index.html": {
+	"/_site/blog/mistakes-of-building-a-business-website/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/mistakes-of-building-a-business-website\/index.html",
+		"oAP": "/_site/blog/mistakes-of-building-a-business-website/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/page\/2\/index.html": {
+	"/_site/blog/page/2/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/page\/2\/index.html",
+		"oAP": "/_site/blog/page/2/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/page\/3\/index.html": {
+	"/_site/blog/page/3/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/page\/3\/index.html",
+		"oAP": "/_site/blog/page/3/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/procrastination-as-a-freelancer\/index.html": {
+	"/_site/blog/procrastination-as-a-freelancer/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/procrastination-as-a-freelancer\/index.html",
+		"oAP": "/_site/blog/procrastination-as-a-freelancer/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/productivity-when-working-from-home\/index.html": {
+	"/_site/blog/productivity-when-working-from-home/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/productivity-when-working-from-home\/index.html",
+		"oAP": "/_site/blog/productivity-when-working-from-home/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/questions-when-hiring-a-freelancer\/index.html": {
+	"/_site/blog/questions-when-hiring-a-freelancer/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/questions-when-hiring-a-freelancer\/index.html",
+		"oAP": "/_site/blog/questions-when-hiring-a-freelancer/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/seo-basics-for-small-business\/index.html": {
+	"/_site/blog/seo-basics-for-small-business/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/seo-basics-for-small-business\/index.html",
+		"oAP": "/_site/blog/seo-basics-for-small-business/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/stop-charging-hourly-rate\/index.html": {
+	"/_site/blog/stop-charging-hourly-rate/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/stop-charging-hourly-rate\/index.html",
+		"oAP": "/_site/blog/stop-charging-hourly-rate/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/working-from-home-5-ways-to-make-it-work\/index.html": {
+	"/_site/blog/working-from-home-5-ways-to-make-it-work/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/working-from-home-5-ways-to-make-it-work\/index.html",
+		"oAP": "/_site/blog/working-from-home-5-ways-to-make-it-work/index.html",
 		"oF": 0
 		},
-	"\/_site\/blog\/writing-portfolio-copy-that-sells\/index.html": {
+	"/_site/blog/writing-portfolio-copy-that-sells/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/blog\/writing-portfolio-copy-that-sells\/index.html",
+		"oAP": "/_site/blog/writing-portfolio-copy-that-sells/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/advice\/index.html": {
+	"/_site/category/advice/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/advice\/index.html",
+		"oAP": "/_site/category/advice/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/copywriting\/index.html": {
+	"/_site/category/copywriting/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/copywriting\/index.html",
+		"oAP": "/_site/category/copywriting/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/freelancing\/index.html": {
+	"/_site/category/freelancing/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/freelancing\/index.html",
+		"oAP": "/_site/category/freelancing/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/productivity\/index.html": {
+	"/_site/category/productivity/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/productivity\/index.html",
+		"oAP": "/_site/category/productivity/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/seo\/index.html": {
+	"/_site/category/seo/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/seo\/index.html",
+		"oAP": "/_site/category/seo/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/side-projects\/index.html": {
+	"/_site/category/side-projects/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/side-projects\/index.html",
+		"oAP": "/_site/category/side-projects/index.html",
 		"oF": 0
 		},
-	"\/_site\/category\/tips\/index.html": {
+	"/_site/category/tips/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/category\/tips\/index.html",
+		"oAP": "/_site/category/tips/index.html",
 		"oF": 0
 		},
-	"\/_site\/contact\/index.html": {
+	"/_site/contact/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/contact\/index.html",
+		"oAP": "/_site/contact/index.html",
 		"oF": 0
 		},
-	"\/_site\/contact\/success\/index.html": {
+	"/_site/contact/success/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/contact\/success\/index.html",
+		"oAP": "/_site/contact/success/index.html",
 		"oF": 0
 		},
-	"\/_site\/Gemfile": {
+	"/_site/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/Gemfile",
+		"oAP": "/_site/Gemfile",
 		"oF": 0
 		},
-	"\/_site\/Gemfile.lock": {
+	"/_site/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/Gemfile.lock",
+		"oAP": "/_site/Gemfile.lock",
 		"oF": 0
 		},
-	"\/_site\/headsupgrid\/hugrid.css": {
+	"/_site/headsupgrid/hugrid.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/_site\/headsupgrid\/hugrid-min.css",
+		"oAP": "/_site/headsupgrid/hugrid-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/_site\/headsupgrid\/hugrid.js": {
+	"/_site/headsupgrid/hugrid.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oAP": "/assets/js/hugrid.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/_site\/headsupgrid\/jquery-1.6.2.min.js": {
+	"/_site/headsupgrid/jquery-1.6.2.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oAP": "/assets/js/jquery-1.6.2.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/_site\/index.html": {
+	"/_site/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/index.html",
+		"oAP": "/_site/index.html",
 		"oF": 0
 		},
-	"\/_site\/process\/index.html": {
+	"/_site/process/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/process\/index.html",
+		"oAP": "/_site/process/index.html",
 		"oF": 0
 		},
-	"\/_site\/robots.txt": {
+	"/_site/projects/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/robots.txt",
+		"oAP": "/_site/projects/index.html",
 		"oF": 0
 		},
-	"\/_site\/services\/index.html": {
+	"/_site/projects/inspirational-pixels.min.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/services\/index.html",
+		"oAP": "/_site/projects/inspirational-pixels.min.html",
 		"oF": 0
 		},
-	"\/_site\/sitemap.xml": {
+	"/_site/projects/inspirational-pixels/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/sitemap.xml",
+		"oAP": "/_site/projects/inspirational-pixels/index.html",
 		"oF": 0
 		},
-	"\/_site\/style-guide\/index.html": {
+	"/_site/robots.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/style-guide\/index.html",
+		"oAP": "/_site/robots.txt",
 		"oF": 0
 		},
-	"\/_site\/template-landing\/index.html": {
+	"/_site/services/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/template-landing\/index.html",
+		"oAP": "/_site/services/index.html",
 		"oF": 0
 		},
-	"\/_site\/work\/index.html": {
+	"/_site/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/index.html",
+		"oAP": "/_site/sitemap.xml",
 		"oF": 0
 		},
-	"\/_site\/work\/inspirational-pixels\/index.html": {
+	"/_site/style-guide/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_site\/work\/inspirational-pixels\/index.html",
+		"oAP": "/_site/style-guide/index.html",
 		"oF": 0
 		},
-	"\/about.html": {
+	"/_site/template-landing/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/about.html",
+		"oAP": "/_site/template-landing/index.html",
 		"oF": 0
 		},
-	"\/assets\/css\/_animations.scss": {
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/about.html",
+		"oF": 0
+		},
+	"/assets/css/_animations.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2146,12 +2032,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_animations.css",
+		"oAP": "/assets/css/_animations.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/_interactions.scss": {
+	"/assets/css/_interactions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2159,12 +2045,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_interactions.css",
+		"oAP": "/assets/css/_interactions.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/_transitions.scss": {
+	"/assets/css/_transitions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2172,12 +2058,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_transitions.css",
+		"oAP": "/assets/css/_transitions.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/base\/_extends.scss": {
+	"/assets/css/base/_extends.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2185,12 +2071,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_extends.css",
+		"oAP": "/assets/css/_extends.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/base\/_functions.scss": {
+	"/assets/css/base/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2198,12 +2084,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_functions.css",
+		"oAP": "/assets/css/_functions.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/base\/_mixins.scss": {
+	"/assets/css/base/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2211,12 +2097,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_mixins.css",
+		"oAP": "/assets/css/_mixins.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/base\/_reset.scss": {
+	"/assets/css/base/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2224,12 +2110,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_reset.css",
+		"oAP": "/assets/css/_reset.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/base\/_variables.scss": {
+	"/assets/css/base/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2237,12 +2123,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_variables.css",
+		"oAP": "/assets/css/_variables.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/blog\/_post-card.scss": {
+	"/assets/css/components/blog/_post-card.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2250,12 +2136,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_post-card.css",
+		"oAP": "/assets/css/_post-card.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/blog\/_share.scss": {
+	"/assets/css/components/blog/_share.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2263,12 +2149,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_share.css",
+		"oAP": "/assets/css/_share.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_bg.scss": {
+	"/assets/css/components/common/_bg.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2276,12 +2162,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_bg.css",
+		"oAP": "/assets/css/_bg.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_button.scss": {
+	"/assets/css/components/common/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2289,12 +2175,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_button.css",
+		"oAP": "/assets/css/_button.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_form.scss": {
+	"/assets/css/components/common/_form.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2302,12 +2188,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_form.css",
+		"oAP": "/assets/css/_form.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_grid.scss": {
+	"/assets/css/components/common/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2315,12 +2201,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_grid.css",
+		"oAP": "/assets/css/_grid.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_helpers.scss": {
+	"/assets/css/components/common/_helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2328,12 +2214,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_helpers.css",
+		"oAP": "/assets/css/_helpers.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_section-title.scss": {
+	"/assets/css/components/common/_section-title.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2341,12 +2227,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_section-title.css",
+		"oAP": "/assets/css/_section-title.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_sections.scss": {
+	"/assets/css/components/common/_sections.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2354,12 +2240,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_sections.css",
+		"oAP": "/assets/css/_sections.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_spacing.scss": {
+	"/assets/css/components/common/_spacing.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2367,12 +2253,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_spacing.css",
+		"oAP": "/assets/css/_spacing.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/common\/_typography.scss": {
+	"/assets/css/components/common/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2380,12 +2266,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_typography.css",
+		"oAP": "/assets/css/_typography.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_big-icon.scss": {
+	"/assets/css/components/other/_big-icon.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2393,12 +2279,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_big-icon.css",
+		"oAP": "/assets/css/_big-icon.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_content-styles.scss": {
+	"/assets/css/components/other/_content-styles.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2406,12 +2292,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_content-styles.css",
+		"oAP": "/assets/css/_content-styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_icon-list.scss": {
+	"/assets/css/components/other/_icon-list.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2419,12 +2305,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_icon-list.css",
+		"oAP": "/assets/css/_icon-list.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_overlap-img.scss": {
+	"/assets/css/components/other/_overlap-img.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2432,12 +2318,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_overlap-img.css",
+		"oAP": "/assets/css/_overlap-img.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_page-cta.scss": {
+	"/assets/css/components/other/_page-cta.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2445,12 +2331,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_page-cta.css",
+		"oAP": "/assets/css/_page-cta.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/other\/_quote.scss": {
+	"/assets/css/components/other/_quote.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2458,12 +2344,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_quote.css",
+		"oAP": "/assets/css/_quote.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/projects\/_browser.scss": {
+	"/assets/css/components/projects/_browser.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2471,12 +2357,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_browser.css",
+		"oAP": "/assets/css/_browser.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/projects\/_project-preview.scss": {
+	"/assets/css/components/projects/_project-preview.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2484,12 +2370,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_project-preview.css",
+		"oAP": "/assets/css/_project-preview.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/services\/_full-service.scss": {
+	"/assets/css/components/services/_full-service.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2497,12 +2383,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_full-service.css",
+		"oAP": "/assets/css/_full-service.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/services\/_service.scss": {
+	"/assets/css/components/services/_service.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2510,12 +2396,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_service.css",
+		"oAP": "/assets/css/_service.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_banner.scss": {
+	"/assets/css/components/site/_banner.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2523,12 +2409,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_banner.css",
+		"oAP": "/assets/css/_banner.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_cta.scss": {
+	"/assets/css/components/site/_cta.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2536,12 +2422,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_cta.css",
+		"oAP": "/assets/css/_cta.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_footer.scss": {
+	"/assets/css/components/site/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2549,12 +2435,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_footer.css",
+		"oAP": "/assets/css/_footer.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_header.scss": {
+	"/assets/css/components/site/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2562,12 +2448,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_header.css",
+		"oAP": "/assets/css/_header.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_logo.scss": {
+	"/assets/css/components/site/_logo.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2575,12 +2461,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_logo.css",
+		"oAP": "/assets/css/_logo.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_menu.scss": {
+	"/assets/css/components/site/_menu.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2588,12 +2474,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_menu.css",
+		"oAP": "/assets/css/_menu.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_scroll.scss": {
+	"/assets/css/components/site/_scroll.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2601,12 +2487,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_scroll.css",
+		"oAP": "/assets/css/_scroll.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/components\/site\/_toggle-menu.scss": {
+	"/assets/css/components/site/_toggle-menu.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2614,12 +2500,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_toggle-menu.css",
+		"oAP": "/assets/css/_toggle-menu.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/style.scss": {
+	"/assets/css/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2627,12 +2513,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/style.css",
+		"oAP": "/assets/css/style.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/templates\/_home.scss": {
+	"/assets/css/templates/_home.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2640,12 +2526,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_home.css",
+		"oAP": "/assets/css/_home.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/css\/third-party\/_jcf.scss": {
+	"/assets/css/third-party/_jcf.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 8,
@@ -2653,1370 +2539,1256 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/assets\/css\/_jcf.css",
+		"oAP": "/assets/css/_jcf.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/assets\/img\/bg-stripes.svg": {
+	"/assets/img/bg-stripes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
-		"oAP": "\/assets\/img\/bg-stripes.svg",
+		"oAP": "/assets/img/bg-stripes.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 25232891903,
 		"prP": 0
 		},
-	"\/assets\/img\/blog\/2014\/09\/arkham-oracle-case-study.png": {
+	"/assets/img/blog/2014/09/arkham-oracle-case-study.png": {
 		"ft": 32768,
 		"iS": 32177,
 		"oA": 1,
-		"oAP": "\/assets\/img\/arkham-oracle-case-study.png",
+		"oAP": "/assets/img/arkham-oracle-case-study.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/arkham-oracle-thumb.png": {
+	"/assets/img/blog/2014/09/arkham-oracle-thumb.png": {
 		"ft": 32768,
 		"iS": 225581,
 		"oA": 1,
-		"oAP": "\/assets\/img\/arkham-oracle-thumb.png",
+		"oAP": "/assets/img/arkham-oracle-thumb.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/assembla-case-study-featured-area.png": {
+	"/assets/img/blog/2014/09/assembla-case-study-featured-area.png": {
 		"ft": 32768,
 		"iS": 56617,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-featured-area.png",
+		"oAP": "/assets/img/assembla-case-study-featured-area.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/assembla-case-study-logo-options.png": {
+	"/assets/img/blog/2014/09/assembla-case-study-logo-options.png": {
 		"ft": 32768,
 		"iS": 6559,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-logo-options.png",
+		"oAP": "/assets/img/assembla-case-study-logo-options.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/assembla-case-study-plans.png": {
+	"/assets/img/blog/2014/09/assembla-case-study-plans.png": {
 		"ft": 32768,
 		"iS": 43589,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-case-study-plans.png",
+		"oAP": "/assets/img/assembla-case-study-plans.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/assembla-thumbnail.png": {
+	"/assets/img/blog/2014/09/assembla-thumbnail.png": {
 		"ft": 32768,
 		"iS": 161431,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-thumbnail.png",
+		"oAP": "/assets/img/assembla-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/book-with-people.png": {
+	"/assets/img/blog/2014/09/book-with-people.png": {
 		"ft": 32768,
 		"iS": 243956,
 		"oA": 1,
-		"oAP": "\/assets\/img\/book-with-people.png",
+		"oAP": "/assets/img/book-with-people.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/chinese-lantern.png": {
+	"/assets/img/blog/2014/09/chinese-lantern.png": {
 		"ft": 32768,
 		"iS": 76961,
 		"oA": 1,
-		"oAP": "\/assets\/img\/chinese-lantern.png",
+		"oAP": "/assets/img/chinese-lantern.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/clear_language.jpg": {
+	"/assets/img/blog/2014/09/clear_language.jpg": {
 		"ft": 16384,
 		"iS": 15622,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/clear_language.jpg",
+		"oAP": "/assets/img/clear_language.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/client-design-packages.png": {
+	"/assets/img/blog/2014/09/client-design-packages.png": {
 		"ft": 32768,
 		"iS": 53772,
 		"oA": 1,
-		"oAP": "\/assets\/img\/client-design-packages.png",
+		"oAP": "/assets/img/client-design-packages.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/code_graph.jpg": {
+	"/assets/img/blog/2014/09/code_graph.jpg": {
 		"ft": 16384,
 		"iS": 5051,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/code_graph.jpg",
+		"oAP": "/assets/img/code_graph.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/code_graph2.jpg": {
+	"/assets/img/blog/2014/09/code_graph2.jpg": {
 		"ft": 16384,
 		"iS": 5041,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/code_graph2.jpg",
+		"oAP": "/assets/img/code_graph2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/graph.jpg": {
+	"/assets/img/blog/2014/09/graph.jpg": {
 		"ft": 16384,
 		"iS": 2447,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/graph.jpg",
+		"oAP": "/assets/img/graph.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/hiring-web-designer-makes-money.png": {
+	"/assets/img/blog/2014/09/hiring-web-designer-makes-money.png": {
 		"ft": 32768,
 		"iS": 42304,
 		"oA": 1,
-		"oAP": "\/assets\/img\/hiring-web-designer-makes-money.png",
+		"oAP": "/assets/img/hiring-web-designer-makes-money.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-bottom-of-post.png": {
+	"/assets/img/blog/2014/09/ip-bottom-of-post.png": {
 		"ft": 32768,
 		"iS": 27573,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-bottom-of-post.png",
+		"oAP": "/assets/img/ip-bottom-of-post.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-case-study-img-1.png": {
+	"/assets/img/blog/2014/09/ip-case-study-img-1.png": {
 		"ft": 32768,
 		"iS": 52274,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-1.png",
+		"oAP": "/assets/img/ip-case-study-img-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-case-study-img-2.png": {
+	"/assets/img/blog/2014/09/ip-case-study-img-2.png": {
 		"ft": 32768,
 		"iS": 54346,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-2.png",
+		"oAP": "/assets/img/ip-case-study-img-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-case-study-img-3.png": {
+	"/assets/img/blog/2014/09/ip-case-study-img-3.png": {
 		"ft": 32768,
 		"iS": 14773,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-case-study-img-3.png",
+		"oAP": "/assets/img/ip-case-study-img-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-focus-content.jpg": {
+	"/assets/img/blog/2014/09/ip-focus-content.jpg": {
 		"ft": 16384,
 		"iS": 28271,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-focus-content.jpg",
+		"oAP": "/assets/img/ip-focus-content.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-sidebars.png": {
+	"/assets/img/blog/2014/09/ip-sidebars.png": {
 		"ft": 32768,
 		"iS": 101996,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-sidebars.png",
+		"oAP": "/assets/img/ip-sidebars.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-thum.jpg": {
+	"/assets/img/blog/2014/09/ip-thum.jpg": {
 		"ft": 16384,
 		"iS": 68976,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-thum.jpg",
+		"oAP": "/assets/img/ip-thum.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/ip-thumbnail.png": {
+	"/assets/img/blog/2014/09/ip-thumbnail.png": {
 		"ft": 32768,
 		"iS": 157830,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-thumbnail.png",
+		"oAP": "/assets/img/ip-thumbnail.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/men-in-boat.png": {
+	"/assets/img/blog/2014/09/men-in-boat.png": {
 		"ft": 32768,
 		"iS": 164741,
 		"oA": 1,
-		"oAP": "\/assets\/img\/men-in-boat.png",
+		"oAP": "/assets/img/men-in-boat.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-1.png": {
+	"/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-1.png": {
 		"ft": 32768,
 		"iS": 42990,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-1.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-2.png": {
+	"/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-2.png": {
 		"ft": 32768,
 		"iS": 122897,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-2.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-arkham-oracle-screenshot-3.png": {
+	"/assets/img/blog/2014/09/portfolio-arkham-oracle-screenshot-3.png": {
 		"ft": 32768,
 		"iS": 9056,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-arkham-oracle-screenshot-3.png",
+		"oAP": "/assets/img/portfolio-arkham-oracle-screenshot-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-1.png": {
+	"/assets/img/blog/2014/09/portfolio-assembla-screenshot-1.png": {
 		"ft": 32768,
 		"iS": 56285,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-1.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-1.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-2.png": {
+	"/assets/img/blog/2014/09/portfolio-assembla-screenshot-2.png": {
 		"ft": 32768,
 		"iS": 56472,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-2.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-assembla-screenshot-3.png": {
+	"/assets/img/blog/2014/09/portfolio-assembla-screenshot-3.png": {
 		"ft": 32768,
 		"iS": 5390,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-assembla-screenshot-3.png",
+		"oAP": "/assets/img/portfolio-assembla-screenshot-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot.png": {
+	"/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot.png": {
 		"ft": 32768,
 		"iS": 71936,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot2.png": {
+	"/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot2.png": {
 		"ft": 32768,
 		"iS": 100271,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot2.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot2.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-inspirational-pixels-screenshot3.png": {
+	"/assets/img/blog/2014/09/portfolio-inspirational-pixels-screenshot3.png": {
 		"ft": 32768,
 		"iS": 22580,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-inspirational-pixels-screenshot3.png",
+		"oAP": "/assets/img/portfolio-inspirational-pixels-screenshot3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-ip-full-optimised.png": {
+	"/assets/img/blog/2014/09/portfolio-ip-full-optimised.png": {
 		"ft": 32768,
 		"iS": 377815,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-ip-full-optimised.png",
+		"oAP": "/assets/img/portfolio-ip-full-optimised.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/09\/portfolio-ip-full.jpg": {
+	"/assets/img/blog/2014/09/portfolio-ip-full.jpg": {
 		"ft": 16384,
 		"iS": 53531,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/portfolio-ip-full.jpg",
+		"oAP": "/assets/img/portfolio-ip-full.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/social_proof.jpg": {
+	"/assets/img/blog/2014/09/social_proof.jpg": {
 		"ft": 16384,
 		"iS": 22760,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/social_proof.jpg",
+		"oAP": "/assets/img/social_proof.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/09\/waffle.jpg": {
+	"/assets/img/blog/2014/09/waffle.jpg": {
 		"ft": 16384,
 		"iS": 18507,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/waffle.jpg",
+		"oAP": "/assets/img/waffle.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/ip-blog-subscibe-popup.jpg": {
+	"/assets/img/blog/2014/10/ip-blog-subscibe-popup.jpg": {
 		"ft": 16384,
 		"iS": 23308,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-blog-subscibe-popup.jpg",
+		"oAP": "/assets/img/ip-blog-subscibe-popup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/leadpages-blog-post-thumb.jpg": {
+	"/assets/img/blog/2014/10/leadpages-blog-post-thumb.jpg": {
 		"ft": 16384,
 		"iS": 10381,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/leadpages-blog-post-thumb.jpg",
+		"oAP": "/assets/img/leadpages-blog-post-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/leadpages-blog-subscibe-popup.jpg": {
+	"/assets/img/blog/2014/10/leadpages-blog-subscibe-popup.jpg": {
 		"ft": 16384,
 		"iS": 38725,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/leadpages-blog-subscibe-popup.jpg",
+		"oAP": "/assets/img/leadpages-blog-subscibe-popup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/man-happy-sad.jpg": {
+	"/assets/img/blog/2014/10/man-happy-sad.jpg": {
 		"ft": 16384,
 		"iS": 49939,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-happy-sad.jpg",
+		"oAP": "/assets/img/man-happy-sad.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/man-standing-at-water.png": {
+	"/assets/img/blog/2014/10/man-standing-at-water.png": {
 		"ft": 32768,
 		"iS": 99815,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-standing-at-water.png",
+		"oAP": "/assets/img/man-standing-at-water.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2014\/10\/messy-wires.jpg": {
+	"/assets/img/blog/2014/10/messy-wires.jpg": {
 		"ft": 16384,
 		"iS": 77930,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/messy-wires.jpg",
+		"oAP": "/assets/img/messy-wires.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2014\/10\/woman-overwhelmed.jpg": {
+	"/assets/img/blog/2014/10/woman-overwhelmed.jpg": {
 		"ft": 16384,
 		"iS": 49394,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-overwhelmed.jpg",
+		"oAP": "/assets/img/woman-overwhelmed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/01\/work-with-clients-thumb.jpg": {
+	"/assets/img/blog/2015/01/work-with-clients-thumb.jpg": {
 		"ft": 16384,
 		"iS": 42255,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/work-with-clients-thumb.jpg",
+		"oAP": "/assets/img/work-with-clients-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/02\/office1.jpg": {
+	"/assets/img/blog/2015/02/office1.jpg": {
 		"ft": 16384,
 		"iS": 36562,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/office1.jpg",
+		"oAP": "/assets/img/office1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/02\/shadow.jpg": {
+	"/assets/img/blog/2015/02/shadow.jpg": {
 		"ft": 16384,
 		"iS": 49206,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/shadow.jpg",
+		"oAP": "/assets/img/shadow.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/02\/Under-Promise-Over-Deliver-Thumb.jpg": {
+	"/assets/img/blog/2015/02/Under-Promise-Over-Deliver-Thumb.jpg": {
 		"ft": 16384,
 		"iS": 32589,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/Under-Promise-Over-Deliver-Thumb.jpg",
+		"oAP": "/assets/img/Under-Promise-Over-Deliver-Thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/03\/ip-members-thumb.jpg": {
+	"/assets/img/blog/2015/03/ip-members-thumb.jpg": {
 		"ft": 16384,
 		"iS": 27302,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/ip-members-thumb.jpg",
+		"oAP": "/assets/img/ip-members-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/04\/thumb.jpg": {
+	"/assets/img/blog/2015/04/thumb.jpg": {
 		"ft": 16384,
 		"iS": 28794,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/thumb.jpg",
+		"oAP": "/assets/img/thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/05\/assembla-offers.png": {
+	"/assets/img/blog/2015/05/assembla-offers.png": {
 		"ft": 32768,
 		"iS": 63425,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offers.png",
+		"oAP": "/assets/img/assembla-offers.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/blog\/2015\/07\/adam-feber.jpg": {
+	"/assets/img/blog/2015/07/adam-feber.jpg": {
 		"ft": 16384,
 		"iS": 2956,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber.jpg",
+		"oAP": "/assets/img/adam-feber.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot-2.jpg": {
+	"/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot-2.jpg": {
 		"ft": 16384,
 		"iS": 129676,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot-2.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot-desktop.jpg": {
+	"/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot-desktop.jpg": {
 		"ft": 16384,
 		"iS": 82576,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot-desktop.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/assembla-offer-portfolio-screenshot.jpg": {
+	"/assets/img/blog/2015/07/assembla-offer-portfolio-screenshot.jpg": {
 		"ft": 16384,
 		"iS": 126238,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/assembla-offer-portfolio-screenshot.jpg",
+		"oAP": "/assets/img/assembla-offer-portfolio-screenshot.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/building-a-business-website-thumb.jpg": {
+	"/assets/img/blog/2015/07/building-a-business-website-thumb.jpg": {
 		"ft": 16384,
 		"iS": 36445,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/building-a-business-website-thumb.jpg",
+		"oAP": "/assets/img/building-a-business-website-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/calculator.jpg": {
+	"/assets/img/blog/2015/07/calculator.jpg": {
 		"ft": 16384,
 		"iS": 40203,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calculator.jpg",
+		"oAP": "/assets/img/calculator.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/chris-fenwick.jpg": {
+	"/assets/img/blog/2015/07/chris-fenwick.jpg": {
 		"ft": 16384,
 		"iS": 1972,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick.jpg",
+		"oAP": "/assets/img/chris-fenwick.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/how-much-should-a-website-cost-thumb.jpg": {
+	"/assets/img/blog/2015/07/how-much-should-a-website-cost-thumb.jpg": {
 		"ft": 16384,
 		"iS": 43377,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/how-much-should-a-website-cost-thumb.jpg",
+		"oAP": "/assets/img/how-much-should-a-website-cost-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/man-writing-on-whiteboard.jpg": {
+	"/assets/img/blog/2015/07/man-writing-on-whiteboard.jpg": {
 		"ft": 16384,
 		"iS": 28222,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/people-meeting.jpg": {
+	"/assets/img/blog/2015/07/people-meeting.jpg": {
 		"ft": 16384,
 		"iS": 44063,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/people-meeting.jpg",
+		"oAP": "/assets/img/people-meeting.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/07\/watch-zoomed-in.jpg": {
+	"/assets/img/blog/2015/07/watch-zoomed-in.jpg": {
 		"ft": 16384,
 		"iS": 39683,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/watch-zoomed-in.jpg",
+		"oAP": "/assets/img/watch-zoomed-in.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/hands-writing-in-book.jpg": {
+	"/assets/img/blog/2015/08/hands-writing-in-book.jpg": {
 		"ft": 16384,
 		"iS": 30523,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/hands-writing-in-book.jpg",
+		"oAP": "/assets/img/hands-writing-in-book.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/laptop-and-notebook.jpg": {
+	"/assets/img/blog/2015/08/laptop-and-notebook.jpg": {
 		"ft": 16384,
 		"iS": 70006,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/laptop-and-notebook.jpg",
+		"oAP": "/assets/img/laptop-and-notebook.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/man-on-mac.jpg": {
+	"/assets/img/blog/2015/08/man-on-mac.jpg": {
 		"ft": 16384,
 		"iS": 49018,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-on-mac.jpg",
+		"oAP": "/assets/img/man-on-mac.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/man-writing-code.jpg": {
+	"/assets/img/blog/2015/08/man-writing-code.jpg": {
 		"ft": 16384,
 		"iS": 59864,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-code.jpg",
+		"oAP": "/assets/img/man-writing-code.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/man-writing-on-whiteboard.jpg": {
+	"/assets/img/blog/2015/08/man-writing-on-whiteboard.jpg": {
 		"ft": 16384,
 		"iS": 28314,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/man-writing-on-whiteboard1.jpg": {
+	"/assets/img/blog/2015/08/man-writing-on-whiteboard1.jpg": {
 		"ft": 16384,
 		"iS": 28314,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/man-writing-on-whiteboard1.jpg",
+		"oAP": "/assets/img/man-writing-on-whiteboard1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/pen-and-notebook.jpg": {
+	"/assets/img/blog/2015/08/pen-and-notebook.jpg": {
 		"ft": 16384,
 		"iS": 29416,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/pen-and-notebook.jpg",
+		"oAP": "/assets/img/pen-and-notebook.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/woman-on-a-macbook-pro.jpg": {
+	"/assets/img/blog/2015/08/woman-on-a-macbook-pro.jpg": {
 		"ft": 16384,
 		"iS": 37853,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-on-a-macbook-pro.jpg",
+		"oAP": "/assets/img/woman-on-a-macbook-pro.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/08\/woman-on-laptop.jpg": {
+	"/assets/img/blog/2015/08/woman-on-laptop.jpg": {
 		"ft": 16384,
 		"iS": 63633,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/woman-on-laptop.jpg",
+		"oAP": "/assets/img/woman-on-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/09\/beating-procrastination-as-a-freelancer.jpg": {
+	"/assets/img/blog/2015/09/beating-procrastination-as-a-freelancer.jpg": {
 		"ft": 16384,
 		"iS": 49846,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/beating-procrastination-as-a-freelancer.jpg",
+		"oAP": "/assets/img/beating-procrastination-as-a-freelancer.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/09\/before-and-after-TBE-logo.jpg": {
+	"/assets/img/blog/2015/09/before-and-after-TBE-logo.jpg": {
 		"ft": 16384,
 		"iS": 17702,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/before-and-after-TBE-logo.jpg",
+		"oAP": "/assets/img/before-and-after-TBE-logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/09\/seo-basics-for-small-buisiness-websites-thumb.jpg": {
+	"/assets/img/blog/2015/09/seo-basics-for-small-buisiness-websites-thumb.jpg": {
 		"ft": 16384,
 		"iS": 51961,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/seo-basics-for-small-buisiness-websites-thumb.jpg",
+		"oAP": "/assets/img/seo-basics-for-small-buisiness-websites-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2015\/09\/seo-basics-for-small-business-websites-thumb.jpg": {
+	"/assets/img/blog/2015/09/seo-basics-for-small-business-websites-thumb.jpg": {
 		"ft": 16384,
 		"iS": 15620,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/seo-basics-for-small-business-websites-thumb.jpg",
+		"oAP": "/assets/img/seo-basics-for-small-business-websites-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2018\/09\/calendi-hover-over-post.jpg": {
+	"/assets/img/blog/2018/09/calendi-hover-over-post.jpg": {
 		"ft": 16384,
 		"iS": 30005,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-hover-over-post.jpg",
+		"oAP": "/assets/img/calendi-hover-over-post.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2018\/09\/calendi-select-month.jpg": {
+	"/assets/img/blog/2018/09/calendi-select-month.jpg": {
 		"ft": 16384,
 		"iS": 27786,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-select-month.jpg",
+		"oAP": "/assets/img/calendi-select-month.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2018\/09\/calendi-select-post-types.jpg": {
+	"/assets/img/blog/2018/09/calendi-select-post-types.jpg": {
 		"ft": 16384,
 		"iS": 29292,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-select-post-types.jpg",
+		"oAP": "/assets/img/calendi-select-post-types.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/blog\/2018\/09\/calendi-thumb.jpg": {
+	"/assets/img/blog/2018/09/calendi-thumb.jpg": {
 		"ft": 16384,
 		"iS": 18905,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/calendi-thumb.jpg",
+		"oAP": "/assets/img/calendi-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/favicon-192x192.png": {
+	"/assets/img/favicon-192x192.png": {
 		"ft": 32768,
 		"iS": 4594,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-192x192.png",
+		"oAP": "/assets/img/favicon-192x192.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/favicon-297x297.png": {
+	"/assets/img/favicon-297x297.png": {
 		"ft": 32768,
 		"iS": 6294,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-297x297.png",
+		"oAP": "/assets/img/favicon-297x297.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/favicon-32x32.png": {
+	"/assets/img/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 1683,
 		"oA": 1,
-		"oAP": "\/assets\/img\/favicon-32x32.png",
+		"oAP": "/assets/img/favicon-32x32.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 2,
 		"q": 50
 		},
-	"\/assets\/img\/testimonials\/adam-feber-@2x.jpg": {
-		"ft": 16384,
-		"iS": 5100,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/testimonials\/adam-feber.jpg": {
-		"ft": 16384,
-		"iS": 2116,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/adam-feber.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/testimonials\/chris-fenwick-@2x.jpg": {
-		"ft": 16384,
-		"iS": 3640,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/testimonials\/chris-fenwick.jpg": {
-		"ft": 16384,
-		"iS": 1604,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/chris-fenwick.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/calendi\/featured-@2x.jpg": {
+	"/assets/img/projects/calendi/featured-@2x.jpg": {
 		"ft": 16384,
 		"iS": 52036,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oAP": "/assets/img/featured-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/calendi\/featured.jpg": {
+	"/assets/img/projects/calendi/featured.jpg": {
 		"ft": 16384,
 		"iS": 22470,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured.jpg",
+		"oAP": "/assets/img/featured.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/inspirational-pixels\/featured-@2x.jpg": {
+	"/assets/img/testimonials/adam-feber-@2x.jpg": {
 		"ft": 16384,
-		"iS": 101590,
+		"iS": 5100,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-@2x.jpg",
+		"oAP": "/assets/img/adam-feber-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/inspirational-pixels\/featured-mobile-@2x.jpg": {
+	"/assets/img/testimonials/adam-feber.jpg": {
 		"ft": 16384,
-		"iS": 55136,
+		"iS": 2116,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-mobile-@2x.jpg",
+		"oAP": "/assets/img/adam-feber.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/inspirational-pixels\/featured-mobile.jpg": {
+	"/assets/img/testimonials/chris-fenwick-@2x.jpg": {
 		"ft": 16384,
-		"iS": 21474,
+		"iS": 3640,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured-mobile.jpg",
+		"oAP": "/assets/img/chris-fenwick-@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/inspirational-pixels\/featured.jpg": {
+	"/assets/img/testimonials/chris-fenwick.jpg": {
 		"ft": 16384,
-		"iS": 42852,
+		"iS": 1604,
 		"jF": 0,
 		"oA": 1,
-		"oAP": "\/assets\/img\/featured.jpg",
+		"oAP": "/assets/img/chris-fenwick.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
 		},
-	"\/assets\/img\/work\/inspirational-pixels\/full-preview.jpg": {
-		"ft": 16384,
-		"iS": 92925,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/full-preview.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/img-1.jpg": {
-		"ft": 16384,
-		"iS": 34606,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/img-2.jpg": {
-		"ft": 16384,
-		"iS": 35921,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/img-3.jpg": {
-		"ft": 16384,
-		"iS": 28151,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/img-4.jpg": {
-		"ft": 16384,
-		"iS": 30813,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/img-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/small-@2x.jpg": {
-		"ft": 16384,
-		"iS": 44336,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/small-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/img\/work\/inspirational-pixels\/small.jpg": {
-		"ft": 16384,
-		"iS": 16124,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "\/assets\/img\/small.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"\/assets\/js\/app.js": {
+	"/assets/js/app.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.js",
+		"oAP": "/assets/js/app.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/app.min.js": {
+	"/assets/js/app.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/app.min.min.js",
+		"oAP": "/assets/js/app.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/jquery.custom.js": {
+	"/assets/js/jquery.custom.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jquery.custom.min.js",
+		"oAP": "/assets/js/jquery.custom.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/fitvids.js": {
+	"/assets/js/third-party/fitvids.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/fitvids.min.js",
+		"oAP": "/assets/js/fitvids.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jcf.checkbox.js": {
+	"/assets/js/third-party/jcf.checkbox.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jcf.checkbox.min.js",
+		"oAP": "/assets/js/jcf.checkbox.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jcf.js": {
+	"/assets/js/third-party/jcf.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jcf.min.js",
+		"oAP": "/assets/js/jcf.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jcf.radio.js": {
+	"/assets/js/third-party/jcf.radio.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jcf.radio.min.js",
+		"oAP": "/assets/js/jcf.radio.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jcf.select.js": {
+	"/assets/js/third-party/jcf.select.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jcf.select.min.js",
+		"oAP": "/assets/js/jcf.select.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jquery-3.3.1.js": {
+	"/assets/js/third-party/jquery-3.3.1.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jquery-3.3.1.min.js",
+		"oAP": "/assets/js/jquery-3.3.1.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/jquery.validate.js": {
+	"/assets/js/third-party/jquery.validate.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/jquery.validate.min.js",
+		"oAP": "/assets/js/jquery.validate.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/assets\/js\/third-party\/picturefill.js": {
+	"/assets/js/third-party/picturefill.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/assets\/js\/picturefill.min.js",
+		"oAP": "/assets/js/picturefill.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/blog\/index.html": {
+	"/blog/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/blog\/index.html",
+		"oAP": "/blog/index.html",
 		"oF": 0
 		},
-	"\/category\/advice.html": {
+	"/category/advice.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/advice.html",
+		"oAP": "/category/advice.html",
 		"oF": 0
 		},
-	"\/category\/copywriting.html": {
+	"/category/copywriting.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/copywriting.html",
+		"oAP": "/category/copywriting.html",
 		"oF": 0
 		},
-	"\/category\/freelancing.html": {
+	"/category/freelancing.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/freelancing.html",
+		"oAP": "/category/freelancing.html",
 		"oF": 0
 		},
-	"\/category\/productivity.html": {
+	"/category/productivity.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/productivity.html",
+		"oAP": "/category/productivity.html",
 		"oF": 0
 		},
-	"\/category\/seo.html": {
+	"/category/seo.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/seo.html",
+		"oAP": "/category/seo.html",
 		"oF": 0
 		},
-	"\/category\/side-projects.html": {
+	"/category/side-projects.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/side-projects.html",
+		"oAP": "/category/side-projects.html",
 		"oF": 0
 		},
-	"\/category\/tips.html": {
+	"/category/tips.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/category\/tips.html",
+		"oAP": "/category/tips.html",
 		"oF": 0
 		},
-	"\/contact\/index.html": {
+	"/contact/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/contact\/index.html",
+		"oAP": "/contact/index.html",
 		"oF": 0
 		},
-	"\/contact\/success.html": {
+	"/contact/success.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/contact\/success.html",
+		"oAP": "/contact/success.html",
 		"oF": 0
 		},
-	"\/Gemfile": {
+	"/Gemfile": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Gemfile",
+		"oAP": "/Gemfile",
 		"oF": 0
 		},
-	"\/Gemfile.lock": {
+	"/Gemfile.lock": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/Gemfile.lock",
+		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
-	"\/headsupgrid\/hugrid.css": {
+	"/headsupgrid/hugrid.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/headsupgrid\/hugrid-min.css",
+		"oAP": "/headsupgrid/hugrid-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/headsupgrid\/hugrid.js": {
+	"/headsupgrid/hugrid.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/hugrid.min.js",
+		"oAP": "/assets/js/hugrid.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/headsupgrid\/jquery-1.6.2.min.js": {
+	"/headsupgrid/jquery-1.6.2.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/assets\/js\/jquery-1.6.2.min.min.js",
+		"oAP": "/assets/js/jquery-1.6.2.min.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/process.html": {
+	"/process.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/process.html",
+		"oAP": "/process.html",
 		"oF": 0
 		},
-	"\/services.html": {
+	"/projects/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/services.html",
+		"oAP": "/projects/index.html",
 		"oF": 0
 		},
-	"\/style-guide.html": {
+	"/projects/inspirational-pixels.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/style-guide.html",
+		"oAP": "/projects/inspirational-pixels.html",
 		"oF": 0
 		},
-	"\/template-landing.html": {
+	"/projects/inspirational-pixels.min.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/template-landing.html",
+		"oAP": "/projects/inspirational-pixels.min.html",
 		"oF": 0
 		},
-	"\/work\/index.html": {
+	"/services.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/work\/index.html",
+		"oAP": "/services.html",
 		"oF": 0
 		},
-	"\/work\/inspirational-pixels.html": {
+	"/style-guide.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/work\/inspirational-pixels.html",
+		"oAP": "/style-guide.html",
+		"oF": 0
+		},
+	"/template-landing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/template-landing.html",
 		"oF": 0
 		}
 	},
@@ -4037,141 +3809,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -4183,7 +3908,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -4195,7 +3941,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -4231,53 +3995,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -4286,6 +4043,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 0,
@@ -4643,6 +4401,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -4654,6 +4416,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -4699,6 +4465,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -4717,10 +4487,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -4919,9 +4685,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -5275,6 +5045,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -5303,6 +5077,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -5310,6 +5088,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -5365,7 +5147,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -5425,7 +5207,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -5805,7 +5587,7 @@
 	"languageDefaultsGIF": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.gif",
-		"autoOutputPathRelativePath": "assets\/img\/",
+		"autoOutputPathRelativePath": "assets/img/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1
@@ -5820,7 +5602,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -5829,7 +5610,7 @@
 	"languageDefaultsJPG": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.jpg",
-		"autoOutputPathRelativePath": "assets\/img\/",
+		"autoOutputPathRelativePath": "assets/img/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -5839,7 +5620,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.min.js",
-		"autoOutputPathRelativePath": "assets\/js\/",
+		"autoOutputPathRelativePath": "assets/js/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -5871,19 +5652,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -5918,7 +5699,7 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "assets\/img\/",
+		"autoOutputPathRelativePath": "assets/img/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -5939,7 +5720,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "\/assets\/css\/",
+		"autoOutputPathRelativePath": "/assets/css/",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 1,
@@ -5968,7 +5749,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -5983,7 +5764,7 @@
 	"languageDefaultsSVG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.svg",
-		"autoOutputPathRelativePath": "assets\/img\/",
+		"autoOutputPathRelativePath": "assets/img/",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
@@ -5992,36 +5773,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, .git",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, .git",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6029,11 +5844,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6057,6 +5872,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -6073,7 +5892,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6081,20 +5908,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -6109,6 +5948,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -6117,12 +5964,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -6133,11 +5988,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -6149,23 +6012,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -6177,9 +6068,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$, jQuery",
