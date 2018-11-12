@@ -1,20 +1,20 @@
 [
 	{
 		"url"          : "/projects/inspirational-pixels/",
+		"live_url"     : "https://inspirationalpixels.com",
 		"title"        : "Inspirational Pixels",
 		"tagline"      : "Learn how to make websites",
 		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
-		"full_preview" : "https://placehold.it/1680x1133",
+		"full_preview" : "/assets/img/projects/inspirational-pixels/full-preview.jpg",
 		"images"       : [
 			{
-				"featured"    : "https://placehold.it/909x800",
-				"featured_2x" : "https://placehold.it/1818x1600",
-				"content_1"   : "https://placehold.it/524x393",
-				"content_2"   : "https://placehold.it/524x393",
-				"content_3"   : "https://placehold.it/524x393",
-				"content_4"   : "https://placehold.it/524x393",
-				"content_5"   : "https://placehold.it/524x393",
-				"content_6"   : "https://placehold.it/524x393",
+				"featured"    : "/assets/img/projects/inspirational-pixels/featured.jpg",
+				"content_1"   : "/assets/img/projects/inspirational-pixels/content-1.jpg",
+				"content_2"   : "/assets/img/projects/inspirational-pixels/content-2.jpg",
+				"content_3"   : "/assets/img/projects/inspirational-pixels/content-3.jpg",
+				"content_4"   : "/assets/img/projects/inspirational-pixels/content-4.jpg",
+				"content_5"   : "/assets/img/projects/inspirational-pixels/content-5.jpg",
+				"content_6"   : "/assets/img/projects/inspirational-pixels/content-6.jpg",
 			}
 		],
 		"usps"         : [
@@ -31,7 +31,7 @@
 				"icon" :"code"
 			}
 		],
-		"testimonial_id" : 0,
+		// "testimonial_id" : 0,
 		"sections" : [
 			{
 				"title" : "The Brief",

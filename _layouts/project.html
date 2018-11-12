@@ -18,9 +18,7 @@
 			</div>
 
 			<div class="browser__inner">
-				<a href="{{ project.url }}">
-					<img src="{{ project.full_preview }}">
-				</a>
+				<img src="{{ project.full_preview }}">
 			</div>
 		</figure>
 	</div>
@@ -96,6 +94,16 @@
 			</div>
 		</div>
 	</div>
+
+	{% if project.live_url %}
+		<div class="section section--small spacing-large-top">
+			<div class="txt-center">
+				<a class="btn btn--large" href="{{ project.live_url }}" target="_blank">
+					Visit Website
+				</a>
+			</div>
+		</div>
+	{% endif %}
 </section>
 
 <div class="spacing-huge-top"></div>

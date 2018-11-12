@@ -1,11 +1,10 @@
 {% assign thumb_url    = project.images.[0].featured %}
-{% assign thumb_url_2x = project.images.[0].featured_2x %}
 
 <article class="project-preview {{ project_class }}">
 	<div class="project-preview__img">
 		<figure class="overlap-img">
 			<a href="{{ project.url }}">
-				<img src="{{ thumb_url }}" srcset="{{ thumb_url }} 1x, {{ thumb_url_2x }} 2x">
+				<img src="{{ thumb_url }}">
 			</a>
 		</figure>
 	</div>
