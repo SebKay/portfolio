@@ -32,7 +32,7 @@
 	@extend .h4;
 	// Type
 	font-weight: map-get(map-get($font-1, weights), light);
-	line-height: 125%;
+	line-height: 140%;
 	color: map-get($ui-colors, 2_2);
 }
 
