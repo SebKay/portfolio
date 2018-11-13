@@ -11,19 +11,19 @@ $font-1 : (
 $base-text-size : 16px;
 
 //---- Sections
-$sections : (
+$sections-1 : (
 	small  : 1112px,
 	medium : 1406px,
 	large  : 1700px
 );
 
-$sections-laptop : (
+$sections-2 : (
 	small  : 825px,
-	medium : 848px,
+	medium : 1050px,
 	large  : 1280px
 );
 
-$sections-tablet : (
+$sections-3 : (
 	small  : 496px,
 	medium : 825px,
 	large  : 1024px
@@ -36,7 +36,7 @@ $site-spacing-outer : (100 - $site-width) / 2;
 $spacing-1 : (
 	tiny   : 50px,
 	small  : 75px,
-	medium : 112px,
+	medium : 115px,
 	large  : 150px,
 	huge   : 250px
 );
@@ -44,25 +44,9 @@ $spacing-1 : (
 $spacing-2 : (
 	tiny   : 40px,
 	small  : 60px,
-	medium : 75px,
+	medium : 80px,
 	large  : 100px,
-	huge   : 150px
-);
-
-$spacing-3 : (
-	tiny   : 40px,
-	small  : 50px,
-	medium : 60px,
-	large  : 80px,
-	huge   : 120px
-);
-
-$spacing-4 : (
-	tiny   : 30px,
-	small  : 30px,
-	medium : 40px,
-	large  : 60px,
-	huge   : 80px
+	huge   : 130px
 );
 
 //---- Colors
@@ -109,9 +93,9 @@ $transition-speed      : 0.3s;
 $transition-speed-menu : 0.5s;
 
 $breakpoints :(
-	laptop_1 : 1440px,
-	laptop_2 : 1280px,
-	tablet_1 : 1024px,
-	tablet_2 : 768px,
-	mobile_1 : 670px
+	laptop-1 : 1440px,
+	laptop-2 : 1280px,
+	tablet-1 : 1024px,
+	tablet-2 : 768px,
+	mobile-1 : 670px
 );

@@ -747,7 +747,7 @@
 		},
 	"/_site/assets/img/about-2-@2x.jpg": {
 		"ft": 16384,
-		"iS": 1158643,
+		"iS": 1115203,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/assets/img/about-2-@2x.jpg",
@@ -833,9 +833,31 @@
 		"opt": 0,
 		"q": 70
 		},
+	"/_site/assets/img/about-6-@2x.jpg": {
+		"ft": 16384,
+		"iS": 750634,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/assets/img/about-6-@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
+	"/_site/assets/img/about-6.jpg": {
+		"ft": 16384,
+		"iS": 209691,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/assets/img/about-6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 70
+		},
 	"/_site/assets/img/banner-home-@2x.jpg": {
 		"ft": 16384,
-		"iS": 550019,
+		"iS": 119112,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/assets/img/banner-home-@2x.jpg",
@@ -846,7 +868,7 @@
 		},
 	"/_site/assets/img/banner-home.jpg": {
 		"ft": 16384,
-		"iS": 182259,
+		"iS": 44696,
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/assets/img/banner-home.jpg",

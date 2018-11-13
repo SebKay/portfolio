@@ -1,8 +1,6 @@
 {% include header.html %}
 
 {% assign wrapper_class = 'spacing-large-bottom' %}
-{% assign grid_class = null %}
-{% assign alignment_class = null %}
 
 <div class="spacing-huge">
 	{% for process_section in site.data.process %}
@@ -11,6 +9,9 @@
 		{% if cycle_type == 'even' %}
 			{% assign grid_class = 'grid--reverse' %}
 			{% assign alignment_class = 'txt-right' %}
+		{% else if cycle_type == 'odd' %}
+			{% assign grid_class = null %}
+			{% assign alignment_class = null %}
 		{% endif %}
 
 		{% if forloop.last == true %}

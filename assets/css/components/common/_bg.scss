@@ -14,3 +14,12 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.bg-grey-stripes {
+		background-size: 600px;
+	}
+}

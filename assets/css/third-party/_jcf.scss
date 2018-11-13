@@ -98,7 +98,7 @@
 }
 
 //---- Responsive ----//
-@media screen and (max-width: map-get($breakpoints, mobile_1)) {
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
 	.jcf-select-text {
 		@include rem(18px);
 		height: 60px;

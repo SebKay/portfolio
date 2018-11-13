@@ -1,6 +1,5 @@
 .icon-list__item {
 	@extend %txt-upper;
-	@include rem(22px);
 	@include flex(flex);
 	@include flex_align_items(center);
 	// Type
@@ -39,3 +38,14 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.icon-list__item {
+		@include rem(22px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.icon-list__item {
+		@include rem(20px);
+	}
+}

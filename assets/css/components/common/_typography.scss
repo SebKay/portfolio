@@ -36,16 +36,31 @@ a {
 .txt-center { text-align: center; }
 .txt-right  { text-align: right; }
 
-h1, .h1 { @include rem(82px); }
-h2, .h2 { @include rem(62px); }
-h3, .h3 { @include rem(50px); }
-h4, .h4 { @include rem(40px); }
-h5, .h5 { @include rem(32px); }
-h6, .h6 { @include rem(26px); }
-
-p, li { @include rem(24px); }
-
-.txt-small { @include rem(20px); }
-.txt-large { @include rem(30px); }
-
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	h1, .h1 { @include rem(82px); }
+	h2, .h2 { @include rem(62px); }
+	h3, .h3 { @include rem(50px); }
+	h4, .h4 { @include rem(40px); }
+	h5, .h5 { @include rem(32px); }
+	h6, .h6 { @include rem(26px); }
+	
+	p, li { @include rem(24px); }
+	
+	.txt-small { @include rem(20px); }
+	.txt-large { @include rem(30px); }
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	h1, .h1 { @include rem(72px); }
+	h2, .h2 { @include rem(52px); }
+	h3, .h3 { @include rem(42px); }
+	h4, .h4 { @include rem(36px); }
+	h5, .h5 { @include rem(30px); }
+	h6, .h6 { @include rem(24px); }
+	
+	p, li { @include rem(22px); }
+	
+	.txt-small { @include rem(18px); }
+	.txt-large { @include rem(26px); }
+}

@@ -1,8 +1,6 @@
 .site-header {
 	@include transition(all ease $transition-speed);
 	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -46,3 +44,16 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.site-header {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.site-header {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+}

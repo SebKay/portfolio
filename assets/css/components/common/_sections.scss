@@ -8,10 +8,19 @@
 	width: 100%;
 }
 
-@each $section, $amount in $sections {
-	.section--#{$section} {
-		max-width: $amount;
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	@each $section, $amount in $sections-1 {
+		.section--#{$section} {
+			max-width: $amount;
+		}
 	}
 }
 
-//---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	@each $section, $amount in $sections-2 {
+		.section--#{$section} {
+			max-width: $amount;
+		}
+	}
+}

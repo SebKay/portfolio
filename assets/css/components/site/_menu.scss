@@ -3,12 +3,7 @@
 }
 
 .site-menu__item {
-	@include rem(24px);
 	list-style: none;
-
-	&:not(:last-child) {
-		margin-right: 60px;
-	}
 }
 
 .site-menu__link {
@@ -33,3 +28,22 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.site-menu__item {
+		@include rem(24px);
+
+		&:not(:last-child) {
+			margin-right: 60px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.site-menu__item {
+		@include rem(22px);
+
+		&:not(:last-child) {
+			margin-right: 50px;
+		}
+	}
+}

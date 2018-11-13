@@ -1,6 +1,5 @@
 .service {
 	@extend %accent-box;
-	padding: 75px 60px;
 }
 
 .service__icon {
@@ -31,3 +30,14 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.service {
+		padding: 75px 60px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.service {
+		padding: 60px 40px;
+	}
+}

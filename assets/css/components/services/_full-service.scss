@@ -9,7 +9,6 @@
 }
 
 .full-service__icon {
-	width: 60%;
 	display: inline-block;
 
 	svg {
@@ -20,3 +19,14 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.full-service__icon {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.full-service__icon {
+		width: 50%;
+	}
+}
