@@ -70,3 +70,21 @@
 }
 
 //---- Responsive ----//
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	.grid.grid--tb1-2:not(.grid--reverse) {
+		@include flex_justify(center);
+		
+		> .grid__col.grid__col {
+			width: calc_grid_cols(6);
+			margin-right: 0;
+
+			&:nth-child(2n) {
+				margin-left: auto;
+			}
+
+			&:nth-child(1n+3) {
+				margin-top: 35px;
+			}
+		}
+	}
+}
