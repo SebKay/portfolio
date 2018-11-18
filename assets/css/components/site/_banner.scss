@@ -58,7 +58,6 @@
 	}
 
 	.site-banner__content {
-		padding-right: 147px;
 		// Type
 		text-align: left;
 	}
@@ -104,6 +103,24 @@
 	.site-banner--alt {
 		.overlap-img {
 			max-width: 424px;
+		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	//---- Alternate Layout
+	.site-banner--alt {
+		.site-banner__content {
+			padding-right: 147px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	//---- Alternate Layout
+	.site-banner--alt {
+		.site-banner__content {
+			padding-right: 80px;
 		}
 	}
 }

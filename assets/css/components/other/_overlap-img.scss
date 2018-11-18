@@ -1,12 +1,31 @@
 .overlap-img {
 	width: 100%;
-	padding: 60px;
 	border-radius: $border-radius;
 	background: map-get($ui-colors, 2_1);
 
 	img {
-		margin-bottom: -120px;
 		box-shadow: 0 5px 30px black(0.2);
 		border-radius: $border-radius / 2;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.overlap-img {
+		padding: 60px;
+	
+		img {
+			margin-bottom: -120px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	.overlap-img {
+		padding: 40px;
+	
+		img {
+			margin-bottom: -80px;
+		}
 	}
 }

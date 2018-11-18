@@ -33,7 +33,6 @@ button {
 
 label {
 	@extend %txt-upper;
-	@include rem(20px);
 	padding-bottom: 15px;
 	display: block;
 	// Type
@@ -94,3 +93,14 @@ label {
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	label {
+		@include rem(20px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	label {
+		@include rem(18px);
+	}
+}

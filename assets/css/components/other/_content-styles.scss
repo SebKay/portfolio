@@ -1,27 +1,4 @@
 .content-styles {
-	* + * {
-		margin-top: 30px;
-	}
-
-	* + p,
-	li + li {
-		margin-top: 30px;
-	}
-
-	p + h1,
-	p + h2,
-	p + h3,
-	p + h4,
-	p + h5,
-	p + h6 {
-		margin-top: 50px;
-	}
-
-	* + hr,
-	hr + * {
-		margin-top: 100px;
-	}
-
 	* + .grid__col.grid__col {
 		margin-top: 0;
 	}
@@ -64,3 +41,60 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.content-styles {
+		* + * {
+			margin-top: 30px;
+		}
+	
+		* + p,
+		li + li {
+			margin-top: 30px;
+		}
+	
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6,
+		* + .grid,
+		.grid + * {
+			margin-top: 50px;
+		}
+	
+		* + hr,
+		hr + * {
+			margin-top: 100px !important;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	.content-styles {
+		* + * {
+			margin-top: 20px;
+		}
+	
+		* + p,
+		li + li {
+			margin-top: 30px;
+		}
+	
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6,
+		* + .grid,
+		.grid + * {
+			margin-top: 40px;
+		}
+	
+		* + hr,
+		hr + * {
+			margin-top: 60px !important;
+		}
+	}
+}
