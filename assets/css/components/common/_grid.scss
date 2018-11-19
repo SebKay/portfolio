@@ -110,3 +110,32 @@
 		}
 	}
 }
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.grid.grid--m-1:not(.grid--reverse) {
+		> .grid__col.grid__col {
+			width: 100%;
+			margin-right: 0;
+			margin-left: 0;
+
+			&:nth-child(1n+2) {
+				margin-top: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-2)) {
+	.grid.grid--m2-1:not(.grid--reverse),
+	.grid.grid--m2-1.grid--reverse {
+		> .grid__col.grid__col {
+			width: 100%;
+			margin-right: 0;
+			margin-left: 0;
+
+			&:nth-child(1n+2) {
+				margin-top: 30px;
+			}
+		}
+	}
+}

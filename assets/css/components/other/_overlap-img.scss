@@ -33,13 +33,24 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.overlap-img {
 		padding: 30px;
 		margin-bottom: 30px;
 	
 		img {
 			margin-bottom: -60px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.overlap-img {
+		padding: 15px;
+		margin-bottom: 15px;
+	
+		img {
+			margin-bottom: -30px;
 		}
 	}
 }

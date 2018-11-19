@@ -33,7 +33,6 @@ button {
 
 label {
 	@extend %txt-upper;
-	padding-bottom: 15px;
 	display: block;
 	// Type
 	color: map-get($ui-colors, 2_4);
@@ -42,20 +41,6 @@ label {
 .form__inner {
 	@include flex(flex);
 	@include flex_wrap(wrap);
-}
-
-.form__item {
-	&:nth-child(2n) {
-		margin-left: auto;
-	}
-
-	&:nth-child(1n+3) {
-		margin-top: 40px;
-	}
-}
-
-.form__item--half {
-	width: calc_grid_cols(6);
 }
 
 .form__item--full {
@@ -99,8 +84,43 @@ label {
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	label {
 		@include rem(18px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	label {
+		padding-bottom: 15px;
+	}
+
+	.form__item {
+		&:nth-child(2n) {
+			margin-left: auto;
+		}
+	
+		&:nth-child(1n+3) {
+			margin-top: 40px;
+		}
+	}
+	
+	.form__item--half {
+		width: calc_grid_cols(6);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	label {
+		@include rem(16px);
+		padding-bottom: 10px;
+	}
+
+	.form__item {
+		width: 100%;
+
+		&:nth-child(1n+2) {
+			margin-top: 25px;
+		}
 	}
 }

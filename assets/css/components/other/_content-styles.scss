@@ -35,8 +35,10 @@
 
 	figcaption {
 		@extend .txt-small;
+		@extend .txt-fade-2;
 		// Type
 		text-align: center;
+		line-height: 145%;
 	}
 }
 
@@ -95,6 +97,15 @@
 		* + hr,
 		hr + * {
 			margin-top: 60px !important;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.content-styles {
+		* + hr,
+		hr + * {
+			margin-top: 40px !important;
 		}
 	}
 }

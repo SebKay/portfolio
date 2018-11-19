@@ -1,6 +1,4 @@
 .big-icon {
-	width: 100%;
-	padding-bottom: 100%;
 	display: inline-block;
 	position: relative;
 	border-radius: 1000px;
@@ -20,3 +18,16 @@
 }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-2) + 1) {
+	.big-icon {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-2)) {
+	.big-icon {
+		width: 200px;
+		height: 200px;
+	}
+}

@@ -7,8 +7,6 @@
 	display: inline-block;
 
 	&:after {
-		margin-top: 40px;
-		margin-bottom: 40px;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -36,8 +34,36 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.service {
 		padding: 60px 40px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.service {
+		padding: 50px 30px;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.service__icon {
+		&:after {
+			margin-top: 40px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.service {
+		padding: 40px 20px;
+	}
+
+	.service__icon {
+		&:after {
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
 	}
 }

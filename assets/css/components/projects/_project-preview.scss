@@ -58,10 +58,20 @@
 	.project-preview__content {
 		width: 100%;
 	}
+}
 
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.project-preview__content {
 		margin-top: 50px;
 		padding-right: 30px;
 		padding-left: 30px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.project-preview__content {
+		margin-top: 30px;
+		padding-right: 15px;
+		padding-left: 15px;
 	}
 }

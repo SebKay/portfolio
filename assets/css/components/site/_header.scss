@@ -11,7 +11,6 @@
 	@extend .section;
 	@extend .section--large;
 	@include flex(flex);
-	@include flex_align_items(center);
 }
 
 .site-header__section--logo {
@@ -130,5 +129,11 @@
 			font-weight: map-get(map-get($font-1, weights), regular);
 			color: map-get($ui-colors, 2) !important;
 		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.site-header__inner {
+		@include flex_align_items(center);
 	}
 }

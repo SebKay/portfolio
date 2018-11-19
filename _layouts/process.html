@@ -8,7 +8,7 @@
 
 		{% if cycle_type == 'even' %}
 			{% assign grid_class = 'grid--reverse' %}
-			{% assign alignment_class = 'txt-right' %}
+			{% assign alignment_class = 'txt-right m-txt-left' %}
 		{% else if cycle_type == 'odd' %}
 			{% assign grid_class = null %}
 			{% assign alignment_class = null %}
@@ -29,7 +29,7 @@
 
 			{% for process_item in process_section.items %}
 				<div class="spacing-small-top">
-					<div class="grid grid--m-1 {{ grid_class }}">
+					<div class="grid grid--m2-1 {{ grid_class }}">
 						<div class="grid__col grid__col--3 {{ alignment_class }}">
 							<span class="big-icon">
 								{{ site.data.svgs[0][process_item.icon] }}

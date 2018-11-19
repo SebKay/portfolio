@@ -18,8 +18,14 @@
 
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.bg-grey-stripes {
 		background-size: 600px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.bg-grey-stripes {
+		background-size: 400px;
 	}
 }

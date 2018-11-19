@@ -57,6 +57,14 @@ $spacing-3 : (
 	huge   : 100px
 );
 
+$spacing-4 : (
+	tiny   : 25px,
+	small  : 35px,
+	medium : 45px,
+	large  : 55px,
+	huge   : 65px
+);
+
 //---- Colors
 $ui-colors: (
 	1   : #4b6cc1,
@@ -110,5 +118,6 @@ $breakpoints :(
 	tablet-1 : 1024px,
 	tablet-2 : 900px,
 	tablet-3 : 768px,
-	mobile-1 : 670px
+	mobile-1 : 670px,
+	mobile-2 : 375px
 );

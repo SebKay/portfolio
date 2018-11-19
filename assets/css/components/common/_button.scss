@@ -27,7 +27,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.btn {
 		@include rem(22px);
 		padding: 22px 32px;
@@ -36,5 +36,17 @@
 	.btn--large {
 		@include rem(28px);
 		padding: 26px 48px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.btn {
+		@include rem(18px);
+		padding: 18px 26px;
+	}
+
+	.btn--large {
+		@include rem(24px);
+		padding: 22px 34px;
 	}
 }

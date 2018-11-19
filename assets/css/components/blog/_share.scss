@@ -7,20 +7,11 @@
 	margin: 0;
 	list-style: none;
 
-	&:not(:last-child) {
-		margin-right: 30px;
-	}
-
 	a {
 		@include flex_center();
-		width: 90px;
-		height: 90px;
 		border-radius: $border-radius;
 
 		svg {
-			width: 28px;
-			height: 28px;
-
 			* {
 				fill: #fff;
 			}
@@ -34,3 +25,56 @@
 .share__item--linkedin a { background: map-get($social-colors, linkedin); }
 
 //---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-3) + 1) {
+	.share__item {
+		&:not(:last-child) {
+			margin-right: 30px;
+		}
+	
+		a {
+			width: 90px;
+			height: 90px;
+	
+			svg {
+				width: 28px;
+				height: 28px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-3)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.share__item {
+		&:not(:last-child) {
+			margin-right: 20px;
+		}
+	
+		a {
+			width: 70px;
+			height: 70px;
+	
+			svg {
+				width: 24px;
+				height: 24px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.share__item {
+		&:not(:last-child) {
+			margin-right: 12px;
+		}
+	
+		a {
+			width: 60px;
+			height: 60px;
+	
+			svg {
+				width: 22px;
+				height: 22px;
+			}
+		}
+	}
+}
