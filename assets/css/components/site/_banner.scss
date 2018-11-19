@@ -101,13 +101,6 @@
 	* + .site-banner__btn {
 		margin-top: 35px;
 	}
-
-	//---- Alternate Layout
-	.site-banner--alt {
-		.overlap-img {
-			max-width: 424px;
-		}
-	}
 }
 
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
@@ -119,7 +112,20 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.site-banner {
+		padding-top: $header-height-lt;
+	}
+
+	//---- Alternate Layout
+	.site-banner--alt {
+		.overlap-img {
+			max-width: 424px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	//---- Alternate Layout
 	.site-banner--alt {
 		.site-banner__content {
@@ -128,14 +134,23 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-banner {
-		padding-top: $header-height-lt;
-	}
+@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
+
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.site-banner {
 		padding-top: $header-height-tb2;
+	}
+
+	//---- Alternate Layout
+	.site-banner--alt {
+		.site-banner__inner {
+			@include flex_direction(column);
+		}
+
+		.overlap-img {
+			margin-top: 60px;
+		}
 	}
 }
