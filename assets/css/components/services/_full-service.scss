@@ -1,11 +1,6 @@
 .full-service {
 	@extend %accent-box;
 	@include flex(flex);
-	padding: 10%;
-}
-
-.full-service__section--content {
-	width: calc_grid_cols(9);
 }
 
 .full-service__icon {
@@ -28,5 +23,25 @@
 @media screen and (max-width: map-get($breakpoints, laptop-1)) {
 	.full-service__icon {
 		width: 50%;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet-3) + 1) {
+	.full-service {
+		padding: 10%;
+	}
+	
+	.full-service__section--content {
+		width: calc_grid_cols(9);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-3)) {
+	.full-service {
+		padding: 8%;
+	}
+	
+	.full-service__section--content {
+		width: calc_grid_cols(11);
 	}
 }

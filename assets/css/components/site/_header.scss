@@ -73,6 +73,12 @@
 		z-index: 50;
 	}
 
+	.mobile-menu--active {
+		.site-header {
+			@include header_light();
+		}
+	}
+
 	.site-header__section--menu {
 		.toggle-menu {
 			position: relative;
@@ -102,17 +108,27 @@
 		.site-menu__item.site-menu__item {
 			margin-right: 0;
 
-			&:not(:last-child) {
+			&:not(:last-child) a {
 				margin-bottom: 20px;
 				padding-bottom: 20px;
 				border-bottom: 2px solid map-get($ui-colors, 2_9);
 			}
 		}
-	}
 
-	.mobile-menu--active {
-		.site-header {
-			@include header_light();
+		.site-menu__link {
+			// Type
+			color: map-get($ui-colors, 2_2) !important;
+
+			&:before {
+				display: none;
+			}
+		}
+
+		.site-menu__link.active {
+			border-bottom-color: map-get($ui-colors, 1) !important;
+			// Type
+			font-weight: map-get(map-get($font-1, weights), regular);
+			color: map-get($ui-colors, 2) !important;
 		}
 	}
 }

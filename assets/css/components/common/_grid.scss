@@ -51,24 +51,6 @@
 	}
 }
 
-@for $i from 1 through $grid-cols {
-	.grid:not(.grid--reverse) {
-		.grid__col--#{$i} {
-			&:nth-of-type(1n+#{12 / $i + 1}) {
-				margin-top: #{$grid-spacing-px}px;
-			}
-		}
-	}
-
-	.grid--reverse {
-		.grid__col--#{$i} {
-			&:nth-last-of-type(1n+#{12 / $i + 1}) {
-				margin-top: #{$grid-spacing-px}px;
-			}
-		}
-	}
-}
-
 //---- Responsive ----//
 @media screen and (max-width: map-get($breakpoints, tablet-1)) {
 	.grid.grid--tb1-2:not(.grid--reverse) {
@@ -84,6 +66,46 @@
 
 			&:nth-child(1n+3) {
 				margin-top: 35px;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, tablet-3) + 1) {
+	@for $i from 1 through $grid-cols {
+		.grid:not(.grid--reverse) {
+			.grid__col--#{$i} {
+				&:nth-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px}px;
+				}
+			}
+		}
+	
+		.grid--reverse {
+			.grid__col--#{$i} {
+				&:nth-last-of-type(1n+#{12 / $i + 1}) {
+					margin-top: #{$grid-spacing-px}px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-3)) {
+	@for $i from 1 through $grid-cols {
+		.grid:not(.grid--reverse) {
+			.grid__col--#{$i} {
+				&:nth-of-type(1n+#{12 / $i + 1}) {
+					margin-top: 30px;
+				}
+			}
+		}
+	
+		.grid--reverse {
+			.grid__col--#{$i} {
+				&:nth-last-of-type(1n+#{12 / $i + 1}) {
+					margin-top: 30px;
+				}
 			}
 		}
 	}

@@ -11,6 +11,7 @@
 }
 
 .icon-list__img {
+	@include flex_shrink(0);
 	max-width: 24px;
 	max-height: 24px;
 	margin-right: 15px;
