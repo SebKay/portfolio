@@ -69,6 +69,7 @@ $ui-colors: (
 	2_6 : #f9f9f9,
 	2_7 : #e2e2e2,
 	2_8 : #121316,
+	2_9 : #f1f1f1,
 	3   : #c1594b
 );
 
@@ -89,7 +90,7 @@ $grid-spacing-percent     : percentage($grid-spacing-px / 1700);
 //---- Offsets
 $header-height  : 151px;
 $header-height-lt  : 131px;
-$header-height-tb2  : 84px;
+$header-height-tb2  : 124px;
 
 $slanted_offset : 100px;
 
@@ -101,7 +102,7 @@ $z-index :(
 
 $border-radius         : 6px;
 $transition-speed      : 0.3s;
-$transition-speed-menu : 0.5s;
+$transition-speed-menu : 0.4s;
 
 $breakpoints :(
 	laptop-1 : 1440px,

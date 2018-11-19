@@ -1,21 +1,6 @@
 .site-scroll--active {
 	.site-header {
-		box-shadow: 0 2px 15px black(0.08);
-		background: #fff;
-
-		.site-logo {
-			// Type
-			color: map-get($ui-colors, 2);
-		}
-
-		.site-menu__link {
-			// Type
-			color: map-get($ui-colors, 2_2);
-		}
-
-		.toggle-menu__line {
-			background: map-get($ui-colors, 2);
-		}
+		@include header_light();
 	}
 }
 
@@ -32,8 +17,8 @@
 @media screen and (max-width: map-get($breakpoints, laptop-1)) {
 	.site-scroll--active {
 		.site-header {
-			padding-top: 30px;
-			padding-bottom: 30px;
+			padding-top: 40px;
+			padding-bottom: 40px;
 		}
 	}
 }

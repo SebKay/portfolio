@@ -128,7 +128,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: menu + 1) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-banner {
 		padding-top: $header-height-lt;
 	}

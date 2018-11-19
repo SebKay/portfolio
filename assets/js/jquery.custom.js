@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 	--------------------------------------------*/
 	//---- Global transition speed
 	var transition_speed      = 300;
-	var transition_speed_menu = 500;
+	var transition_speed_menu = 400;
 
 	//---- Remove 'no-js' class when JavaScript is enabled
 	$('body').removeClass('js-inactive').addClass('js-active');
@@ -41,10 +41,10 @@ jQuery(document).ready(function($) {
 	$('.js-toggle-menu').on('click', function(e) {
 		e.preventDefault();
 
-		$('.site-header').toggleClass('site-header--menu-active');
+		$('body').toggleClass('mobile-menu--active');
 
 		var button = $(this);
-		var menu   = $('.mobile-menu');
+		var menu   = $('.site-menu');
 
 		if(menu.length) {
 			if($(this).hasClass('active')) {
@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
 
 	$(window).on('resize', function() {
 		if($(this).width() > 900) {
-			$('.mobile-menu').css('display', '');
+			$('.site-menu').css('display', '');
 		}
 	});
 

@@ -11,7 +11,7 @@
 }
 
 //---- Responsive ----//
-@media screen and (min-width: menu + 1) {
+@media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-logo {
 		@include rem(28px);
 
