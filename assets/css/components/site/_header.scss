@@ -11,6 +11,7 @@
 	@extend .section;
 	@extend .section--large;
 	@include flex(flex);
+	@include flex_align_items(center);
 }
 
 .site-header__section--logo {
@@ -54,6 +55,9 @@
 }
 
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.site-header__inner {
+	}
+
 	.site-header__section--menu {
 		.toggle-menu {
 			display: none;
@@ -62,11 +66,6 @@
 }
 
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
-	.site-header {
-		padding-top: 40px;
-		padding-bottom: 40px;
-	}
-
 	.site-header__section--logo  {
 		position: relative;
 		z-index: 50;
@@ -133,7 +132,18 @@
 }
 
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-header__inner {
-		@include flex_align_items(center);
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.site-header {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.site-header {
+		padding-top: 20px;
+		padding-bottom: 20px;
 	}
 }

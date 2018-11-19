@@ -156,6 +156,10 @@
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.site-banner {
+		padding-top: $header-height-m;
+	}
+
 	* + .site-banner__tagline,
 	* + .site-banner__title,
 	* + .site-banner__subtitle,

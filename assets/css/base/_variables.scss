@@ -96,9 +96,10 @@ $grid-spacing-px-tablet-1 : 40;
 $grid-spacing-percent     : percentage($grid-spacing-px / 1700);
 
 //---- Offsets
-$header-height  : 151px;
-$header-height-lt  : 131px;
-$header-height-tb2  : 124px;
+$header-height        : 151px;
+$header-height-lt     : 131px;
+$header-height-tb2    : 124px;
+$header-height-m      : 62px;
 
 $slanted_offset : 100px;
 

@@ -21,9 +21,19 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.site-logo {
 		@include rem(26px);
+
+		&:after {
+			margin-top: 12px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.site-logo {
+		@include rem(24px);
 
 		&:after {
 			margin-top: 12px;
