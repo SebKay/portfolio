@@ -38,12 +38,30 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: menu + 1) {
 	.project-preview__img {
 		width: calc_grid_cols(6) + $grid-spacing-percent;
 	}
 	
 	.project-preview__content {
 		width: calc_grid_cols(5) + $grid-spacing-percent;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.project-preview {
+		@include flex_direction(column);
+	}
+	
+
+	.project-preview__img,
+	.project-preview__content {
+		width: 100%;
+	}
+
+	.project-preview__content {
+		margin-top: 50px;
+		padding-right: 30px;
+		padding-left: 30px;
 	}
 }

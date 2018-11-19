@@ -1,5 +1,4 @@
 .site-banner {
-	padding-top: $header-height;
 	border-bottom: 4px solid map-get($ui-colors, 2_1);
 }
 
@@ -76,6 +75,10 @@
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.site-banner {
+		padding-top: $header-height;
+	}
+
 	* + .site-banner__tagline,
 	* + .site-banner__title,
 	* + .site-banner__subtitle,
@@ -122,5 +125,17 @@
 		.site-banner__content {
 			padding-right: 80px;
 		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: menu + 1) {
+	.site-banner {
+		padding-top: $header-height-lt;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.site-banner {
+		padding-top: $header-height-tb2;
 	}
 }

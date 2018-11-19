@@ -4,6 +4,7 @@
 	background: map-get($ui-colors, 2_1);
 
 	img {
+		@extend .img-full;
 		box-shadow: 0 5px 30px black(0.2);
 		border-radius: $border-radius / 2;
 	}
@@ -13,6 +14,7 @@
 @media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
 	.overlap-img {
 		padding: 60px;
+		margin-bottom: 60px;
 	
 		img {
 			margin-bottom: -120px;
@@ -20,12 +22,24 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: menu + 1) {
 	.overlap-img {
 		padding: 40px;
+		margin-bottom: 40px;
 	
 		img {
 			margin-bottom: -80px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.overlap-img {
+		padding: 30px;
+		margin-bottom: 30px;
+	
+		img {
+			margin-bottom: -60px;
 		}
 	}
 }

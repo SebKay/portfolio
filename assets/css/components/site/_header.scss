@@ -20,10 +20,6 @@
 
 .site-header__section--menu {
 	margin-left: auto;
-
-	.toggle-menu {
-		display: none;
-	}
 }
 
 //---- Dark version
@@ -51,9 +47,30 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: menu + 1) {
 	.site-header {
 		padding-top: 80px;
 		padding-bottom: 80px;
+	}
+}
+
+@media screen and (min-width: menu + 1) {
+	.site-header__section--menu {
+		.toggle-menu {
+			display: none;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.site-header {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.site-header__section--menu {
+		.site-menu {
+			display: none;
+		}
 	}
 }

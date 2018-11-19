@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 
 
 	/*--------------------------------------------
-	---- Toggle Menu (< 768)
+	---- Toggle Menu (< 900)
 	--------------------------------------------*/
 	$('.js-toggle-menu').on('click', function(e) {
 		e.preventDefault();
@@ -44,7 +44,7 @@ jQuery(document).ready(function($) {
 		$('.site-header').toggleClass('site-header--menu-active');
 
 		var button = $(this);
-		var menu   = $('.site-menu');
+		var menu   = $('.mobile-menu');
 
 		if(menu.length) {
 			if($(this).hasClass('active')) {
@@ -66,8 +66,8 @@ jQuery(document).ready(function($) {
 	});
 
 	$(window).on('resize', function() {
-		if($(this).width() > 768) {
-			$('.site-menu').css('display', '');
+		if($(this).width() > 900) {
+			$('.mobile-menu').css('display', '');
 		}
 	});
 

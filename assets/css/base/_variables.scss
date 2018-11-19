@@ -88,6 +88,9 @@ $grid-spacing-percent     : percentage($grid-spacing-px / 1700);
 
 //---- Offsets
 $header-height  : 151px;
+$header-height-lt  : 131px;
+$header-height-tb2  : 84px;
+
 $slanted_offset : 100px;
 
 //---- Other
@@ -105,5 +108,6 @@ $breakpoints :(
 	laptop-2 : 1280px,
 	tablet-1 : 1024px,
 	tablet-2 : 900px,
+	tablet-3 : 768px,
 	mobile-1 : 670px
 );

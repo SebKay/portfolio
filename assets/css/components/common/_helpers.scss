@@ -13,6 +13,11 @@ hr {
 	background: map-get($ui-colors, 2_1);
 }
 
+.img-full {
+	width: 100%;
+	display: block;
+}
+
 .hidden {
 	display: none;
 }
