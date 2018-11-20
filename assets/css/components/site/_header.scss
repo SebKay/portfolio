@@ -12,6 +12,7 @@
 	@extend .section--large;
 	@include flex(flex);
 	@include flex_align_items(center);
+	@include transition(all ease $transition-speed);
 }
 
 .site-header__section--logo {
@@ -41,23 +42,20 @@
 
 //---- Responsive ----//
 @media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
-	.site-header {
+	.site-header__inner {
 		padding-top: 100px;
 		padding-bottom: 100px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-header {
+	.site-header__inner {
 		padding-top: 80px;
 		padding-bottom: 80px;
 	}
 }
 
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.site-header__inner {
-	}
-
 	.site-header__section--menu {
 		.toggle-menu {
 			display: none;
@@ -134,15 +132,21 @@
 @media screen and (min-width: map-get($breakpoints, tablet-2) + 1) {
 }
 
+@media screen and (max-width: map-get($breakpoints, tablet-2)) {
+	.site-header__inner {
+		border-bottom: 2px solid white(0.1);
+	}
+}
+
 @media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.site-header {
+	.site-header__inner {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	.site-header {
+	.site-header__inner {
 		padding-top: 20px;
 		padding-bottom: 20px;
 	}
