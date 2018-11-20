@@ -5,6 +5,7 @@
 
 	img {
 		@extend .img-full;
+		position: relative;
 		box-shadow: 0 5px 30px black(0.2);
 		border-radius: $border-radius / 2;
 	}

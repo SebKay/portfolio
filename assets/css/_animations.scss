@@ -43,3 +43,46 @@
 		top: 9px;
 	}
 }
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.animations-enabled.page-home {
+		.anim {
+			@include transition(all ease ($transition-speed * 1.5));
+		}
+
+		.anim-up {
+			position: relative;
+			top: 30px;
+
+			&.loaded {
+				top: 0px;
+			}
+		}
+
+		.anim-down {
+			position: relative;
+			top: -30px;
+
+			&.loaded {
+				top: 0px;
+			}
+		}
+
+		.anim-fade {
+			opacity: 0;
+
+			&.loaded {
+				opacity: 1;
+			}
+		}
+
+		.anim-scale-up {
+			@include transform(scale(0.95));
+
+			&.loaded {
+				@include transform(scale(1));
+			}
+		}
+	}
+}

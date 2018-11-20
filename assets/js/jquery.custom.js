@@ -12,6 +12,18 @@ jQuery(document).ready(function($) {
 
 
 	/*--------------------------------------------
+	---- Animations
+	--------------------------------------------*/
+	//---- Load
+	$(window).on('load', function() {
+		$('.anim').each(function() {
+			$(this).addClass('loaded');
+		});
+	});
+
+
+
+	/*--------------------------------------------
 	---- Sticky Header
 	--------------------------------------------*/
 	function skp_site_scroll() {

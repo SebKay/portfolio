@@ -40,8 +40,13 @@
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
 	<body class="js-inactive site-scroll--inactive page-{{ page.title | slugify }}">
+		<script type="text/javascript">
+			// Class for animations
+			document.body.classList.add('animations-enabled');
+		</script>
+
 		<header class="site-header {{ header_class }}">
-			<div class="site-header__inner">
+			<div class="site-header__inner anim anim-down anim-fade">
 				<div class="site-header__section site-header__section--logo">
 					<a class="site-logo" href="{{ site.url }}">
 						Seb Kay
