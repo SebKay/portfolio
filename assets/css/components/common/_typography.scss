@@ -49,6 +49,7 @@ a {
 	p, li { @include rem(24px); }
 	
 	.txt-small { @include rem(20px); }
+	.txt-medium { @include rem(26px); }
 	.txt-large { @include rem(30px); }
 }
 
@@ -63,6 +64,7 @@ a {
 	p, li { @include rem(22px); }
 	
 	.txt-small { @include rem(18px); }
+	.txt-medium { @include rem(24px); }
 	.txt-large { @include rem(26px); }
 }
 
@@ -77,6 +79,7 @@ a {
 	p, li { @include rem(20px); }
 	
 	.txt-small { @include rem(18px); }
+	.txt-medium { @include rem(22px); }
 	.txt-large { @include rem(24px); }
 }
 
@@ -91,6 +94,7 @@ a {
 	p, li { @include rem(18px); }
 	
 	.txt-small { @include rem(16px); }
+	.txt-medium { @include rem(18px); }
 	.txt-large { @include rem(20px); }
 
 	.m-txt-left   { text-align: left; }

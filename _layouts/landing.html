@@ -18,10 +18,10 @@
 					</span>
 				</div>
 				<div class="content-styles">
-					<h3 class="h4">
+					<h3>
 						{{ usp[1].title }}
 					</h3>
-					<p class="txt-large txt-dark">
+					<p class="txt-large">
 						{{ usp[1].subtitle }}
 					</p>
 					<p>
@@ -57,7 +57,7 @@
 				<div class="grid grid--m-1 {{ feature_grid_class }}">
 					<div class="grid__col grid__col--7 {{ feature_grid_left_class }}">
 						<div class="content-styles">
-							<img src="{{ feature[1].img_url }}">
+							<img class="img-full" src="{{ feature[1].img_url }}">
 						</div>
 					</div>
 					<div class="grid__col grid__col--5 grid__col--v-center {{ feature_grid_right_class }}">
@@ -65,7 +65,7 @@
 							<h2 class="h3">
 								{{ feature[1].title }}
 							</h2>
-							<p class="txt-large">
+							<p class="txt-medium">
 								{{ feature[1].desc }}
 							</p>
 						</div>
@@ -88,9 +88,13 @@
 					{{ page.cta_title }}
 				</span>
 			</h2>
-			<p class="txt-large">
-				{{ page.cta_desc }}
-			</p>
+			
+			{% if page.cta_desc %}
+				<p class="txt-large">
+					{{ page.cta_desc }}
+				</p>
+			{% endif %}
+
 			<a class="btn" href="{{ page.cta_btn_url }}">
 				{{ page.cta_btn_txt }}
 			</a>
