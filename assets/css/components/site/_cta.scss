@@ -1,0 +1,29 @@
+.site-cta {
+	padding-top: $slanted_offset;
+	background-color: map-get($ui-colors, 2);
+	-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 100%);
+}
+
+.bg-slanted + .site-cta {
+	margin-top: -#{$slanted_offset};
+}
+
+.site-cta__inner {
+	@extend .spacing-huge;
+	@extend .section;
+	@extend .section--medium;
+}
+
+.site-cta__title {
+	// Type
+	color: #fff;
+}
+
+.site-cta__txt {
+	@extend .txt-large;
+	// Type
+	color: white(0.5);
+}
+
+//---- Responsive ----//

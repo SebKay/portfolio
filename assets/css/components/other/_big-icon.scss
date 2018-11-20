@@ -1,0 +1,47 @@
+.big-icon {
+	display: inline-block;
+	position: relative;
+	border-radius: 1000px;
+	background: map-get($ui-colors, 2_1);
+
+	svg {
+		@include transform(translate(-50%, -50%));
+		width: 30%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+
+		* {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.big-icon--limited {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.big-icon {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-2) + 1) {
+	.big-icon:not(.big-icon--limited) {
+		width: 100%;
+		padding-bottom: 100%;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-2)) {
+	.big-icon {
+		width: 200px;
+		height: 200px;
+	}
+}

@@ -1,0 +1,21 @@
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			From My Blog
+		</h2>
+	</div>
+
+	<div class="grid grid--m-1">
+		{% for post in site.posts limit: 2 %}
+			<div class="grid__col grid__col--6">
+				{% include post-preview.html %}
+			</div>
+		{% endfor %}
+	</div>
+
+	<div class="spacing-medium-top txt-center">
+		<a class="btn" href="/blog/">
+			View More Posts
+		</a>
+	</div>
+</section>

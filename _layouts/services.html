@@ -1,42 +1,44 @@
 {% include header.html %}
 
-<section class="section section--small spacing-large">
-	{% for service in site.data.services %}
-		<div class="service anim anim-up anim-fade" id="{{ service.title | slugify }}">
-			<div class="service__left">
-				<span class="icon icon--large icon--{{ service.icon }}">
+<div class="spacing-huge-top"></div>
+
+{% for service in site.data.services %}
+	<section class="section section--medium spacing-small-bottom">
+		<div class="full-service">
+			<div class="full-service__section full-service__section--icon">
+				<span class="full-service__icon">
 					{{ site.data.svgs[0][service.icon] }}
 				</span>
 			</div>
-
-			<div class="service__right">
-				<h2 class="">
-					{{ service.title }}
-				</h2>
-				<br>
-				<p class="txt-large">
-					{{ service.tagline }}
-				</p>
-				<br>
-				<div class="post-styles">
-					<p>
-						{{ service.content }}
-					</p>
-				</div>
-				<br><br>
-				<a class="btn" href="{{ service.url }}">
-					<span class="btn__inner">
-						Get a Quote
-					</span>
-				</a>
+			<div class="full-service__section full-service__section--content">
+				{% if service.title %}
+					<div class="content-styles">
+						<h2>
+							{{ service.title }}
+						</h2>
+					</div>
+				{% endif %}
+				{% for service_sub_item in service.sub_items %}
+					<div class="spacing-tiny-top">
+						<div class="content-styles">
+							<h3 class="h4">
+								{{ service_sub_item.title }}
+							</h3>
+							<p>
+								{{ service_sub_item.desc }}
+							</p>
+						</div>
+					</div>
+				{% endfor %}
 			</div>
 		</div>
+	</section>
+{% endfor %}
 
-		{% if forloop.last != true %}
-			<div class="spacer-bottom spacing-medium-bottom"></div>
-			<div class="spacing-medium-bottom"></div>
-		{% endif %}
-	{% endfor %}
-</section>
+<div class="section section--small spacing-large-bottom txt-center">
+	<a class="btn btn--large" href="/contact/">
+		Get in Touch
+	</a>
+</div>
 
 {% include footer.html %}

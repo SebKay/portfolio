@@ -1,110 +1,44 @@
 {% include header.html %}
 
-<section class="site-banner">
-	<div class="site-banner__inner anim anim-up anim-fade">
-		<figure class="site-banner__img">
-			<picture>
-				<source srcset="/assets/img/banner-headshot.jpg 1x, /assets/img/banner-headshot-@2x.jpg 2x" media="(min-width: 376px)">
-				<img srcset="/assets/img/banner-headshot-375.jpg 1x, /assets/img/banner-headshot-375-@2x.jpg 2x" alt="Headshot">
-			</picture>
-		</figure>
-		<div class="site-banner__content">
-			<h1 class="site-banner__title">
-				Hi, I'm Seb Kay
-			</h1>
-
-			<h2 class="site-banner__subtitle">
-				I Design &amp; Build Websites
-			</h2>
-
-			<p class="site-banner__txt">
-				I'm a web designer and front-end developer from Hampshire, UK. I build bespoke websites to help my clients push their businesses further online.
-				<br><br>
-				My expertise is in web design, WordPress development, eCommerce stores and SEO optimisation. If you'd like me to get involved with helping your business grow, I'm all ears!
-			</p>
-
-			<div class="site-banner__actions">
-				<a class="btn" href="/work/">
-					<span class="btn__inner">
-						View My Work
-					</span>
-				</a>
-				<a class="btn btn--ghost" href="/contact/">
-					<span class="btn__inner">
-						Contact Me
-					</span>
-				</a>
-			</div>
-		</div>
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			Featured Project
+		</h2>
 	</div>
+
+	{% assign project = site.data.projects[0] %}
+	{% include project-preview.html %}
 </section>
 
-<section class="bg-grey">
-	<div class="section section--large spacing-large anim anim-up anim-fade">
-		<div class="txt-center spacing-medium-bottom">
-			<h2>
-				Featured Work
-			</h2>
-		</div>
+{% assign testimonial = site.data.testimonials[0] %}
+{% include testimonial.html %}
 
-		{% assign project = site.data.projects[0] %}
-
-		{% include project-preview.html %}
-	</div>
-</section>
-
-<section class="testimonial">
-	<div class="testimonial__inner anim anim-up anim-fade">
-		<blockquote>
-			<p>{{ site.data.testimonials[0].quote }}</p>
-			<cite>
-				<img src="{{ site.data.testimonials[0].img_1x_url }}" srcset="{{ site.data.testimonials[0].img_1x_url }} 1x, {{ site.data.testimonials[0].img_2x_url }} 2x" alt="{{ site.data.testimonials[0].by }}">
-				<span>
-					{{ site.data.testimonials[0].by }}
-				</span>
-			</cite>
-		</blockquote>
-	</div>
-</section>
-
-<section class="section section--large spacing-large anim anim-up anim-fade">
-	<div class="txt-center spacing-medium-bottom">
-		<h2>
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
 			My Services
 		</h2>
 	</div>
 
-	<div class="grid grid--spaced grid--tb2--1">
-		{% for service in site.data.services %}
-			<div class="grid__col grid__col--4 txt-center">
-				<a class="icon icon--{{ service.icon }}" href="/services/#{{ service.title | slugify }}">
-					{{ site.data.svgs[0][service.icon] }}
-				</a>
-				<br><br><br>
-				<h3 class="h4">
-					{{ service.title }}
-				</h3>
-				<br>
-				<p class="txt-large">
-					{{ service.tagline }}
-				</p>
-				<br>
-				<div class="post-styles">
-					<p>
-						{{ service.excerpt }}
-					</p>
-				</div>
+	<div class="grid grid--tb1-2 grid--m-1">
+		{% for service in site.data.services limit: 3 %}
+			<div class="grid__col grid__col--4">
+				{% include service.html %}
 			</div>
 		{% endfor %}
 	</div>
 
-	<div class="txt-center spacing-small-top">
-		<a class="btn" href="/services">
-			<span class="btn__inner">
-				View All Services
-			</span>
+	<div class="spacing-medium-top txt-center">
+		<a class="btn" href="/services/">
+			View All Services
 		</a>
 	</div>
 </section>
+
+{% assign testimonial = site.data.testimonials[1] %}
+{% include testimonial.html %}
+
+{% include blog-preview.html %}
 
 {% include footer.html %}

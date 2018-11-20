@@ -1,0 +1,68 @@
+.overlap-img {
+	width: 100%;
+	border-radius: $border-radius;
+	background: map-get($ui-colors, 2_1);
+
+	img {
+		@extend .img-full;
+		position: relative;
+		box-shadow: 0 5px 30px black(0.2);
+		border-radius: $border-radius / 2;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.overlap-img {
+		padding: 60px;
+		margin-bottom: 60px;
+	
+		img {
+			margin-bottom: -120px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and  (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.overlap-img {
+		padding: 50px;
+		margin-bottom: 50px;
+	
+		img {
+			margin-bottom: -100px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.overlap-img {
+		padding: 40px;
+		margin-bottom: 40px;
+	
+		img {
+			margin-bottom: -80px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.overlap-img {
+		padding: 30px;
+		margin-bottom: 30px;
+	
+		img {
+			margin-bottom: -60px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.overlap-img {
+		padding: 15px;
+		margin-bottom: 15px;
+	
+		img {
+			margin-bottom: -30px;
+		}
+	}
+}

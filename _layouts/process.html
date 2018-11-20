@@ -1,0 +1,55 @@
+{% include header.html %}
+
+{% assign wrapper_class = 'spacing-large-bottom' %}
+
+<div class="spacing-huge">
+	{% for process_section in site.data.process %}
+		{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+		{% if cycle_type == 'even' %}
+			{% assign grid_class = 'grid--reverse' %}
+			{% assign alignment_class = 'txt-right m-txt-left' %}
+		{% else if cycle_type == 'odd' %}
+			{% assign grid_class = null %}
+			{% assign alignment_class = null %}
+		{% endif %}
+
+		{% if forloop.last == true %}
+			{% assign wrapper_class = null %}
+		{% endif %}
+
+		<section class="section section--medium {{ wrapper_class }}">
+			<h2 class="section-title">
+				{{ process_section.title }}
+				-
+				<span class="section-title__txt">
+					{{ process_section.subtitle }}
+				</span>
+			</h2>
+
+			{% for process_item in process_section.items %}
+				<div class="spacing-small-top">
+					<div class="grid grid--m2-1 {{ grid_class }}">
+						<div class="grid__col grid__col--3 {{ alignment_class }}">
+							<span class="big-icon">
+								{{ site.data.svgs[0][process_item.icon] }}
+							</span>
+						</div>
+						<div class="grid__col grid__col--9 grid__col--v-center">
+							<div class="content-styles">
+								<h3>
+									{{ process_item.title }}
+								</h3>
+								<p class="txt-large">
+									{{ process_item.desc }}
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</section>
+	{% endfor %}
+</div>
+
+{% include footer.html %}

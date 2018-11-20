@@ -1,12 +1,9 @@
-//---- Theme JS
-// @codekit-prepend "jquery.js"
-
 //---- Plugins
-// @codekit-prepend "plugins/jcf.js", "plugins/jcf.select.js", "plugins/jcf.checkbox.js", "plugins/jcf.radio.js", "plugins/jcf.number.js", "plugins/jcf.file.js", "plugins/jcf.range.js"
-// @codekit-prepend "plugins/picturefill.js"
-// @codekit-prepend "plugins/fitvids.js"
-// @codekit-prepend "plugins/jquery.validate.js"
+// @codekit-prepend "third-party/jquery-3.3.1.js"
+// @codekit-prepend "third-party/jcf.js", "third-party/jcf.select.js", "third-party/jcf.checkbox.js", "third-party/jcf.radio.js"
+// @codekit-prepend "third-party/picturefill.js"
+// @codekit-prepend "third-party/fitvids.js"
+// @codekit-prepend "third-party/jquery.validate.js"
 
 //---- Theme JS
-// @codekit-prepend "svg.js"
 // @codekit-prepend "jquery.custom.js"

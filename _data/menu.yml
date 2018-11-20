@@ -1,5 +1,8 @@
-- name: Work
-  url: /work/
+- name: Projects
+  url: /projects/
+
+- name: Process
+  url: /process/
 
 - name: Services
   url: /services/

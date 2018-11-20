@@ -1,0 +1,124 @@
+//---- Typography
+$font-1 : (
+	family : ('Rubik', 'Arial', sans-serif),
+	weights : (
+		light   : 300,
+		regular : 400,
+		medium  : 500
+	)
+);
+
+$base-text-size : 16px;
+
+//---- Sections
+$sections-1 : (
+	small  : 1112px,
+	medium : 1406px,
+	large  : 1700px
+);
+
+$sections-2 : (
+	small  : 825px,
+	medium : 1200px,
+	large  : 1430px
+);
+
+$sections-3 : (
+	small  : 496px,
+	medium : 825px,
+	large  : 1024px
+);
+
+$site-width         : 92%;
+$site-spacing-outer : (100 - $site-width) / 2;
+
+//---- Spacing
+$spacing-1 : (
+	tiny   : 50px,
+	small  : 75px,
+	medium : 115px,
+	large  : 150px,
+	huge   : 250px
+);
+
+$spacing-2 : (
+	tiny   : 40px,
+	small  : 60px,
+	medium : 80px,
+	large  : 100px,
+	huge   : 130px
+);
+
+$spacing-3 : (
+	tiny   : 35px,
+	small  : 50px,
+	medium : 65px,
+	large  : 80px,
+	huge   : 100px
+);
+
+$spacing-4 : (
+	tiny   : 25px,
+	small  : 35px,
+	medium : 45px,
+	large  : 55px,
+	huge   : 65px
+);
+
+//---- Colors
+$ui-colors: (
+	1   : #4b6cc1,
+	2   : #191a1d,
+	2_1 : #f6f6f6,
+	2_2 : #5e5e5e,
+	2_3 : #ababab,
+	2_4 : #919191,
+	2_5 : #101114,
+	2_6 : #f9f9f9,
+	2_7 : #e2e2e2,
+	2_8 : #121316,
+	2_9 : #f1f1f1,
+	3   : #c1594b
+);
+
+$social-colors: (
+	twitter  : #55acee,
+	facebook : #3b5998,
+	google   : #dd4b39,
+	linkedin : #0073b2,
+	rss      : #ee802f
+);
+
+//---- Grid
+$grid-cols                : 12;
+$grid-spacing-px          : 64;
+$grid-spacing-px-tablet-1 : 40;
+$grid-spacing-percent     : percentage($grid-spacing-px / 1700);
+
+//---- Offsets
+$header-height        : 151px;
+$header-height-lt     : 131px;
+$header-height-tb2    : 126px;
+$header-height-m      : 84px;
+
+$slanted_offset : 100px;
+
+//---- Other
+$z-index :(
+	1 : 900,
+	2 : 800
+);
+
+$border-radius         : 6px;
+$transition-speed      : 0.3s;
+$transition-speed-menu : 0.4s;
+
+$breakpoints :(
+	laptop-1 : 1920px,
+	laptop-2 : 1280px,
+	tablet-1 : 1024px,
+	tablet-2 : 900px,
+	tablet-3 : 768px,
+	mobile-1 : 670px,
+	mobile-2 : 375px
+);

@@ -3,12 +3,19 @@
 {% else %}
 	{% capture page_title %}{{ page.title }} | {{ site.title }}{% endcapture %}
 {% endif %}
+
 {% if page.seo_description %}
 	{% assign seo_description = page.seo_description %}
 {% elsif page.excerpt %}
 	{% assign seo_description = page.excerpt %}
 {% else %}
-	{% assign seo_description = 'Bespoke web design and development for small and medium sized businesses. Made in Hampshire, UK.' %}
+	{% assign seo_description = 'Bespoke web design and development for small and medium sized businesses. Made in Southampton, UK.' %}
+{% endif %}
+
+{% if page.style == 'dark' or page.is_post %}
+	{% assign header_class = 'site-header--dark' %}
+{% else %}
+	{% assign header_class = null %}
 {% endif %}
 <!DOCTYPE html>
 <html lang="en-GB">
@@ -19,10 +26,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-		<link rel="dns-prefetch" href="//fonts.googleapis.com">
+		<link rel="dns-prefetch" href="https://fonts.googleapis.com">
 
-		<link rel="stylesheet" href="//fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:500,600|IBM+Plex+Sans:300,300i,500,600|Kalam" type="text/css" media="all">
-		<link rel="stylesheet" type="text/css" href="/assets/css/style.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:500,600|IBM+Plex+Sans:300,300i,500,600|Kalam" type="text/css" media="all">
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
 
 		<link href="/assets/img/favicon-32x32.png" rel="icon" sizes="32x32">
 		<link href="/assets/img/favicon-192x192.png" rel="icon" sizes="192x192">
@@ -32,51 +39,49 @@
 		<meta name="description" content="{{ seo_description }}">
 		<meta name="google-site-verification" content="bzTP6T7_iPqdsTPB1KIMbC5z7GXwvXKbcedNpY-Nz0A">
 	</head>
-	<body class="no-touch no-js page-{{ page.title | slugify }}">
+	<body class="js-inactive site-scroll--inactive page-{{ page.title | slugify }}">
 		<script type="text/javascript">
 			// Class for animations
 			document.body.classList.add('animations-enabled');
 		</script>
 
-		<div class="page-wrap">
-			<header class="site-header anim anim-down anim-fade">
-				<div class="site-header__inner">
-					<div class="site-header__section site-header__section--logo">
-						<a class="site-logo" href="/">
-							<span class="site-logo__txt">
-								Seb
-							</span>
-						</a>
-					</div>
-
-					<div class="site-header__section site-header__section--toggle-menu">
-						<a class="toggle-menu js-toggle-menu" href="#">
-							<span class="toggle-menu__line"></span>
-							<span class="toggle-menu__line"></span>
-							<span class="toggle-menu__line"></span>
-						</a>
-					</div>
-
-					<div class="site-header__section site-header__section--menu">
-						<div class="site-menu">
-							<nav class="site-menu__inner">
-								{% for menu-item in site.data.menu %}
-									{% assign current-menu-item = null %}
-									{% assign menu-item-slug = menu-item.url | remove: '/' %}
-
-									{% if page.url == menu-item.url or page.parent == menu-item-slug %}
-										{% assign current-menu-item = 'active' %}
-									{% endif %}
-									<a class="site-menu__item {{ current-menu-item }}" href="{{ menu-item.url }}">
-										{{ menu-item.name }}
-									</a>
-								{% endfor %}
-							</nav>
-						</div>
-					</div>
+		<header class="site-header {{ header_class }}">
+			<div class="site-header__inner anim anim-down anim-fade">
+				<div class="site-header__section site-header__section--logo">
+					<a class="site-logo" href="{{ site.url }}">
+						Seb Kay
+					</a>
 				</div>
-			</header>
 
-			{% if page.url != '/' %}
-				{% include banner.html %}
-			{% endif %}
+				{% if site.data.menu %}
+					<div class="site-header__section site-header__section--menu">
+						<a class="toggle-menu js-toggle-menu" href="#" aria-label="Toggle Menu">
+							<span class="toggle-menu__line"></span>
+							<span class="toggle-menu__line"></span>
+							<span class="toggle-menu__line"></span>
+						</a>
+
+						<nav class="site-menu">
+							<ul class="site-menu__inner">
+								{% for menu-item in site.data.menu %}
+									{% assign menu-item-current = null %}
+									{% assign menu-item-slug    = menu-item.url | remove: '/' %}
+
+									{% if page.url == menu-item.url or page.url contains menu-item-slug %}
+										{% assign menu-item-current = 'active' %}
+									{% endif %}
+
+									<li class="site-menu__item">
+										<a class="site-menu__link {{ menu-item-current }}" href="{{ menu-item.url }}">
+											{{ menu-item.name }}
+										</a>
+									</li>
+								{% endfor %}
+							</ul>
+						</nav>
+					</div>
+				{% endif %}
+			</div>
+		</header>
+
+		{% include banner.html %}

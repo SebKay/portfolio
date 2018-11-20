@@ -1,0 +1,26 @@
+.section {
+	width: $site-width;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section--full.section--full {
+	width: 100%;
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	@each $section, $amount in $sections-1 {
+		.section--#{$section} {
+			max-width: $amount;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	@each $section, $amount in $sections-2 {
+		.section--#{$section} {
+			max-width: $amount;
+		}
+	}
+}

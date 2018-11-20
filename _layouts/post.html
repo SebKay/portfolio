@@ -1,48 +1,17 @@
 {% include header.html %}
 
-<section class="spacing-large">
-	<div class="section section--medium spacing-medium-bottom anim anim-up anim-fade">
-		<figure>
-			<img class="img-full" src="{{ page.thumb_url }}" alt="{{ page.title }}">
-		</figure>
+<section class="section section--small spacing-huge">
+	<div class="spacing-small-bottom">
+		<div class="content-styles">
+			<img src="{{ page.thumb_url }}" alt="{{ page.title }}">
+		</div>
 	</div>
-	<div class="section section--tiny anim anim-up anim-fade">
-		<div class="post-intro">
-			<h1>
-				{{ page.title }}
-			</h1>
-			<p class="blog-preview__meta">
-				{% for category in page.categories %}
-					<a href="{{ site.url }}/category/{{ category | slugify }}/">{{ category  | replace: '-', ' ' | capitalize }}</a>
-				{% endfor %}
 
-				<span class="blog-preview__meta-sep">/</span>
+	<div class="content-styles">
+		{{ page.content | markdownify }}
+	</div>
 
-				{% assign d = page.date | date: "%-d"  %}
-				{% case d %}
-					{% when '1' or '21' or '31' %}{{ d }}st
-					{% when '2' or '22' %}{{ d }}nd
-					{% when '3' or '23' %}{{ d }}rd
-					{% else %}{{ d }}th
-				{% endcase %}
-				{{ page.date | date: "%B" }},
-				{{ page.date | date: "%Y" }}
-			</p>
-			{% if page.excerpt %}
-				<p class="txt-large">
-					{{ page.excerpt }}
-				</p>
-			{% endif %}
-		</div>
-
-		<hr>
-
-		<div class="post-styles">
-			{{ page.content | markdownify }}
-		</div>
-
-		<hr>
-
+	<div class="spacing-medium-top">
 		<ul class="share">
 			<li class="share__item share__item--twitter">
 				<a href="https://twitter.com/home?status={{ page.title | url_encode }} - {{ site.url | url_encode }}{{ page.url | url_encode }} via @SebKayDesign" target="_blank">
@@ -56,7 +25,7 @@
 			</li>
 			<li class="share__item share__item--google">
 				<a href="https://plus.google.com/share?url={{ site.url | url_encode }}{{ page.url | url_encode }}" target="_blank">
-					{{ site.data.svgs[0].google }}
+					{{ site.data.svgs[0].google_plus }}
 				</a>
 			</li>
 			<li class="share__item share__item--linkedin">
@@ -65,10 +34,10 @@
 				</a>
 			</li>
 		</ul>
+	</div>
 
-		{% if page.comments %}
-			<hr>
-
+	{% if page.comments %}
+		<div class="spacing-medium-top">
 			<div id="disqus_thread"></div>
 			<script>
 			(function() { // DON'T EDIT BELOW THIS LINE
@@ -79,9 +48,8 @@
 			})();
 			</script>
 			<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		{% endif %}
-	</div>
+		</div>
+	{% endif %}
 </section>
-
 
 {% include footer.html %}

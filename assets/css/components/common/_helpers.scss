@@ -1,0 +1,23 @@
+img {
+	max-width: 100%;
+}
+
+svg {
+	width: 100%;
+	display: block;
+}
+
+hr {
+	height: 2px;
+	border: none;
+	background: map-get($ui-colors, 2_1);
+}
+
+.img-full {
+	width: 100%;
+	display: block;
+}
+
+.hidden {
+	display: none;
+}

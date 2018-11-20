@@ -1,58 +1,87 @@
 {% include header.html %}
 
-<section class="section section--small spacing-large">
-	<form class="form form--contact anim anim-up anim-fade js-form-validate" name="contact" method="POST" action="/contact/success" netlify-honeypot="honey-for-badgers" netlify>
-		<div class="hidden">
-			<input name="honey-for-badgers">
-		</div>
-
-		<div class="form__inner">
-			<div class="form__item">
-				<label class="form__label">
-					Name <span class="form__req">*</span>
-				</label>
-				<input class="form__field" type="text" name="name" required>
-			</div>
-			<div class="form__item">
-				<label class="form__label">
-					Email <span class="form__req">*</span>
-				</label>
-				<input class="form__field" type="email" name="email" required>
-			</div>
-			<div class="form__item">
-				<label class="form__label">
-					Subject <span class="form__req">*</span>
-				</label>
-				<input class="form__field" type="text" name="subject" required>
-			</div>
-			<div class="form__item">
-				<label class="form__label">
-					Budget <span class="form__label-note"></span>
-				</label>
-				<select class="form__item" name="budget">
-					<option selected>Please select...</option>
-					<option>&pound;500 - &pound;1,500</option>
-					<option>&pound;1,500 - &pound;3,000</option>
-					<option>&pound;3,000 - &pound;5,000</option>
-					<option>&pound;5,000 - &pound;10,000</option>
-					<option>&pound;10,000+</option>
-				</select>
-			</div>
-			<div class="form__item form__item--full">
-				<label class="form__label">
-					How Can I Help? <span class="form__req">*</span>
-				</label>
-				<textarea class="form__field" name="message" required></textarea>
-			</div>
-			<div class="form__action">
-				<button>
-					<span class="btn__inner">
-						Send Message
+<section class="spacing-huge">
+	<div class="section section--small spacing-large-bottom">
+		<div class="page-cta">
+			<div class="content-styles">
+				<h2>
+					<span class="h4">
+						Status
 					</span>
-				</button>
+					<br>
+					<span class="txt-highlight">
+						Available
+					</span>
+				</h2>
+				<p class="txt-large">
+					I’m currently looking for projects from <strong>January 2019</strong>.
+				</p>
+				<p>
+					If you prefer email, get in touch with me via <a href="mailto:seb@sebkay.com">seb@sebkay.com</a>.
+				</p>
 			</div>
 		</div>
-	</form>
+	</div>
+
+	<div class="section section--small">
+		<form class="form js-form-validate" name="contact" method="POST" action="/contact/success/" netlify-honeypot="honey-for-badgers" netlify>
+			<div class="hidden">
+				<input name="honey-for-badgers">
+			</div>
+
+			<div class="form__inner">
+				<div class="form__item form__item--half">
+					<label class="form__label">
+						Name
+					</label>
+					<input class="form__field" type="text" name="name" required>
+				</div>
+
+				<div class="form__item form__item--half">
+					<label class="form__label">
+						Email
+					</label>
+					<input class="form__field" type="email" name="email" required>
+				</div>
+
+				<div class="form__item form__item--half">
+					<label class="form__label">
+						Subject
+					</label>
+					<input class="form__field" type="text" name="subject" required>
+				</div>
+
+				<div class="form__item form__item--half">
+					<label class="form__label">
+						Budget <span class="form__label-note">(Optional)</span>
+					</label>
+					<select class="form__item" name="budget">
+						<option selected disabled></option>
+						<option>£500 - £1,500</option>
+						<option>£1,500 - £3,000</option>
+						<option>£3,000 - £5,000</option>
+						<option>£5,000 - £10,000</option>
+						<option>£10,000+</option>
+					</select>
+				</div>
+
+				<div class="form__item form__item--full">
+					<label class="form__label">
+						How Can I Help?
+					</label>
+					<textarea class="form__field" name="message" required></textarea>
+				</div>
+
+				<div class="form__item form__item--full form__item--action">
+					<button>
+						<span class="btn__inner">
+							Send Message
+						</span>
+					</button>
+				</div>
+			</div>
+		</form>
+	</div>
 </section>
 
 {% include footer.html %}

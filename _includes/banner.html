@@ -1,66 +1,87 @@
-{% assign banner_subtitle = false %}
-{% assign banner_txt = false %}
+{% assign banner_class = 'site-banner' %}
+{% assign page_slug    = page.title | slugify %}
 
-{% if page.banner_title == false %}
-	{% assign banner_title = page.banner_title %}
-{% elsif page.layout != 'post' %}
-	{% assign banner_title = page.title %}
+{% if page.style == 'dark' or page.is_post %}
+	{% capture banner_class %}{{ banner_class | append: ' site-banner--dark' }}{% endcapture %}
 {% endif %}
 
-{% if page.banner_subtitle %}
-	{% assign banner_subtitle = page.banner_subtitle %}
+{% if page_slug == 'home' %}
+	{% capture banner_class %}{{ banner_class | append: ' site-banner--alt' }}{% endcapture %}
+{% endif %}
+
+{% if page.is_post %}
+	{% assign banner_tagline = 'Blog' %}
+	{% assign banner_title = page.title %}
+
+	{% capture banner_desc %}
+		{% assign d = page.date | date: "%-d"  %}
+		{% case d %}
+			{% when '1' or '21' or '31' %}{{ d }}st
+			{% when '2' or '22' %}{{ d }}nd
+			{% when '3' or '23' %}{{ d }}rd
+			{% else %}{{ d }}th
+		{% endcase %}
+		{{ page.date | date: "%B" }},
+		{{ page.date | date: "%Y" }}
+	{% endcapture %}
+{% else %}
+	{% assign banner_tagline = page.banner_tagline %}
+	{% assign banner_title   = page.banner_title %}
+	{% assign banner_desc    = page.banner_desc %}
 {% endif %}
 
 {% if page.layout == 'project' %}
+	{% assign project = false %}
+
 	{% for project_data in site.data.projects %}
 		{% if project_data.title == page.title %}
 			{% assign project = project_data %}
 		{% endif %}
 	{% endfor %}
 
-	{% if project.excerpt %}
-		{% assign banner_txt = project.excerpt %}
-	{% endif %}
+	{% assign banner_tagline = project.tagline %}
+	{% assign banner_title   = project.title %}
+	{% assign banner_desc    = project.excerpt %}
 {% endif %}
 
-{% if banner_title or page.banner_subtitle %}
-	<section class="site-banner">
-		<div class="site-banner__inner">
-			<div class="site-banner__content anim anim-up anim-fade">
-				{% if banner_title %}
-					<h1 class="site-banner__title">
-						{{ banner_title }}
-					</h1>
-				{% endif %}
+<section class="{{ banner_class }}">
+	<div class="site-banner__inner anim anim-up anim-fade">
+		<div class="site-banner__content">
+			{% if banner_tagline %}
+				<h3 class="site-banner__tagline">
+					{{ banner_tagline }}
+				</h3>
+			{% endif %}
 
-				{% if banner_subtitle %}
-					<h2 class="site-banner__subtitle">
-						{{ banner_subtitle }}
-					</h2>
-				{% endif %}
+			{% if banner_title %}
+				<h1 class="site-banner__title">
+					{{ banner_title }}
+				</h1>
+			{% endif %}
 
-				{% if banner_txt %}
-					<p class="site-banner__txt">
-						{{ banner_txt }}
-					</p>
-				{% endif %}
+			{% if banner_desc %}
+				<h2 class="site-banner__subtitle">
+					{{ banner_desc }}
+				</h2>
+			{% endif %}
 
-				{% if page.title == 'Contact' %}
-					<p class="site-banner__notice">
-						I'm Available
-					</p>
-				{% endif %}
-
-				{% if page.title == 'Calendi' %}
-					<div class="site-banner__actions">
-						<a class="btn" href="https://wordpress.org/plugins/calendi/">
-							<span class="btn__inner">
-								Download For Free
-							</span>
-						</a>
-					</div>
-				{% endif %}
-			</div>
+			{% if page.banner_btn_txt and page.banner_btn_url %}
+				<div class="site-banner__btn">
+					<a class="btn btn--large btn--hover-light" href="{{ page.banner_btn_url }}">
+						{{ page.banner_btn_txt }}
+					</a>
+				</div>
+			{% endif %}
 		</div>
-	</section>
-{% endif %}
+
+		{% if page_slug == 'home' %}
+			<figure class="overlap-img">
+				<picture>
+					<source srcset="/assets/img/banner-home.jpg 1x, /assets/img/banner-home-@2x.jpg 2x" media="(min-width: 901px)">
+					<source srcset="/assets/img/banner-home-tablet.jpg" media="(max-width: 900px)">
+					<img srcset="/assets/img/banner-home-tablet.jpg" alt="Seb and Cazz">
+				</picture>
+			</figure>
+		{% endif %}
+	</div>
+</section>

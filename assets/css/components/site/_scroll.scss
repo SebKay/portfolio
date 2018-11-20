@@ -1,0 +1,24 @@
+.site-scroll--active {
+	.site-header {
+		@include header_light();
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.site-scroll--active {
+		.site-header__inner {
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
+	.site-scroll--active {
+		.site-header__inner {
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+	}
+}

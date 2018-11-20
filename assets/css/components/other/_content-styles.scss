@@ -1,0 +1,111 @@
+.content-styles {
+	* + .grid__col.grid__col {
+		margin-top: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		// Type
+		line-height: 115%;
+	}
+
+	p, li {
+		// Type
+		line-height: 160%;
+
+		a {
+			border-bottom: 1px solid transparent;
+		}
+	}
+
+	ul,
+	ol {
+		padding-left: 30px;
+	}
+
+	img {
+		box-shadow: 0 5px 20px black(0.1);
+		border-radius: $border-radius;
+		background: #fff;
+	}
+
+	figcaption {
+		@extend .txt-small;
+		@extend .txt-fade-2;
+		// Type
+		text-align: center;
+		line-height: 145%;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	.content-styles {
+		* + * {
+			margin-top: 30px;
+		}
+	
+		* + p,
+		li + li {
+			margin-top: 30px;
+		}
+	
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6,
+		* + .grid,
+		.grid + * {
+			margin-top: 50px;
+		}
+	
+		* + hr,
+		hr + * {
+			margin-top: 100px !important;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) {
+	.content-styles {
+		* + * {
+			margin-top: 20px;
+		}
+	
+		* + p,
+		li + li {
+			margin-top: 20px;
+		}
+	
+		p + h1,
+		p + h2,
+		p + h3,
+		p + h4,
+		p + h5,
+		p + h6,
+		* + .grid,
+		.grid + * {
+			margin-top: 40px;
+		}
+	
+		* + hr,
+		hr + * {
+			margin-top: 60px !important;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.content-styles {
+		* + hr,
+		hr + * {
+			margin-top: 40px !important;
+		}
+	}
+}

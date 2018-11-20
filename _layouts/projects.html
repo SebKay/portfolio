@@ -1,0 +1,17 @@
+{% include header.html %}
+
+<section class="section section--large spacing-huge-top">
+	{% for project in site.data.projects %}
+		{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+		{% if cycle_type == 'even' %}
+			{% assign project_class = 'project-preview--reverse' %}
+		{% endif %}
+
+		<div class="spacing-huge-bottom">
+			{% include project-preview.html %}
+		</div>
+	{% endfor %}
+</section>
+
+{% include footer.html %}

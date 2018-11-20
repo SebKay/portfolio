@@ -1,91 +1,71 @@
-			{% if page.layout != 'post' and page.layout != 'category' and page.title != 'Contact' and page.title != 'Message Sent!' and page.title != 'Calendi' %}
-				{% if page.quote_id %}
-					{% assign quote_id = page.quote_id %}
-				{% else %}
-					{% assign quote_id = 1 %}
-				{% endif %}
-
-				<section class="testimonial">
-					<div class="testimonial__inner anim anim-up anim-fade">
-						<blockquote>
-							<p>{{ site.data.testimonials[quote_id].quote }}</p>
-							<cite>
-								<img src="{{ site.data.testimonials[quote_id].img_1x_url }}" srcset="{{ site.data.testimonials[quote_id].img_1x_url }} 1x, {{ site.data.testimonials[quote_id].img_2x_url }} 2x" alt="{{ site.data.testimonials[quote_id].by }}">
-								<span>
-									{{ site.data.testimonials[quote_id].by }}
-								</span>
-							</cite>
-						</blockquote>
-					</div>
-				</section>
-			{% endif %}
-
-			{% if page.title != 'Contact' and page.title != 'Success' and page.title != 'Calendi' %}
-				<section class="section section--large spacing-large txt-center spacer-top">
-					<div class="anim anim-up anim-fade">
-						<h2>
-							Let's Work Together
-						</h2>
-
-						<br><br>
-
-						<a class="btn" href="/contact/">
-							<span class="btn__inner">
-								Get in Touch
-							</span>
+	{% if page.title != 'Contact' %}
+		<section class="site-cta">
+			<div class="site-cta__inner">
+				<div class="grid grid--m-1">
+					<div class="grid__col grid__col--8">
+						<div class="content-styles spacing-tiny-bottom">
+							<h2 class="site-cta__title">
+								Get In Touch
+							</h2>
+							<p class="site-cta__txt">
+								I love helping great people with great projects.
+								<br>
+								Sound like you? Let’s talk!
+							</p>
+						</div>
+						<a class="btn btn--large btn--hover-light" href="/contact/">
+							Message Me
 						</a>
 					</div>
-				</section>
-			{% endif %}
-
-			<footer class="site-footer">
-				<div class="site-footer__section site-footer__section--txt">
-					<p>
-						&copy; 2018 Seb Kay. All rights reserved.
-					</p>
+					<div class="grid__col grid__col--4 grid__col--v-center">
+						<ul class="icon-list icon-list--light">
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].envelope }}
+								</span>
+								<a href="mailto:seb@sebkay.com">
+									seb@sebkay.com
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].dribbble }}
+								</span>
+								<a href="https://dribbble.com/sebkaydesign" target="_blank" rel="noopener">
+									On Dribbble
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].twitter }}
+								</span>
+								<a href="https://twitter.com/SebKayDesign" target="_blank" rel="noopener">
+									On Twitter
+								</a>
+							</li>
+							<li class="icon-list__item">
+								<span class="icon-list__img">
+									{{ site.data.svgs[0].instagram }}
+								</span>
+								<a href="https://www.instagram.com/sebkaydesign/" target="_blank" rel="noopener">
+									On Instagram
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
+			</div>
+		</section>
+	{% endif %}
 
-				<div class="site-footer__section site-footer__section--menu">
-					<nav class="site-footer-menu__inner">
-						{% for menu-item in site.data.menu %}
-							{% assign current-menu-item = false; %}
+	<footer class="site-footer">
+		<div class="site-footer__inner">
+			<p>
+				&copy; {{ 'now' | date: "%Y" }} Seb Kay. All rights reserved.
+			</p>
+		</div>
+	</footer>
 
-							{% assign menu-item-slug = menu-item.url | remove: '/' %}
-
-							{% if page.url == menu-item.url or page.parent == menu-item-slug %}
-								{% assign current-menu-item = 'active' %}
-							{% endif %}
-							<a class="site-footer-menu__item {{ current-menu-item }}" href="{{ menu-item.url }}">
-								{{ menu-item.name }}
-							</a>
-						{% endfor %}
-					</nav>
-				</div>
-			</footer>
-		</div><!--end .page-wrap-->
-
-		<script async type="text/javascript" src="/assets/js/app.min.js"></script>
-
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-31577987-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-
-			gtag('config', 'UA-31577987-1');
-		</script>
-
-		<!-- Hotjar Insights -->
-		<script>
-			(function(h,o,t,j,a,r){
-				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-				h._hjSettings={hjid:5096,hjsv:5};
-				a=o.getElementsByTagName('head')[0];
-				r=o.createElement('script');r.async=1;
-				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-				a.appendChild(r);
-			})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-		</script>
-	</body>
+	<script type="text/javascript" src="/assets/js/app.min.js"></script>
+</body>
 </html>

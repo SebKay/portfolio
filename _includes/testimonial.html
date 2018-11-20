@@ -1,0 +1,21 @@
+{% if testimonial.quote %}
+	<section class="bg-grey-stripes bg-slanted">
+		<div class="section section--small spacing-huge">
+			<blockquote class="quote">
+				{% if testimonial.quote %}
+					<div class="quote__inner">
+						<p class="quote__txt">{{ testimonial.quote }}</p>
+					</div>
+				{% endif %}
+
+				<cite class="quote__meta">
+					<img src="{{ testimonial.img_url }}" srcset="{{ testimonial.img_url }} 1x, {{ testimonial.img_url_2x }} 2x" alt="{{ testimonial.by }}">
+					<strong>
+						{{ testimonial.by }}
+					</strong>
+					{{ testimonial.by_meta }}
+				</cite>
+			</blockquote>
+		</div>
+	</section>
+{% endif %}

@@ -1,0 +1,49 @@
+.site-menu__inner {
+	@include flex(flex);
+}
+
+.site-menu__item {
+	list-style: none;
+}
+
+.site-menu__link {
+	position: relative;
+	display: block;
+	// Type
+	color: map-get($ui-colors, 2_2);
+
+	&:before {
+		@include transform(translateX(-50%));
+		width: 20%;
+		height: 4px;
+		position: absolute;
+		bottom: -20px;
+		left: 50%;
+		opacity: 0;
+		pointer-events: none;
+		content: '';
+		border-radius: $border-radius;
+		background: map-get($ui-colors, 1);
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.site-menu__item {
+		@include rem(24px);
+
+		&:not(:last-child) {
+			margin-right: 60px;
+		}
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) {
+	.site-menu__item {
+		@include rem(22px);
+
+		&:not(:last-child) {
+			margin-right: 50px;
+		}
+	}
+}

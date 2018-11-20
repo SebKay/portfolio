@@ -1,0 +1,88 @@
+@keyframes toggle_menu_icon_line_1 {
+	0% {
+		top: 0px;
+	}
+
+	50% {
+		@include transform(rotate(0deg));
+		top: 9px;
+	}
+
+	100% {
+		@include transform(rotate(-45deg));
+		top: 9px;
+	}
+}
+
+@keyframes toggle_menu_icon_line_2 {
+	0%, 50% {
+		opacity: 1;
+	}
+
+	51% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes toggle_menu_icon_line_3 {
+	0% {
+		top: 18px;
+	}
+
+	50% {
+		@include transform(rotate(0deg));
+		top: 9px;
+	}
+
+	100% {
+		@include transform(rotate(45deg));
+		top: 9px;
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.animations-enabled.page-home {
+		.anim {
+			@include transition(all ease ($transition-speed * 1.5));
+		}
+
+		.anim-up {
+			position: relative;
+			top: 30px;
+
+			&.loaded {
+				top: 0px;
+			}
+		}
+
+		.anim-down {
+			position: relative;
+			top: -30px;
+
+			&.loaded {
+				top: 0px;
+			}
+		}
+
+		.anim-fade {
+			opacity: 0;
+
+			&.loaded {
+				opacity: 1;
+			}
+		}
+
+		.anim-scale-up {
+			@include transform(scale(0.95));
+
+			&.loaded {
+				@include transform(scale(1));
+			}
+		}
+	}
+}

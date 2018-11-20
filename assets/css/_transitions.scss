@@ -1,0 +1,30 @@
+.site-logo:after {
+	@include transition(max-width ease $transition-speed);
+}
+
+.site-menu__link,
+.icon-list--light .icon-list__item a {
+	@include transition(color ease $transition-speed);
+}
+
+.site-logo,
+.site-menu__link:before,
+.btn {
+	@include transition(all ease $transition-speed);
+}
+
+.browser__inner a,
+.post-card__thumb a,
+.content-styles h1 a,
+.content-styles h2 a,
+.content-styles h3 a,
+.content-styles h4 a,
+.content-styles h5 a,
+.content-styles h6 a {
+	@include transition(opacity ease $transition-speed);
+}
+
+.content-styles p a,
+.content-styles li a {
+	@include transition(border-bottom ease $transition-speed);
+}

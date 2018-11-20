@@ -1,0 +1,38 @@
+.browser {
+	padding: 10px 10px 10px;
+	border-radius: $border-radius;
+	background: map-get($ui-colors, 2_1);
+}
+
+.browser__actions {
+	@include flex(flex);
+	margin-bottom: 10px;
+
+	span {
+		width: 15px;
+		height: 15px;
+		border-radius: 1000px;
+
+		&:nth-child(1) { background: #ff5552; }
+		&:nth-child(2) { background: #ffbe4c; }
+		&:nth-child(3) { background: #00cb57; }
+
+		&:not(:last-child) {
+			margin-right: 5px;
+		}
+	}
+}
+
+.browser__inner {
+	width: 100%;
+	height: 100%;
+
+	a,
+	img {
+		display: block;
+	}
+
+	img {
+		border-radius: $border-radius / 2;
+	}
+}

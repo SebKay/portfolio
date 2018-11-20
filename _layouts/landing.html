@@ -1,0 +1,105 @@
+{% include header.html %}
+
+<section class="section section--medium spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			{{ page.usps_title }}
+		</h2>
+	</div>
+
+	<div class="grid grid--m-1">
+		{% for usp in page.usps %}
+			{% assign usp_icon = usp[1].icon %}
+
+			<div class="grid__col grid__col--6 txt-center">
+				<div class="spacing-tiny-bottom">
+					<span class="big-icon big-icon--limited">
+						{{ site.data.svgs[0][usp_icon] }}
+					</span>
+				</div>
+				<div class="content-styles">
+					<h3>
+						{{ usp[1].title }}
+					</h3>
+					<p class="txt-large">
+						{{ usp[1].subtitle }}
+					</p>
+					<p>
+						{{ usp[1].desc }}
+					</p>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+
+{% assign feature_wrapper_class    = 'spacing-large-bottom' %}
+{% assign feature_grid_class       = null %}
+{% assign feature_grid_left_class  = null %}
+{% assign feature_grid_right_class = 'grid__col--right' %}
+
+<section class="bg-grey bg-slanted">
+	<div class="spacing-huge">
+		{% for feature in page.features %}
+			{% capture cycle_type %}{% cycle 'odd', 'even' %}{% endcapture %}
+
+			{% if cycle_type == 'even' %}
+				{% assign feature_grid_class = 'grid--reverse' %}
+				{% assign feature_grid_left_class = 'grid__col--right' %}
+				{% assign feature_grid_right_class = null %}
+			{% endif %}
+
+			{% if forloop.last == true %}
+				{% assign feature_wrapper_class = null %}
+			{% endif %}
+
+			<div class="section section--large {{ feature_wrapper_class }}">
+				<div class="grid grid--m-1 {{ feature_grid_class }}">
+					<div class="grid__col grid__col--7 {{ feature_grid_left_class }}">
+						<div class="content-styles">
+							<img class="img-full" src="{{ feature[1].img_url }}" alt="{{ feature[1].title }}">
+						</div>
+					</div>
+					<div class="grid__col grid__col--5 grid__col--v-center {{ feature_grid_right_class }}">
+						<div class="content-styles">
+							<h2 class="h3">
+								{{ feature[1].title }}
+							</h2>
+							<p class="txt-medium">
+								{{ feature[1].desc }}
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+
+<div class="section section--medium spacing-huge">
+	<div class="page-cta">
+		<div class="content-styles">
+			<h2>
+				<span class="h4">
+					{{ page.cta_subtitle }}
+				</span>
+				<br>
+				<span class="txt-highlight">
+					{{ page.cta_title }}
+				</span>
+			</h2>
+			
+			{% if page.cta_desc %}
+				<p class="txt-large">
+					{{ page.cta_desc }}
+				</p>
+			{% endif %}
+
+			<a class="btn" href="{{ page.cta_btn_url }}">
+				{{ page.cta_btn_txt }}
+			</a>
+		</div>
+	</div>
+</div>
+
+{% include footer.html %}

@@ -8,53 +8,107 @@
 	{% endif %}
 {% endfor %}
 
-<section class="section section--small spacing-large">
-	<div class="previews previews--grid spacing-medium-bottom anim anim-up anim-fade">
-		{% if project.preview_img_desktop_url %}
-			<div class="preview">
-				<div class="preview__bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="preview__window">
-					<img src="{{ project.preview_img_desktop_url }}" srcset="{{ project.preview_img_desktop_url }} 1x, {{ project.preview_img_desktop_url_2x }} 2x" alt="{{ project.title }} desktop preview">
-				</div>
+<section>
+	<div class="section section--large spacing-huge-top">
+		<figure class="browser">
+			<div class="browser__actions">
+				<span></span>
+				<span></span>
+				<span></span>
 			</div>
-		{% endif %}
 
-		{% if project.preview_img_tablet_url %}
-			<div class="preview preview--tablet">
-				<div class="preview__bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="preview__window">
-					<img src="{{ project.preview_img_tablet_url }}" srcset="{{ project.preview_img_tablet_url }} 1x, {{ project.preview_img_tablet_url_2x }} 2x" alt="{{ project.title }} tablet preview">
-				</div>
+			<div class="browser__inner">
+				<img src="{{ project.full_preview }}" alt="{{ project.title }}">
 			</div>
-		{% endif %}
-
-		{% if project.preview_img_mobile_url %}
-			<div class="preview preview--mobile">
-				<div class="preview__bar">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				<div class="preview__window">
-					<img src="{{ project.preview_img_mobile_url }}" srcset="{{ project.preview_img_mobile_url }} 1x, {{ project.preview_img_mobile_url_2x }} 2x" alt="{{ project.title }} mobile preview">
-				</div>
-			</div>
-		{% endif %}
+		</figure>
 	</div>
 
-	<div class="spacer-top spacing-medium-top">
-		<div class="post-styles">
-			{{ page.content | markdownify }}
+	{% if project.sections[0].content or project.sections[0].title %}
+		<div class="section section--small spacing-large-top">
+			<div class="spacing-small-bottom">
+				<h2 class="section-title">
+					{{ project.sections[0].title }}
+				</h2>
+			</div>
+
+			<div class="content-styles">
+				<p class="txt-large">
+					{{ project.sections[0].content }}
+				</p>
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--tb1-2 grid--m-1">
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_1 }}" alt="">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_2 }}" alt="">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_3 }}" alt="">
+				</div>
+			</div>
 		</div>
 	</div>
+
+	{% if project.sections[1].content or project.sections[1].title %}
+		<div class="section section--small spacing-large-top">
+			<div class="spacing-small-bottom">
+				<h2 class="section-title">
+					{{ project.sections[1].title }}
+				</h2>
+			</div>
+
+			<div class="content-styles">
+				<p class="txt-large">
+					{{ project.sections[1].content }}
+				</p>
+			</div>
+		</div>
+	{% endif %}
+
+	<div class="section section--large spacing-large-top">
+		<div class="grid grid--tb1-2 grid--m-1">
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_4 }}" alt="">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_5 }}" alt="">
+				</div>
+			</div>
+			<div class="grid__col grid__col--4">
+				<div class="content-styles">
+					<img src="{{ project.images[0].content_6 }}" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	{% if project.live_url %}
+		<div class="section section--small spacing-large-top">
+			<div class="txt-center">
+				<a class="btn btn--large" href="{{ project.live_url }}" target="_blank">
+					Visit Website
+				</a>
+			</div>
+		</div>
+	{% endif %}
 </section>
+
+<div class="spacing-huge-top"></div>
+
+{% assign testimonial = site.data.testimonials[project.testimonial_id] %}
+{% include testimonial.html %}
 
 {% include footer.html %}

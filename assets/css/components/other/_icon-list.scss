@@ -1,0 +1,69 @@
+.icon-list__item {
+	@extend %txt-upper;
+	@include flex(flex);
+	@include flex_align_items(center);
+	// Type
+	color: map-get($ui-colors, 2_4);
+
+	&:not(:last-child) {
+		margin-bottom: 30px;
+	}
+}
+
+.icon-list__img {
+	@include flex_shrink(0);
+
+	svg * {
+		fill: map-get($ui-colors, 2_4);
+	}
+}
+
+//---- Light version
+.icon-list--light {
+	.icon-list__img {
+		svg * {
+			fill: map-get($ui-colors, 1);
+		}
+	}
+
+	.icon-list__item {
+		&,
+		a {
+			// Type
+			color: white(0.5);
+		}
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
+	.icon-list__item {
+		@include rem(22px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.icon-list__item {
+		@include rem(20px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	.icon-list__img {
+		max-width: 24px;
+		max-height: 24px;
+		margin-right: 15px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.icon-list__img {
+		max-width: 20px;
+		max-height: 20px;
+		margin-right: 10px;
+	}
+
+	.icon-list__item {
+		@include rem(16px);
+	}
+}

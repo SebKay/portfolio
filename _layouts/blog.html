@@ -1,11 +1,56 @@
 {% include header.html %}
 
-<section class="section section--medium spacing-large">
-	{% for post in paginator.posts %}
-		{% include post-preview.html %}
-	{% endfor %}
+<section class="section section--large spacing-huge">
+	<div class="spacing-small-bottom">
+		<h2 class="section-title">
+			Recent Posts
 
-	{% include pagination.html %}
+			{% if paginator.page and paginator.page > 1 %}
+				-
+				<span class="section-title__txt">
+					Page {{ paginator.page }}
+				</span>
+			{% endif %}
+		</h2>
+	</div>
+
+	<div class="grid grid--m-1">
+		{% for post in paginator.posts %}
+			<div class="grid__col grid__col--6">
+				{% include post-preview.html %}
+			</div>
+		{% endfor %}
+	</div>
+
+	{% if paginator.previous_page or paginator.next_page %}
+		<div class="spacing-medium-top">
+			<div class="grid">
+				<div class="grid__col grid__col--6 txt-right">
+					{% if paginator.previous_page %}
+						<a class="btn btn--m-full" href="{{ paginator.previous_page_path }}">
+							Previous
+						</a>
+					{% else %}
+						<a class="btn btn--m-full btn--disabled" href="#">
+							Previous
+						</a>
+					{% endif %}
+				</div>
+
+				<div class="grid__col grid__col--6">
+					{% if paginator.next_page %}
+						<a class="btn btn--m-full" href="{{ paginator.next_page_path }}">
+							Next
+						</a>
+					{% else %}
+						<a class="btn btn--m-full btn--disabled" href="#">
+							Next
+						</a>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+	{% endif %}
 </section>
 
 {% include footer.html %}

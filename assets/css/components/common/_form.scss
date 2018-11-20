@@ -1,0 +1,126 @@
+input[type="text"],
+input[type="email"],
+textarea {
+	@extend %form-field;
+	@include transition(border-color ease $transition-speed);
+
+	&::-moz-placeholder {
+		opacity: 1;
+		// Type
+		font-style: normal;
+		color: #888;
+	}
+
+	&::-webkit-input-placeholder {
+		// Type
+		font-style: normal;
+		color: #888;
+	}
+}
+
+textarea {
+	height: auto;
+	min-height: 240px;
+	resize: vertical;
+	// Type
+	line-height: 145%;
+}
+
+input[type="submit"],
+button {
+	@extend .btn;
+}
+
+label {
+	@extend %txt-upper;
+	display: block;
+	// Type
+	color: map-get($ui-colors, 2_4);
+}
+
+.form__inner {
+	@include flex(flex);
+	@include flex_wrap(wrap);
+}
+
+.form__item--full {
+	width: 100%;
+}
+
+.form__item--action {
+	// Type
+	text-align: center;
+}
+
+.form__validation,
+.form__req {
+	// Type
+	color: map-get($ui-colors, 3);
+}
+
+.form__label-note {
+	// Type
+	color: map-get($ui-colors, 2_3);
+}
+
+.form__validation {
+	margin-top: 10px;
+	display: none !important;
+}
+
+.form__item--error {
+	input[type="text"],
+	input[type="email"],
+	textarea,
+	.jcf-select:not(.jcf-drop-active) .jcf-select-text {
+		border-color: map-get($ui-colors, 3);
+	}
+}
+
+//---- Responsive ----//
+@media screen and (min-width: map-get($breakpoints, tablet-1) + 1) {
+	label {
+		@include rem(20px);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	label {
+		@include rem(18px);
+	}
+}
+
+@media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	label {
+		padding-bottom: 15px;
+	}
+
+	.form__item {
+		&:nth-child(2n) {
+			margin-left: auto;
+		}
+	
+		&:nth-child(1n+3) {
+			margin-top: 40px;
+		}
+	}
+	
+	.form__item--half {
+		width: calc_grid_cols(6);
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	label {
+		@include rem(16px);
+		padding-bottom: 10px;
+	}
+
+	.form__item {
+		width: 100%;
+
+		&:nth-child(1n+2) {
+			margin-top: 25px;
+		}
+	}
+}
