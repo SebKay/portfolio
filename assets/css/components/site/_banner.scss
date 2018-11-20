@@ -32,7 +32,7 @@
 .site-banner--dark {
 	padding-bottom: $slanted_offset;
 	border-bottom: none;
-	background: map-get($ui-colors, 2);
+	background: map-get($ui-colors, 2) url('../img/bg-stripes-2.svg') center / 1000px no-repeat;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 
@@ -108,6 +108,11 @@
 		padding-top: $header-height-lt;
 	}
 
+	//---- Dark version
+	.site-banner--dark {
+		background-size: 700px;
+	}
+
 	//---- Alternate Layout
 	.site-banner--alt {
 		.overlap-img {
@@ -132,6 +137,15 @@
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.site-banner {
 		padding-top: $header-height-tb2;
+	}
+
+	//---- Dark version
+	.site-banner--dark {
+		background-size: 500px;
+	}
+
+	.page-home .site-banner--dark {
+		background-image: none;
 	}
 
 	//---- Alternate Layout
@@ -165,6 +179,11 @@
 	* + .site-banner__subtitle,
 	* + .site-banner__btn {
 		margin-top: 25px;
+	}
+
+	//---- Dark version
+	.site-banner--dark {
+		background-size: 400px;
 	}
 
 	//---- Alternate Layout

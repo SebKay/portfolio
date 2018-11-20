@@ -888,6 +888,16 @@
 		"opt": 0,
 		"q": 70
 		},
+	"/_site/assets/img/bg-stripes-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/assets/img/bg-stripes-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"/_site/assets/img/bg-stripes.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -2962,13 +2972,23 @@
 		"opt": 0,
 		"q": 70
 		},
+	"/assets/img/bg-stripes-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/assets/img/bg-stripes-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 25232891903,
+		"prP": 0
+		},
 	"/assets/img/bg-stripes.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/assets/img/bg-stripes.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 25232891903,
 		"prP": 0
 		},
