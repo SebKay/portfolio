@@ -1768,7 +1768,7 @@
 		},
 	"/_site/assets/img/favicon-192x192.png": {
 		"ft": 32768,
-		"iS": 4594,
+		"iS": 1554,
 		"oA": 1,
 		"oAP": "/assets/img/favicon-192x192.png",
 		"oF": 0,
@@ -1779,7 +1779,7 @@
 		},
 	"/_site/assets/img/favicon-297x297.png": {
 		"ft": 32768,
-		"iS": 6294,
+		"iS": 2425,
 		"oA": 1,
 		"oAP": "/assets/img/favicon-297x297.png",
 		"oF": 0,
@@ -1790,7 +1790,7 @@
 		},
 	"/_site/assets/img/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 1683,
+		"iS": 353,
 		"oA": 1,
 		"oAP": "/assets/img/favicon-32x32.png",
 		"oF": 0,
@@ -1798,94 +1798,6 @@
 		"opt": 0,
 		"oT": 2,
 		"q": 50
-		},
-	"/_site/assets/img/projects/calendi/featured-@2x.jpg": {
-		"ft": 16384,
-		"iS": 52036,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/featured-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/calendi/featured.jpg": {
-		"ft": 16384,
-		"iS": 22470,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/featured.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-1.jpg": {
-		"ft": 16384,
-		"iS": 62720,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-2.jpg": {
-		"ft": 16384,
-		"iS": 54527,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-3.jpg": {
-		"ft": 16384,
-		"iS": 47310,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-4.jpg": {
-		"ft": 16384,
-		"iS": 83285,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-5.jpg": {
-		"ft": 16384,
-		"iS": 35123,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/_site/assets/img/projects/inspirational-pixels/content-6.jpg": {
-		"ft": 16384,
-		"iS": 43253,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/content-6.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
 		},
 	"/_site/assets/img/projects/inspirational-pixels/featured.jpg": {
 		"ft": 16384,
@@ -3882,28 +3794,6 @@
 		"opt": 0,
 		"oT": 2,
 		"q": 50
-		},
-	"/assets/img/projects/calendi/featured-@2x.jpg": {
-		"ft": 16384,
-		"iS": 52036,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/featured-@2x.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
-		},
-	"/assets/img/projects/calendi/featured.jpg": {
-		"ft": 16384,
-		"iS": 22470,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/assets/img/featured.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 70
 		},
 	"/assets/img/projects/inspirational-pixels/content-1.jpg": {
 		"ft": 16384,
