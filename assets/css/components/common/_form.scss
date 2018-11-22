@@ -18,17 +18,26 @@ textarea {
 	}
 }
 
-textarea {
-	height: auto;
-	min-height: 240px;
-	resize: vertical;
-	// Type
-	line-height: 145%;
+input,
+textarea,
+button {
+	-webkit-appearance: none;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
 }
 
 input[type="submit"],
 button {
 	@extend .btn;
+}
+
+textarea {
+	height: auto;
+	resize: vertical;
+	// Type
+	line-height: 145%;
 }
 
 label {
@@ -91,6 +100,10 @@ label {
 }
 
 @media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
+	textarea {
+		min-height: 240px;
+	}
+
 	label {
 		padding-bottom: 15px;
 	}
@@ -111,6 +124,22 @@ label {
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		@include rem(18px);
+		padding: 15px;
+	}
+
+	input[type="text"],
+	input[type="email"] {
+		height: 60px;
+	}
+
+	textarea {
+		min-height: 180px;
+	}
+
 	label {
 		@include rem(16px);
 		padding-bottom: 10px;
