@@ -2238,13 +2238,6 @@
 		"oAP": "/_site/projects/index.html",
 		"oF": 0
 		},
-	"/_site/projects/inspirational-pixels.min.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_site/projects/inspirational-pixels.min.html",
-		"oF": 0
-		},
 	"/_site/projects/inspirational-pixels/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -4281,13 +4274,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/projects/inspirational-pixels.html",
-		"oF": 0
-		},
-	"/projects/inspirational-pixels.min.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/projects/inspirational-pixels.min.html",
 		"oF": 0
 		},
 	"/services.html": {

@@ -4,7 +4,7 @@
 		"live_url"     : "https://inspirationalpixels.com",
 		"title"        : "Inspirational Pixels",
 		"tagline"      : "Learn how to make websites",
-		"excerpt"      : "A web design blog with the focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
+		"excerpt"      : "A web design blog with a focus on beginners by providing tutorials, articles, videos, code snippets and freebies.",
 		"full_preview" : "/assets/img/projects/inspirational-pixels/full-preview.jpg",
 		"images"       : [
 			{
@@ -39,7 +39,7 @@
 			},
 			{
 				"title" : "The Result",
-				"content" : "Everything is now easily identifiable by having a unique card design for each post preview. The cards are dynamic change depending on what type of content they are. <br><br>Posts that are either tutorials or articles having a tag and matching icon over the bottom left of the thumbnail. Whereas freebies show the file size at the bottom of the card and snippets show the code language the snippet is written in. <br><br>I also had the opportunity to rework the placement of the ads on the site. Before it was annoying to see ads plastered in the sidebar. Now in the redesign, the sidebar is gone and ads flow better in the overall design, yet are still obvious that they are advertisements."
+				"content" : "Everything is now easily identifiable by having a unique card design for each post preview. The cards are dynamic change depending on what type of content they are. <br><br>Posts that are either tutorials or articles are tagged with a matching icon. Freebies show the file size at the bottom of the card and snippets show the code language the snippet is written in. <br><br>I also had the opportunity to rework the placement of the ads on the site. Before it was annoying to see ads plastered in the sidebar. Now in the redesign, the sidebar is gone and ads flow better in the overall design, yet are still obvious that they are advertisements."
 			}
 		]
 	}
