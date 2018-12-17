@@ -1,10 +1,2 @@
-/*.js
-  Cache-Control: public, max-age=604800
-/*.css
-  Cache-Control: public, max-age=604800
-/*.jpg
-  Cache-Control: public, max-age=604800
-/*.png
-  Cache-Control: public, max-age=604800
-/*.gif
+/assets/*
   Cache-Control: public, max-age=604800
