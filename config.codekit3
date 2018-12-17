@@ -426,6 +426,13 @@
 		"oAP": "/_drafts/2018-08-20-tips-for-improving-homepage.html",
 		"oF": 0
 		},
+	"/_headers": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/_headers",
+		"oF": 0
+		},
 	"/_includes/banner.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1952,6 +1959,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 70
+		},
+	"/_site/assets/js/app.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/assets/js/app.min.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
 		},
 	"/_site/blog/a-look-at-my-web-design-workflow/index.html": {
 		"cB": 0,
