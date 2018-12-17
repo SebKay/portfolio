@@ -1953,16 +1953,6 @@
 		"opt": 0,
 		"q": 70
 		},
-	"/_site/assets/js/app.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/app.min.min.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/_site/blog/a-look-at-my-web-design-workflow/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6359,7 +6349,7 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
@@ -6511,7 +6501,7 @@
 			"flagValue": -1
 			},
 		"semicolons": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"sequences": {
@@ -6575,11 +6565,11 @@
 			"flagValue": -1
 			},
 		"webkit": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"width": {
-			"active": 1,
+			"active": 0,
 			"flagValue": 80
 			},
 		"wrap_iife": {
