@@ -52,8 +52,8 @@
 .site-banner--alt {
 	.site-banner__inner {
 		@extend .section--medium;
-		@include flex(flex);
-		@include flex_align_items(center);
+		display: flex;
+		align-items: center;
 	}
 
 	.site-banner__content {
@@ -62,7 +62,7 @@
 	}
 
 	.overlap-img {
-		@include flex_shrink(0);
+		flex-shrink: 0;
 	}
 }
 
@@ -151,7 +151,7 @@
 	//---- Alternate Layout
 	.site-banner--alt {
 		.site-banner__inner {
-			@include flex_direction(column);
+			flex-direction: column;
 		}
 
 		.overlap-img {

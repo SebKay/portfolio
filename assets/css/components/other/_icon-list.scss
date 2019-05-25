@@ -1,7 +1,7 @@
 .icon-list__item {
 	@extend %txt-upper;
-	@include flex(flex);
-	@include flex_align_items(center);
+	display: flex;
+	align-items: center;
 	// Type
 	color: map-get($ui-colors, 2_4);
 
@@ -11,7 +11,7 @@
 }
 
 .icon-list__img {
-	@include flex_shrink(0);
+	flex-shrink: 0;
 
 	svg * {
 		fill: map-get($ui-colors, 2_4);

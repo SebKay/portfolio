@@ -2,7 +2,7 @@ input[type="text"],
 input[type="email"],
 textarea {
 	@extend %form-field;
-	@include transition(border-color ease $transition-speed);
+	transition: border-color ease $transition-speed;
 
 	&::-moz-placeholder {
 		opacity: 1;
@@ -48,8 +48,8 @@ label {
 }
 
 .form__inner {
-	@include flex(flex);
-	@include flex_wrap(wrap);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .form__item--full {
@@ -112,12 +112,12 @@ label {
 		&:nth-child(2n) {
 			margin-left: auto;
 		}
-	
+
 		&:nth-child(1n+3) {
 			margin-top: 40px;
 		}
 	}
-	
+
 	.form__item--half {
 		width: calc_grid_cols(6);
 	}

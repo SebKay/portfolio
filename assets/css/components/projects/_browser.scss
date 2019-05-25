@@ -5,7 +5,7 @@
 }
 
 .browser__actions {
-	@include flex(flex);
+	display: flex;
 	margin-bottom: 10px;
 
 	span {

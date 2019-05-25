@@ -1,6 +1,6 @@
 .share {
-	@include flex(flex);
-	@include flex_align_items(center);
+	display: flex;
+	align-items: center;
 }
 
 .share__item {
@@ -30,11 +30,11 @@
 		&:not(:last-child) {
 			margin-right: 30px;
 		}
-	
+
 		a {
 			width: 90px;
 			height: 90px;
-	
+
 			svg {
 				width: 28px;
 				height: 28px;
@@ -48,11 +48,11 @@
 		&:not(:last-child) {
 			margin-right: 20px;
 		}
-	
+
 		a {
 			width: 70px;
 			height: 70px;
-	
+
 			svg {
 				width: 24px;
 				height: 24px;
@@ -66,11 +66,11 @@
 		&:not(:last-child) {
 			margin-right: 12px;
 		}
-	
+
 		a {
 			width: 60px;
 			height: 60px;
-	
+
 			svg {
 				width: 22px;
 				height: 22px;

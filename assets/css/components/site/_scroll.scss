@@ -1,5 +1,5 @@
 .site-header {
-	@include transition(all ease $transition-speed);
+	transition: all ease $transition-speed;
 	position: fixed;
 }
 

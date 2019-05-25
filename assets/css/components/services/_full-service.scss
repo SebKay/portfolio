@@ -1,6 +1,6 @@
 .full-service {
 	@extend %accent-box;
-	@include flex(flex);
+	display: flex;
 }
 
 .full-service__icon {
@@ -52,7 +52,7 @@
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
 	.full-service {
-		@include flex_direction(column);
+		flex-direction: column;
 		padding: 10%;
 	}
 

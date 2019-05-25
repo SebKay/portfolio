@@ -1,5 +1,5 @@
 .project-preview {
-	@include flex(flex);
+	display: flex;
 }
 
 .project-preview__img {
@@ -10,13 +10,13 @@
 }
 
 .project-preview__content {
-	@include flex_align_self(center);
+	align-self: center;
 	margin-left: auto;
 }
 
 //---- Reversed version
 .project-preview--reverse {
-	@include flex_direction(row-reverse);
+	flex-direction: row-reverse;
 
 	.project-preview__img {
 		margin-left: auto;
@@ -32,7 +32,7 @@
 	.project-preview__img {
 		width: calc_grid_cols(7) + $grid-spacing-percent;
 	}
-	
+
 	.project-preview__content {
 		width: calc_grid_cols(4) + $grid-spacing-percent;
 	}
@@ -42,7 +42,7 @@
 	.project-preview__img {
 		width: calc_grid_cols(6) + $grid-spacing-percent;
 	}
-	
+
 	.project-preview__content {
 		width: calc_grid_cols(5) + $grid-spacing-percent;
 	}
@@ -50,9 +50,9 @@
 
 @media screen and (max-width: map-get($breakpoints, tablet-2)) {
 	.project-preview {
-		@include flex_direction(column);
+		flex-direction: column;
 	}
-	
+
 
 	.project-preview__img,
 	.project-preview__content {

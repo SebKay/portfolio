@@ -9,13 +9,13 @@
 .site-header__inner {
 	@extend .section;
 	@extend .section--large;
-	@include flex(flex);
-	@include flex_align_items(center);
-	@include transition(all ease $transition-speed);
+	display: flex;
+	align-items: center;
+	transition: all ease $transition-speed;
 }
 
 .site-header__section--logo {
-	@include flex_shrink(0);
+	flex-shrink: 0;
 }
 
 .site-header__section--menu {
@@ -94,7 +94,7 @@
 		}
 
 		.site-menu__inner {
-			@include flex_direction(column);
+			flex-direction: column;
 			height: 100%;
 			-webkit-overflow-scrolling: touch;
 			overflow-y: auto;

@@ -4,12 +4,12 @@
 	}
 
 	50% {
-		@include transform(rotate(0deg));
+		transform: rotate(0deg);
 		top: 9px;
 	}
 
 	100% {
-		@include transform(rotate(-45deg));
+		transform: rotate(-45deg);
 		top: 9px;
 	}
 }
@@ -34,12 +34,12 @@
 	}
 
 	50% {
-		@include transform(rotate(0deg));
+		transform: rotate(0deg);
 		top: 9px;
 	}
 
 	100% {
-		@include transform(rotate(45deg));
+		transform: rotate(45deg);
 		top: 9px;
 	}
 }
@@ -48,7 +48,7 @@
 @media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.animations-enabled.page-home {
 		.anim {
-			@include transition(all ease ($transition-speed * 1.5));
+			transition: all ease ($transition-speed * 1.5);
 		}
 
 		.anim-up {
@@ -78,10 +78,10 @@
 		}
 
 		.anim-scale-up {
-			@include transform(scale(0.95));
+			transform: scale(0.95);
 
 			&.loaded {
-				@include transform(scale(1));
+				transform: scale(1);
 			}
 		}
 	}

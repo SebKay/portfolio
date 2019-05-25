@@ -16,6 +16,7 @@ highlighter : true
 plugins     :
 - jekyll-paginate
 - jekyll-sitemap
+- jekyll-autoprefixer
 
 # Permalinks
 baseurl   : /
@@ -34,6 +35,11 @@ markdown: kramdown
 sass:
   style: compressed
   sass_dir: assets/css/
+
+# Autoprefixer
+autoprefixer:
+  browsers:
+  - last 2 versions
 
 # Include
 include:

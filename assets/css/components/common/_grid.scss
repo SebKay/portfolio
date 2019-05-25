@@ -1,14 +1,14 @@
 .grid {
-	@include flex(flex);
-	@include flex_wrap(wrap);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .grid--reverse {
-	@include flex_direction(row-reverse);
+	flex-direction: row-reverse;
 }
 
 .grid__col--v-center {
-	@include flex_align_self(center);
+	align-self: center;
 }
 
 .grid__col--right {
@@ -54,8 +54,8 @@
 //---- Responsive ----//
 @media screen and (max-width: map-get($breakpoints, tablet-1)) {
 	.grid.grid--tb1-2:not(.grid--reverse) {
-		@include flex_justify(center);
-		
+		justify-content: center;
+
 		> .grid__col.grid__col {
 			width: calc_grid_cols(6);
 			margin-right: 0;
@@ -80,7 +80,7 @@
 				}
 			}
 		}
-	
+
 		.grid--reverse {
 			.grid__col--#{$i} {
 				&:nth-last-of-type(1n+#{12 / $i + 1}) {
@@ -100,7 +100,7 @@
 				}
 			}
 		}
-	
+
 		.grid--reverse {
 			.grid__col--#{$i} {
 				&:nth-last-of-type(1n+#{12 / $i + 1}) {
