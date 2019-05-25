@@ -50,24 +50,12 @@ jQuery(document).ready(function($) {
 	/*--------------------------------------------
 	---- Toggle Menu (< 900)
 	--------------------------------------------*/
-	$('.js-toggle-menu').on('click', function(e) {
-		e.preventDefault();
-
-		$('body').toggleClass('mobile-menu--active');
-
-		var button = $(this);
-		var menu   = $('.site-menu');
-
+	function skp_open_menu(button, menu) {
 		if(menu.length) {
-			if($(this).hasClass('active')) {
-				$(this).removeClass('active animate-end').addClass('animate-reverse');
-				menu.stop().fadeOut({ duration: transition_speed_menu, queue: false }).slideUp(transition_speed_menu);
+			if(!button.hasClass('active')) {
+				$('body').addClass('mobile-menu--active');
 
-				setTimeout(function() {
-					button.removeClass('animate-reverse');
-				}, transition_speed_menu);
-			}else {
-				$(this).addClass('active animate');
+				button.addClass('active animate');
 				menu.stop().fadeIn({ duration: transition_speed_menu, queue: false }).css('display', 'none').slideDown(transition_speed_menu);
 
 				setTimeout(function() {
@@ -75,6 +63,39 @@ jQuery(document).ready(function($) {
 				}, transition_speed_menu);
 			}
 		}
+	}
+
+	function skp_close_menu(button, menu) {
+		if(menu.length) {
+			if(button.hasClass('active')) {
+				$('body').removeClass('mobile-menu--active');
+
+				button.removeClass('active animate-end').addClass('animate-reverse');
+				menu.stop().fadeOut({ duration: transition_speed_menu, queue: false }).slideUp(transition_speed_menu);
+
+				setTimeout(function() {
+					button.removeClass('animate-reverse');
+				}, transition_speed_menu);
+			}
+		}
+	}
+
+	function skp_toggle_menu(button, menu) {
+		if(button.hasClass('active')) {
+			skp_close_menu(button, menu);
+		}else {
+			skp_open_menu(button, menu);
+		}
+	}
+
+	$('.js-toggle-menu').on('click', function(e) {
+		e.preventDefault();
+
+		skp_toggle_menu($('.js-toggle-menu'), $('.site-menu'));
+	});
+
+	$(window).on('scroll', function() {
+		skp_close_menu($('.js-toggle-menu'), $('.site-menu'));
 	});
 
 	$(window).on('resize', function() {
