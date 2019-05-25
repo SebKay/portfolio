@@ -1,7 +1,7 @@
 .big-icon {
 	display: inline-block;
 	position: relative;
-	border-radius: 1000px;
+	border-radius: $border-radius;
 	background: map-get($ui-colors, 2_1);
 
 	svg {

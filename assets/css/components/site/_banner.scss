@@ -32,7 +32,7 @@
 .site-banner--dark {
 	padding-bottom: $slanted_offset;
 	border-bottom: none;
-	background: map-get($ui-colors, 2) url('../img/bg-stripes-2.svg') center / 1000px no-repeat;
+	background: map-get($ui-colors, 2);
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 

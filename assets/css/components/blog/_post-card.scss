@@ -17,30 +17,6 @@
 }
 
 .post-card__inner {
+	padding: 10%;
 	border-radius: 0 0 $border-radius $border-radius;
-}
-
-//---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
-	.post-card__inner {
-		padding: 75px 60px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.post-card__inner {
-		padding: 60px 40px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.post-card__inner {
-		padding: 50px 30px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	.post-card__inner {
-		padding: 40px 20px;
-	}
 }

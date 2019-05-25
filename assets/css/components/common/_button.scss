@@ -5,7 +5,7 @@
 	background: map-get($ui-colors, 1);
 	// Type
 	font-family: map-get($font-1, family);
-	font-weight: map-get(map-get($font-1, weights), medium);
+	font-weight: map-get(map-get($font-1, weights), regular);
 	color: #fff;
 }
 

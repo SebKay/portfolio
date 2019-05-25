@@ -22,8 +22,8 @@
 	</div>
 
 	<div class="grid grid--tb1-2 grid--m-1">
-		{% for service in site.data.services limit: 3 %}
-			<div class="grid__col grid__col--4">
+		{% for service in site.data.services limit: 2 %}
+			<div class="grid__col grid__col--6">
 				{% include service.html %}
 			</div>
 		{% endfor %}

@@ -1,5 +1,6 @@
 .service {
 	@extend %accent-box;
+	padding: 10%;
 }
 
 .service__icon {
@@ -28,24 +29,6 @@
 }
 
 //---- Responsive ----//
-@media screen and (min-width: map-get($breakpoints, laptop-1) + 1) {
-	.service {
-		padding: 75px 60px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
-	.service {
-		padding: 60px 40px;
-	}
-}
-
-@media screen and (max-width: map-get($breakpoints, tablet-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	.service {
-		padding: 50px 30px;
-	}
-}
-
 @media screen and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.service__icon {
 		&:after {
@@ -56,10 +39,6 @@
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	.service {
-		padding: 40px 20px;
-	}
-
 	.service__icon {
 		&:after {
 			margin-top: 30px;
