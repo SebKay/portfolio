@@ -39,10 +39,10 @@ jQuery(document).ready(function($) {
 		}
 	}
 
-	skp_site_scroll();
+	// skp_site_scroll();
 
 	$(window).on('scroll', function() {
-		skp_site_scroll();
+		// skp_site_scroll();
 	});
 
 

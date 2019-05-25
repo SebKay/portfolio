@@ -1,3 +1,8 @@
+.site-header {
+	@include transition(all ease $transition-speed);
+	position: fixed;
+}
+
 .site-scroll--active {
 	.site-header {
 		@include header_light();

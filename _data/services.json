@@ -1,41 +1,41 @@
 [
 	{
 		"title"    : "Web Design",
-		"subtitle" : "Modern and User Focused",
-		"excerpt"  : "From single landing pages to fully-blown eCommerce store, I'll create a design that fits you and your business.",
+		"subtitle" : "User Focused",
+		"excerpt"  : "A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website.",
 		"icon"     : "pen",
 		"sub_items" : [
 			{
-				"title" : "Brochure",
-				"desc"  : "A brochure site is something simple but conveys the message you want to get across. A good example would be a portfolio site. There won't be much going in terms of functionality because it's more about getting the message across."
+				"title" : "User Focused",
+				"desc"  : "A website should be designed for the people who will use it, so that's exactly what I do. User focused design should be the primary goal of any website."
 			},
 			{
 				"title" : "eCommerce",
-				"desc"  : "From modifying the look of an existing eCommerce site to designing one from scratch, I can help with both. My expertise when it comes to eCommerce is in Shopify and WooCommerce but can design around any shop system as they're all built on the same basic principles."
+				"desc"  : "Creating a good online store can be hard. Over the years I've learned the best ways to design stores that sell products and provide real value to customers."
 			},
 			{
 				"title" : "Application UI",
-				"desc"  : "The UI of an App, whether it's desktop or mobile, can make or break a startup. Getting the interface right, and most importantly of all, making it easy to navigate and use should always be the goal."
+				"desc"  : "The user interface of an application, whether it's mobile or desktop, can make or break a business. Getting the interface right and most importantly of all, making it easy to navigate, are the keys to a successful app."
 			}
 		]
 	},
 	{
 		"title"    : "Web Development",
-		"subtitle" : "Responsive and Performant",
-		"excerpt"  : "An off the shelf theme might be ok when you're first starting out, but you need something bespoke and tailored to your needs.",
+		"subtitle" : "Responsive and Fast",
+		"excerpt"  : "Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.",
 		"icon"     : "screen",
 		"sub_items" : [
 			{
 				"title" : "HTML / CSS",
-				"desc"  : "The foundations of every website, getting the HTML and CSS architecture right is massively important. If you've got a design, whether I created it or not, I'm more than happy to set up the HTML and CSS structure for another developer to integrate into your environment."
+				"desc"  : "Creating a strong foundation for a website means getting the HTML and CSS architecture right. If you've got a design I can create the front-end code for it."
 			},
 			{
 				"title" : "WordPress",
-				"desc"  : "Building sites with WordPress are my bread and butter. I'd estimate 80% of the work I do revolves around using WordPress in some way. Even if it's just for the blog I like to incorporate it as it does power over 30% of all websites. whether it's theme or plugin development, I'm always excited when it comes to building things in WordPress."
+				"desc"  : "Almost all of the websites I make are done using WordPress and the reason is simple: It just works. You can easily update every piece of content, turn sections on or off and so much more."
 			},
 			{
-				"title" : "Performance Review",
-				"desc"  : "After a while, sites can become slow. This can be due to a number of factors, but it usually comes down to having too many third party scripts or services active. I can give your site a performance review which involves a full write-up explaining what's wrong and how to fix them. You can also hire me to fix the parts that are slowing the site down."
+				"title" : "Performance",
+				"desc"  : "Having a fast website is key to keeping people around which ultimately converts them into customers. There are a myriad of techniques involved in making a fast website, all of which I've spent years learning. I build these techniques into every site I code and can also offer this as a standalone service for existing websites."
 			}
 		]
 	},
