@@ -21,7 +21,10 @@
 	</div>
 
 	<div class="section section--small">
-		<form class="form js-form-validate" name="contact" method="POST" action="/contact/success/" data-netlify-recaptcha="true" data-netlify="true">
+		<form class="form js-form-validate" name="contact" method="POST" action="/contact/success/" netlify-honeypot="bot-field" data-netlify="true">
+			<div class="hidden">
+				<input name="bot-field">
+			</div>
 			<div class="form__inner">
 				<div class="form__item form__item--half">
 					<label class="form__label">
@@ -42,10 +45,6 @@
 						How Can I Help?
 					</label>
 					<textarea class="form__field" name="message" required></textarea>
-				</div>
-
-				<div class="form__item form__item--full">
-					<div data-netlify-recaptcha="true"></div>
 				</div>
 
 				<div class="form__item form__item--full form__item--action">
