@@ -53,7 +53,7 @@ a {
 	.txt-large  { @include rem(30px); }
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-1) + 1) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, laptop-2) + 1) {
 	h1, .h1 { @include rem(72px); }
 	h2, .h2 { @include rem(52px); }
 	h3, .h3 { @include rem(46px); }
@@ -68,7 +68,7 @@ a {
 	.txt-large { @include rem(26px); }
 }
 
-@media screen and (max-width: map-get($breakpoints, tablet-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+@media screen and (max-width: map-get($breakpoints, laptop-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	h1, .h1 { @include rem(62px); }
 	h2, .h2 { @include rem(48px); }
 	h3, .h3 { @include rem(42px); }
