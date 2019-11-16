@@ -14,18 +14,14 @@
 					</span>
 				</h2>
 				<p class="txt-large">
-					I’m currently looking for new projects from <strong>June 2019</strong>.
+					I’m currently looking for new projects from <strong>January 2019</strong>.
 				</p>
 			</div>
 		</div>
 	</div>
 
 	<div class="section section--small">
-		<form class="form js-form-validate" name="contact" method="POST" action="/contact/success/" netlify-honeypot="honey-for-badgers" data-netlify="true">
-			<div class="hidden">
-				<input type="text" name="honey-for-badgers">
-			</div>
-
+		<form class="form js-form-validate" name="contact" method="POST" action="/contact/success/" data-netlify-recaptcha="true" data-netlify="true">
 			<div class="form__inner">
 				<div class="form__item form__item--half">
 					<label class="form__label">
@@ -46,6 +42,10 @@
 						How Can I Help?
 					</label>
 					<textarea class="form__field" name="message" required></textarea>
+				</div>
+
+				<div class="form__item form__item--full">
+					<div data-netlify-recaptcha="true"></div>
 				</div>
 
 				<div class="form__item form__item--full form__item--action">
