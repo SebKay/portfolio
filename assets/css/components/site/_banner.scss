@@ -30,11 +30,9 @@
 
 //---- Dark version
 .site-banner--dark {
-	padding-bottom: $slanted_offset;
+	@extend .slanted-bottom;
 	border-bottom: none;
 	background: map-get($ui-colors, 2);
-	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - #{$slanted_offset}));
 
 	.site-banner__title {
 		// Type

@@ -60,9 +60,9 @@ $spacing-3 : (
 $spacing-4 : (
 	tiny   : 25px,
 	small  : 35px,
-	medium : 45px,
-	large  : 55px,
-	huge   : 65px
+	medium : 40px,
+	large  : 45px,
+	huge   : 50px
 );
 
 //---- Colors
@@ -102,6 +102,7 @@ $header-height-tb2    : 126px;
 $header-height-m      : 84px;
 
 $slanted_offset : 100px;
+$slanted_offset-m : 50px;
 
 //---- Other
 $z-index :(
