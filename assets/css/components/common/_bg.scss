@@ -7,10 +7,7 @@
 }
 
 .bg-slanted {
-	padding-top: $slanted_offset;
-	padding-bottom: $slanted_offset;
-	-webkit-clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 calc(100% - #{$slanted_offset}));
-	clip-path: polygon(0 0, 100% #{$slanted_offset}, 100% 100%, 0 calc(100% - #{$slanted_offset}));
+	@extend .slanted;
 }
 
 //---- Responsive ----//
