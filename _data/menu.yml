@@ -1,11 +1,11 @@
-- name: Process
-  url: /process/
-
 - name: Projects
   url: /projects/
 
 - name: About
   url: /about/
+
+- name: Process
+  url: /process/
 
 - name: Services
   url: /services/
