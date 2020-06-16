@@ -6,8 +6,7 @@
         "url": "https://sebkay.com"
     },
     "devDependencies": {
-        "bxslider": "^4.2",
-        "dart-sass": "^1.24",
+        "dart-sass": "^1.25",
         "gulp": "^4.0",
         "gulp-append-prepend": "^1.0",
         "gulp-autoprefixer": "^7.0",
@@ -16,10 +15,10 @@
         "gulp-notify": "^3.2",
         "gulp-rename": "^2.0",
         "gulp-rimraf": "^1.0",
-        "gulp-sass": "^4.0",
+        "gulp-sass": "^4.1",
         "gulp-terser": "^1.2",
         "jcf": "^1.2",
-        "jquery": "^3.4",
+        "jquery": "^3.5",
         "jquery-validation": "^1.19",
         "picturefill": "^3.0",
         "vanilla-fitvids": "^1.1"
