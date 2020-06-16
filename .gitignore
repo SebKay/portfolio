@@ -1,2 +1,5 @@
-.sass-cache
+node_modules/
+.jekyll-cache
 _site
+assets/css/
+assets/js/*.min.js

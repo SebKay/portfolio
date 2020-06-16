@@ -16,7 +16,6 @@ highlighter : true
 plugins     :
 - jekyll-paginate
 - jekyll-sitemap
-- jekyll-autoprefixer
 
 # Permalinks
 baseurl   : /
@@ -31,22 +30,12 @@ paginate_path : "/blog/page/:num/"
 # Markdown
 markdown: kramdown
 
-# Sass
-sass:
-  style: compressed
-  sass_dir: assets/css/
-
-# Autoprefixer
-autoprefixer:
-  browsers:
-  - last 2 versions
-
 # Include
 include:
 - _redirects
 
 exclude:
-- config.codekit3
-- assets/js/third-party/
-- assets/js/app.js
-- assets/js/jquery.custom.js
+- gulpfile.js
+- package.json
+- yarn.lock
+- headsupgrid/
