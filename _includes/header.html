@@ -65,7 +65,7 @@
 							<ul class="site-menu__inner">
 								{% for menu-item in site.data.menu %}
 									{% assign menu-item-current = null %}
-									{% assign menu-item-slug    = menu-item.url | remove: '/' %}
+									{% assign menu-item-slug    = menu-item.url %}
 
 									{% if page.url == menu-item.url or page.url contains menu-item-slug %}
 										{% assign menu-item-current = 'active' %}

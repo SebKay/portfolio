@@ -76,11 +76,11 @@ a {
 	h5, .h5 { @include rem(24px); }
 	h6, .h6 { @include rem(20px); }
 
-	p, li { @include rem(18px); }
+	p, li { @include rem(20px); }
 
 	.txt-small { @include rem(16px); }
 	.txt-medium { @include rem(20px); }
-	.txt-large { @include rem(22px); }
+	.txt-large { @include rem(24px); }
 }
 
 @media screen and (max-width: map-get($breakpoints, mobile-1)) {

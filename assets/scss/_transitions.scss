@@ -24,7 +24,7 @@
 	transition: opacity ease $transition-speed;
 }
 
-.content-styles p a,
+.content-styles p a:not([class*="btn"]),
 .content-styles li a {
 	transition: border-bottom ease $transition-speed;
 }

@@ -49,8 +49,8 @@
 
 @media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, tablet-2) + 1) {
 	.site-header__inner {
-		padding-top: 80px;
-		padding-bottom: 80px;
+		padding-top: 60px;
+		padding-bottom: 60px;
 	}
 }
 
