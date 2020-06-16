@@ -69,33 +69,33 @@ a {
 }
 
 @media screen and (max-width: map-get($breakpoints, laptop-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
-	h1, .h1 { @include rem(62px); }
-	h2, .h2 { @include rem(48px); }
-	h3, .h3 { @include rem(42px); }
-	h4, .h4 { @include rem(30px); }
-	h5, .h5 { @include rem(26px); }
-	h6, .h6 { @include rem(22px); }
-
-	p, li { @include rem(20px); }
-
-	.txt-small { @include rem(18px); }
-	.txt-medium { @include rem(22px); }
-	.txt-large { @include rem(24px); }
-}
-
-@media screen and (max-width: map-get($breakpoints, mobile-1)) {
-	h1, .h1 { @include rem(40px); }
-	h2, .h2 { @include rem(30px); }
-	h3, .h3 { @include rem(26px); }
-	h4, .h4 { @include rem(22px); }
-	h5, .h5 { @include rem(20px); }
-	h6, .h6 { @include rem(18px); }
+	h1, .h1 { @include rem(56px); }
+	h2, .h2 { @include rem(42px); }
+	h3, .h3 { @include rem(36px); }
+	h4, .h4 { @include rem(28px); }
+	h5, .h5 { @include rem(24px); }
+	h6, .h6 { @include rem(20px); }
 
 	p, li { @include rem(18px); }
 
 	.txt-small { @include rem(16px); }
-	.txt-medium { @include rem(18px); }
-	.txt-large { @include rem(20px); }
+	.txt-medium { @include rem(20px); }
+	.txt-large { @include rem(22px); }
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	h1, .h1 { @include rem(34px); }
+	h2, .h2 { @include rem(26px); }
+	h3, .h3 { @include rem(22px); }
+	h4, .h4 { @include rem(20px); }
+	h5, .h5 { @include rem(18px); }
+	h6, .h6 { @include rem(16px); }
+
+	p, li { @include rem(16px); }
+
+	.txt-small { @include rem(14px); }
+	.txt-medium { @include rem(16px); }
+	.txt-large { @include rem(18px); }
 
 	.m-txt-left   { text-align: left; }
 	.m-txt-center { text-align: center; }

@@ -27,7 +27,7 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
+@media screen and (max-width: map-get($breakpoints, laptop-1)) and (min-width: map-get($breakpoints, laptop-2) + 1) {
 	.btn {
 		@include rem(22px);
 		padding: 22px 32px;
@@ -39,14 +39,26 @@
 	}
 }
 
-@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+@media screen and (max-width: map-get($breakpoints, laptop-2)) and (min-width: map-get($breakpoints, mobile-1) + 1) {
 	.btn {
-		@include rem(18px);
-		padding: 18px 26px;
+		@include rem(20px);
+		padding: 20px 28px;
 	}
 
 	.btn--large {
-		@include rem(24px);
-		padding: 22px 34px;
+		@include rem(26px);
+		padding: 24px 38px;
+	}
+}
+
+@media screen and (max-width: map-get($breakpoints, mobile-1)) {
+	.btn {
+		@include rem(16px);
+		padding: 16px 24px;
+	}
+
+	.btn--large {
+		@include rem(20px);
+		padding: 20px 32px;
 	}
 }
