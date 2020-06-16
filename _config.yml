@@ -39,3 +39,7 @@ exclude:
 - package.json
 - yarn.lock
 - headsupgrid/
+- assets/js/app.js
+- assets/js/jquery.js
+- assets/js/jquery.custom.js
+- assets/scss/
