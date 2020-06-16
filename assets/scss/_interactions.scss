@@ -24,7 +24,7 @@
 	opacity: 0.5;
 }
 
-.content-styles p a:hover,
+.content-styles p a:not([class*="btn"]):hover,
 .content-styles li a:hover {
 	border-bottom-color: map-get($ui-colors, 1);
 }

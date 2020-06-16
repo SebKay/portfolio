@@ -15,7 +15,7 @@
 			{% endif %}
 			<p class="txt-large txt-dark">
 				{% for category in post.categories %}
-					<a href="/category/{{ category | slugify }}/">{{ category  | replace: '-', ' ' | capitalize }}</a>
+					<a href="/blog/category/{{ category | slugify }}/">{{ category  | replace: '-', ' ' | capitalize }}</a>
 				{% endfor %}
 
 				<span class="txt-fade">/</span>
