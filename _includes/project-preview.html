@@ -1,4 +1,4 @@
-{% assign thumb_url    = project.images.[0].featured %}
+{% assign thumb_url    = project.featured_preview %}
 
 <article class="project-preview {{ project_class }}">
 	<div class="project-preview__img">
@@ -52,9 +52,9 @@
 		{% if project_class != 'project-preview--small' %}
 			{% if project.url %}
 				<div class="spacing-tiny-top">
-						<a class="btn" href="{{ project.url }}">
-							View Case Study
-						</a>
+					<a class="btn" href="{{ project.url }}">
+						View Details
+					</a>
 				</div>
 			{% endif %}
 		{% endif %}
