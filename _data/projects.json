@@ -1,5 +1,44 @@
 [
 	{
+		"url": "/projects/cazz-photography/",
+		"live_url": "https://www.cazzphotography.co.uk/",
+		"title": "Cazz Photography",
+		"tagline": "Personal photography portfolio",
+		"excerpt": "A simple portfolio showcasing the different aspects of Cazz as a photographer.",
+		"full_preview": "/assets/img/projects/cazz-photography/full-preview.jpg",
+		"featured_preview": "/assets/img/projects/cazz-photography/featured.jpg",
+		"images": [
+			"/assets/img/projects/cazz-photography/content-1.jpg",
+			"/assets/img/projects/cazz-photography/content-2.jpg",
+			"/assets/img/projects/cazz-photography/content-3.jpg"
+		],
+		"usps": [
+			{
+				"title": "Logo Design",
+				"icon": "pen"
+			},
+			{
+				"title": "Web Design",
+				"icon": "screen"
+			},
+			{
+				"title": "Static Site Development",
+				"icon": "code"
+			}
+		],
+		// "testimonial_id" : 0,
+		"sections": [
+			{
+				"title": "The Brief",
+				"content": "Cazz is an amateur photographer and needed something to showcase her new found love of taking pictures and making the most of every scene."
+			},
+			{
+				"title": "The Result",
+				"content": "I create a simple design that wouldn't get in the way of showcasing her photos. A photography site should be about the pictures, so I made sure her new website focused on that by focusing on her work first and foremost."
+			}
+		]
+	},
+	{
 		"url": "/projects/harlist/",
 		"live_url": "https://www.harlist.io/",
 		"title": "Harlist",

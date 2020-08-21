@@ -39,17 +39,19 @@
 		</div>
 	{% endif %}
 
-	<div class="section section--large spacing-large-top">
-		<div class="grid grid__col--h-center grid--tb1-2 grid--m-1">
-			{% for image in project.images limit:3 %}
-				<div class="grid__col grid__col--4">
-					<div class="content-styles">
-						<img src="{{ image }}" alt="">
+	{% if project.images.size > 0 %}
+		<div class="section section--large spacing-large-top">
+			<div class="grid grid__col--h-center grid--tb1-2 grid--m-1">
+				{% for image in project.images limit:3 %}
+					<div class="grid__col grid__col--4">
+						<div class="content-styles">
+							<img src="{{ image }}" alt="">
+						</div>
 					</div>
-				</div>
-			{% endfor %}
+				{% endfor %}
+			</div>
 		</div>
-	</div>
+	{% endif %}
 
 	{% if project.sections[1].content or project.sections[1].title %}
 		<div class="section section--small spacing-large-top">
@@ -67,17 +69,19 @@
 		</div>
 	{% endif %}
 
-	<div class="section section--large spacing-large-top">
-		<div class="grid grid__col--h-center grid--tb1-2 grid--m-1">
-			{% for image in project.images offset:3 %}
-				<div class="grid__col grid__col--4">
-					<div class="content-styles">
-						<img src="{{ image }}" alt="">
+	{% if project.images.size > 3 %}
+		<div class="section section--large spacing-large-top">
+			<div class="grid grid__col--h-center grid--tb1-2 grid--m-1">
+				{% for image in project.images offset: 3 %}
+					<div class="grid__col grid__col--4">
+						<div class="content-styles">
+							<img src="{{ image }}" alt="">
+						</div>
 					</div>
-				</div>
-			{% endfor %}
+				{% endfor %}
+			</div>
 		</div>
-	</div>
+	{% endif %}
 
 	{% if project.live_url %}
 		<div class="section section--small spacing-large-top">
